@@ -1,0 +1,17 @@
+scenario,cells_flipped,n_flipped,documented,unknown,C1_no_contradicted,C2_D2_has_most_unknown,C3_all_gaps_in_D2,C4_D1_D3_D4_D5_documented_in_all_units,C5_D2_least_documented_dimension,C6_gaps_in_at_least_two_clusters,conclusions_changed
+baseline,none,0,40,5,True,True,False,False,True,True,none
+"unknown->documented, one",INC-OAI-MAY/D2,1,41,4,True,True,False,False,True,True,none
+"unknown->documented, one",INC-OAI-ART/D1,1,41,4,True,True,True,True,True,True,C3_all_gaps_in_D2;C4_D1_D3_D4_D5_documented_in_all_units
+"unknown->documented, one",INC-OAI-ART/D2,1,41,4,True,True,False,False,True,True,none
+"unknown->documented, one",INC-ANT-MY5/D2,1,41,4,True,True,False,False,True,True,none
+"unknown->documented, one",INC-AISI-SOL/D2,1,41,4,True,True,False,False,True,True,none
+"unknown->documented, all 5",all unknown,5,45,0,True,False,False,True,False,False,C2_D2_has_most_unknown;C4_D1_D3_D4_D5_documented_in_all_units;C5_D2_least_documented_dimension;C6_gaps_in_at_least_two_clusters
+"weak documented->unknown, one",INC-OAI-MAY/D4,1,39,6,True,True,False,False,True,True,none
+"weak documented->unknown, one",INC-OAI-ART/D5,1,39,6,True,True,False,False,True,True,none
+"weak documented->unknown, one",INC-ANT-OP46/D2,1,39,6,True,True,False,False,True,True,none
+"weak documented->unknown, one",INC-ANT-INT/D2,1,39,6,True,True,False,False,True,True,none
+"weak documented->unknown, one",INC-AISI-SOL/D4,1,39,6,True,True,False,False,True,True,none
+"weak documented->unknown, one",INC-AISI-SOL/D5,1,39,6,True,True,False,False,True,True,none
+"weak documented->unknown, all 6",all weak,6,34,11,True,True,False,False,True,True,none
+"single-source documented->unknown, all 37",all single-source,37,3,42,True,False,False,False,False,True,C2_D2_has_most_unknown;C5_D2_least_documented_dimension
+both: unknown->documented and weak->unknown,all,11,39,6,True,False,False,False,False,True,C2_D2_has_most_unknown;C5_D2_least_documented_dimension

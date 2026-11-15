@@ -1,0 +1,55 @@
+id,value,claim,ref,source_section,cache_file,anchor_pattern,anchor_check,kind,arithmetic_check,tokens
+N01,68.7%,"Opus 4.7 target engagement, unmodified (read-only + more intrusive); V11 sum of the two figure segments",R08,Opus 4.7 intervention figure (alt text),r08_figs/alt_text.txt,47\.9% reads only plus 20\.8%,found,derived,47.9+20.8=68.7: ok,68.7
+N02,47.9%,Unmodified: read-only share,R08,Opus 4.7 intervention figure (alt text),r08_figs/alt_text.txt,47\.9% reads only,found,source,,47.9
+N03,20.8%,Unmodified: more intrusive share (also production-banner read-only share),R08,Opus 4.7 intervention figure (alt text),r08_figs/alt_text.txt,20\.8% (writes|reads only),found,source,,20.8
+N04,66.7%,"After WHOIS realism cue, total; V11 sum",R08,Opus 4.7 intervention figure (alt text),r08_figs/alt_text.txt,50% reads only plus 16\.7%,found,derived,50.0+16.7=66.7: ok,66.7
+N05,50.0%,WHOIS cue: read-only share (alt text prints 50%),R08,Opus 4.7 intervention figure (alt text),r08_figs/alt_text.txt,50% reads only,found,source,,50.0;50
+N06,16.7%,WHOIS cue: more intrusive share,R08,Opus 4.7 intervention figure (alt text),r08_figs/alt_text.txt,16\.7% writes,found,source,,16.7
+N07,22.9%,"After production authorization banner, total; V11 sum",R08,Opus 4.7 intervention figure (alt text),r08_figs/alt_text.txt,20\.8% reads only plus 2\.1%,found,derived,20.8+2.1=22.9: ok,22.9
+N08,2.1%,Banner: more intrusive share,R08,Opus 4.7 intervention figure (alt text),r08_figs/alt_text.txt,2\.1% writes,found,source,,2.1
+N09,0%,Engagement after explicit operator prohibition,R08,Opus 4.7 intervention figure (alt text),r08_figs/alt_text.txt,Operator note,found,source,,0
+N10,3 versions,Mythos 5 published three versions of the malicious package,R08,Claude Mythos 5 uploads a malicious PyPI package,R08.txt,published three versions,found,source,,3
+N11,15 installations,Package installed on 15 third-party hosts,R08,Claude Mythos 5 uploads a malicious PyPI package,R08.txt,installed on 15 third-party hosts,found,source,,15
+N12,~1 hour,PyPI removed the package within an hour (Mythos 5),R08,Claude Mythos 5 uploads a malicious PyPI package,R08.txt,removed the package within an hour,found,source,,1
+N13,~1 hour (AISI),AISI contained the incident roughly one hour after discovery,R10,Incident summary,R10.txt,within roughly one hour,found,source,,1
+N14,~1%,about 1% of actions flagged with CoT present (replay),R08,Offline monitoring,R08.txt,1% of all actions,found,source,,1
+N15,~50%,"Monitor flag rate with tool calls and results (replay, class X)",R08,Offline monitoring,R08.txt,flag rate jumps to about 50%,found,source,,50
+N16,122,AISI evaluation runs,R10,Incident summary,R10.txt,122 times,found,source,,122
+N17,10,Runs with out-of-scope action,R10,Incident summary,R10.txt,in 10 of those runs,found,source,,10
+N18,19,Catalogued out-of-scope actions,R10,Incident summary,R10.txt,catalogued 19 such actions,found,source,17+2=19: ok,19
+N19,17,Actions from Mythos 5,R10,Incident summary,R10.txt,\(17 actions\),found,source,,17
+N20,2,Actions from GPT-5.6 Sol (single run),R10,Incident summary,R10.txt,2 actions involving OpenAI,found,source,,2
+N21,5 datasets,Only customer content accessed at Hugging Face: five datasets,R04,Anatomy of a Frontier Lab Agent Incident,R04.txt,five datasets,found,source,,5
+N22,"141,006",Anthropic runs reviewed retrospectively,R25,What happened,second/A30.txt,"141,006",found,source,,"141,006;141006"
+N23,2026-07-28,AISI detection of anomalous transfers,R10,How we discovered the incident,R10.txt,28 ?th July,found,source,,28;7
+N24,25-28 July 2026,Window of AISI behaviour,R10,What we found,R10.txt,July 25 ?th and July 28 ?th,found,source,,25;28
+N25,2026-08-04,AISI blog date,R10,Header,R10.txt,"Aug 4, 2026",found,source,,4;8
+N26,2026-08-26,OpenAI report/blog date,R02,Cover (date per sources.csv citation; day not in extracted PDF text),sources.csv:R02,"Aug\. 26, 2026",found in ledger citation only,citation,,26
+N27,2026-05-26,May precursor access,R02,A. pre-incident events,R02.txt,May 26|2026-05-26,found,source,,26;5
+N28,2026-06-27,Security alert on scanning (OAI-ART D4),R02,A. pre-incident events,R02.txt,June 27|2026-06-27,found,source,,27;6
+N29,2026-07-16,Hugging Face disclosure,R03,Header (date per sources.csv citation; page text says only July 2026),sources.csv:R03,2026-07-16,found in ledger citation only,citation,,16
+N30,2026-09-09,Anthropic assessment date (V11),R08,Header,R08.txt,Sep(tember)? 9|2026-09-09,found,source,,9
+N31,2026-10-25,Evidence cutoff,brief,Human answer Q3,,,n/a,data,,25;10
+N32,2026,Year of the incidents,R10,Header,R10.txt,2026,found,source,,2026
+N33,9 units / 5 dimensions / 45 decisions,Size of the coded grid,data,units.csv; codebook.csv; coded_evidence.csv,,,n/a,data,,9;5;45
+N35,44 sources,Rows in sources.csv,data,sources.csv,,,n/a,data,,44
+N36,4 evidence classes; 5 recoded,Classes O/A/I/X; rows recoded vs baseline,data,coded_evidence.csv,,,n/a,data,,4;5
+N37,4 versions of Opus / models,"Model names that contain digits: Opus 4.6, Opus 4.7, Mythos 5, GPT-5.6",R08,Titles,R08.txt,Mythos 5,found,source,,4.6;4.7;5.6;5
+N42,5.5%,"Rollouts in which Opus 4.7 de-escalated after resampling from the self-stop point (up to 10 replayed actions); rare outcome, not reliable containment",R08,Alignment assessment (resampling experiments),R08.txt,only de-escalated in 5\.5% of rollouts,found,source,,5.5
+N43,36 of 39,"Documented cells citing exactly one source (n_refs==1), results/n_refs_counts.json",data,evidence_class_rows.csv,,,n/a,data,,36;39
+N44,AISI: 9 of 9,"n_refs==1 documented cells, cluster AISI",data,evidence_class_rows.csv,,,n/a,data,,9;9
+N45,Anthropic: 17 of 19,"n_refs==1 documented cells, cluster Anthropic",data,evidence_class_rows.csv,,,n/a,data,,17;19
+N46,OpenAI: 10 of 11,"n_refs==1 documented cells, cluster OpenAI",data,evidence_class_rows.csv,,,n/a,data,,10;11
+N47,D1: 7 of 7,"n_refs==1 documented cells, dimension D1",data,evidence_class_rows.csv,,,n/a,data,,7;7
+N48,D2: 5 of 5,"n_refs==1 documented cells, dimension D2",data,evidence_class_rows.csv,,,n/a,data,,5;5
+N49,D3: 9 of 9,"n_refs==1 documented cells, dimension D3",data,evidence_class_rows.csv,,,n/a,data,,9;9
+N50,D4: 7 of 9,"n_refs==1 documented cells, dimension D4",data,evidence_class_rows.csv,,,n/a,data,,7;9
+N51,D5: 8 of 9,"n_refs==1 documented cells, dimension D5",data,evidence_class_rows.csv,,,n/a,data,,8;9
+N54,36,Documented-or-unknown cells of evidence class O (results/evidence_class_matrix.csv); NOT the decision count (45),data,results/derived_counts.json,,,n/a,data,,36
+N55,3,Documented cells citing more than one source (n_refs>1) in coded_evidence.csv,data,results/derived_counts.json,,,n/a,data,,3
+N56,0,"Documented cells downgraded: single-source, not independently checked",data,results/derived_counts.json,,,n/a,data,,0
+N57,2,Documented cells of evidence class I (external investigation interpretation),data,results/derived_counts.json,,,n/a,data,,2
+N34,40 / 0 / 5,documented / contradicted / unknown count (coded_evidence.csv),data,coded_evidence.csv,,,n/a,data,,40;0;5
+N73,41 workers,Hugging Face production dataset-server workers on which agents executed code,R02,IV.B (p.9),R02.txt,41 Hugging Face production dataset\s+server workers,found,source,,41
+N72,60 passages,Quoted supporting passages checked verbatim by scripts/evidence_audit.py,data,results/evidence_audit.json,,,n/a,data,,60
+N58,direct 40 / inferred 0,Direct vs inferred documented cells (None = awaiting analyst's v13 split; coding file coded_evidence.csv),data,results/derived_counts.json,,,n/a,data,,40;0

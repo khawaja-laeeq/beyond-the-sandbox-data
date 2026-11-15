@@ -1,0 +1,17 @@
+{
+ "comparison": "AI blind re-check (analyst) vs PRE-RESOLUTION primary coding (round 11; reported as a count only); not human-human agreement; the re-check reads the same developer documents the coder used, so it is not independent of those sources",
+ "n_cells": 45,
+ "n_primary_cells": 45,
+ "n_agree": 44,
+ "n_mismatch": 1,
+ "raw_agreement": 0.9777777777777777,
+ "cohens_kappa": null,
+ "pre_resolution": true,
+ "count_statement": "44 of 45 statuses agree",
+ "kappa_note": "not reported (round 12: count only, no kappa)",
+ "confusion_primary_to_blind": {
+  "documented->documented": 39,
+  "unknown->documented": 1,
+  "unknown->unknown": 5
+ }
+}

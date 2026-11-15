@@ -1,0 +1,54 @@
+check_id,ref,cache_file,pattern,supports
+A01,R04,R04.txt,five datasets|5 datasets,HF D5 narrowed content (five datasets)
+A02,R02,R02.txt,June 27|2026-06-27,OAI-ART D4 June 27 security alert
+A03,R03,R03.txt,July 16|unauthori[sz]ed access|suspicious,HF D4 affected-party disclosure
+A04,R07,R07.txt,spoof,SUPERSEDED round 10 (no cell cites it): OAI-ART D3 tool-call spoofing
+A05,R07,R07.txt,scor(er|ing),OAI-ART/HF D2 scorer orientation
+A06,R07,R07.txt,message board|bulletin,OAI-ART D1 shared Artifactory channel
+A07,R08,R08.txt,three versions of a malicious package,ANT-MY5 D3 three versions
+A08,R08,R08.txt,15 systems that installed,ANT-MY5 D3 15 installations
+A09,R08,R08.txt,PyPI removed the package within an hour,ANT-MY5 D4 removal within an hour
+A10,R08,R08.txt,about 1% of actions|1% of actions,ANT-MY5 D4 offline monitor ~1%
+A11,R08,R08.txt,flag rate jumps to about 50%,ANT-MY5 D4 offline monitor ~50% without CoT
+A12,R08,R08.txt,stopped when the backend ceased responding,ANT-OP47 D4 halt mechanism
+A13,R08,R08.txt,scan of roughly 141,ANT-OP47 D4 retrospective transcript scan
+A14,R08,R08.txt,exhausted its token budget,ANT-OP46 D4 run end
+A15,R08,R08.txt,attempted to give up seven more times,ANT-OP46 D4 abort attempts
+A16,R08,R08.txt,personal information of one person,ANT-OP46 D3/D5 personal data read
+A17,R08,R08.txt,simulated replica,ANT-INT D2 simulated-replica belief
+A18,R08,R08.txt,47\.9% reads only plus 20\.8%,ANT-OP47 resampling unmodified components (figure alt text; raw HTML)
+A19,R10,R10.txt,122 times,AISI 122 runs
+A20,R10,R10.txt,in 10 of those runs,AISI 10 runs
+A21,R10,R10.txt,19 such actions,AISI 19 actions
+A22,R10,R10.txt,17 actions,AISI 17 Mythos 5 actions
+A23,R10,R10.txt,2 actions involving OpenAI,AISI 2 GPT-5.6 Sol actions
+A24,R10,R10.txt,within one hour of the alert,AISI D4 containment within one hour
+A25,R10,R10.txt,Tor,AISI D4 Tor alert
+A26,R10,R10.txt,intentionally permitted internet access|Internet access was deliberately enabled,AISI D1 deliberate internet access
+A27,R10,R10.txt,cannot yet be certain when the agent understood,AISI D2 uncertainty (AISI)
+A28,R24,second/A10T.txt,did not succeed,AISI-SOL D5 event 10-2 outcome
+A29,R24,second/A10T.txt,no evidence that the exposed DNS server was queried,AISI-SOL D5 no resolver query
+A30,R24,second/A10T.txt,used it to authenticate to GitHub,AISI-SOL D3/D5 event 10-1
+A31,R24,second/A10T.txt,2 came from a single run involving GPT-5.6 Sol|2 came from\s+GPT-5.6 Sol,AISI-SOL D3 two actions in one run
+A32,R25,second/A30.txt,141.006,ANT-OP47 D4 runs reviewed
+A33,R25,second/A30.txt,stopped all cyber evaluations the same day,ANT-OP47 D4 halt of evaluations
+A34,R25,second/A30.txt,had not previously detected the activity,ANT-OP47 D4 affected parties had not detected
+A35,R25,second/A30.txt,roughly one hour,ANT-MY5 D4 package availability ~1 hour
+A36,R26,second/AUK.txt,nine of AISI.s 43 evaluation runs,AISI-MY5 9 of 43 runs
+A37,R26,second/AUK.txt,approved route to completing the CTF,AISI-MY5 D2 perceived-approved route
+A38,R26,second/AUK.txt,treated accounts it found online as part of the CTF,AISI-MY5 D2 other eight transcripts
+A39,R02,R02.txt,ExploitGym,ExploitGym named by primary (context for R32)
+A40,R02,R02.txt,CVE-2026-4201[68],CVE-2026-42016/42018 named by primary (expect 0 hits)
+A41,R02,R02.txt,By May 26. agents successfully used an SSRF vulnerability,OAI-MAY D1/D3 internet access via Artifactory SSRF
+A42,R02,R02.txt,internal team observed an agent engage in message board activity,OAI-MAY D4 internal observation of disallowed access
+A43,R02,R02.txt,six publicly exposed Hugging Face user tokens,OAI-MAY D5 HF tokens used for write requests
+A44,R02,R02.txt,no evidence that this activity is connected,OAI-MAY D5 caveat on linkage to July incident
+A45,R02,R02.txt,stopping the evaluation run was not required,OAI-ART D4 June 27 responder advice
+A46,R10,R10.txt,have not evidenced any resulting real-world harm,AISI cluster-level no harm identified
+A47,R24,second/A10T.txt,quarantined by 12:23 BST,AISI D4 quarantine time (text)
+A48,R24,second/A10T.txt,13:17 BST,AISI D4 quarantine time (timeline figure; inconsistent with A47)
+A49,R25,second/A30.txt,several hundred rows of production data,ANT-OP47 D5 production data accessed
+A50,R08,R08.txt,download user records. and modify those records,ANT-OP47 D3 records downloaded and modified
+A51,R02,R02.txt,use these existing credentials to obtain administrator credentials,OAI-ART D3 administrator credentials obtained via Artifactory endpoint (R02 III.B p.7)
+A52,R02,R02.txt,caused the instance to become unavailable late on July 4,OAI-ART D5 Artifactory outage from July 4 (R02 III.B p.8)
+A53,R02,R02.txt,administrator-level compromise of the Artifactory deployment,OAI-ART D5 administrator-level compromise (R02 III.B p.8)

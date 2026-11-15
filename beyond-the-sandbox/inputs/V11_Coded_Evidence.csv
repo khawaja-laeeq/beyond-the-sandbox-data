@@ -1,0 +1,46 @@
+unit,code,status,evidence,reference,source_section,qualification
+INC-OAI-MAY,D1,documented,May 26 server-side request allowed unintended external access,R01,chronology of early unauthorized internet access,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-MAY,D2,unknown,No unit-specific evidence on perceived authorization,R01,overview,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-MAY,D3,documented,Unauthorized external connection reported,R01,early incident discussion,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-MAY,D4,unknown,No unit-level response chain established in examined excerpt,R01,overview,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-MAY,D5,unknown,May activity not proven to be same campaign as July,R01,incident caveats,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-ART,D1,documented,Shared Artifactory used as unintended communication route,R07,Core takeaways / message board,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-ART,D2,documented,Agents coordinated toward scorer manipulation,R07,Core takeaways,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-ART,D3,documented,Message board and tool-call spoofing documented,R07,Integrity of records,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-ART,D4,documented,Security alert and continuing evaluation described by operator,R02,security alert chronology,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-ART,D5,documented,Shared infrastructure communication observed,R07,Core takeaways,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-HF,D1,documented,External site reachable following unauthorized pathways,R01,The Hugging Face incident,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-HF,D2,documented,METR interprets attacks as scorer investigation,R07,Core takeaways,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-HF,D3,documented,Agents attacked Hugging Face,R07,Core takeaways,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-HF,D4,documented,Affected-party disclosure preceded operator attribution,R03;R04,July incident disclosure and timeline,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-OAI-HF,D5,documented,Intrusion confirmed but dataset impact narrowed by affected party,R04,technical timeline / affected datasets,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP46,D1,documented,Unintended external access through evaluation error,R08,Introduction / early Opus 4.6,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP46,D2,documented,Model believed external target part of CTF,R08,early checkpoint Opus 4.6,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP46,D3,documented,Third-party system accessed and personal information read,R08,early checkpoint Opus 4.6,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP46,D4,documented,Attempted abort repeatedly; run ended on token budget,R08,early checkpoint Opus 4.6,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP46,D5,documented,Third-party access and personal data access reported,R08,early checkpoint Opus 4.6,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP47,D1,documented,Mistaken internet connectivity in assessment environment,R08,Introduction,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP47,D2,documented,Recognized real target but assumed authorized,R08,Opus 4.7 / realism cue figure,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP47,D3,documented,Target engagement and further access actions reported,R08,Opus 4.7,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP47,D4,unknown,No real-time incident alert and response established in cited section,R08,Opus 4.7,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-OP47,D5,documented,Unauthorized external interaction reported; experimental replay separate,R08,Opus 4.7,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-MY5,D1,documented,Public internet unintentionally accessible,R08,Introduction / Mythos 5,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-MY5,D2,documented,Biased simulation reasoning observed,R08,Mythos 5 / perceived realism,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-MY5,D3,documented,Three malicious PyPI versions published; 15 installations,R08,Claude Mythos 5 uploads a malicious PyPI package,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-MY5,D4,documented,PyPI removed package within one hour; offline monitor replay not live detection,R08,Mythos 5 / Offline monitoring,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-MY5,D5,documented,Scanner credential leaked; vendor live database accessed,R08,Claude Mythos 5 uploads a malicious PyPI package,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-INT,D1,documented,Target gateway exposed unintended public hosts,R08,An internal research model breaks into third-party systems,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-INT,D2,documented,"Assumed simulated replica, later recognized real company",R08,internal research model,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-INT,D3,documented,One neighboring system penetrated; files retrieved and remote script placed,R08,internal research model,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-INT,D4,documented,Model recognized out of scope and stopped itself in observed transcript,R08,internal research model,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-ANT-INT,D5,documented,One external third-party system compromised,R08,internal research model,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-MY5,D1,documented,Open internet deliberately allowed,R10,introduction,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-MY5,D2,unknown,No single consistent per-run belief established,R10,What we found,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-MY5,D3,documented,17 cases of actions in multiple connected behaviors,R10,What we found,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-MY5,D4,documented,July 28 Tor alert; evaluation stopped and isolated within hour,R10,How we discovered the incident,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-MY5,D5,documented,Attempted malicious pull request; effects constrained by human refusal,R10,What we found,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-SOL,D1,documented,Open internet deliberately allowed,R10,introduction,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-SOL,D2,unknown,No per-run authorization interpretation in summary,R10,What we found,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-SOL,D3,documented,Two out-of-scope actions in one run,R10,What we found,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-SOL,D4,documented,Same institutional Tor alert and response across evaluation,R10,How we discovered the incident,Evidence paraphrase; inspect primary report before quoting; no second coder
+INC-AISI-SOL,D5,unknown,Distinct external consequences of two actions not determined from summary,R10,What we found,Evidence paraphrase; inspect primary report before quoting; no second coder

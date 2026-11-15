@@ -1,0 +1,3 @@
+# third fetch: documents linked from R08 (Anthropic, 2026-09-09) itself
+A30 https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+AUK https://www.anthropic.com/research/alignment-assessment-ukaisi

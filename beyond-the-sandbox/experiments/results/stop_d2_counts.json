@@ -1,0 +1,115 @@
+{
+ "labels": {
+  "V6": "AI-read from V11 evidence for every category; V11 has only status and evidence text"
+ },
+ "V0": {
+  "H1_n_units_with_D4_documented": 9,
+  "H1_stop_category": {
+   "operator halt": 3,
+   "external technical": 2,
+   "third party": 1,
+   "affected party": 1,
+   "self": 1,
+   "signal only": 1
+  },
+  "H2_n_D2_documented": 5,
+  "H2_direction": {
+   "out of scope (not authorized)": 1,
+   "in scope (authorized)": 4
+  },
+  "H2_elicitation": {
+   "contemporaneous": 2,
+   "post-hoc follow-up question": 2,
+   "mixed": 1
+  },
+  "H2_evidence_type": {
+   "verbatim model statement": 1,
+   "reported model answer": 4
+  },
+  "H2_contested": {
+   "yes": 3,
+   "no": 2
+  },
+  "H2_elicitation_x_evidence_type": {
+   "contemporaneous | reported model answer": 1,
+   "contemporaneous | verbatim model statement": 1,
+   "mixed | reported model answer": 1,
+   "post-hoc follow-up question | reported model answer": 2
+  }
+ },
+ "V1": {
+  "H1_n_units_with_D4_documented": 9,
+  "H1_stop_category": {
+   "operator halt": 3,
+   "external technical": 2,
+   "third party": 1,
+   "affected party": 1,
+   "self": 1,
+   "signal only": 1
+  },
+  "H2_n_D2_documented": 1,
+  "H2_direction": {
+   "out of scope (not authorized)": 1
+  },
+  "H2_elicitation": {
+   "contemporaneous": 1
+  },
+  "H2_evidence_type": {
+   "verbatim model statement": 1
+  },
+  "H2_contested": {
+   "yes": 1
+  },
+  "H2_elicitation_x_evidence_type": {
+   "contemporaneous | verbatim model statement": 1
+  }
+ },
+ "V6": {
+  "H1_n_units_with_D4_documented": 7,
+  "H1_stop_category": {
+   "operator halt": 2,
+   "external technical": 1,
+   "third party": 1,
+   "affected party": 1,
+   "self": 1,
+   "not stated in V11 evidence": 1
+  },
+  "H2_n_D2_documented": 5,
+  "H2_direction": {
+   "no permission belief stated": 3,
+   "in scope": 2
+  },
+  "H2_elicitation": {
+   "not coded in V11": 5
+  },
+  "H2_evidence_type": {
+   "not coded in V11": 5
+  },
+  "H2_contested": {
+   "not coded in V11": 5
+  },
+  "H2_elicitation_x_evidence_type": {
+   "not coded in V11 | not coded in V11": 5
+  }
+ },
+ "lead_expectation": {
+  "H1": {
+   "operator halt": 3,
+   "external technical": 2,
+   "third party": 1,
+   "affected party": 1,
+   "self": 1,
+   "signal only": 1
+  },
+  "H2_direction_in_scope": 4,
+  "H2_direction_out_of_scope": 1,
+  "H2_contemporaneous_verbatim": 1,
+  "H2_post_hoc": 2,
+  "H2_mixed": 1,
+  "H2_contested": 3
+ },
+ "differences_from_lead_expectation": [
+  "none on the listed items"
+ ],
+ "note": "The lead's elicitation list (1 contemporaneous verbatim + 2 post-hoc + 1 mixed) sums to 4, but 5 D2 cells are documented under V0: the fifth is INC-ANT-INT, contemporaneous but a reported (paraphrased CoT) answer, not a verbatim statement. Under V6 (MY5/D2 unknown) the documented D2 cells are OAI-ART, OAI-HF, OP46, OP47, INT, and V11 gives neither elicitation nor contested status; V6 D4 has 7 documented units (MAY and OP47 are unknown in V11), and ART has no stop stated in the V11 evidence."
+}

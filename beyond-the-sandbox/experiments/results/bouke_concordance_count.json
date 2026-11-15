@@ -1,0 +1,26 @@
+{
+ "source_file": "results/external_concordance.csv",
+ "rule": "rows whose comparison column names 'Bouke' (Table 1 p.7 rows and §5.1 p.6 prose rows)",
+ "n_rows": 11,
+ "counts": {
+  "match": 4,
+  "not_comparable": 2,
+  "unaligned": 5
+ },
+ "rows": [
+  "INC-OAI-HF D1 vs Bouke boundary: match",
+  "INC-OAI-HF D4 vs Bouke safe stop: not_comparable (consistent)",
+  "INC-OAI-HF D5 vs Bouke effect: match",
+  "INC-OAI-HF n_refs vs Bouke grade: not_comparable (consistent)",
+  "INC-AISI-MY5;INC-AISI-SOL D1/D4/D5/grade vs Bouke 'UK AISI cyber testing': unaligned",
+  "INC-ANT-OP47 D1/D4/D5/grade vs Bouke 'Claude Opus 4.7. Irregular evaluation': unaligned",
+  "INC-ANT-MY5 D1/D4/D5/grade vs Bouke 'Claude Mythos 5. package publication': unaligned",
+  "INC-ANT-INT D1/D5/grade vs Bouke 'Anthropic research model. expired target': unaligned",
+  "INC-ANT-INT D4 vs Bouke safe stop (prose): match",
+  "INC-ANT-OP46 D1/D5/grade vs Bouke 'Claude Opus 4.6 checkpoint. failed abort': unaligned",
+  "INC-ANT-OP46 D4 vs Bouke safe stop (prose): match"
+ ],
+ "match_from_table1": 2,
+ "match_from_prose": 2,
+ "caveat": "Bouke Table 1 (bouke2026competing p.7) extracts with interleaved lines; rows marked unaligned are not compared. Bouke codes the OpenAI 2026-05..07 incident as one row covering our MAY, ART and HF units, and Bouke cites the same first-party reports we code from, so agreement is not independent validation."
+}

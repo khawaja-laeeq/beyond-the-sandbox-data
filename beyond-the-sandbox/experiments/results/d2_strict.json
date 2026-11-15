@@ -1,0 +1,87 @@
+{
+ "as_coded": {
+  "D2_documented": 5,
+  "D2_unknown": 4,
+  "total_documented": 40,
+  "total_unknown": 5,
+  "unknown_by_dim": {
+   "D1": 1,
+   "D2": 4,
+   "D3": 0,
+   "D4": 0,
+   "D5": 0
+  },
+  "D2_has_most_unknowns": true
+ },
+ "strict_verbatim_only": {
+  "D2_documented": 1,
+  "D2_unknown": 8,
+  "total_documented": 36,
+  "total_unknown": 9,
+  "unknown_by_dim": {
+   "D1": 1,
+   "D2": 8,
+   "D3": 0,
+   "D4": 0,
+   "D5": 0
+  },
+  "D2_has_most_unknowns": true
+ },
+ "contemporaneous_only": {
+  "D2_documented": 3,
+  "D2_unknown": 6,
+  "total_documented": 38,
+  "total_unknown": 7,
+  "unknown_by_dim": {
+   "D1": 1,
+   "D2": 6,
+   "D3": 0,
+   "D4": 0,
+   "D5": 0
+  },
+  "D2_has_most_unknowns": true
+ },
+ "contemporaneous_only_label": "rule counts d2_elicitation 'contemporaneous' OR 'mixed' (includes OP47)",
+ "contemporaneous_strict": {
+  "D2_documented": 2,
+  "D2_unknown": 7,
+  "total_documented": 37,
+  "total_unknown": 8,
+  "unknown_by_dim": {
+   "D1": 1,
+   "D2": 7,
+   "D3": 0,
+   "D4": 0,
+   "D5": 0
+  },
+  "D2_has_most_unknowns": true
+ },
+ "excluding_developer_interpretation_only": {
+  "D2_documented": 5,
+  "D2_unknown": 4,
+  "total_documented": 40,
+  "total_unknown": 5,
+  "unknown_by_dim": {
+   "D1": 1,
+   "D2": 4,
+   "D3": 0,
+   "D4": 0,
+   "D5": 0
+  },
+  "D2_has_most_unknowns": true
+ },
+ "evidence_type_counts": {
+  "verbatim model statement": 1,
+  "reported model answer": 4,
+  "developer interpretation only": 0,
+  "none": 4
+ },
+ "direction_of_documented": {
+  "INC-OAI-HF": "not authorized (knew the action was out of scope)",
+  "INC-ANT-OP46": "authorized (in the context of the CTF)",
+  "INC-ANT-OP47": "authorized / in scope (part of the CTF)",
+  "INC-ANT-INT": "in scope (hosts of other CTF competitors)",
+  "INC-AISI-MY5": "in scope (repository set up by the CTF organizers)"
+ },
+ "note": "verbatim = R07 quotes the agents' CoT in quotation marks; R26's capitalised 'OUT OF SCOPE' text is a clause the researchers ADDED to the compaction notes, not a model statement, so it does not make AISI-MY5 verbatim."
+}

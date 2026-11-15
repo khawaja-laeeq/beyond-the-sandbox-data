@@ -1,0 +1,10 @@
+unit,cluster,label,core_sources,scope
+INC-OAI-MAY,OpenAI,May precursor,R01;R02,May 26 infrastructure access
+INC-OAI-ART,OpenAI,Artifactory,R02;R07,Shared service and communication
+INC-OAI-HF,OpenAI,Hugging Face,R03;R04;R07,External intrusion and scoring
+INC-ANT-OP46,Anthropic,Opus 4.6,R08,Abort difficulty and external host
+INC-ANT-OP47,Anthropic,Opus 4.7,R08;R25,Reality versus permission
+INC-ANT-MY5,Anthropic,Mythos 5,R08;R25,Malicious package publication
+INC-ANT-INT,Anthropic,Internal research model,R08;R25,External system and self-stop
+INC-AISI-MY5,AISI,Mythos 5,R10;R24;R26,17 external actions
+INC-AISI-SOL,AISI,GPT-5.6 Sol,R10;R24,2 external actions

@@ -1,0 +1,10 @@
+# Environment for experiments/scripts/reproduce_all.py (tested with Python 3.12.3, Linux, no network needed)
+# Python >= 3.10 (standard library only) for every script except n_refs.py
+python>=3.10
+# Packages: none for the coding, recount and check scripts (csv, json, re, os, hashlib, itertools, subprocess only).
+# n_refs.py draws one figure and needs matplotlib; reproduce_all.py uses the repository .venv for it when present
+# (the repository venv has matplotlib, numpy, scipy, scikit-learn, pytest; no other package is imported).
+matplotlib>=3.5
+# Tests (optional): pytest>=7
+# Not run by reproduce_all.py: lib/documentary.py and lib/protocol.py (repository checkers) and the source download
+# scripts (they need network access); source_cache/*.txt and inputs/V11_*.csv are inputs.

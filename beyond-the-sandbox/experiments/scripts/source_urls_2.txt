@@ -1,0 +1,2 @@
+# second fetch: AISI full technical report, URL given in N4 (AIID 1633 editor notes) and linked from R10
+A10T https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf

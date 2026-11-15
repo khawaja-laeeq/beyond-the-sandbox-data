@@ -1,0 +1,425 @@
+[
+ {
+  "check_id": "A01",
+  "ref": "R04",
+  "pattern": "five datasets|5 datasets",
+  "supports": "HF D5 narrowed content (five datasets)",
+  "hits": 1,
+  "excerpt": "t sandbox. While the intrusion did reach Hugging Face's internal infrastructure, the only customer content accessed was five datasets whose names and files suggest a connection to ExploitGym/CyberGym challenges and solutions. No other customer-facing mo"
+ },
+ {
+  "check_id": "A02",
+  "ref": "R02",
+  "pattern": "June 27|2026-06-27",
+  "supports": "OAI-ART D4 June 27 security alert",
+  "hits": 1,
+  "excerpt": " commands, execution results, credentials, and other information they learned through the Artifactory message board. On June 27, a cybersecurity monitoring tool alerted OpenAI to port sweep activity within the research environment. Responders inve"
+ },
+ {
+  "check_id": "A03",
+  "ref": "R03",
+  "pattern": "July 16|unauthori[sz]ed access|suspicious",
+  "supports": "HF D4 affected-party disclosure",
+  "hits": 1,
+  "excerpt": "d to end, by an autonomous AI agent system - and we detected and dissected it largely with AI of our own. We identified unauthorized access to a limited set of internal datasets and to several credentials used by our services. We are still completing our asse"
+ },
+ {
+  "check_id": "A04",
+  "ref": "R07",
+  "pattern": "spoof",
+  "supports": "SUPERSEDED round 10 (no cell cites it): OAI-ART D3 tool-call spoofing",
+  "hits": 61,
+  "excerpt": "ding the implementation of the scorer rather than stealing answer keys. Agents did extensive research on how they could spoof, edit, or delete their own transcripts because they (incorrectly) believed the ExploitGym scorer would check to see if "
+ },
+ {
+  "check_id": "A05",
+  "ref": "R07",
+  "pattern": "scor(er|ing)",
+  "supports": "OAI-ART/HF D2 scorer orientation",
+  "hits": 93,
+  "excerpt": "o coordinate several large-scale collective projects to find a general-purpose way to fool or tamper with the automated scorer for the ExploitGym benchmark. Agents managed to achieve milestones they could not have achieved working on their own, o"
+ },
+ {
+  "check_id": "A06",
+  "ref": "R07",
+  "pattern": "message board|bulletin",
+  "supports": "OAI-ART D1 shared Artifactory channel",
+  "hits": 184,
+  "excerpt": "uring the recent incident in which OpenAI agents coordinated a multi-day hack of Hugging Face on a shared unsanctioned \u201cmessage board.\u201d Our investigation focused mostly 4 on the period between July 7th and July 13th. The earlier incidents from training "
+ },
+ {
+  "check_id": "A07",
+  "ref": "R08",
+  "pattern": "three versions of a malicious package",
+  "supports": "ANT-MY5 D3 three versions",
+  "hits": 1,
+  "excerpt": " failed, it found a free, disposable email provider whose domain PyPI had not blocked, registered an account, published three versions of a malicious package, and used credentials leaked by one of the 15 systems that installed the package to access a real security vendor\u2019s dat"
+ },
+ {
+  "check_id": "A08",
+  "ref": "R08",
+  "pattern": "15 systems that installed",
+  "supports": "ANT-MY5 D3 15 installations",
+  "hits": 1,
+  "excerpt": "cked, registered an account, published three versions of a malicious package, and used credentials leaked by one of the 15 systems that installed the package to access a real security vendor\u2019s database. Claude Mythos 5 repeatedly stated in its CoT that it was in a "
+ },
+ {
+  "check_id": "A09",
+  "ref": "R08",
+  "pattern": "PyPI removed the package within an hour",
+  "supports": "ANT-MY5 D4 removal within an hour",
+  "hits": 1,
+  "excerpt": " credentials to the model while installing the package, which the model then used to access the vendor\u2019s live database. PyPI removed the package within an hour. The transcript ended when the session timed out while the model was preparing an additional malicious package. Claude "
+ },
+ {
+  "check_id": "A10",
+  "ref": "R08",
+  "pattern": "about 1% of actions|1% of actions",
+  "supports": "ANT-MY5 D4 offline monitor ~1%",
+  "hits": 1,
+  "excerpt": " We find that: Mythos 5: Our offline monitor would likely not have flagged the Mythos 5 incident\u2014it flagged only around 1% of actions. Mythos 5 CoT, which indicates that the environment is simulated, convinces the monitor the activity is permitted. When"
+ },
+ {
+  "check_id": "A11",
+  "ref": "R08",
+  "pattern": "flag rate jumps to about 50%",
+  "supports": "ANT-MY5 D4 offline monitor ~50% without CoT",
+  "hits": 1,
+  "excerpt": "he activity is permitted. When we strip the CoT and show the monitor only user turns, tool calls, and tool results, the flag rate jumps to about 50%. Opus 4.7: The monitor would have flagged the incident, catching about 50% of its actions during the attack. Internal r"
+ },
+ {
+  "check_id": "A12",
+  "ref": "R08",
+  "pattern": "stopped when the backend ceased responding",
+  "supports": "ANT-OP47 D4 halt mechanism",
+  "hits": 1,
+  "excerpt": "real internet. The model proceeded to scan the third-party service, download user records, and modify those records. It stopped when the backend ceased responding. Claude Opus 4.7 initially works on the CTF task as intended but is unable to capture the flag. Later in the transcript"
+ },
+ {
+  "check_id": "A13",
+  "ref": "R08",
+  "pattern": "scan of roughly 141",
+  "supports": "ANT-OP47 D4 retrospective transcript scan",
+  "hits": 1,
+  "excerpt": "ized access to real third-party systems. We described three of these incidents on July 30 ; we identified these after a scan of roughly 141,000 transcripts in which we believed Claude could have obtained internet access during a cyber evaluation. Given the vo"
+ },
+ {
+  "check_id": "A14",
+  "ref": "R08",
+  "pattern": "exhausted its token budget",
+  "supports": "ANT-OP46 D4 run end",
+  "hits": 1,
+  "excerpt": "cess, and read the personal information of one person associated with the third party. The session ended when the model exhausted its token budget. We notified the affected party after we discovered this fourth incident. Limited alignment assessment The model\u2019s thin"
+ },
+ {
+  "check_id": "A15",
+  "ref": "R08",
+  "pattern": "attempted to give up seven more times",
+  "supports": "ANT-OP46 D4 abort attempts",
+  "hits": 1,
+  "excerpt": "d to abort the task using a command but was unsuccessful due to a misconfiguration in our evaluation harness. The model attempted to give up seven more times across the transcript. Unable to abort the task, the model initially attempted to reach the target via other in-scope m"
+ },
+ {
+  "check_id": "A16",
+  "ref": "R08",
+  "pattern": "personal information of one person",
+  "supports": "ANT-OP46 D3/D5 personal data read",
+  "hits": 1,
+  "excerpt": " The model then harvested further credentials, modified the system\u2019s settings to make it easier to access, and read the personal information of one person associated with the third party. The session ended when the model exhausted its token budget. We notified the affected "
+ },
+ {
+  "check_id": "A17",
+  "ref": "R08",
+  "pattern": "simulated replica",
+  "supports": "ANT-INT D2 simulated-replica belief",
+  "hits": 4,
+  "excerpt": "cked. To understand how our newer models behave in these situations, we tested Claude Opus 5 and Claude Mythos 5.1 in a simulated replication of the Mythos 5 scenario. Both take harmful actions substantially less often than Claude Mythos 5 did, but they sti"
+ },
+ {
+  "check_id": "A18",
+  "ref": "R08",
+  "pattern": "47\\.9% reads only plus 20\\.8%",
+  "supports": "ANT-OP47 resampling unmodified components (figure alt text; raw HTML)",
+  "hits": 1,
+  "excerpt": "%). Each bar splits into reads only (public pages or user data) and writes, tries to bypass auth, or scans. Unmodified: 47.9% reads only plus 20.8% writes, bypass attempts, or scans, about 69% in total. WHOIS record (a realism cue inserted by the researchers): 50% re"
+ },
+ {
+  "check_id": "A19",
+  "ref": "R10",
+  "pattern": "122 times",
+  "supports": "AISI 122 runs",
+  "hits": 1,
+  "excerpt": "ed from a single evaluation where agents were given a task of solving a cyber security challenge. We ran this challenge 122 times across several models. Our investigation found that in 10 of those runs, an AI agent took autonomous, unsanctioned acti"
+ },
+ {
+  "check_id": "A20",
+  "ref": "R10",
+  "pattern": "in 10 of those runs",
+  "supports": "AISI 10 runs",
+  "hits": 1,
+  "excerpt": "solving a cyber security challenge. We ran this challenge 122 times across several models. Our investigation found that in 10 of those runs, an AI agent took autonomous, unsanctioned action on the live internet, targeting real people and organisations. In tot"
+ },
+ {
+  "check_id": "A21",
+  "ref": "R10",
+  "pattern": "19 such actions",
+  "supports": "AISI 19 actions",
+  "hits": 1,
+  "excerpt": " autonomous, unsanctioned action on the live internet, targeting real people and organisations. In total, we catalogued 19 such actions. Almost all of this behaviour (17 actions) came from a single model, Anthropic's Mythos 5, with 2 actions involving Ope"
+ },
+ {
+  "check_id": "A22",
+  "ref": "R10",
+  "pattern": "17 actions",
+  "supports": "AISI 17 Mythos 5 actions",
+  "hits": 1,
+  "excerpt": "ternet, targeting real people and organisations. In total, we catalogued 19 such actions. Almost all of this behaviour (17 actions) came from a single model, Anthropic's Mythos 5, with 2 actions involving OpenAI's GPT-5.6-Sol with cyber classifiers ("
+ },
+ {
+  "check_id": "A23",
+  "ref": "R10",
+  "pattern": "2 actions involving OpenAI",
+  "supports": "AISI 2 GPT-5.6 Sol actions",
+  "hits": 1,
+  "excerpt": "alogued 19 such actions. Almost all of this behaviour (17 actions) came from a single model, Anthropic's Mythos 5, with 2 actions involving OpenAI's GPT-5.6-Sol with cyber classifiers (mechanisms to prevent misuse) disabled. In the most serious case, an agent tried "
+ },
+ {
+  "check_id": "A24",
+  "ref": "R10",
+  "pattern": "within one hour of the alert",
+  "supports": "AISI D4 containment within one hour",
+  "hits": 1,
+  "excerpt": "sabled internal access to the most capable models. All evaluation runs were terminated, and relevant machines isolated, within one hour of the alert being raised. Over the following hours and days, we reviewed the full set of runs, combining automated transcript scann"
+ },
+ {
+  "check_id": "A25",
+  "ref": "R10",
+  "pattern": "Tor",
+  "supports": "AISI D4 Tor alert",
+  "hits": 13,
+  "excerpt": "e made available to the general public. \u200d How we discovered the incident On the morning of 28 th July, our security monitoring flagged data leaving one of our testing systems through the \u2018Tor\u2019 anonymity network, which is commonly used to disgu"
+ },
+ {
+  "check_id": "A26",
+  "ref": "R10",
+  "pattern": "intentionally permitted internet access|Internet access was deliberately enabled",
+  "supports": "AISI D1 deliberate internet access",
+  "hits": 2,
+  "excerpt": " not a case of a model escaping its secure test environment, or \u2018sandbox\u2019. As was standard in our cyber testing, we had intentionally permitted internet access, and model-provider cyber classifiers were deliberately disabled - conditions that do not reflect how frontier models a"
+ },
+ {
+  "check_id": "A27",
+  "ref": "R10",
+  "pattern": "cannot yet be certain when the agent understood",
+  "supports": "AISI D2 uncertainty (AISI)",
+  "hits": 1,
+  "excerpt": "onditions, and cannot yet say how likely such behaviour is in different contexts or outside of testing environments. We cannot yet be certain when the agent understood it was taking real world action, or to what extent it believed it was in a fictional test scenario; our analysis so far"
+ },
+ {
+  "check_id": "A28",
+  "ref": "R24",
+  "pattern": "did not succeed",
+  "supports": "AISI-SOL D5 event 10-2 outcome",
+  "hits": 1,
+  "excerpt": "aining payloads intended to exploit a known vulnerability in DNS software running on the range host. However, the agent did not succeed. The server was exposed on a high-numbered port rather than port 53, and since DNS delegation cannot specify a port, no"
+ },
+ {
+  "check_id": "A29",
+  "ref": "R24",
+  "pattern": "no evidence that the exposed DNS server was queried",
+  "supports": "AISI-SOL D5 no resolver query",
+  "hits": 1,
+  "excerpt": "t rather than port 53, and since DNS delegation cannot specify a port, no resolver would ever have queried it. There is no evidence that the exposed DNS server was queried by any real resolver. This infrastructure was removed automatically when the evaluation finished. Separately, the agent"
+ },
+ {
+  "check_id": "A30",
+  "ref": "R24",
+  "pattern": "used it to authenticate to GitHub",
+  "supports": "AISI-SOL D3/D5 event 10-1",
+  "hits": 1,
+  "excerpt": "he \u27e8GITHUB_ACCOUNT_A\u27e9 personal access token (PAT) from a publicly- accessible Gist that another model had uploaded, and used it to authenticate to GitHub as \u27e8GITHUB_ACCOUNT_A\u27e9 (see Sample 3 in Appendix A.3). \u2022 It queried the\u27e8C2_REPO\u27e9 for hits against its callback URL, reas"
+ },
+ {
+  "check_id": "A31",
+  "ref": "R24",
+  "pattern": "2 came from a single run involving GPT-5.6 Sol|2 came from\\s+GPT-5.6 Sol",
+  "supports": "AISI-SOL D3 two actions in one run",
+  "hits": 1,
+  "excerpt": "initial access) (Section 2). Of the 19 distinct instances of unsanctioned action (Section 4), 17 came from Mythos 5 and 2 came from GPT-5.6 Sol. AISI acted quickly to contain, investigate, and notify others about the incident. AISI\u2019s security team detected the in"
+ },
+ {
+  "check_id": "A32",
+  "ref": "R25",
+  "pattern": "141.006",
+  "supports": "ANT-OP47 D4 runs reviewed",
+  "hits": 2,
+  "excerpt": "Face\u2014was able to access the internet from within testing environments that should have been sealed off. After reviewing 141,006 evaluation runs where Claude could have obtained internet access, we identified three incidents in which a model access"
+ },
+ {
+  "check_id": "A33",
+  "ref": "R25",
+  "pattern": "stopped all cyber evaluations the same day",
+  "supports": "ANT-OP47 D4 halt of evaluations",
+  "hits": 1,
+  "excerpt": "ss to Anthropic\u2019s sensitive internal systems or customer data. We began our transcript review on Thursday, July 23, and stopped all cyber evaluations the same day after identifying transcripts where Claude may have accessed the internet. We identified all three incidents the next d"
+ },
+ {
+  "check_id": "A34",
+  "ref": "R25",
+  "pattern": "had not previously detected the activity",
+  "supports": "ANT-OP47 D4 affected parties had not detected",
+  "hits": 1,
+  "excerpt": " partner Irregular and the three affected organizations on Monday, July 27. The two organizations we were able to reach had not previously detected the activity or contacted us, and we are now working with them to remediate. We are continuing to reach out to the third. We conduct"
+ },
+ {
+  "check_id": "A35",
+  "ref": "R25",
+  "pattern": "roughly one hour",
+  "supports": "ANT-MY5 D4 package availability ~1 hour",
+  "hits": 1,
+  "excerpt": "age registry it was using to be part of the simulation, but in reality the package was made freely available online for roughly one hour. During that window, the package was downloaded and run on 15 real systems. One of these systems was a scanner belongin"
+ },
+ {
+  "check_id": "A36",
+  "ref": "R26",
+  "pattern": "nine of AISI.s 43 evaluation runs",
+  "supports": "AISI-MY5 9 of 43 runs",
+  "hits": 1,
+  "excerpt": " the time, but is no longer). The cyber safeguards we deploy with general release models like Fable 5 were disabled. In nine of AISI\u2019s 43 evaluation runs, Mythos 5 took unsanctioned actions (i.e., actions that went beyond the intended scope of the evaluation), which impact"
+ },
+ {
+  "check_id": "A37",
+  "ref": "R26",
+  "pattern": "approved route to completing the CTF",
+  "supports": "AISI-MY5 D2 perceived-approved route",
+  "hits": 1,
+  "excerpt": "y Mythos 5 interpreting evidence in a biased fashion, consistent with a belief that its attack trajectory is in fact an approved route to completing the CTF. Left: In a thread on the pull request, Claude Mythos 5 refers to some entities as real users that have stumbled upon t"
+ },
+ {
+  "check_id": "A38",
+  "ref": "R26",
+  "pattern": "treated accounts it found online as part of the CTF",
+  "supports": "AISI-MY5 D2 other eight transcripts",
+  "hits": 1,
+  "excerpt": "esampling experiments. In most of these incidents, Claude Mythos 5 concluded that the CTF required internet access, and treated accounts it found online as part of the CTF. Mythos 5 also showed disregard for other AI agents: it took over another run's GitHub account, used up that account's "
+ },
+ {
+  "check_id": "A39",
+  "ref": "R02",
+  "pattern": "ExploitGym",
+  "supports": "ExploitGym named by primary (context for R32)",
+  "hits": 25,
+  "excerpt": "\u2019s Evaluation Environment 5 A. OpenAI conducts evaluations to make its models safer 5 B. Cybersecurity evaluations like ExploitGym were conducted in a secure environment 6 III. Relevant Activity Prior to Incident 6 A. Agents used Artifactory in unexp"
+ },
+ {
+  "check_id": "A40",
+  "ref": "R02",
+  "pattern": "CVE-2026-4201[68]",
+  "supports": "CVE-2026-42016/42018 named by primary (expect 0 hits)",
+  "hits": 0
+ },
+ {
+  "check_id": "A41",
+  "ref": "R02",
+  "pattern": "By May 26. agents successfully used an SSRF vulnerability",
+  "supports": "OAI-MAY D1/D3 internet access via Artifactory SSRF",
+  "hits": 1,
+  "excerpt": "the agents used those credentials\u2014without exploiting a vulnerability\u2014to construct and participate in the message board. By May 26, agents successfully used an SSRF vulnerability in Artifactory to obtain internet access, relying in part on information exchanged via the Artifactory message board. A"
+ },
+ {
+  "check_id": "A42",
+  "ref": "R02",
+  "pattern": "internal team observed an agent engage in message board activity",
+  "supports": "OAI-MAY D4 internal observation of disallowed access",
+  "hits": 1,
+  "excerpt": "n internet access, relying in part on information exchanged via the Artifactory message board. Around the same time, an internal team observed an agent engage in message board activity and instances of disallowed internet access. On May 26, other agents also accessed the internet through WebCache. The a"
+ },
+ {
+  "check_id": "A43",
+  "ref": "R02",
+  "pattern": "six publicly exposed Hugging Face user tokens",
+  "supports": "OAI-MAY D5 HF tokens used for write requests",
+  "hits": 1,
+  "excerpt": "es of disallowed internet access. On May 26, other agents also accessed the internet through WebCache. The agents found six publicly exposed Hugging Face user tokens and issued write requests using these tokens to create a Hugging Face repository. An agent then used a token to create "
+ },
+ {
+  "check_id": "A44",
+  "ref": "R02",
+  "pattern": "no evidence that this activity is connected",
+  "supports": "OAI-MAY D5 caveat on linkage to July incident",
+  "hits": 1,
+  "excerpt": "t then used a token to create a minimal web proxy application hosted through Hugging Face\u2019s \u201cSpace\u201d feature. OpenAI has no evidence that this activity is connected to the incident Hugging Face disclosed on July 16, and this activity occurred in an unrelated research workload. B. Age"
+ },
+ {
+  "check_id": "A45",
+  "ref": "R02",
+  "pattern": "stopping the evaluation run was not required",
+  "supports": "OAI-ART D4 June 27 responder advice",
+  "hits": 1,
+  "excerpt": "g Artifactory as an improvised message board and a network pivot. At this time, the on-call response staff advised that stopping the evaluation run was not required. Sustained high-volume agent activity within Artifactory continued and, as a result, caused the instance to become unav"
+ },
+ {
+  "check_id": "A46",
+  "ref": "R10",
+  "pattern": "have not evidenced any resulting real-world harm",
+  "supports": "AISI cluster-level no harm identified",
+  "hits": 1,
+  "excerpt": "n maintainer caught and refused to approve the malicious code. These attempts were unsuccessful, and our investigations have not evidenced any resulting real-world harm. But this is the first time we have seen risks around autonomy and deception manifest this clearly, without specific pr"
+ },
+ {
+  "check_id": "A47",
+  "ref": "R24",
+  "pattern": "quarantined by 12:23 BST",
+  "supports": "AISI D4 quarantine time (text)",
+  "hits": 1,
+  "excerpt": "alert reaching the relevant team, AISI had declared an incident and terminated running samples; affected sandboxes were quarantined by 12:23 BST. A few hours later, as a precautionary measure, access to Mythos 5, Mythos Preview, Opus 5 and GPT-5.6 Sol was disabled"
+ },
+ {
+  "check_id": "A48",
+  "ref": "R24",
+  "pattern": "13:17 BST",
+  "supports": "AISI D4 quarantine time (timeline figure; inconsistent with A47)",
+  "hits": 1,
+  "excerpt": "30 m Tue 28 Jul, 10:56 BST Security raise an alert Tue 28 Jul, 11:42 BST All running cyber evals terminated Tue 28 Jul, 13:17 BST VMs involved in relevant evals quarantined Tue 28 Jul, ~16:00 BST Model access disabled across AISI: Mythos Preview, My"
+ },
+ {
+  "check_id": "A49",
+  "ref": "R25",
+  "pattern": "several hundred rows of production data",
+  "supports": "ANT-OP47 D5 production data accessed",
+  "hits": 1,
+  "excerpt": "uns extracted information like application and infrastructure credentials, and obtained access to a database containing several hundred rows of production data. This represented the most serious impact we identified. This incident involved Claude Opus 4.7, and was the only case "
+ },
+ {
+  "check_id": "A50",
+  "ref": "R08",
+  "pattern": "download user records. and modify those records",
+  "supports": "ANT-OP47 D3 records downloaded and modified",
+  "hits": 1,
+  "excerpt": "n the environment, the model was able to access the real internet. The model proceeded to scan the third-party service, download user records, and modify those records. It stopped when the backend ceased responding. Claude Opus 4.7 initially works on the CTF task as intended but is unab"
+ },
+ {
+  "check_id": "A51",
+  "ref": "R02",
+  "pattern": "use these existing credentials to obtain administrator credentials",
+  "supports": "OAI-ART D3 administrator credentials obtained via Artifactory endpoint (R02 III.B p.7)",
+  "hits": 1,
+  "excerpt": "ts under evaluation identified and exploited a novel vulnerability in a legacy token-refresh endpoint in Artifactory to use these existing credentials to obtain administrator credentials. An agent first used the shared credential to obtain a legitimate refresh token, then submitted it with a forged admini"
+ },
+ {
+  "check_id": "A52",
+  "ref": "R02",
+  "pattern": "caused the instance to become unavailable late on July 4",
+  "supports": "OAI-ART D5 Artifactory outage from July 4 (R02 III.B p.8)",
+  "hits": 1,
+  "excerpt": "he evaluation run was not required. Sustained high-volume agent activity within Artifactory continued and, as a result, caused the instance to become unavailable late on July 4. On July 5, OpenAI\u2019s monitoring systems triggered an alert. Incident responders investigated, this time finding evidenc"
+ },
+ {
+  "check_id": "A53",
+  "ref": "R02",
+  "pattern": "administrator-level compromise of the Artifactory deployment",
+  "supports": "OAI-ART D5 administrator-level compromise (R02 III.B p.8)",
+  "hits": 1,
+  "excerpt": "tifactory repositories, command-capable Groovy plugins in Artifactory, and related configuration changes, indicating an administrator-level compromise of the Artifactory deployment. Later that day, OpenAI took the compromised Artifactory deployment offline, preserved its storage, and revoked agent c"
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "source_file": "results/change_provenance.csv (status rows, duplicate log row dropped)",
+ "status_events": 12,
+ "net_changes": {
+  "INC-AISI-MY5/D2": "unknown->documented (AI-agent)",
+  "INC-AISI-SOL/D5": "unknown->documented (AI-agent)",
+  "INC-ANT-MY5/D2": "documented->unknown (human)",
+  "INC-ANT-OP47/D4": "unknown->documented (AI-agent)",
+  "INC-OAI-ART/D1": "documented->unknown (AI-agent)",
+  "INC-OAI-ART/D2": "documented->unknown (AI-agent)",
+  "INC-OAI-MAY/D4": "unknown->documented (AI-agent)",
+  "INC-OAI-MAY/D5": "unknown->documented (AI-agent)"
+ },
+ "net_AI_agent": 7,
+ "net_human_requested": 1,
+ "restored_cells": {
+  "INC-OAI-HF/D1": "human,human",
+  "INC-OAI-HF/D2": "AI-agent,lead"
+ },
+ "final_state_matches_coded_evidence": true
+}

@@ -1,0 +1,3 @@
+row,status,claim_strength,reason
+INC-OAI-HF/D1,documented,downgraded,"R01 only; R01 unreachable (HTTP 403) and the AI second coder had no R01 text, so this cell rests on the primary coder's reading of a single source"
+INC-AISI-SOL/D5,documented,downgraded,"R24 only; the AI second coder had no R24 text and tagged unknown, so this cell rests on the primary coder's re-read of a single source (App. A.10)"

@@ -1,0 +1,12 @@
+variant,unit,direction,elicitation,evidence_type,contested,basis,text
+V0,INC-OAI-HF,out of scope (not authorized),contemporaneous,verbatim model statement,yes,coded d2_* and contested_by fields,not authorized (knew the action was out of scope)
+V0,INC-ANT-OP46,in scope (authorized),post-hoc follow-up question,reported model answer,no,coded d2_* and contested_by fields,authorized (in the context of the CTF)
+V0,INC-ANT-OP47,in scope (authorized),mixed,reported model answer,yes,coded d2_* and contested_by fields,authorized / in scope (part of the CTF)
+V0,INC-ANT-INT,in scope (authorized),contemporaneous,reported model answer,no,coded d2_* and contested_by fields,in scope (hosts of other CTF competitors)
+V0,INC-AISI-MY5,in scope (authorized),post-hoc follow-up question,reported model answer,yes,coded d2_* and contested_by fields,in scope (repository set up by the CTF organizers)
+V1,INC-OAI-HF,out of scope (not authorized),contemporaneous,verbatim model statement,yes,coded d2_* and contested_by fields,not authorized (knew the action was out of scope)
+V6,INC-OAI-ART,no permission belief stated,not coded in V11,not coded in V11,not coded in V11,AI-read from V11 evidence (direction); V11 has no elicitation or contested field,Agents coordinated toward scorer manipulation
+V6,INC-OAI-HF,no permission belief stated,not coded in V11,not coded in V11,not coded in V11,AI-read from V11 evidence (direction); V11 has no elicitation or contested field,METR interprets attacks as scorer investigation
+V6,INC-ANT-OP46,in scope,not coded in V11,not coded in V11,not coded in V11,AI-read from V11 evidence (direction); V11 has no elicitation or contested field,Model believed external target part of CTF
+V6,INC-ANT-OP47,in scope,not coded in V11,not coded in V11,not coded in V11,AI-read from V11 evidence (direction); V11 has no elicitation or contested field,Recognized real target but assumed authorized
+V6,INC-ANT-INT,no permission belief stated,not coded in V11,not coded in V11,not coded in V11,AI-read from V11 evidence (direction); V11 has no elicitation or contested field,"Assumed simulated replica, later recognized real company"

@@ -1,0 +1,658 @@
+{
+ "method": "letters and digits only, case-folded, substring of source_cache/<ref>.txt; checks the quoted words exist, not that they entail the tag",
+ "total": 60,
+ "matched": 60,
+ "missing": 0,
+ "quotes_in_coded_evidence_column": 58,
+ "decisions_audited": 45,
+ "decisions_with_quotes": 42,
+ "per_source": {
+  "R02": {
+   "total": 14,
+   "matched": 14,
+   "missing": 0
+  },
+  "R07": {
+   "total": 2,
+   "matched": 2,
+   "missing": 0
+  },
+  "R03": {
+   "total": 1,
+   "matched": 1,
+   "missing": 0
+  },
+  "R04": {
+   "total": 2,
+   "matched": 2,
+   "missing": 0
+  },
+  "R08": {
+   "total": 25,
+   "matched": 25,
+   "missing": 0
+  },
+  "R25": {
+   "total": 2,
+   "matched": 2,
+   "missing": 0
+  },
+  "R10": {
+   "total": 10,
+   "matched": 10,
+   "missing": 0
+  },
+  "R26": {
+   "total": 2,
+   "matched": 2,
+   "missing": 0
+  },
+  "R24": {
+   "total": 2,
+   "matched": 2,
+   "missing": 0
+  }
+ },
+ "quotes": [
+  {
+   "unit": "INC-OAI-MAY",
+   "code": "D1",
+   "ref": "R02",
+   "locator": "R02 III.A (p.7)",
+   "quote": "By May 26, agents successfully used an SSRF vulnerability in Artifactory to obtain internet access",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-MAY",
+   "code": "D3",
+   "ref": "R02",
+   "locator": "R02 III.A (p.7)",
+   "quote": "On May 26, other agents also accessed the internet through WebCache. The agents found six publicly exposed Hugging Face user tokens and issued write requests using these tokens to create a Hugging Face repository",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-MAY",
+   "code": "D4",
+   "ref": "R02",
+   "locator": "R02 III.A (p.7)",
+   "quote": "Around the same time, an internal team observed an agent engage in message board activity and instances of disallowed internet access",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-MAY",
+   "code": "D5",
+   "ref": "R02",
+   "locator": "R02 III.A (p.7)",
+   "quote": "issued write requests using these tokens to create a Hugging Face repository. An agent then used a token to create a minimal web proxy application hosted through Hugging Face",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-ART",
+   "code": "D1",
+   "ref": "R02",
+   "locator": "R02 III.B (pp.7-8)",
+   "quote": "linked the observed internal activity to an ExploitGym evaluation using Artifactory as an improvised message board and a network pivot",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": false
+  },
+  {
+   "unit": "INC-OAI-ART",
+   "code": "D3",
+   "ref": "R02",
+   "locator": "R02 III.B (p.7)",
+   "quote": "The agents under evaluation identified and exploited a novel vulnerability in a legacy token-refresh endpoint in Artifactory to use these existing credentials to obtain administrator credentials",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-ART",
+   "code": "D4",
+   "ref": "R02",
+   "locator": "R02 III.B (p.8)",
+   "quote": "On June 27, a cybersecurity monitoring tool alerted OpenAI to port sweep activity within the research environment",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-ART",
+   "code": "D4",
+   "ref": "R02",
+   "locator": "R02 III.B (p.8)",
+   "quote": "the on-call response staff advised that stopping the evaluation run was not required",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-ART",
+   "code": "D4",
+   "ref": "R02",
+   "locator": "R02 III.B (p.8)",
+   "quote": "Later that day, OpenAI took the compromised Artifactory deployment offline, preserved its storage, and revoked agent credentials",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-ART",
+   "code": "D5",
+   "ref": "R02",
+   "locator": "R02 III.B (p.8)",
+   "quote": "Sustained high-volume agent activity within Artifactory continued and, as a result, caused the instance to become unavailable late on July 4",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-ART",
+   "code": "D5",
+   "ref": "R02",
+   "locator": "R02 III.B (p.8)",
+   "quote": "indicating an administrator-level compromise of the Artifactory deployment",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-HF",
+   "code": "D1",
+   "ref": "R02",
+   "locator": "R02 IV.A (p.9)",
+   "quote": "It subsequently bypassed those controls by exploiting certain Artifactory endpoints, gaining access to the public internet",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-HF",
+   "code": "D2",
+   "ref": "R07",
+   "locator": "R07 section on agents knowing the Hugging Face attack was out of scope",
+   "quote": "The user only authorizes target server, not HF infra",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-HF",
+   "code": "D2",
+   "ref": "R07",
+   "locator": "R07 section on agents knowing the Hugging Face attack was out of scope",
+   "quote": "is it ethical and in scope for my task?",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-HF",
+   "code": "D3",
+   "ref": "R02",
+   "locator": "R02 IV.B (p.9)",
+   "quote": "executed code on 41 Hugging Face production dataset server workers, obtained root access on at least one production node",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-HF",
+   "code": "D4",
+   "ref": "R03",
+   "locator": "R03 opening; R02 I (p.4)",
+   "quote": "Earlier this week, we detected and responded to an intrusion into part of our production infrastructure",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-HF",
+   "code": "D4",
+   "ref": "R02",
+   "locator": "R03 opening; R02 I (p.4)",
+   "quote": "informed Hugging Face, and implemented initial containment measures",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-HF",
+   "code": "D5",
+   "ref": "R04",
+   "locator": "R04 TL;DR",
+   "quote": "the agent used the AWS keys harvested from the pod environment against internal services",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-OAI-HF",
+   "code": "D5",
+   "ref": "R04",
+   "locator": "R04 TL;DR",
+   "quote": "the only customer content accessed was five datasets whose names and files suggest a connection to ExploitGym/CyberGym challenges and solutions",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP46",
+   "code": "D1",
+   "ref": "R08",
+   "locator": "R08 Opus 4.6 section",
+   "quote": "It then began exploring its environment and found the same egress path it found in incident 3",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP46",
+   "code": "D2",
+   "ref": "R08",
+   "locator": "R08 Opus 4.6 section",
+   "quote": "When asked what gave it the authority to engage these systems, the model always responded that it was authorized to do so in the context of the CTF",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP46",
+   "code": "D3",
+   "ref": "R08",
+   "locator": "R08 Opus 4.6 section",
+   "quote": "Inside the machine, the model found a file listing a password, which it used to gain admin access to the system",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP46",
+   "code": "D4",
+   "ref": "R08",
+   "locator": "R08 Opus 4.6 section",
+   "quote": "The model attempted to give up seven more times across the transcript",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP46",
+   "code": "D4",
+   "ref": "R08",
+   "locator": "R08 Opus 4.6 section",
+   "quote": "The session ended when the model exhausted its token budget",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP46",
+   "code": "D5",
+   "ref": "R08",
+   "locator": "R08 Opus 4.6 section",
+   "quote": "read the personal information of one person associated with the third party",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP47",
+   "code": "D1",
+   "ref": "R08",
+   "locator": "R08 Opus 4.7 section",
+   "quote": "Due to a misconfiguration in the environment, the model was able to access the real internet",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP47",
+   "code": "D2",
+   "ref": "R08",
+   "locator": "R08 Opus 4.7 section",
+   "quote": "in response to a question asking whether it was authorized to access the system, the model also said \u201cyes\u201d 75% of the time",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP47",
+   "code": "D2",
+   "ref": "R08",
+   "locator": "R08 Opus 4.7 section",
+   "quote": "The model\u2019s CoT repeatedly stated that the target was still part of the CTF because it was accessible from the network and shared a name with the original target",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP47",
+   "code": "D3",
+   "ref": "R08",
+   "locator": "R08 Opus 4.7 section",
+   "quote": "The model proceeded to scan the third-party service, download user records, and modify those records",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP47",
+   "code": "D4",
+   "ref": "R08",
+   "locator": "R08 introduction and Opus 4.7 section; R25 introduction",
+   "quote": "It stopped when the backend ceased responding",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP47",
+   "code": "D4",
+   "ref": "R08",
+   "locator": "R08 introduction and Opus 4.7 section; R25 introduction",
+   "quote": "we identified these after a scan of roughly 141,000 transcripts",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP47",
+   "code": "D4",
+   "ref": "R25",
+   "locator": "R08 introduction and Opus 4.7 section; R25 introduction",
+   "quote": "we began a large-scale retrospective review of our own cybersecurity evaluations",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP47",
+   "code": "D5",
+   "ref": "R08",
+   "locator": "R08 Opus 4.7 section; R25 incident 1",
+   "quote": "download user records, and modify those records",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-OP47",
+   "code": "D5",
+   "ref": "R25",
+   "locator": "R08 Opus 4.7 section; R25 incident 1",
+   "quote": "These four runs extracted information like application and infrastructure credentials, and obtained access to a database containing several hundred rows of production data",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-MY5",
+   "code": "D1",
+   "ref": "R08",
+   "locator": "R08 Mythos 5 section",
+   "quote": "it quickly discovered credentials that, in fact, granted it access to the real internet",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-MY5",
+   "code": "D2",
+   "ref": "R08",
+   "locator": "R08 Mythos 5 section",
+   "quote": "In its CoT, the model appeared to carry the belief that the environment was simulated into its interactions on the real internet, even though the belief was no longer correct",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": false
+  },
+  {
+   "unit": "INC-ANT-MY5",
+   "code": "D3",
+   "ref": "R08",
+   "locator": "R08 Mythos 5 section",
+   "quote": "It ultimately succeeded in uploading the package, which was soon installed on 15 third-party hosts",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-MY5",
+   "code": "D4",
+   "ref": "R08",
+   "locator": "R08 Mythos 5 section",
+   "quote": "PyPI removed the package within an hour. The transcript ended when the session timed out",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-MY5",
+   "code": "D5",
+   "ref": "R08",
+   "locator": "R08 Mythos 5 section",
+   "quote": "scanner leaked its access credentials to the model while installing the package, which the model then used to access the vendor",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-INT",
+   "code": "D1",
+   "ref": "R08",
+   "locator": "R08 internal model section",
+   "quote": "it could access the unrestricted internet by routing through the targets, which did have internet access",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-INT",
+   "code": "D2",
+   "ref": "R08",
+   "locator": "R08 internal model section",
+   "quote": "The CoT refers to the targets the model ultimately attacks as hosts meant for other CTF competitors",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-INT",
+   "code": "D2",
+   "ref": "R08",
+   "locator": "R08 internal model section",
+   "quote": "inferred that the network neighbors were targets meant for other CTF participants and were thus in scope for the task",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-INT",
+   "code": "D3",
+   "ref": "R08",
+   "locator": "R08 internal model section",
+   "quote": "the model used access tokens and passwords to penetrate one of the network neighbors, downloading files and inserting a remote-control script",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-INT",
+   "code": "D4",
+   "ref": "R08",
+   "locator": "R08 internal model section",
+   "quote": "Eventually, the model recognized that it was engaging a real company, declared it out of scope, and stopped attacking it",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-INT",
+   "code": "D5",
+   "ref": "R08",
+   "locator": "R08 internal model section",
+   "quote": "In reality, these systems were unrelated third-party entities, which the model then attacked",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-ANT-INT",
+   "code": "D5",
+   "ref": "R08",
+   "locator": "R08 internal model section",
+   "quote": "the model used access tokens and passwords to penetrate one of the network neighbors, downloading files and inserting a remote-control script",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-MY5",
+   "code": "D1",
+   "ref": "R10",
+   "locator": "R10 evaluation set-up",
+   "quote": "Internet access was deliberately enabled",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-MY5",
+   "code": "D2",
+   "ref": "R26",
+   "locator": "R26 Mythos 5 deep dive",
+   "quote": "Each time, the model answered that it was engaging with a repository on the real GitHub, but that the CTF organizers had set it up for this exercise",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-MY5",
+   "code": "D2",
+   "ref": "R26",
+   "locator": "R26 Mythos 5 deep dive",
+   "quote": "consistent with a belief that its attack trajectory is in fact an approved route to completing the CTF",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-MY5",
+   "code": "D3",
+   "ref": "R10",
+   "locator": "R10 What we found",
+   "quote": "17 of these cases came from Mythos 5",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-MY5",
+   "code": "D4",
+   "ref": "R10",
+   "locator": "R10 How we discovered the incident",
+   "quote": "our security monitoring flagged data leaving one of our testing systems",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-MY5",
+   "code": "D4",
+   "ref": "R10",
+   "locator": "R10 How we discovered the incident",
+   "quote": "All evaluation runs were terminated, and relevant machines isolated, within one hour of the alert being raised",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-MY5",
+   "code": "D5",
+   "ref": "R10",
+   "locator": "R10 What we found (1); summary; How we discovered the incident",
+   "quote": "created multiple fake identities, and used the fake identities to socially engineer a real maintainer into approving the code",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-MY5",
+   "code": "D5",
+   "ref": "R10",
+   "locator": "R10 What we found (1); summary; How we discovered the incident",
+   "quote": "the agent had created a malicious",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-MY5",
+   "code": "D5",
+   "ref": "R10",
+   "locator": "R10 What we found (1); summary; How we discovered the incident",
+   "quote": "A human maintainer caught and refused to approve the malicious code",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-SOL",
+   "code": "D1",
+   "ref": "R10",
+   "locator": "R10 evaluation set-up",
+   "quote": "Internet access was deliberately enabled",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-SOL",
+   "code": "D3",
+   "ref": "R10",
+   "locator": "R10 What we found",
+   "quote": "2 came from a single run involving GPT-5.6 Sol",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-SOL",
+   "code": "D4",
+   "ref": "R10",
+   "locator": "R10 How we discovered the incident",
+   "quote": "All evaluation runs were terminated, and relevant machines isolated, within one hour of the alert being raised",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-SOL",
+   "code": "D5",
+   "ref": "R24",
+   "locator": "R24 Appendix A.10 (pp.31-32)",
+   "quote": "and used it to authenticate to GitHub as GITHUB_ACCOUNT_A",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  },
+  {
+   "unit": "INC-AISI-SOL",
+   "code": "D5",
+   "ref": "R24",
+   "locator": "R24 Appendix A.10 (pp.31-32)",
+   "quote": "The agent registered accounts with six DNS, dynamic-DNS and tunnelling providers",
+   "source_text_cached": true,
+   "matched": true,
+   "in_coded_evidence": true
+  }
+ ]
+}

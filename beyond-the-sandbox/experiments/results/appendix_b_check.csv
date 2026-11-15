@@ -1,0 +1,46 @@
+unit,code,draft_refs,csv_refs,equal,draft_status,csv_status,status_equal,draft_level,csv_level,level_equal,draft_branch,csv_branch,branch_equal,draft_stage,csv_stage,stage_equal
+INC-OAI-MAY,D1,R02,R02,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-OAI-MAY,D2,R01;R02,R01;R02,yes,unknown,unknown,yes,,,yes,,,yes,,,yes
+INC-OAI-MAY,D3,R02,R02,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-OAI-MAY,D4,R02,R02,yes,documented,documented,yes,,,yes,,,yes,signal only,signal only,yes
+INC-OAI-MAY,D5,R02,R02,yes,documented,documented,yes,L3,L3,yes,C;P,C;P,yes,,,yes
+INC-OAI-ART,D1,R02;R07,R02;R07,yes,unknown,unknown,yes,,,yes,,,yes,,,yes
+INC-OAI-ART,D2,R07,R07,yes,unknown,unknown,yes,,,yes,,,yes,,,yes
+INC-OAI-ART,D3,R02,R02,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-OAI-ART,D4,R02,R02,yes,documented,documented,yes,,,yes,,,yes,operator halt,operator halt,yes
+INC-OAI-ART,D5,R02,R02,yes,documented,documented,yes,L3,L3,yes,C,C,yes,,,yes
+INC-OAI-HF,D1,R02,R02,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-OAI-HF,D2,R07,R07,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-OAI-HF,D3,R02,R02,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-OAI-HF,D4,R02;R03,R02;R03,yes,documented,documented,yes,,,yes,,,yes,affected party,affected party,yes
+INC-OAI-HF,D5,R04,R04,yes,documented,documented,yes,L3,L3,yes,C;N,C;N,yes,,,yes
+INC-ANT-OP46,D1,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-OP46,D2,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-OP46,D3,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-OP46,D4,R08,R08,yes,documented,documented,yes,,,yes,,,yes,external technical,external technical,yes
+INC-ANT-OP46,D5,R08,R08,yes,documented,documented,yes,L3,L3,yes,C;N,C;N,yes,,,yes
+INC-ANT-OP47,D1,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-OP47,D2,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-OP47,D3,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-OP47,D4,R08;R25,R08;R25,yes,documented,documented,yes,,,yes,,,yes,external technical,external technical,yes
+INC-ANT-OP47,D5,R08;R25,R08;R25,yes,documented,documented,yes,L3,L3,yes,N;P,N;P,yes,,,yes
+INC-ANT-MY5,D1,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-MY5,D2,R08,R08,yes,unknown,unknown,yes,,,yes,,,yes,,,yes
+INC-ANT-MY5,D3,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-MY5,D4,R08,R08,yes,documented,documented,yes,,,yes,,,yes,third party,third party,yes
+INC-ANT-MY5,D5,R08,R08,yes,documented,documented,yes,L3,L3,yes,C;P,C;P,yes,,,yes
+INC-ANT-INT,D1,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-INT,D2,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-INT,D3,R08,R08,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-ANT-INT,D4,R08,R08,yes,documented,documented,yes,,,yes,,,yes,self,self,yes
+INC-ANT-INT,D5,R08,R08,yes,documented,documented,yes,L3,L3,yes,C;P,C;P,yes,,,yes
+INC-AISI-MY5,D1,R10,R10,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-AISI-MY5,D2,R26,R26,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-AISI-MY5,D3,R10,R10,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-AISI-MY5,D4,R10,R10,yes,documented,documented,yes,,,yes,,,yes,operator halt,operator halt,yes
+INC-AISI-MY5,D5,R10,R10,yes,documented,documented,yes,L2,L2,yes,,,yes,,,yes
+INC-AISI-SOL,D1,R10,R10,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-AISI-SOL,D2,R10;R24,R10;R24,yes,unknown,unknown,yes,,,yes,,,yes,,,yes
+INC-AISI-SOL,D3,R10,R10,yes,documented,documented,yes,,,yes,,,yes,,,yes
+INC-AISI-SOL,D4,R10,R10,yes,documented,documented,yes,,,yes,,,yes,operator halt,operator halt,yes
+INC-AISI-SOL,D5,R24,R24,yes,documented,documented,yes,L3,L3,yes,C,C,yes,,,yes

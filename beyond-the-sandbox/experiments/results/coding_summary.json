@@ -1,0 +1,54 @@
+{
+ "units": 9,
+ "dimensions": 5,
+ "decisions": 45,
+ "sources": 70,
+ "by_status": {
+  "documented": 40,
+  "unknown": 5
+ },
+ "by_dimension": {
+  "D1": {
+   "documented": 8,
+   "unknown": 1
+  },
+  "D2": {
+   "unknown": 4,
+   "documented": 5
+  },
+  "D3": {
+   "documented": 9
+  },
+  "D4": {
+   "documented": 9
+  },
+  "D5": {
+   "documented": 9
+  }
+ },
+ "by_cluster": {
+  "OpenAI": {
+   "documented": 12,
+   "unknown": 3
+  },
+  "Anthropic": {
+   "documented": 19,
+   "unknown": 1
+  },
+  "AISI": {
+   "documented": 9,
+   "unknown": 1
+  }
+ },
+ "second_coder": null,
+ "changed_from_baseline": [
+  "INC-OAI-MAY/D4 unknown->documented",
+  "INC-OAI-MAY/D5 unknown->documented",
+  "INC-OAI-ART/D1 documented->unknown",
+  "INC-OAI-ART/D2 documented->unknown",
+  "INC-ANT-OP47/D4 unknown->documented",
+  "INC-ANT-MY5/D2 documented->unknown",
+  "INC-AISI-MY5/D2 unknown->documented",
+  "INC-AISI-SOL/D5 unknown->documented"
+ ]
+}

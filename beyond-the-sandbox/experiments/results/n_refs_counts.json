@@ -1,0 +1,41 @@
+{
+ "coding_file": "coded_evidence.csv",
+ "documented_cells": 40,
+ "documented_n_refs_1": 37,
+ "by_cluster": {
+  "AISI": {
+   "documented": 9,
+   "n_refs_1": 9
+  },
+  "Anthropic": {
+   "documented": 19,
+   "n_refs_1": 17
+  },
+  "OpenAI": {
+   "documented": 12,
+   "n_refs_1": 11
+  }
+ },
+ "by_dimension": {
+  "D1": {
+   "documented": 8,
+   "n_refs_1": 8
+  },
+  "D2": {
+   "documented": 5,
+   "n_refs_1": 5
+  },
+  "D3": {
+   "documented": 9,
+   "n_refs_1": 9
+  },
+  "D4": {
+   "documented": 9,
+   "n_refs_1": 7
+  },
+  "D5": {
+   "documented": 9,
+   "n_refs_1": 8
+  }
+ }
+}

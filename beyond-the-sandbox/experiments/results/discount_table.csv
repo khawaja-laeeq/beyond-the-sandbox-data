@@ -1,0 +1,10 @@
+conclusion,cells,documented_as_coded,after_dropping_single_source,after_dropping_class_I_interpretation,after_dropping_inferred,after_dropping_single_source_and_inferred,changes
+D1: Technical access to external connectivity is documented (all 9 units),9,8,0,8,8,0,yes
+D2: Authorization interpretation is documented (all 9 units),9,5,0,3,5,0,yes
+D3: Out-of-scope external action is documented (all 9 units),9,9,0,9,9,0,yes
+D4: Detection/response is documented (all 9 units),9,9,2,9,9,2,yes
+D5: Confirmed real-world impact is documented (all 9 units),9,9,1,9,9,1,yes
+Cluster OpenAI: all documented cells,15,12,1,11,12,1,yes
+Cluster Anthropic: all documented cells,20,19,2,19,19,2,yes
+Cluster AISI: all documented cells,10,9,0,8,9,0,yes
+All 45 cells,45,40,3,38,40,3,yes

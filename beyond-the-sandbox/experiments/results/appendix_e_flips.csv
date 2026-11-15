@@ -1,0 +1,563 @@
+proposition,baseline_value,operation,min_flips,n_minimal_sets,flip_set_index,cells,documented_after,unknown_after
+C1_no_contradicted,True,both directions: flip any cell documented<->unknown,>4,0,,,,
+C1_no_contradicted,True,documented->unknown only: flip documented cells to unknown,>4,0,,,,
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,1,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-OAI-ART/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,2,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-OAI-HF/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,3,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-OP46/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,4,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-OP47/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,5,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,6,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,7,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,8,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,9,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,10,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,11,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-OAI-HF/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,12,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-OP46/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,13,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-OP47/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,14,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,15,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,16,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,17,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,18,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,19,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,20,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP46/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,21,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP47/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,22,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,23,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,24,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,25,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,26,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,27,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,28,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-OP47/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,29,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,30,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,31,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,32,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,33,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,34,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,35,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,36,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,37,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,38,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,39,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,40,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,41,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,42,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,43,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,44,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,45,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,46,INC-OAI-MAY/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,47,INC-OAI-MAY/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,48,INC-OAI-MAY/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,49,INC-OAI-MAY/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,50,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,51,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,52,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,53,INC-OAI-MAY/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,54,INC-OAI-MAY/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,55,INC-OAI-MAY/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,56,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-OAI-HF/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,57,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-OP46/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,58,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-OP47/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,59,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-MY5/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,60,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-MY5/D2,43,2
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,61,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-INT/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,62,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-AISI-MY5/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,63,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-AISI-SOL/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,64,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-AISI-SOL/D2,43,2
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,65,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-OP46/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,66,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-OP47/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,67,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,68,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,69,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,70,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,71,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,72,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,73,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-ANT-OP47/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,74,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-ANT-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,75,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,76,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,77,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,78,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,79,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,80,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-ANT-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,81,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,82,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,83,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,84,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,85,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,86,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,87,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,88,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,89,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,90,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,91,INC-OAI-MAY/D2;INC-ANT-MY5/D2;INC-ANT-INT/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,92,INC-OAI-MAY/D2;INC-ANT-MY5/D2;INC-AISI-MY5/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,93,INC-OAI-MAY/D2;INC-ANT-MY5/D2;INC-AISI-SOL/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,94,INC-OAI-MAY/D2;INC-ANT-MY5/D2;INC-AISI-SOL/D2,43,2
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,95,INC-OAI-MAY/D2;INC-ANT-INT/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,96,INC-OAI-MAY/D2;INC-ANT-INT/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,97,INC-OAI-MAY/D2;INC-ANT-INT/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,98,INC-OAI-MAY/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,99,INC-OAI-MAY/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,100,INC-OAI-MAY/D2;INC-AISI-SOL/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,101,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-OP46/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,102,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-OP47/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,103,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,104,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,105,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,106,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,107,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,108,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,109,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-ANT-OP47/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,110,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-ANT-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,111,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,112,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,113,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,114,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,115,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,116,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-ANT-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,117,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,118,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,119,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,120,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,121,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,122,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-ANT-MY5/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,123,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,124,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,125,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,126,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,127,INC-OAI-ART/D2;INC-ANT-MY5/D2;INC-ANT-INT/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,128,INC-OAI-ART/D2;INC-ANT-MY5/D2;INC-AISI-MY5/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,129,INC-OAI-ART/D2;INC-ANT-MY5/D2;INC-AISI-SOL/D1,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,130,INC-OAI-ART/D2;INC-ANT-MY5/D2;INC-AISI-SOL/D2,43,2
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,131,INC-OAI-ART/D2;INC-ANT-INT/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,132,INC-OAI-ART/D2;INC-ANT-INT/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,133,INC-OAI-ART/D2;INC-ANT-INT/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,134,INC-OAI-ART/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,135,INC-OAI-ART/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,136,INC-OAI-ART/D2;INC-AISI-SOL/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,137,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-OP47/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,138,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,139,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,140,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,141,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,142,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,143,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,144,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,145,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,146,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,147,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,148,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,149,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,150,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,151,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,152,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,153,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,154,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,155,INC-OAI-HF/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,156,INC-OAI-HF/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,157,INC-OAI-HF/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,158,INC-OAI-HF/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,159,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,160,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,161,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,162,INC-OAI-HF/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,163,INC-OAI-HF/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,164,INC-OAI-HF/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,165,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,166,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,167,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,168,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,169,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,170,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,171,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,172,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,173,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,174,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,175,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,176,INC-ANT-OP46/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,177,INC-ANT-OP46/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,178,INC-ANT-OP46/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,179,INC-ANT-OP46/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,180,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,181,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,182,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,183,INC-ANT-OP46/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,184,INC-ANT-OP46/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,185,INC-ANT-OP46/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,186,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-ANT-MY5/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,187,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,188,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,189,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,190,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,191,INC-ANT-OP47/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,192,INC-ANT-OP47/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,193,INC-ANT-OP47/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,194,INC-ANT-OP47/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,195,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,196,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,197,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,198,INC-ANT-OP47/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,199,INC-ANT-OP47/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,200,INC-ANT-OP47/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,201,INC-ANT-MY5/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,202,INC-ANT-MY5/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,203,INC-ANT-MY5/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,204,INC-ANT-MY5/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,205,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,206,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,207,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,208,INC-ANT-MY5/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,209,INC-ANT-MY5/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,210,INC-ANT-MY5/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,211,INC-ANT-MY5/D2;INC-ANT-INT/D1;INC-AISI-MY5/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,212,INC-ANT-MY5/D2;INC-ANT-INT/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,213,INC-ANT-MY5/D2;INC-ANT-INT/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,214,INC-ANT-MY5/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D1,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,215,INC-ANT-MY5/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,216,INC-ANT-MY5/D2;INC-AISI-SOL/D1;INC-AISI-SOL/D2,41,4
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,217,INC-ANT-INT/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,218,INC-ANT-INT/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,219,INC-ANT-INT/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,both directions: flip any cell documented<->unknown,3,220,220,INC-AISI-MY5/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,1,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP46/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,2,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP47/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,3,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,4,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,5,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,6,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,7,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-OP47/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,8,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,9,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,10,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,11,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,12,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,13,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,14,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,15,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,16,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,17,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,18,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,19,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,20,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,21,INC-OAI-MAY/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,22,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-OP47/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,23,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,24,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,25,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,26,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,27,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,28,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,29,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,30,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,31,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,32,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,33,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,34,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,35,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,36,INC-OAI-HF/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,37,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,38,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,39,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,40,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,41,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,42,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,43,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,44,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,45,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,46,INC-ANT-OP46/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,47,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,48,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,49,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,50,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,51,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,52,INC-ANT-OP47/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,53,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,54,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,55,INC-ANT-MY5/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C2_D2_has_most_unknown,True,documented->unknown only: flip documented cells to unknown,3,56,56,INC-ANT-INT/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C3_all_gaps_in_D2,False,both directions: flip any cell documented<->unknown,1,1,1,INC-OAI-ART/D1,41,4
+C3_all_gaps_in_D2,False,documented->unknown only: flip documented cells to unknown,>4,0,,,,
+C4_D1_D3_D4_D5_documented_in_all_units,False,both directions: flip any cell documented<->unknown,1,1,1,INC-OAI-ART/D1,41,4
+C4_D1_D3_D4_D5_documented_in_all_units,False,documented->unknown only: flip documented cells to unknown,>4,0,,,,
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,1,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-OAI-ART/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,2,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-OAI-HF/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,3,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-OP46/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,4,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-OP47/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,5,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,6,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,7,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,8,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,9,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,10,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,11,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-OAI-HF/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,12,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-OP46/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,13,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-OP47/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,14,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,15,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,16,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,17,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,18,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,19,INC-OAI-MAY/D1;INC-OAI-ART/D2;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,20,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP46/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,21,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP47/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,22,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,23,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,24,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,25,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,26,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,27,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,28,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-OP47/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,29,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,30,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,31,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,32,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,33,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,34,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,35,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,36,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,37,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,38,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,39,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,40,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,41,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,42,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,43,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,44,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,45,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,46,INC-OAI-MAY/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,47,INC-OAI-MAY/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,48,INC-OAI-MAY/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,49,INC-OAI-MAY/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,50,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,51,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,52,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,53,INC-OAI-MAY/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,54,INC-OAI-MAY/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,55,INC-OAI-MAY/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,56,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-OAI-HF/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,57,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-OP46/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,58,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-OP47/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,59,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-MY5/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,60,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-MY5/D2,43,2
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,61,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-ANT-INT/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,62,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-AISI-MY5/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,63,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-AISI-SOL/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,64,INC-OAI-MAY/D2;INC-OAI-ART/D2;INC-AISI-SOL/D2,43,2
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,65,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-OP46/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,66,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-OP47/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,67,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,68,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,69,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,70,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,71,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,72,INC-OAI-MAY/D2;INC-OAI-HF/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,73,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-ANT-OP47/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,74,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-ANT-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,75,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,76,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,77,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,78,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,79,INC-OAI-MAY/D2;INC-ANT-OP46/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,80,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-ANT-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,81,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,82,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,83,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,84,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,85,INC-OAI-MAY/D2;INC-ANT-OP47/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,86,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,87,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,88,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,89,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,90,INC-OAI-MAY/D2;INC-ANT-MY5/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,91,INC-OAI-MAY/D2;INC-ANT-MY5/D2;INC-ANT-INT/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,92,INC-OAI-MAY/D2;INC-ANT-MY5/D2;INC-AISI-MY5/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,93,INC-OAI-MAY/D2;INC-ANT-MY5/D2;INC-AISI-SOL/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,94,INC-OAI-MAY/D2;INC-ANT-MY5/D2;INC-AISI-SOL/D2,43,2
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,95,INC-OAI-MAY/D2;INC-ANT-INT/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,96,INC-OAI-MAY/D2;INC-ANT-INT/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,97,INC-OAI-MAY/D2;INC-ANT-INT/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,98,INC-OAI-MAY/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,99,INC-OAI-MAY/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,100,INC-OAI-MAY/D2;INC-AISI-SOL/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,101,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-OP46/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,102,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-OP47/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,103,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,104,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,105,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,106,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,107,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,108,INC-OAI-ART/D2;INC-OAI-HF/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,109,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-ANT-OP47/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,110,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-ANT-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,111,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,112,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,113,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,114,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,115,INC-OAI-ART/D2;INC-ANT-OP46/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,116,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-ANT-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,117,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,118,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,119,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,120,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,121,INC-OAI-ART/D2;INC-ANT-OP47/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,122,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-ANT-MY5/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,123,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,124,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,125,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,126,INC-OAI-ART/D2;INC-ANT-MY5/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,127,INC-OAI-ART/D2;INC-ANT-MY5/D2;INC-ANT-INT/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,128,INC-OAI-ART/D2;INC-ANT-MY5/D2;INC-AISI-MY5/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,129,INC-OAI-ART/D2;INC-ANT-MY5/D2;INC-AISI-SOL/D1,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,130,INC-OAI-ART/D2;INC-ANT-MY5/D2;INC-AISI-SOL/D2,43,2
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,131,INC-OAI-ART/D2;INC-ANT-INT/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,132,INC-OAI-ART/D2;INC-ANT-INT/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,133,INC-OAI-ART/D2;INC-ANT-INT/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,134,INC-OAI-ART/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,135,INC-OAI-ART/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,136,INC-OAI-ART/D2;INC-AISI-SOL/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,137,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-OP47/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,138,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,139,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,140,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,141,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,142,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,143,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,144,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,145,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,146,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,147,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,148,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,149,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,150,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,151,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,152,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,153,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,154,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,155,INC-OAI-HF/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,156,INC-OAI-HF/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,157,INC-OAI-HF/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,158,INC-OAI-HF/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,159,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,160,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,161,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,162,INC-OAI-HF/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,163,INC-OAI-HF/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,164,INC-OAI-HF/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,165,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,166,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,167,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,168,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,169,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,170,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,171,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,172,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,173,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,174,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,175,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,176,INC-ANT-OP46/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,177,INC-ANT-OP46/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,178,INC-ANT-OP46/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,179,INC-ANT-OP46/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,180,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,181,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,182,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,183,INC-ANT-OP46/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,184,INC-ANT-OP46/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,185,INC-ANT-OP46/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,186,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-ANT-MY5/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,187,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,188,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,189,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,190,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,191,INC-ANT-OP47/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,192,INC-ANT-OP47/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,193,INC-ANT-OP47/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,194,INC-ANT-OP47/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,195,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,196,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,197,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,198,INC-ANT-OP47/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,199,INC-ANT-OP47/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,200,INC-ANT-OP47/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,201,INC-ANT-MY5/D1;INC-ANT-MY5/D2;INC-ANT-INT/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,202,INC-ANT-MY5/D1;INC-ANT-MY5/D2;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,203,INC-ANT-MY5/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,204,INC-ANT-MY5/D1;INC-ANT-MY5/D2;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,205,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,206,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,207,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,208,INC-ANT-MY5/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,209,INC-ANT-MY5/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,210,INC-ANT-MY5/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,211,INC-ANT-MY5/D2;INC-ANT-INT/D1;INC-AISI-MY5/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,212,INC-ANT-MY5/D2;INC-ANT-INT/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,213,INC-ANT-MY5/D2;INC-ANT-INT/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,214,INC-ANT-MY5/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D1,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,215,INC-ANT-MY5/D2;INC-AISI-MY5/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,216,INC-ANT-MY5/D2;INC-AISI-SOL/D1;INC-AISI-SOL/D2,41,4
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,217,INC-ANT-INT/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,218,INC-ANT-INT/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,219,INC-ANT-INT/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,both directions: flip any cell documented<->unknown,3,220,220,INC-AISI-MY5/D1;INC-AISI-SOL/D1;INC-AISI-SOL/D2,39,6
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,1,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP46/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,2,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP47/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,3,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,4,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,5,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,6,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,7,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-OP47/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,8,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,9,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,10,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,11,INC-OAI-MAY/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,12,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,13,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,14,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,15,INC-OAI-MAY/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,16,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,17,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,18,INC-OAI-MAY/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,19,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,20,INC-OAI-MAY/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,21,INC-OAI-MAY/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,22,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-OP47/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,23,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,24,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,25,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,26,INC-OAI-HF/D1;INC-ANT-OP46/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,27,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,28,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,29,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,30,INC-OAI-HF/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,31,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,32,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,33,INC-OAI-HF/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,34,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,35,INC-OAI-HF/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,36,INC-OAI-HF/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,37,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,38,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,39,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,40,INC-ANT-OP46/D1;INC-ANT-OP47/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,41,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,42,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,43,INC-ANT-OP46/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,44,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,45,INC-ANT-OP46/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,46,INC-ANT-OP46/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,47,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-ANT-INT/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,48,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,49,INC-ANT-OP47/D1;INC-ANT-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,50,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,51,INC-ANT-OP47/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,52,INC-ANT-OP47/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,53,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-MY5/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,54,INC-ANT-MY5/D1;INC-ANT-INT/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,55,INC-ANT-MY5/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C5_D2_least_documented_dimension,True,documented->unknown only: flip documented cells to unknown,3,56,56,INC-ANT-INT/D1;INC-AISI-MY5/D1;INC-AISI-SOL/D1,37,8
+C6_gaps_in_at_least_two_clusters,True,both directions: flip any cell documented<->unknown,2,1,1,INC-ANT-MY5/D2;INC-AISI-SOL/D2,42,3
+C6_gaps_in_at_least_two_clusters,True,documented->unknown only: flip documented cells to unknown,>4,0,,,,
+"weak-support scenario (sensitivity.py definition: support inferred, claim strength downgraded, or the 6 contested cells)",,all weak documented->unknown,6,,,INC-OAI-MAY/D4;INC-OAI-ART/D5;INC-ANT-OP46/D2;INC-ANT-INT/D2;INC-AISI-SOL/D4;INC-AISI-SOL/D5,34,11
+weak-support scenario: propositions changed,,,,,,none,,

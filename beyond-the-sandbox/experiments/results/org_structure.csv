@@ -1,0 +1,46 @@
+unit,cluster,unit_corpus_documents,unit_organisations,n_unit_organisations,cell,status,whole_support_orgs,n_whole_support_orgs,partial_support_orgs,n_partial_support_orgs,cell_could_meet_V2
+INC-OAI-MAY,OpenAI,R01;R02,OpenAI,1,INC-OAI-MAY/D1,documented,OpenAI,1,,0,False
+INC-OAI-MAY,OpenAI,R01;R02,OpenAI,1,INC-OAI-MAY/D2,unknown,,0,,0,False
+INC-OAI-MAY,OpenAI,R01;R02,OpenAI,1,INC-OAI-MAY/D3,documented,OpenAI,1,,0,False
+INC-OAI-MAY,OpenAI,R01;R02,OpenAI,1,INC-OAI-MAY/D4,documented,OpenAI,1,,0,False
+INC-OAI-MAY,OpenAI,R01;R02,OpenAI,1,INC-OAI-MAY/D5,documented,OpenAI,1,,0,False
+INC-OAI-ART,OpenAI,R02;R07,METR;OpenAI,2,INC-OAI-ART/D1,unknown,,0,,0,True
+INC-OAI-ART,OpenAI,R02;R07,METR;OpenAI,2,INC-OAI-ART/D2,unknown,,0,,0,True
+INC-OAI-ART,OpenAI,R02;R07,METR;OpenAI,2,INC-OAI-ART/D3,documented,OpenAI,1,,0,True
+INC-OAI-ART,OpenAI,R02;R07,METR;OpenAI,2,INC-OAI-ART/D4,documented,OpenAI,1,,0,True
+INC-OAI-ART,OpenAI,R02;R07,METR;OpenAI,2,INC-OAI-ART/D5,documented,OpenAI,1,,0,True
+INC-OAI-HF,OpenAI,R02;R03;R04;R07,Hugging Face;METR;OpenAI,3,INC-OAI-HF/D1,documented,OpenAI,1,,0,True
+INC-OAI-HF,OpenAI,R02;R03;R04;R07,Hugging Face;METR;OpenAI,3,INC-OAI-HF/D2,documented,METR,1,,0,True
+INC-OAI-HF,OpenAI,R02;R03;R04;R07,Hugging Face;METR;OpenAI,3,INC-OAI-HF/D3,documented,OpenAI,1,,0,True
+INC-OAI-HF,OpenAI,R02;R03;R04;R07,Hugging Face;METR;OpenAI,3,INC-OAI-HF/D4,documented,Hugging Face;OpenAI,2,,0,True
+INC-OAI-HF,OpenAI,R02;R03;R04;R07,Hugging Face;METR;OpenAI,3,INC-OAI-HF/D5,documented,Hugging Face,1,,0,True
+INC-ANT-OP46,Anthropic,R08,Anthropic,1,INC-ANT-OP46/D1,documented,Anthropic,1,,0,False
+INC-ANT-OP46,Anthropic,R08,Anthropic,1,INC-ANT-OP46/D2,documented,Anthropic,1,,0,False
+INC-ANT-OP46,Anthropic,R08,Anthropic,1,INC-ANT-OP46/D3,documented,Anthropic,1,,0,False
+INC-ANT-OP46,Anthropic,R08,Anthropic,1,INC-ANT-OP46/D4,documented,Anthropic,1,,0,False
+INC-ANT-OP46,Anthropic,R08,Anthropic,1,INC-ANT-OP46/D5,documented,Anthropic,1,,0,False
+INC-ANT-OP47,Anthropic,R08;R25,Anthropic,1,INC-ANT-OP47/D1,documented,Anthropic,1,,0,False
+INC-ANT-OP47,Anthropic,R08;R25,Anthropic,1,INC-ANT-OP47/D2,documented,Anthropic,1,,0,False
+INC-ANT-OP47,Anthropic,R08;R25,Anthropic,1,INC-ANT-OP47/D3,documented,Anthropic,1,,0,False
+INC-ANT-OP47,Anthropic,R08;R25,Anthropic,1,INC-ANT-OP47/D4,documented,Anthropic,1,,0,False
+INC-ANT-OP47,Anthropic,R08;R25,Anthropic,1,INC-ANT-OP47/D5,documented,Anthropic,1,,0,False
+INC-ANT-MY5,Anthropic,R08;R25,Anthropic,1,INC-ANT-MY5/D1,documented,Anthropic,1,,0,False
+INC-ANT-MY5,Anthropic,R08;R25,Anthropic,1,INC-ANT-MY5/D2,unknown,,0,,0,False
+INC-ANT-MY5,Anthropic,R08;R25,Anthropic,1,INC-ANT-MY5/D3,documented,Anthropic,1,,0,False
+INC-ANT-MY5,Anthropic,R08;R25,Anthropic,1,INC-ANT-MY5/D4,documented,Anthropic,1,,0,False
+INC-ANT-MY5,Anthropic,R08;R25,Anthropic,1,INC-ANT-MY5/D5,documented,Anthropic,1,,0,False
+INC-ANT-INT,Anthropic,R08;R25,Anthropic,1,INC-ANT-INT/D1,documented,Anthropic,1,,0,False
+INC-ANT-INT,Anthropic,R08;R25,Anthropic,1,INC-ANT-INT/D2,documented,Anthropic,1,,0,False
+INC-ANT-INT,Anthropic,R08;R25,Anthropic,1,INC-ANT-INT/D3,documented,Anthropic,1,,0,False
+INC-ANT-INT,Anthropic,R08;R25,Anthropic,1,INC-ANT-INT/D4,documented,Anthropic,1,,0,False
+INC-ANT-INT,Anthropic,R08;R25,Anthropic,1,INC-ANT-INT/D5,documented,Anthropic,1,,0,False
+INC-AISI-MY5,AISI,R10;R24;R26,Anthropic;UK AISI,2,INC-AISI-MY5/D1,documented,UK AISI,1,,0,True
+INC-AISI-MY5,AISI,R10;R24;R26,Anthropic;UK AISI,2,INC-AISI-MY5/D2,documented,Anthropic,1,,0,True
+INC-AISI-MY5,AISI,R10;R24;R26,Anthropic;UK AISI,2,INC-AISI-MY5/D3,documented,UK AISI,1,,0,True
+INC-AISI-MY5,AISI,R10;R24;R26,Anthropic;UK AISI,2,INC-AISI-MY5/D4,documented,UK AISI,1,,0,True
+INC-AISI-MY5,AISI,R10;R24;R26,Anthropic;UK AISI,2,INC-AISI-MY5/D5,documented,UK AISI,1,,0,True
+INC-AISI-SOL,AISI,R10;R24,UK AISI,1,INC-AISI-SOL/D1,documented,UK AISI,1,,0,False
+INC-AISI-SOL,AISI,R10;R24,UK AISI,1,INC-AISI-SOL/D2,unknown,,0,,0,False
+INC-AISI-SOL,AISI,R10;R24,UK AISI,1,INC-AISI-SOL/D3,documented,UK AISI,1,,0,False
+INC-AISI-SOL,AISI,R10;R24,UK AISI,1,INC-AISI-SOL/D4,documented,UK AISI,1,,0,False
+INC-AISI-SOL,AISI,R10;R24,UK AISI,1,INC-AISI-SOL/D5,documented,UK AISI,1,,0,False

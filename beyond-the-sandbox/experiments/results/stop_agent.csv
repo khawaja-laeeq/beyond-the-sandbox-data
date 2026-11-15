@@ -1,0 +1,28 @@
+variant,unit,d4_status,stop_category,basis,text
+V0,INC-OAI-MAY,documented,signal only,coded response_stage field,signal only (internal observation)
+V0,INC-OAI-ART,documented,operator halt,coded response_stage field,operator halt (after an alert that did not stop the run)
+V0,INC-OAI-HF,documented,affected party,coded response_stage field,affected-party detection and response; OpenAI informed Hugging Face and implemented initial containment (R02 I)
+V0,INC-ANT-OP46,documented,external technical,coded response_stage field,external stop (token budget; aborts failed)
+V0,INC-ANT-OP47,documented,external technical,coded response_stage field,external stop (target failed); retrospective detection
+V0,INC-ANT-MY5,documented,third party,coded response_stage field,third-party removal (PyPI); session timeout
+V0,INC-ANT-INT,documented,self,coded response_stage field,self-stop
+V0,INC-AISI-MY5,documented,operator halt,coded response_stage field,"operator halt (alert, all runs terminated)"
+V0,INC-AISI-SOL,documented,operator halt,coded response_stage field,"operator halt (alert, all runs terminated)"
+V1,INC-OAI-MAY,documented,signal only,coded response_stage field,signal only (internal observation)
+V1,INC-OAI-ART,documented,operator halt,coded response_stage field,operator halt (after an alert that did not stop the run)
+V1,INC-OAI-HF,documented,affected party,coded response_stage field,affected-party detection and response; OpenAI informed Hugging Face and implemented initial containment (R02 I)
+V1,INC-ANT-OP46,documented,external technical,coded response_stage field,external stop (token budget; aborts failed)
+V1,INC-ANT-OP47,documented,external technical,coded response_stage field,external stop (target failed); retrospective detection
+V1,INC-ANT-MY5,documented,third party,coded response_stage field,third-party removal (PyPI); session timeout
+V1,INC-ANT-INT,documented,self,coded response_stage field,self-stop
+V1,INC-AISI-MY5,documented,operator halt,coded response_stage field,"operator halt (alert, all runs terminated)"
+V1,INC-AISI-SOL,documented,operator halt,coded response_stage field,"operator halt (alert, all runs terminated)"
+V6,INC-OAI-MAY,unknown,(unknown: not counted),V11 status,No unit-level response chain established in examined excerpt
+V6,INC-OAI-ART,documented,not stated in V11 evidence,AI-read from V11 evidence,Security alert and continuing evaluation described by operator
+V6,INC-OAI-HF,documented,affected party,AI-read from V11 evidence,Affected-party disclosure preceded operator attribution
+V6,INC-ANT-OP46,documented,external technical,AI-read from V11 evidence,Attempted abort repeatedly; run ended on token budget
+V6,INC-ANT-OP47,unknown,(unknown: not counted),V11 status,No real-time incident alert and response established in cited section
+V6,INC-ANT-MY5,documented,third party,AI-read from V11 evidence,PyPI removed package within one hour; offline monitor replay not live detection
+V6,INC-ANT-INT,documented,self,AI-read from V11 evidence,Model recognized out of scope and stopped itself in observed transcript
+V6,INC-AISI-MY5,documented,operator halt,AI-read from V11 evidence,July 28 Tor alert; evaluation stopped and isolated within hour
+V6,INC-AISI-SOL,documented,operator halt,AI-read from V11 evidence,Same institutional Tor alert and response across evaluation

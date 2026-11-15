@@ -1,0 +1,6 @@
+rule,documented,unknown,documented_by_dim_D1-D5,unknown_by_dim_D1-D5,D2_documented_units,multi_reference_documented_cells,D2_has_most_unknowns,D5_L1/L2/L3
+S0 baseline (control),40,5,8/5/9/9/9,1/4/0/0/0,INC-AISI-MY5;INC-ANT-INT;INC-ANT-OP46;INC-ANT-OP47;INC-OAI-HF,,True,0/1/8
+D2 contemporaneous or mixed,38,7,8/3/9/9/9,1/6/0/0/0,INC-ANT-INT;INC-ANT-OP47;INC-OAI-HF,,True,0/1/8
+D2 strictly contemporaneous,37,8,8/2/9/9/9,1/7/0/0/0,INC-ANT-INT;INC-OAI-HF,,True,0/1/8
+Exclude developer-interpretation-only D2,40,5,8/5/9/9/9,1/4/0/0/0,INC-AISI-MY5;INC-ANT-INT;INC-ANT-OP46;INC-ANT-OP47;INC-OAI-HF,,True,0/1/8
+Retain multi-reference cells only,3,42,0/0/0/2/1,9/9/9/7/8,,INC-OAI-HF/D4;INC-ANT-OP47/D4;INC-ANT-OP47/D5,False,n/a (1 of 9 D5 cells documented; levels do not sum to nine)

@@ -1,0 +1,109 @@
+{
+ "derived_counts": {
+  "coding_file": "coded_evidence.csv",
+  "split_column": "support_type",
+  "cells": 45,
+  "documented": 40,
+  "unknown": 5,
+  "contradicted": 0,
+  "n_refs_1": 37,
+  "multi_source": 3,
+  "downgraded_single_source_unchecked": 0,
+  "direct": 40,
+  "inferred": 0,
+  "class_I_documented": 2,
+  "multi_source_and_not_inferred": 3
+ },
+ "discount_table": [
+  {
+   "conclusion": "D1: Technical access to external connectivity is documented (all 9 units)",
+   "cells": 9,
+   "documented_as_coded": 8,
+   "after_dropping_single_source": 0,
+   "after_dropping_class_I_interpretation": 8,
+   "after_dropping_inferred": 8,
+   "after_dropping_single_source_and_inferred": 0,
+   "changes": "yes"
+  },
+  {
+   "conclusion": "D2: Authorization interpretation is documented (all 9 units)",
+   "cells": 9,
+   "documented_as_coded": 5,
+   "after_dropping_single_source": 0,
+   "after_dropping_class_I_interpretation": 3,
+   "after_dropping_inferred": 5,
+   "after_dropping_single_source_and_inferred": 0,
+   "changes": "yes"
+  },
+  {
+   "conclusion": "D3: Out-of-scope external action is documented (all 9 units)",
+   "cells": 9,
+   "documented_as_coded": 9,
+   "after_dropping_single_source": 0,
+   "after_dropping_class_I_interpretation": 9,
+   "after_dropping_inferred": 9,
+   "after_dropping_single_source_and_inferred": 0,
+   "changes": "yes"
+  },
+  {
+   "conclusion": "D4: Detection/response is documented (all 9 units)",
+   "cells": 9,
+   "documented_as_coded": 9,
+   "after_dropping_single_source": 2,
+   "after_dropping_class_I_interpretation": 9,
+   "after_dropping_inferred": 9,
+   "after_dropping_single_source_and_inferred": 2,
+   "changes": "yes"
+  },
+  {
+   "conclusion": "D5: Confirmed real-world impact is documented (all 9 units)",
+   "cells": 9,
+   "documented_as_coded": 9,
+   "after_dropping_single_source": 1,
+   "after_dropping_class_I_interpretation": 9,
+   "after_dropping_inferred": 9,
+   "after_dropping_single_source_and_inferred": 1,
+   "changes": "yes"
+  },
+  {
+   "conclusion": "Cluster OpenAI: all documented cells",
+   "cells": 15,
+   "documented_as_coded": 12,
+   "after_dropping_single_source": 1,
+   "after_dropping_class_I_interpretation": 11,
+   "after_dropping_inferred": 12,
+   "after_dropping_single_source_and_inferred": 1,
+   "changes": "yes"
+  },
+  {
+   "conclusion": "Cluster Anthropic: all documented cells",
+   "cells": 20,
+   "documented_as_coded": 19,
+   "after_dropping_single_source": 2,
+   "after_dropping_class_I_interpretation": 19,
+   "after_dropping_inferred": 19,
+   "after_dropping_single_source_and_inferred": 2,
+   "changes": "yes"
+  },
+  {
+   "conclusion": "Cluster AISI: all documented cells",
+   "cells": 10,
+   "documented_as_coded": 9,
+   "after_dropping_single_source": 0,
+   "after_dropping_class_I_interpretation": 8,
+   "after_dropping_inferred": 9,
+   "after_dropping_single_source_and_inferred": 0,
+   "changes": "yes"
+  },
+  {
+   "conclusion": "All 45 cells",
+   "cells": 45,
+   "documented_as_coded": 40,
+   "after_dropping_single_source": 3,
+   "after_dropping_class_I_interpretation": 38,
+   "after_dropping_inferred": 40,
+   "after_dropping_single_source_and_inferred": 3,
+   "changes": "yes"
+  }
+ ]
+}

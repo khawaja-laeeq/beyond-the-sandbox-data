@@ -1,0 +1,27 @@
+{
+ "source_file": "results/external_concordance.csv",
+ "rule": "rows whose comparison column names 'Raftari §4.1' or 'Raftari §4.2' (OpenAI units)",
+ "n_rows": 10,
+ "counts": {
+  "match": 9,
+  "consistent (both silent)": 1
+ },
+ "rows": [
+  "INC-OAI-MAY D1: match",
+  "INC-OAI-MAY D4: match",
+  "INC-OAI-ART D1: consistent (both silent)",
+  "INC-OAI-ART D3: match",
+  "INC-OAI-ART D4: match",
+  "INC-OAI-ART D5: match",
+  "INC-OAI-HF D1: match",
+  "INC-OAI-HF D3: match",
+  "INC-OAI-HF D4: match",
+  "INC-OAI-HF D5: match on presence; detail differs"
+ ],
+ "other_raftari_rows_not_counted": [
+  "INC-ANT-INT D4 vs Raftari §5.1: match",
+  "INC-ANT-MY5 D3 vs Raftari §5.2: match",
+  "INC-ANT-OP47;INC-ANT-MY5;INC-ANT-INT D1 vs Raftari §5.1: not_comparable (cluster-level)"
+ ],
+ "caveat": "Raftari §§4.1-4.2 cites the same OpenAI report (R02) we code from; agreement is not independent validation."
+}

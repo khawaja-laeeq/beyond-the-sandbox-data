@@ -1,0 +1,54 @@
+analysis,cells,n_flips,documented,unknown,conclusions_changed,min_flips,note
+(a) single flip documented->unknown,INC-OAI-MAY/D1,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-MAY/D3,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-MAY/D4,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-MAY/D5,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-ART/D3,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-ART/D4,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-ART/D5,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-HF/D1,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-HF/D2,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-HF/D3,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-HF/D4,1,39,6,none,,
+(a) single flip documented->unknown,INC-OAI-HF/D5,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP46/D1,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP46/D2,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP46/D3,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP46/D4,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP46/D5,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP47/D1,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP47/D2,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP47/D3,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP47/D4,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-OP47/D5,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-MY5/D1,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-MY5/D3,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-MY5/D4,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-MY5/D5,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-INT/D1,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-INT/D2,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-INT/D3,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-INT/D4,1,39,6,none,,
+(a) single flip documented->unknown,INC-ANT-INT/D5,1,39,6,none,,
+(a) single flip documented->unknown,INC-AISI-MY5/D1,1,39,6,none,,
+(a) single flip documented->unknown,INC-AISI-MY5/D2,1,39,6,none,,
+(a) single flip documented->unknown,INC-AISI-MY5/D3,1,39,6,none,,
+(a) single flip documented->unknown,INC-AISI-MY5/D4,1,39,6,none,,
+(a) single flip documented->unknown,INC-AISI-MY5/D5,1,39,6,none,,
+(a) single flip documented->unknown,INC-AISI-SOL/D1,1,39,6,none,,
+(a) single flip documented->unknown,INC-AISI-SOL/D3,1,39,6,none,,
+(a) single flip documented->unknown,INC-AISI-SOL/D4,1,39,6,none,,
+(a) single flip documented->unknown,INC-AISI-SOL/D5,1,39,6,none,,
+(b) minimum flips to change C1_no_contradicted,,,,,none within 4 flips,>4,both directions; baseline truth value True
+(b) minimum flips to change C1_no_contradicted,,,,,none within 4 flips,>4,documented->unknown only; baseline truth value True
+(b) minimum flips to change C2_D2_has_most_unknown,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-OAI-ART/D2,3,,,C2_D2_has_most_unknown,3,both directions; baseline truth value True
+(b) minimum flips to change C2_D2_has_most_unknown,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP46/D1,3,,,C2_D2_has_most_unknown,3,documented->unknown only; baseline truth value True
+(b) minimum flips to change C3_all_gaps_in_D2,INC-OAI-ART/D1,1,,,C3_all_gaps_in_D2,1,both directions; baseline truth value False; false at baseline
+(b) minimum flips to change C3_all_gaps_in_D2,,,,,none within 4 flips,>4,documented->unknown only; baseline truth value False; false at baseline
+(b) minimum flips to change C4_D1_D3_D4_D5_documented_in_all_units,INC-OAI-ART/D1,1,,,C4_D1_D3_D4_D5_documented_in_all_units,1,both directions; baseline truth value False; false at baseline
+(b) minimum flips to change C4_D1_D3_D4_D5_documented_in_all_units,,,,,none within 4 flips,>4,documented->unknown only; baseline truth value False; false at baseline
+(b) minimum flips to change C5_D2_least_documented_dimension,INC-OAI-MAY/D1;INC-OAI-MAY/D2;INC-OAI-ART/D2,3,,,C5_D2_least_documented_dimension,3,both directions; baseline truth value True
+(b) minimum flips to change C5_D2_least_documented_dimension,INC-OAI-MAY/D1;INC-OAI-HF/D1;INC-ANT-OP46/D1,3,,,C5_D2_least_documented_dimension,3,documented->unknown only; baseline truth value True
+(b) minimum flips to change C6_gaps_in_at_least_two_clusters,INC-ANT-MY5/D2;INC-AISI-SOL/D2,2,,,C6_gaps_in_at_least_two_clusters,2,both directions; baseline truth value True
+(b) minimum flips to change C6_gaps_in_at_least_two_clusters,,,,,none within 4 flips,>4,documented->unknown only; baseline truth value True
+(b) note,,,,,,,C1 (no contradicted) cannot change by documented<->unknown flips; it needs a cell recoded contradicted. Search is exhaustive up to 4 flips; '>4' = no combination of that size changes the conclusion.

@@ -1,0 +1,121 @@
+{
+ "V0": {
+  "n_D4": 9,
+  "H1": {
+   "affected party": 1,
+   "external technical": 2,
+   "operator halt": 3,
+   "self": 1,
+   "signal only (no stop)": 1,
+   "third party": 1
+  },
+  "H1_units": {
+   "INC-OAI-MAY": "signal only (no stop)",
+   "INC-OAI-ART": "operator halt",
+   "INC-OAI-HF": "affected party",
+   "INC-ANT-OP46": "external technical",
+   "INC-ANT-OP47": "external technical",
+   "INC-ANT-MY5": "third party",
+   "INC-ANT-INT": "self",
+   "INC-AISI-MY5": "operator halt",
+   "INC-AISI-SOL": "operator halt"
+  },
+  "n_D2": 5,
+  "direction": {
+   "in": 4,
+   "out": 1
+  },
+  "elicitation": {
+   "contemporaneous": 2,
+   "mixed": 1,
+   "post-hoc follow-up question": 2
+  },
+  "evidence_type": {
+   "reported model answer": 4,
+   "verbatim model statement": 1
+  },
+  "contested": {
+   "no": 2,
+   "yes": 3
+  },
+  "D2_units": [
+   "INC-OAI-HF",
+   "INC-ANT-OP46",
+   "INC-ANT-OP47",
+   "INC-ANT-INT",
+   "INC-AISI-MY5"
+  ]
+ },
+ "V1": {
+  "n_D4": 9,
+  "H1": {
+   "affected party": 1,
+   "external technical": 2,
+   "operator halt": 3,
+   "self": 1,
+   "signal only (no stop)": 1,
+   "third party": 1
+  },
+  "H1_units": {
+   "INC-OAI-MAY": "signal only (no stop)",
+   "INC-OAI-ART": "operator halt",
+   "INC-OAI-HF": "affected party",
+   "INC-ANT-OP46": "external technical",
+   "INC-ANT-OP47": "external technical",
+   "INC-ANT-MY5": "third party",
+   "INC-ANT-INT": "self",
+   "INC-AISI-MY5": "operator halt",
+   "INC-AISI-SOL": "operator halt"
+  },
+  "n_D2": 1,
+  "direction": {
+   "out": 1
+  },
+  "elicitation": {
+   "contemporaneous": 1
+  },
+  "evidence_type": {
+   "verbatim model statement": 1
+  },
+  "contested": {
+   "yes": 1
+  },
+  "D2_units": [
+   "INC-OAI-HF"
+  ]
+ },
+ "V6": {
+  "D4_documented": [
+   "INC-OAI-ART",
+   "INC-OAI-HF",
+   "INC-ANT-OP46",
+   "INC-ANT-MY5",
+   "INC-ANT-INT",
+   "INC-AISI-MY5",
+   "INC-AISI-SOL"
+  ],
+  "D2_documented": [
+   "INC-OAI-ART",
+   "INC-OAI-HF",
+   "INC-ANT-OP46",
+   "INC-ANT-OP47",
+   "INC-ANT-INT"
+  ],
+  "D2_evidence": {
+   "INC-OAI-ART": "Agents coordinated toward scorer manipulation",
+   "INC-OAI-HF": "METR interprets attacks as scorer investigation",
+   "INC-ANT-OP46": "Model believed external target part of CTF",
+   "INC-ANT-OP47": "Recognized real target but assumed authorized",
+   "INC-ANT-INT": "Assumed simulated replica, later recognized real company"
+  },
+  "D4_evidence": {
+   "INC-OAI-ART": "Security alert and continuing evaluation described by operator",
+   "INC-OAI-HF": "Affected-party disclosure preceded operator attribution",
+   "INC-ANT-OP46": "Attempted abort repeatedly; run ended on token budget",
+   "INC-ANT-MY5": "PyPI removed package within one hour; offline monitor replay not live detection",
+   "INC-ANT-INT": "Model recognized out of scope and stopped itself in observed transcript",
+   "INC-AISI-MY5": "July 28 Tor alert; evaluation stopped and isolated within hour",
+   "INC-AISI-SOL": "Same institutional Tor alert and response across evaluation"
+  }
+ }
+}

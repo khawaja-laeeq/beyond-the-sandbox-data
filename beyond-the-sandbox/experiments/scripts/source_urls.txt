@@ -1,0 +1,22 @@
+# key url  (N* = research/new_sources.jsonl entries in file order; R* = ledger)
+N1 https://incidentdatabase.ai/cite/1604
+N2 https://incidentdatabase.ai/cite/1627
+N3 https://incidentdatabase.ai/cite/1628
+N4 https://incidentdatabase.ai/cite/1633
+N5 https://incidentdatabase.ai/cite/1649
+N6 https://arxiv.org/abs/2605.11086
+N7 https://irregular.com/research/cyscenariobench
+N8 https://www.cve.org/CVERecord?id=CVE-2026-42018
+N9 https://www.cve.org/CVERecord?id=CVE-2026-42016
+N8b https://cveawg.mitre.org/api/cve/CVE-2026-42018
+N9b https://cveawg.mitre.org/api/cve/CVE-2026-42016
+R01 https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+R02 https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
+R03 https://raw.githubusercontent.com/huggingface/blog/main/security-incident-july-2026.md
+R04 https://huggingface.co/blog/agent-intrusion-technical-timeline
+R05 https://openai.com/hugging-face-incident-and-misalignment/
+R06 https://www.sentinelone.com/labs/agents-at-large-tracing-illicit-openai-agent-activity-on-hugging-face/
+R07 https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+R08 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+R09 https://www.anthropic.com/research/investigating-unintended-model-actions
+R10 https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing

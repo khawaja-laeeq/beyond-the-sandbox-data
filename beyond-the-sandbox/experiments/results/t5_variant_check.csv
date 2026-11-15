@@ -1,0 +1,5 @@
+variant,documented,unknown,D1_doc/unk,D2_doc/unk,D3_doc/unk,D4_doc/unk,D5_doc/unk,a_D2_most_unknowns,b_D3_D4_9of9,c_D1_8of1,d_V2_1of45_HF_D4,documented_cells_if_le3
+V0,40,5,8/1,5/4,9/0,9/0,9/0,holds,holds,holds,n/a,
+V1,36,9,8/1,1/8,9/0,9/0,9/0,holds,holds,holds,n/a,
+V6,37,8,9/0,5/4,9/0,7/2,7/2,holds,fails,fails,n/a,
+V2,1,44,0/9,0/9,0/9,1/8,0/9,fails,fails,fails,holds,INC-OAI-HF/D4

@@ -1,0 +1,9 @@
+{
+ "version": "1.0",
+ "frozen": "2026-11-09",
+ "reason": "Scope change in brief.md: frozen codebook for the expanded corpus; frozen 45-cell case study",
+ "files": {
+  "codebook_v1.0.csv": "b588e6e255fa0c20321ccc9edc59a0f440c82d0bf8b0ea8c1bc0df4cf570727d",
+  "coded_evidence_case_study_v1.0.csv": "972dcdd57208ca1eed19be2cff16445881323622ee41180200ecf22718e9b024"
+ }
+}
