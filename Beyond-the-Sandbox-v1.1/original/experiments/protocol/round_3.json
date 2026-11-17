@@ -1,0 +1,81 @@
+{
+ "timestamp": "2026-11-02T21:19:00Z",
+ "study_type": "documentary",
+ "pass": false,
+ "failures": [
+  "Agreement with the second coder is low (Cohen's kappa 0.54 on 45 codes)."
+ ],
+ "warnings": [
+  "Sources without a link: R18 (reviewers can't check them).",
+  "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42.",
+  "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429).",
+  "The second coder is an AI model (codex): report this agreement as AI-assisted second coding, never as an independent human coder."
+ ],
+ "files": [
+  "codebook.csv",
+  "units.csv",
+  "coded_evidence.csv",
+  "sources.csv"
+ ],
+ "tallies": {
+  "units": 9,
+  "dimensions": 5,
+  "decisions": 45,
+  "sources": 42,
+  "by_status": {
+   "documented": 43,
+   "unknown": 2
+  },
+  "by_dimension": {
+   "D1": {
+    "documented": 9
+   },
+   "D2": {
+    "unknown": 2,
+    "documented": 7
+   },
+   "D3": {
+    "documented": 9
+   },
+   "D4": {
+    "documented": 9
+   },
+   "D5": {
+    "documented": 9
+   }
+  },
+  "by_cluster": {
+   "OpenAI": {
+    "documented": 14,
+    "unknown": 1
+   },
+   "Anthropic": {
+    "documented": 20
+   },
+   "AISI": {
+    "documented": 9,
+    "unknown": 1
+   }
+  },
+  "second_coder": {
+   "n": 45,
+   "kappa": 0.542,
+   "agreement": 0.933,
+   "coder": "codex",
+   "coder_kind": "AI model (codex)",
+   "units_with_source_text": 9,
+   "sources_without_text": [
+    "R01",
+    "R24"
+   ]
+  },
+  "changed_from_baseline": [
+   "INC-OAI-MAY/D4 unknown->documented",
+   "INC-OAI-MAY/D5 unknown->documented",
+   "INC-ANT-OP47/D4 unknown->documented",
+   "INC-AISI-MY5/D2 unknown->documented",
+   "INC-AISI-SOL/D5 unknown->documented"
+  ]
+ },
+ "reproduced": null
+}

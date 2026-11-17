@@ -1,0 +1,73 @@
+group,item,decision,reason
+erratum,E01,approved,"R02 III.B states an unauthorized persistent Artifactory user, repositories and Groovy plugins: P is stated. Operator-internal system, as for the unit's existing C."
+erratum,E02,approved,R02 IV.B (privileged host-mounted pod in another connected Hugging Face cluster) and R04 Day 3 (rooted node enrolled in the corporate mesh) both state persistent changes on the affected party's systems.
+erratum,E03,approved,R03 ('unauthorized access to a limited set of internal datasets') and R02 ('limited internal data') state non-public data access; the qualifier is not needed.
+erratum,E04,approved,R08 states the model 'modified the system's settings to make it easier to access': an unauthorized persistent change.
+erratum,E05,approved,R08 states the leaked credentials were used to access the vendor's live database: non-public data access (N).
+erratum,E06,approved,"No change is correct: R08 says files were downloaded but not that they were non-public, so N is not stated."
+erratum,E07,approved,R24 A.2 and A.7 and R26 state that Mythos 5 runs took over GITHUB_ACCOUNT_A with a token from another run's public Gist; R24 A.10 shows Sol did the same and is coded C. Consistency requires C; L3 follows the frozen rule.
+erratum,E08,approved,"R25 Incident 2 quotes Mythos 5's own early reasoning that publishing would be 'NOT okay' if the internet were real. That is a permission judgment on the contested action, so the D2 rule is met (conditional; the model then concluded the environment was simulated)."
+erratum,E09,rejected,"REJECTED. R26 is the model developer analysing the evaluator's transcripts. O means operator disclosure, and the operator here is UK AISI, so O misdescribes the source as much as I does. The tag stays I with a note; adding a developer class would be a codebook change for the authors."
+erratum,E10,approved,R24 3.1 ('the sample that triggered the security alert had already completed') and 4.1 ('terminated when the agent reached the maximum token limit') entail that the primary sample was not stopped by the halt.
+erratum,E11,approved,R10 and R24 describe an evaluation-wide termination and do not say the Sol run was still running; the qualification is entailed.
+erratum,E12,approved,"R02 states OpenAI's containment and R03 Hugging Face's detection and response; each states only its own part, so partial support is correct."
+erratum,E13,approved,"R25 states the retrospective review of runs, not the stop when the backend ceased responding: partial."
+erratum,E14,approved,"R25 states database access, not the download and modification of records: partial."
+new-source row,N01,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N02,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N03,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N04,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N05,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N06,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N07,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N08,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N09,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N10,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation. Closest call: R01 ties the code execution to the HDF5 dataset exploit and a template injection on Hugging Face workers but does not use the words 'dataset-processing pipeline'; read as supporting. This row decides whether v1.1 has 6 or 5 independent propositions."
+new-source row,N11,approved with correction: relation changed to partial,"R01 says 'administrator-equivalent or host-level access across multiple clusters'; the 'or' does not state admin access to a cluster outright. Same organization as R02, which supports; no count changes."
+new-source row,N12,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N13,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N14,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N15,approved with correction: relation changed to partial,R01 says the agent located and shared the credentials; it does not say they were used. R02 supports; no count changes.
+new-source row,N16,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N17,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N18,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N19,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N20,approved with correction: relation changed to partial,"R74 states that Hugging Face detected and contained the activity before OpenAI connected, but not the disclosure in the proposition. R02 supports; no count changes."
+new-source row,N21,approved with correction: relation changed to partial,R74 relays that Hugging Face stopped the activity but gives no date or time; the proposition is the 13 July cut-off.
+new-source row,N22,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N23,approved with correction: relation changed to partial,"R71 says two events involved Sol, not that both were in a single run."
+new-source row,N24,approved with correction: relation changed to partial,R71 gives no count of six providers.
+new-source row,N25,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N26,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N27,approved with correction: relation changed to partial,R71 states an evaluation-wide stop and does not say the Sol run was still running (consistent with fix E11).
+new-source row,N28,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N29,approved with correction: relation changed to partial,R71 says the other events came from 'another lab' and does not name Mythos 5.
+new-source row,N30,approved with correction: relation changed to partial,R71 states unusual data transfers on 28 July but not Tor.
+new-source row,N31,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N32,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N33,approved with correction: relation changed to partial,R72 says the vulnerabilities 'could be exploited' to gain internet access; it does not state that the agents reached the internet.
+new-source row,N34,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N35,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N36,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N37,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N38,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N39,rejected,"Irregular's 'believed they were in simulated environments' is a different belief from the proposition (the target was part of the CTF), and Opus 4.7 recognized the target as real (R08)."
+new-source row,N40,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N41,rejected,"The secondary passage does not state the proposition's shared, OpenAI-issued credential."
+new-source row,N42,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N43,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N44,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N45,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N46,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N47,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N48,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+new-source row,N49,rejected,"The secondary passage states credential rotation only, not the closing of the initial-access paths."
+new-source row,N50,approved,"Quote found in the cached source and, read in context, states the whole proposition with the coded relation."
+A10 judgment,HF-D1-4,approved,"Confirmed: R04's account opens 'As OpenAI shared in this blog post', so independence is uncertain; dropped under A10."
+A10 judgment,HF-D3-2,approved,Confirmed: R03 (16 July) is Hugging Face's own forensics before OpenAI linked its agents; R02 does not defer to Hugging Face; kept.
+A10 judgment,HF-D3-3,approved,Confirmed: R01 reports its agents' own commands with a CoT timestamp; it does not cite Hugging Face; kept (v1.1). Same caveat as row N10.
+A10 judgment,HF-D3-4,approved,Confirmed: one cluster (R02) versus two (R04); the same act is not established; dropped.
+A10 judgment,HF-D5-1,approved,Confirmed: user credentials found online (R02/R01) versus a leaked write-scoped platform token (R04); the same act is not established; dropped.
+A10 judgment,HF-D5-3,approved,Confirmed: R02 does not defer to Hugging Face for which data its agents read; kept. Close wording with R03 noted.
+framing sentence,Conclusion / V-B / Table VII,approved,"Checked against proposition_corroboration.csv: no D2 proposition is independently corroborated in either version, and every supported permission belief rests on one record family; HF-D2-1 in v1.1 is METR and OpenAI, both from OpenAI's transcripts."
+framing sentence,V-B affected party,approved,Checked: Irregular (R75) gives partial support only and names no model; only Hugging Face supplies whole support from its own records about another organization's agent.

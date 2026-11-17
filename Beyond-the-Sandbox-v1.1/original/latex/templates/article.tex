@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+% Generic anonymous workshop template (1-inch margins, natbib author-year). To use a venue's own
+% style, put its .sty next to this file and set LATEX_TEMPLATE in config.sh to your template path.
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,booktabs,array,url,xcolor}
+\usepackage[round]{natbib}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{../}}
+\title{$title$}
+\author{Anonymous Authors}
+\date{}
+\begin{document}
+\maketitle
+$abstract$
+$body$
+
+\section*{Disclosure of AI use}
+This paper was planned, researched, run and written by an automated multi-agent system built on large
+language models (Claude Code, Codex, Antigravity). Every cited work was checked against scholarly databases, every
+reported number was reproduced by re-running the experiment code, and the draft was scored by three
+independent model reviewers before release. Code, data provenance and logs are available on request.
+\clearpage\phantomsection\label{refsstart}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\label{lastpage}
+\end{document}

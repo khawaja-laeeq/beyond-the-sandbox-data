@@ -1,0 +1,275 @@
+{
+ "version": "1.1",
+ "built": "from v1.0 plus analysis/erratum_v1.1.csv by analysis/src/build_matrix_v1_1.py",
+ "status": "provisional: every fix is AI-assisted and pending human approval unless marked approved",
+ "v1.0_sha256": "972dcdd57208ca1eed19be2cff16445881323622ee41180200ecf22718e9b024",
+ "v1.1_sha256": "41ba11962b14155f540b21742bde493d2c1c3a20f878e93aa0b0be731183257f",
+ "fixes_applied": [
+  "E01",
+  "E02",
+  "E03",
+  "E04",
+  "E05",
+  "E07",
+  "E08",
+  "E09",
+  "E10",
+  "E11",
+  "E12",
+  "E13",
+  "E14"
+ ],
+ "fixes_rejected": [],
+ "fixes_no_change": [
+  "E06"
+ ]
+}
+exit=0  analysis/src/build_matrix_v1_1.py
+== v1.0 propositions=138 supported=129 two-org=22 independent=5 (A10 2)
+   A1 strict independent corroboration                            n=138  sup=128  2org=19  indep=5  
+   A2 cross-organization agreement (no independence requirement)  n=138  sup=129  2org=22  indep=8  
+   A3 cross-organization incl. repeated reporting                 n=138  sup=129  2org=27  indep=8  
+   A4 single-source documentary support                           n=138  sup=129  2org=22  indep=8  
+   A5 exclude post-hoc model statements                           n=138  sup=126  2org=22  indep=8  
+   A6 contemporaneous evidence only for attributed beliefs        n=138  sup=121  2org=21  indep=7  
+   A7 exclude sources with unverified attribution (R06 timestamp  n=138  sup=128  2org=19  indep=5  
+   A8 exclude low-confidence decompositions                       n=135  sup=127  2org=22  indep=8  
+   A9 core propositions only (restating frozen claims)            n=71   sup=65   2org=9   indep=3  
+   A10 stricter independence (same act; independence not uncertai n=138  sup=128  2org=19  indep=2  
+   W1 attached references, stored partial-support data            n=45   sup=40   2org=1   indep=0  
+   W2 attached references with the first version's in-text partia n=45   sup=40   2org=0   indep=0  
+   W3 whole-cell, full accessible corpus (not only attached refer n=45   sup=40   2org=3   indep=0  
+   W4 whole-cell, full corpus, relays counted                     n=45   sup=40   2org=5   indep=0  
+== v1.1 propositions=138 supported=130 two-org=24 independent=6 (A10 3)
+   A1 strict independent corroboration                            n=138  sup=129  2org=21  indep=6  
+   A2 cross-organization agreement (no independence requirement)  n=138  sup=130  2org=24  indep=9  
+   A3 cross-organization incl. repeated reporting                 n=138  sup=130  2org=38  indep=9  
+   A4 single-source documentary support                           n=138  sup=130  2org=24  indep=9  
+   A5 exclude post-hoc model statements                           n=138  sup=127  2org=24  indep=9  
+   A6 contemporaneous evidence only for attributed beliefs        n=138  sup=122  2org=23  indep=8  
+   A7 exclude sources with unverified attribution (R06 timestamp  n=138  sup=129  2org=21  indep=6  
+   A8 exclude low-confidence decompositions                       n=135  sup=127  2org=24  indep=9  
+   A9 core propositions only (restating frozen claims)            n=79   sup=74   2org=12  indep=4  
+   A10 stricter independence (same act; independence not uncertai n=138  sup=129  2org=21  indep=3  
+   W1 attached references, stored partial-support data            n=45   sup=41   2org=0   indep=0  
+   W2 attached references with the first version's in-text partia n=45   sup=41   2org=0   indep=0  
+   W3 whole-cell, full accessible corpus (not only attached refer n=45   sup=41   2org=2   indep=0  
+   W4 whole-cell, full corpus, relays counted                     n=45   sup=41   2org=8   indep=0  
+exit=0  analysis/src/build_analysis.py
+S0                                 v1.0=[40, 5]                                  v1.1=[41, 4]
+S0_documented_by_dim               v1.0={"D1": 8, "D2": 5, "D3": 9, "D4": 9, "D5 v1.1={"D1": 8, "D2": 6, "D3": 9, "D4": 9, "D5": 9}
+S0_unknown_by_dim                  v1.0={"D1": 1, "D2": 4, "D3": 0, "D4": 0, "D5 v1.1={"D1": 1, "D2": 3, "D3": 0, "D4": 0, "D5": 0}
+unknown_cells                      v1.0=["INC-AISI-SOL/D2", "INC-ANT-MY5/D2", "I v1.1=["INC-AISI-SOL/D2", "INC-OAI-ART/D1", "INC-OAI-ART/D2", "INC-OAI-MAY/D2"]
+S1                                 v1.0=[36, 9]                                  v1.1=[37, 8]
+S2_stored                          v1.0=[1, 44]                                  v1.1=[0, 45]
+S2_cells_stored                    v1.0=["INC-OAI-HF/D4"]                        v1.1=[]
+S3_in_text                         v1.0=[39, 6]                                  v1.1=[40, 5]
+S4                                 v1.0=[39, 6]                                  v1.1=[40, 5]
+S5                                 v1.0=[39, 6]                                  v1.1=[40, 5]
+S7                                 v1.0=[38, 7]                                  v1.1=[39, 6]
+S8                                 v1.0=[37, 8]                                  v1.1=[38, 7]
+S9                                 v1.0=[3, 42]                                  v1.1=[5, 40]
+documented_single_reference        v1.0=37                                       v1.1=36
+concentration                      v1.0={"R08": [19, 17], "R02": [10, 9], "R10": v1.1={"R08": [20, 17], "R02": [10, 9], "R10": [7, 6]}
+LOO_in_text                        v1.0={"R08": 21, "R02": 30, "R10": 33}        v1.1={"R08": 22, "R02": 31, "R10": 35}
+LOO_stored                         v1.0={"R08": 23, "R02": 31, "R10": 33}        v1.1={"R08": 22, "R02": 31, "R10": 35}
+D2_evidence_types                  v1.0={"verbatim model statement": 1, "reporte v1.1={"verbatim model statement": 1, "reported model answer": 4, "verbatim model stat
+D2_verbatim_contemporaneous_cells  v1.0=["INC-OAI-HF/D2"]                        v1.1=["INC-ANT-MY5/D2", "INC-OAI-HF/D2"]
+D4_mechanisms                      v1.0={"Signal only": 1, "Operator halt": 3, " v1.1={"Signal only": 1, "Operator halt": 2, "Affected party": 1, "External technical"
+D4_mechanism_qualified             v1.0=[]                                       v1.1=["INC-AISI-SOL"]
+D5_branch_units                    v1.0={"C": 7, "N": 3, "P": 4}                 v1.1={"C": 8, "N": 4, "P": 7}
+D5_effect_levels                   v1.0={"L3": 8, "L2": 1}                       v1.1={"L3": 9}
+evidence_class_counts              v1.0={"O": 39, "I": 4, "A": 2}                v1.1={"O": 40, "I": 3, "A": 2}
+exit=0  analysis/src/cell_recount.py
+185 differences: {'matrix cell field': 19, 'cell-level measure': 33, 'proposition-level measure': 42, 'sensitivity rule': 50, 'proposition': 36, 'D5 branch (Table III)': 5}
+exit=0  analysis/src/make_comparison.py
+wrote prior_work_comparison.csv (10 rows), sources_missing_from_ledger.csv (3 rows)
+exit=0  analysis/src/prior_work.py
+wrote D:\khawa\Downloads\rev-v1.1\Beyond-the-Sandbox-Revised\analysis\fig_proposition_support_by_unit.png
+exit=0  analysis/src/make_figures.py
+numbers checked: 369 {'ok': 369} -> D:\khawa\Downloads\rev-v1.1\Beyond-the-Sandbox-Revised\analysis\number_check_report.csv
+exit=0  analysis/src/check_numbers.py
+wrote HUMAN_REVIEW_PACKET.md (268 lines)
+exit=0  analysis/src/make_review_packet.py
+S0                                            published=(40, 5)                      recomputed=(40, 5)                      MATCH
+S1                                            published=(36, 9)                      recomputed=(36, 9)                      MATCH
+S2_manuscript_partial                         published=(0, 45)                      recomputed=(0, 45)                      MATCH
+S3_manuscript_partial                         published=(39, 6)                      recomputed=(39, 6)                      MATCH
+S4                                            published=(39, 6)                      recomputed=(39, 6)                      MATCH
+S5                                            published=(39, 6)                      recomputed=(39, 6)                      MATCH
+S6                                            published=(37, 8)                      recomputed=(37, 8)                      MATCH
+S7                                            published=(38, 7)                      recomputed=(38, 7)                      MATCH
+S8                                            published=(37, 8)                      recomputed=(37, 8)                      MATCH
+S9                                            published=(3, 42)                      recomputed=(3, 42)                      MATCH
+documented_single_reference                   published=37                           recomputed=37                           MATCH
+LOSO_manuscript_rule:R08                      published=21                           recomputed=21                           MATCH
+LOSO_manuscript_rule:R02                      published=30                           recomputed=30                           MATCH
+LOSO_manuscript_rule:R10                      published=33                           recomputed=33                           MATCH
+concentration:R08                             published=(19, 17)                     recomputed=(19, 17)                     MATCH
+concentration:R02                             published=(10, 9)                      recomputed=(10, 9)                      MATCH
+concentration:R10                             published=(7, 7)                       recomputed=(7, 7)                       MATCH
+D4_mechanisms:operator halt                   published=3                            recomputed=3                            MATCH
+D4_mechanisms:external technical              published=2                            recomputed=2                            MATCH
+D4_mechanisms:third-party removal             published=1                            recomputed=1                            MATCH
+D4_mechanisms:affected-party response         published=1                            recomputed=1                            MATCH
+D4_mechanisms:self-stop                       published=1                            recomputed=1                            MATCH
+D4_mechanisms:signal only                     published=1                            recomputed=1                            MATCH
+D5_branch_units:C                             published=7                            recomputed=7                            MATCH
+D5_branch_units:P                             published=4                            recomputed=4                            MATCH
+D5_branch_units:N                             published=2                            recomputed=3                            DIFF
+{
+ "cells": 45,
+ "S0": [
+  40,
+  5
+ ],
+ "S0_documented_by_dim": "8/5/9/9/9",
+ "S0_unknown_by_dim": "1/4/0/0/0",
+ "contradicted": 0,
+ "S1": [
+  36,
+  9
+ ],
+ "S2_stored_partial": [
+  1,
+  44
+ ],
+ "S2_manuscript_partial": [
+  0,
+  45
+ ],
+ "S2_cells_stored": [
+  "INC-OAI-HF/D4"
+ ],
+ "S3_stored_partial": [
+  40,
+  5
+ ],
+ "S3_manuscript_partial": [
+  39,
+  6
+ ],
+ "S4": [
+  39,
+  6
+ ],
+ "S5": [
+  39,
+  6
+ ],
+ "S7": [
+  38,
+  7
+ ],
+ "S8": [
+  37,
+  8
+ ],
+ "S9": [
+  3,
+  42
+ ],
+ "S6": [
+  37,
+  8
+ ],
+ "V11_initial": [
+  38,
+  7
+ ],
+ "documented_single_reference": 37,
+ "concentration": {
+  "R02": [
+   10,
+   9
+  ],
+  "R03": [
+   1,
+   0
+  ],
+  "R04": [
+   1,
+   1
+  ],
+  "R07": [
+   1,
+   1
+  ],
+  "R08": [
+   19,
+   17
+  ],
+  "R10": [
+   7,
+   7
+  ],
+  "R24": [
+   1,
+   1
+  ],
+  "R25": [
+   2,
+   0
+  ],
+  "R26": [
+   1,
+   1
+  ]
+ },
+ "units_with_2plus_orgs_in_unit_refs": [
+  "INC-AISI-MY5",
+  "INC-OAI-ART",
+  "INC-OAI-HF"
+ ],
+ "LOSO_any_ref_survives": {
+  "R08": 23,
+  "R02": 31,
+  "R10": 33
+ },
+ "LOSO_manuscript_rule": {
+  "R08": 21,
+  "R02": 30,
+  "R10": 33,
+  "R03": 39,
+  "R04": 39,
+  "R07": 39,
+  "R24": 39,
+  "R26": 39
+ },
+ "D2_evidence_types": {
+  "verbatim model statement": 1,
+  "reported model answer": 4
+ },
+ "D4_mechanisms": {
+  "signal only": 1,
+  "operator halt": 3,
+  "affected-party response": 1,
+  "external technical": 2,
+  "third-party removal": 1,
+  "self-stop": 1
+ },
+ "D5_branch_units": {
+  "C": 7,
+  "P": 4,
+  "N": 3
+ },
+ "revised": {
+  "propositions": 138,
+  "supported_any": 130,
+  "unknown_no_support_row": 6,
+  "with_counterevidence": 3,
+  "two_org_agreement": 24,
+  "independent": 6,
+  "relay_only_second_org": 15
+ },
+ "revised_disagreements": 14,
+ "revised_quote_rows": 233
+}
+exit=0  reproducibility/independent_verify.py --json reproducibility/independent_verify_results.json
+audited cells: 22 | passages found: 22
+status agreement: 21 of 22
+sources: 70 | cache text: 57 | garbled: 5 | none: 8
+random cells: ['INC-ANT-INT/D3', 'INC-OAI-MAY/D3', 'INC-ANT-OP46/D4']
+exit=0  reproducibility/evidence_audit.py
+LibreOffice (soffice) not found: DOCX built, PDF not built. Make the PDF from the DOCX in Word.
+exit=0  manuscript/build_docx.py

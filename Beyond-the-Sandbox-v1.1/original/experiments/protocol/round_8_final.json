@@ -1,0 +1,72 @@
+{
+ "timestamp": "2026-11-05T21:02:57Z",
+ "study_type": "documentary",
+ "pass": true,
+ "failures": [],
+ "warnings": [
+  "Sources without a link: R18 (reviewers can't check them).",
+  "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47.",
+  "Single coder by design (brief.md: Second coder: none): state it openly; no agreement statistic.",
+  "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429), R43 (403)."
+ ],
+ "files": [
+  "codebook.csv",
+  "units.csv",
+  "coded_evidence.csv",
+  "sources.csv"
+ ],
+ "tallies": {
+  "units": 9,
+  "dimensions": 5,
+  "decisions": 45,
+  "sources": 47,
+  "by_status": {
+   "documented": 40,
+   "unknown": 5
+  },
+  "by_dimension": {
+   "D1": {
+    "documented": 9
+   },
+   "D2": {
+    "unknown": 5,
+    "documented": 4
+   },
+   "D3": {
+    "documented": 9
+   },
+   "D4": {
+    "documented": 9
+   },
+   "D5": {
+    "documented": 9
+   }
+  },
+  "by_cluster": {
+   "OpenAI": {
+    "documented": 12,
+    "unknown": 3
+   },
+   "Anthropic": {
+    "documented": 19,
+    "unknown": 1
+   },
+   "AISI": {
+    "documented": 9,
+    "unknown": 1
+   }
+  },
+  "second_coder": null,
+  "changed_from_baseline": [
+   "INC-OAI-MAY/D4 unknown->documented",
+   "INC-OAI-MAY/D5 unknown->documented",
+   "INC-OAI-ART/D2 documented->unknown",
+   "INC-OAI-HF/D2 documented->unknown",
+   "INC-ANT-OP47/D4 unknown->documented",
+   "INC-ANT-MY5/D2 documented->unknown",
+   "INC-AISI-MY5/D2 unknown->documented",
+   "INC-AISI-SOL/D5 unknown->documented"
+  ]
+ },
+ "reproduced": null
+}

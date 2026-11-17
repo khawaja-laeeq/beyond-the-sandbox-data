@@ -1,0 +1,130 @@
+{
+ "reviewers": [
+  "R1",
+  "R2"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [
+  "The paper does not compile to PDF in the venue template: author-supplied Markdown revision; not compiled to PDF for this review"
+ ],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 3.0,
+  "novelty": 5.0,
+  "significance": 6.5,
+  "clarity": 4.5,
+  "reproducibility": 3.5,
+  "overall": 3.0
+ },
+ "reasons": [
+  "The paper does not compile to PDF in the venue template: author-supplied Markdown revision; not compiled to PDF for this review",
+  "Mean overall score 3.0 is below the acceptance bar of 7.0.",
+  "Soundness below 6 from R1 (3), R2 (3).",
+  "(R1) The manuscript retains multiple unresolved [TODO] placeholders in content load-bearing for the paper's core claims: the Abstract's coding-reliability sentence, the Methods \u00a7III.D second-coder protocol (which is supposed to report the actual agreement numbers), the Limitations update tied to that protocol, the Zenodo DOI and reproduction command/lock-file in Data and Code Availability, a \u00a73.4-locator confirmation in Related Work, and the entire Appendix G selection-frame table \u2014 each is a placeholder rather than a reported result.",
+  "(R2) The Abstract, Section III.D, Limitations, Data and Code Availability, and Appendices E and G contain unresolved TODO placeholders covering coding reliability, the archive, reproduction command, environment, verification results and selection frame.",
+  "(R1) Appendix G, which Methods \u00a7III.A explicitly relies on ('every row and its reason is listed in Appendix G') to support the documentary study's required explicit case-selection transparency, is entirely a [TODO] stub rather than the promised 25-row inclusion/exclusion table, so the paper's case-selection claim cannot be checked from the submitted text.",
+  "(R2) The headline S2 result is not reproducible from the supplied stored data: analyst_r14_s2.json reports one qualifying cell from stored data and zero only with an additional correction applied; Hugging Face D4 still has an empty partial_support field in coded_evidence.csv. Appendix E explicitly leaves post-correction checks pending.",
+  "(R1) Methods \u00a7III.D's TODO paragraph commits to reporting Cohen's \u03ba and Gwet's AC1 from a second human coder if that coding completes, which directly contradicts the brief's stated constraint that this is a single-coder study with 'no kappa or other agreement statistic' to be invented \u2014 the manuscript as submitted is internally inconsistent about whether second coding occurred and what statistics, if any, will appear.",
+  "(R2) Section III.A claims a 25-row selection frame with 10 inclusions and 15 exclusions, but Appendix G contains only an insertion instruction. The supplied evidence therefore does not substantiate these counts or permit checking the stated outcome-independent selection rule.",
+  "(R1) Appendix A's claim that 'the three [cells] without quotations are the unknown D2 cells for OpenAI May, Artifactory and AISI Sol' is not consistent with the released coded_evidence.csv: the unknown D2 cell for Anthropic Mythos 5 also has no quoted passage in its core evidence field (only an unrelated paraphrase), while the AISI Sol D2 cell does contain a quoted passage ('I'll pivot fully to the in-range attack surface') in its contested-evidence field \u2014 the rule for what counts as a 'quoted passage' is applied inconsistently across these rows, so the 42/45-coverage and three-cell list cannot be reproduced as stated from the shown data.",
+  "(R2) Section III.D reports no completed independent human coding of the current matrix or D5 branches. Seven net status changes and all branch annotations originate with AI agents; the 44/45 same-document AI consistency result does not establish coding reliability.",
+  "(R1) The automated novelty check finds that the paper's claimed contributions (incident comparison, authorization-interpretation distinction, reporting dimensions, sensitivity-analysis method) substantially overlap with Raftari, Bouke, Amundsen and Bieringer et al., leaving only a narrow artifact-level increment (the specific 45-cell matrix with locators and rule recounts) as novel \u2014 the Introduction's three-contribution framing oversells this relative to what the check and the paper's own 'closest-work' table concede.",
+  "(R2) The central two-organization finding depends on proposition granularity that the codebook does not operationalize. Hugging Face D4 combines organization-specific responses and requires each source to support that entire conjunction, while Opus 4.7 D4 treats backend cessation as a qualification and counts support for retrospective detection alone."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 3.0,
+   "novelty": 5.0,
+   "significance": 6.0,
+   "clarity": 5.0,
+   "reproducibility": 4.0,
+   "overall": 3.0
+  },
+  "R2": {
+   "soundness": 3.0,
+   "novelty": 5.0,
+   "significance": 7.0,
+   "clarity": 4.0,
+   "reproducibility": 3.0,
+   "overall": 3.0
+  }
+ },
+ "decisions": {
+  "R1": "reject",
+  "R2": "reject"
+ },
+ "round": "manual 2026-11-09",
+ "models": {
+  "R1": "claude",
+  "R2": "codex"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 3.0,
+    "novelty": 5.0,
+    "significance": 6.0,
+    "clarity": 5.0,
+    "reproducibility": 4.0,
+    "overall": 3.0
+   },
+   "confidence": 4,
+   "decision": "reject",
+   "weaknesses": [
+    "The manuscript retains multiple unresolved [TODO] placeholders in content load-bearing for the paper's core claims: the Abstract's coding-reliability sentence, the Methods \u00a7III.D second-coder protocol (which is supposed to report the actual agreement numbers), the Limitations update tied to that protocol, the Zenodo DOI and reproduction command/lock-file in Data and Code Availability, a \u00a73.4-locator confirmation in Related Work, and the entire Appendix G selection-frame table \u2014 each is a placeholder rather than a reported result.",
+    "Appendix G, which Methods \u00a7III.A explicitly relies on ('every row and its reason is listed in Appendix G') to support the documentary study's required explicit case-selection transparency, is entirely a [TODO] stub rather than the promised 25-row inclusion/exclusion table, so the paper's case-selection claim cannot be checked from the submitted text.",
+    "Methods \u00a7III.D's TODO paragraph commits to reporting Cohen's \u03ba and Gwet's AC1 from a second human coder if that coding completes, which directly contradicts the brief's stated constraint that this is a single-coder study with 'no kappa or other agreement statistic' to be invented \u2014 the manuscript as submitted is internally inconsistent about whether second coding occurred and what statistics, if any, will appear.",
+    "Appendix A's claim that 'the three [cells] without quotations are the unknown D2 cells for OpenAI May, Artifactory and AISI Sol' is not consistent with the released coded_evidence.csv: the unknown D2 cell for Anthropic Mythos 5 also has no quoted passage in its core evidence field (only an unrelated paraphrase), while the AISI Sol D2 cell does contain a quoted passage ('I'll pivot fully to the in-range attack surface') in its contested-evidence field \u2014 the rule for what counts as a 'quoted passage' is applied inconsistently across these rows, so the 42/45-coverage and three-cell list cannot be reproduced as stated from the shown data.",
+    "The automated novelty check finds that the paper's claimed contributions (incident comparison, authorization-interpretation distinction, reporting dimensions, sensitivity-analysis method) substantially overlap with Raftari, Bouke, Amundsen and Bieringer et al., leaving only a narrow artifact-level increment (the specific 45-cell matrix with locators and rule recounts) as novel \u2014 the Introduction's three-contribution framing oversells this relative to what the check and the paper's own 'closest-work' table concede.",
+    "The 'single-coder' framing is undercut by \u00a7III.D's own disclosure that 7 of 45 statuses and all D5 branch annotations were changed by AI agents rather than the human coder, and the only cross-check offered (an 'AI-assisted re-check' matching 44/45 statuses) is largely circular since AI agents produced many of the codes being re-checked \u2014 the paper flags this itself but the resulting evidentiary basis for 'single-coder, openly stated' is weaker than the framing implies.",
+    "The paper's central RQ2 finding \u2014 'the only contemporaneous verbatim scope statement... records out-of-scope recognition' (OpenAI\u2013Hugging Face D2) \u2014 is stated in the main text as a clean per-unit fact, but the underlying coded-evidence row notes the quotes are drawn across multiple runs and are 'reported for some of the ~700 participating agents, not per run,' a representativeness caveat that is not surfaced where the finding is asserted in \u00a7IV.C and \u00a7V."
+   ],
+   "strengths": [
+    "Extensive cross-checking shows the manuscript's reported counts (40/5 baseline, R08/R02/R10 support tallies, D2 evidence-type breakdown, D4 stopping-mechanism groupings, D5 branch counts) are traceable to and consistent with the released coded_evidence.csv and supporting result files.",
+    "The codebook gives explicit, falsifiable decision rules (documented/contradicted/unknown; D5 branch definitions; D2 evidence-type and strict-vs-baseline rules) rather than vague qualitative judgment calls.",
+    "Limitations and Appendix sections are candid about single-coder coding, AI-assisted revisions, unreachable sources, and the non-representativeness of the unit set, and the sensitivity/rule-variant analysis (S0\u2013S6, flip analysis) is a genuine transparency effort."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 3.0,
+    "novelty": 5.0,
+    "significance": 7.0,
+    "clarity": 4.0,
+    "reproducibility": 3.0,
+    "overall": 3.0
+   },
+   "confidence": 5,
+   "decision": "reject",
+   "weaknesses": [
+    "The Abstract, Section III.D, Limitations, Data and Code Availability, and Appendices E and G contain unresolved TODO placeholders covering coding reliability, the archive, reproduction command, environment, verification results and selection frame.",
+    "The headline S2 result is not reproducible from the supplied stored data: analyst_r14_s2.json reports one qualifying cell from stored data and zero only with an additional correction applied; Hugging Face D4 still has an empty partial_support field in coded_evidence.csv. Appendix E explicitly leaves post-correction checks pending.",
+    "Section III.A claims a 25-row selection frame with 10 inclusions and 15 exclusions, but Appendix G contains only an insertion instruction. The supplied evidence therefore does not substantiate these counts or permit checking the stated outcome-independent selection rule.",
+    "Section III.D reports no completed independent human coding of the current matrix or D5 branches. Seven net status changes and all branch annotations originate with AI agents; the 44/45 same-document AI consistency result does not establish coding reliability.",
+    "The central two-organization finding depends on proposition granularity that the codebook does not operationalize. Hugging Face D4 combines organization-specific responses and requires each source to support that entire conjunction, while Opus 4.7 D4 treats backend cessation as a qualification and counts support for retrospective detection alone.",
+    "Section IV.C concludes that the disclosures cannot answer RQ2 for most units, but its analysis codes scope statements without a parallel coding instrument or complete trace for reality recognition, the other component of RQ2.",
+    "Data and Code Availability asserts an archived, reproducible release, but supplies no archive identifier, confirmed command or pinned environment. The provided excerpts cannot reproduce the full organization, selection and sensitivity analyses.",
+    "The supplied submission is uncompiled Markdown with unresolved citation keys rather than the required IEEE two-column manuscript with numeric citations. Compliance with the six-page main-text limit and rendered table readability is unverified.",
+    "Sections II and Appendix D establish extensive overlap with prior incident comparisons, reporting dimensions and evidence methods. The remaining novelty is a bounded corpus-specific audit artifact whose current release and recount inconsistencies weaken the principal incremental contribution."
+   ],
+   "strengths": [
+    "The topic is directly relevant to an AI-security workshop, especially the distinction between reachability, scope interpretation and actual authorization.",
+    "Appendix B and the supplied coded data expose all 45 statuses, source locators and substantive qualifications rather than presenting only aggregate findings.",
+    "The manuscript consistently distinguishes documentary support from incident truth and avoids prevalence estimates, causal defense claims and treating dependent units as independent samples.",
+    "The D2 evidence profiles separate contemporaneous statements, reported reasoning and elicited answers, preserving evidence that challenges the reported interpretations.",
+    "The C/N/P branches distinguish credential use, data access and persistent changes, including explicit qualifications for Hugging Face datasets and refused AISI contributions.",
+    "The manuscript candidly reports AI involvement, coding revisions, source-access limitations and sensitivity to alternative status rules."
+   ]
+  }
+ },
+ "submission": "inputs/revision-2026-11-09.md"
+}

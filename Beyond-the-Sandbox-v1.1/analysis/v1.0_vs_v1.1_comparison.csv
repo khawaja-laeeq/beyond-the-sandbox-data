@@ -1,0 +1,182 @@
+level,item,measure,v1_0,v1_1,cause
+matrix cell field,INC-OAI-ART/D5,d5_tree_branch,"C -> L3 (administrator credentials obtained by exploit (C); operator-internal system, not a third party)","C;P -> L3 (administrator credentials obtained by exploit (C); operator-internal system, not a third party)",E01
+matrix cell field,INC-OAI-HF/D4,partial_support,,R02;R03,E12
+matrix cell field,INC-OAI-HF/D5,d5_tree_branch,"C;N -> L3 (round 13 S-2: deciding branch C (AWS keys harvested from the pod environment, not issued to the agent). N (five customer datasets) stays qualified: the passage does not say they were non-public)","C;N;P -> L3 (round 13 S-2: deciding branch C (AWS keys harvested from the pod environment, not issued to the agent). N (five customer datasets) stays qualified: the passage does not say they were non-public) [v1.1 E03: N is not qualified. R03 states unauthorized access to a limited set of internal datasets and R02 states limited internal data, so non-public data access is stated.]",E02;E03
+matrix cell field,INC-ANT-OP46/D5,d5_tree_branch,"N;C -> L3 (personal information (N); the D3 passage of the same unit (R08: 'a file listing a password, which it used to gain admin access to the system') shows a credential found in the target system and used (C))","N;C;P -> L3 (personal information (N); the D3 passage of the same unit (R08: 'a file listing a password, which it used to gain admin access to the system') shows a credential found in the target system and used (C))",E04
+matrix cell field,INC-ANT-OP47/D4,partial_support,,R25,E13
+matrix cell field,INC-ANT-OP47/D5,partial_support,,R25,E14
+matrix cell field,INC-ANT-MY5/D2,status,unknown,documented,E08
+matrix cell field,INC-ANT-MY5/D2,evidence,R08 reports biased simulation reasoning (a belief about the environment being a simulation); it states no belief about permission or authorization scope,"R25: 'It noted that if this were the real internet, publishing the package would be a real-world attack—“NOT okay, and surely not the intended solution.”' | R25: 'it convinced itself it was still in a simulation'",E08
+matrix cell field,INC-ANT-MY5/D2,reference,R08,R08;R25,E08
+matrix cell field,INC-ANT-MY5/D2,d2_evidence_type,none,verbatim model statement (quoted by developer),E08
+matrix cell field,INC-ANT-MY5/D2,d2_elicitation,n/a,contemporaneous,E08
+matrix cell field,INC-ANT-MY5/D2,d2_direction,n/a,conditional: not authorized if the internet were real; the model then concluded the environment was simulated,E08
+matrix cell field,INC-ANT-MY5/D5,d5_tree_branch,C;P -> L3 (leaked vendor credentials used (C); the D3 passage (R08: 'installed on 15 third-party hosts') also meets P; C alone decides L3),C;P;N -> L3 (leaked vendor credentials used (C); the D3 passage (R08: 'installed on 15 third-party hosts') also meets P; C alone decides L3),E05
+matrix cell field,INC-AISI-MY5/D4,reference,R10,R10;R24,E10
+matrix cell field,INC-AISI-MY5/D4,response_stage,"operator halt (alert, all runs terminated)",external stop (the primary sample reached the maximum token limit before the termination order; the evaluation-wide termination covered other samples still in progress),E10
+matrix cell field,INC-AISI-MY5/D5,effect_level,L2,L3,E07
+matrix cell field,INC-AISI-MY5/D5,d5_tree_branch,"- -> L2 (round 13 S-2: fake identities were created by the agent (not a credential or account of another party, so not C); the malicious contribution was refused (no persistent state established, so not P); no N passage. A public post only: L2)","C -> L2 (round 13 S-2: fake identities were created by the agent (not a credential or account of another party, so not C); the malicious contribution was refused (no persistent state established, so not P); no N passage. A public post only: L2)",E07
+matrix cell field,INC-AISI-SOL/D4,response_stage,"operator halt (alert, all runs terminated)",operator halt (evaluation-wide termination; whether this run was still in progress and was interrupted is not stated),E11
+cell-level measure,cell.D2_evidence_types.verbatim model statement (quoted by developer),D2_evidence_types.verbatim model statement (quoted by developer),null,1,v1.1 matrix (erratum)
+cell-level measure,cell.D2_verbatim_contemporaneous_cells,D2_verbatim_contemporaneous_cells,"[""INC-OAI-HF/D2""]","[""INC-ANT-MY5/D2"", ""INC-OAI-HF/D2""]",v1.1 matrix (erratum)
+cell-level measure,cell.D4_mechanism_qualified,D4_mechanism_qualified,[],"[""INC-AISI-SOL""]",v1.1 matrix (erratum)
+cell-level measure,cell.D4_mechanisms.External technical,D4_mechanisms.External technical,2,3,v1.1 matrix (erratum)
+cell-level measure,cell.D4_mechanisms.Operator halt,D4_mechanisms.Operator halt,3,2,v1.1 matrix (erratum)
+cell-level measure,cell.D5_branch_units.C,D5_branch_units.C,7,8,v1.1 matrix (erratum)
+cell-level measure,cell.D5_branch_units.N,D5_branch_units.N,3,4,v1.1 matrix (erratum)
+cell-level measure,cell.D5_branch_units.P,D5_branch_units.P,4,7,v1.1 matrix (erratum)
+cell-level measure,cell.D5_effect_levels.L2,D5_effect_levels.L2,1,null,v1.1 matrix (erratum)
+cell-level measure,cell.D5_effect_levels.L3,D5_effect_levels.L3,8,9,v1.1 matrix (erratum)
+cell-level measure,cell.LOO_in_text.R02,LOO_in_text.R02,30,31,v1.1 matrix (erratum)
+cell-level measure,cell.LOO_in_text.R08,LOO_in_text.R08,21,22,v1.1 matrix (erratum)
+cell-level measure,cell.LOO_in_text.R10,LOO_in_text.R10,33,35,v1.1 matrix (erratum)
+cell-level measure,cell.LOO_stored.R08,LOO_stored.R08,23,22,v1.1 matrix (erratum)
+cell-level measure,cell.LOO_stored.R10,LOO_stored.R10,33,35,v1.1 matrix (erratum)
+cell-level measure,cell.S0,S0,"[40, 5]","[41, 4]",v1.1 matrix (erratum)
+cell-level measure,cell.S0_documented_by_dim.D2,S0_documented_by_dim.D2,5,6,v1.1 matrix (erratum)
+cell-level measure,cell.S0_unknown_by_dim.D2,S0_unknown_by_dim.D2,4,3,v1.1 matrix (erratum)
+cell-level measure,cell.S1,S1,"[36, 9]","[37, 8]",v1.1 matrix (erratum)
+cell-level measure,cell.S2_cells_stored,S2_cells_stored,"[""INC-OAI-HF/D4""]",[],v1.1 matrix (erratum)
+cell-level measure,cell.S2_stored,S2_stored,"[1, 44]","[0, 45]",v1.1 matrix (erratum)
+cell-level measure,cell.S3_in_text,S3_in_text,"[39, 6]","[40, 5]",v1.1 matrix (erratum)
+cell-level measure,cell.S4,S4,"[39, 6]","[40, 5]",v1.1 matrix (erratum)
+cell-level measure,cell.S5,S5,"[39, 6]","[40, 5]",v1.1 matrix (erratum)
+cell-level measure,cell.S7,S7,"[38, 7]","[39, 6]",v1.1 matrix (erratum)
+cell-level measure,cell.S8,S8,"[37, 8]","[38, 7]",v1.1 matrix (erratum)
+cell-level measure,cell.S9,S9,"[3, 42]","[5, 40]",v1.1 matrix (erratum)
+cell-level measure,cell.concentration.R08,concentration.R08,"[19, 17]","[20, 17]",v1.1 matrix (erratum)
+cell-level measure,cell.concentration.R10,concentration.R10,"[7, 7]","[7, 6]",v1.1 matrix (erratum)
+cell-level measure,cell.documented_single_reference,documented_single_reference,37,36,v1.1 matrix (erratum)
+cell-level measure,cell.unknown_cells,unknown_cells,"[""INC-AISI-SOL/D2"", ""INC-ANT-MY5/D2"", ""INC-OAI-ART/D1"", ""INC-OAI-ART/D2"", ""INC-OAI-MAY/D2""]","[""INC-AISI-SOL/D2"", ""INC-OAI-ART/D1"", ""INC-OAI-ART/D2"", ""INC-OAI-MAY/D2""]",v1.1 matrix (erratum)
+proposition-level measure,propositions.added_propositions,added_propositions,67,59,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.added_status_supported,added_status_supported,63,55,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.added_with_documentary_support,added_with_documentary_support,64,56,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.by_dimension_all.D2,by_dimension_all.D2,"[21, 25]","[22, 25]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.by_dimension_core.D2,by_dimension_core.D2,"[7, 11]","[8, 11]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.by_dimension_core.D4,by_dimension_core.D4,"[17, 18]","[18, 19]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.by_dimension_core.D5,by_dimension_core.D5,"[18, 18]","[25, 25]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.candidate_propositions_from_new_sources,candidate_propositions_from_new_sources,0,13,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.core_propositions,core_propositions,71,79,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.core_status_supported,core_status_supported,64,73,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.core_supported_and_single_underlying_record,core_supported_and_single_underlying_record,62,70,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.core_supported_by_exactly_one_org,core_supported_by_exactly_one_org,56,62,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.core_with_documentary_support,core_with_documentary_support,65,74,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.cross_org_agreement,cross_org_agreement,22,24,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.cross_org_agreement_core,cross_org_agreement_core,9,12,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.cross_org_agreement_unhedged,cross_org_agreement_unhedged,19,21,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.cross_org_by_unit.INC-OAI-HF,cross_org_by_unit.INC-OAI-HF,7,9,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.cross_org_propositions,cross_org_propositions,"[""MAY-D3-3"", ""MAY-D5-2"", ""ART-D3-1"", ""ART-D4-3"", ""ART-D5-1"", ""ART-D5-2"", ""HF-D1-4"", ""HF-D2-4"", ""HF-D3-2"", ""HF-D3-4"", ""HF-D3-6"", ""HF-D5-1"", ""HF-D5-3"", ""AISIMY5-D1-1"", ""AISIMY5-D1-2"", ""AISIMY5-D3-3"", ""AISIMY5-D3-4"", ""AISIMY5-D3-5"", ""AISIMY5-D3-6"", ""AISIMY5-D4-5"", ""AISIMY5-D5-1"", ""AISIMY5-D5-2""]","[""MAY-D3-3"", ""MAY-D5-2"", ""ART-D3-1"", ""ART-D4-3"", ""ART-D5-1"", ""ART-D5-2"", ""HF-D1-4"", ""HF-D2-1"", ""HF-D2-4"", ""HF-D3-2"", ""HF-D3-3"", ""HF-D3-4"", ""HF-D3-6"", ""HF-D5-1"", ""HF-D5-3"", ""AISIMY5-D1-1"", ""AISIMY5-D1-2"", ""AISIMY5-D3-3"", ""AISIMY5-D3-4"", ""AISIMY5-D3-5"", ""AISIMY5-D3-6"", ""AISIMY5-D4-5"", ""AISIMY5-D5-1"", ""AISIMY5-D5-2""]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.d2_props_two_orgs,d2_props_two_orgs,"[""HF-D2-4""]","[""HF-D2-1"", ""HF-D2-4""]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.different_parts_only,different_parts_only,10,19,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.disagreement_passages,disagreement_passages,26,28,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.disagreements_both_true.partly,disagreements_both_true.partly,4,5,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.disagreements_by_kind.interpretive disagreement,disagreements_by_kind.interpretive disagreement,2,3,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.disagreements_cross_org,disagreements_cross_org,5,6,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.disagreements_total,disagreements_total,13,14,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.independent_corroboration,independent_corroboration,5,6,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.independent_corroboration_a10,independent_corroboration_a10,2,3,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.independent_corroboration_core,independent_corroboration_core,1,2,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.independent_corroboration_core_a10,independent_corroboration_core_a10,1,2,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.independent_propositions,independent_propositions,"[""HF-D1-4"", ""HF-D3-2"", ""HF-D3-4"", ""HF-D5-1"", ""HF-D5-3""]","[""HF-D1-4"", ""HF-D3-2"", ""HF-D3-3"", ""HF-D3-4"", ""HF-D5-1"", ""HF-D5-3""]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.independent_propositions_a10,independent_propositions_a10,"[""HF-D3-2"", ""HF-D5-3""]","[""HF-D3-2"", ""HF-D3-3"", ""HF-D5-3""]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.new_source_rows_rejected,new_source_rows_rejected,[],"[""N39"", ""N41"", ""N49""]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.partially_supported,partially_supported,2,1,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.repeated_reporting_only,repeated_reporting_only,5,9,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.restated_by_secondary_analysis,restated_by_secondary_analysis,0,9,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.shared_upstream_only,shared_upstream_only,17,18,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.support_passages,support_passages,194,241,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.support_passages_from_new_sources,support_passages_from_new_sources,0,47,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.supported,supported,127,128,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.supported_by_exactly_one_org,supported_by_exactly_one_org,107,106,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.whole_cell_full_corpus_two_orgs,whole_cell_full_corpus_two_orgs,"[""INC-OAI-ART/D5"", ""INC-AISI-MY5/D1"", ""INC-AISI-MY5/D5""]","[""INC-OAI-HF/D2"", ""INC-AISI-MY5/D1""]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.whole_cell_full_corpus_two_orgs_incl_relays,whole_cell_full_corpus_two_orgs_incl_relays,"[""INC-OAI-MAY/D1"", ""INC-OAI-ART/D5"", ""INC-OAI-HF/D1"", ""INC-AISI-MY5/D1"", ""INC-AISI-MY5/D5""]","[""INC-OAI-MAY/D1"", ""INC-OAI-HF/D1"", ""INC-OAI-HF/D2"", ""INC-AISI-MY5/D1"", ""INC-AISI-SOL/D1"", ""INC-AISI-SOL/D5""]","new-source rows and/or erratum (core set, AMY5-D2-0)"
+proposition-level measure,propositions.with_any_documentary_support,with_any_documentary_support,129,130,"new-source rows and/or erratum (core set, AMY5-D2-0)"
+sensitivity rule,A1 strict independent corroboration,supported,128,129,recomputed from v1.1
+sensitivity rule,A1 strict independent corroboration,unknown,10,9,recomputed from v1.1
+sensitivity rule,A1 strict independent corroboration,two_plus_organizations,19,21,recomputed from v1.1
+sensitivity rule,A1 strict independent corroboration,independent_corroboration,5,6,recomputed from v1.1
+sensitivity rule,A2 cross-organization agreement (no independence requirement),supported,129,130,recomputed from v1.1
+sensitivity rule,A2 cross-organization agreement (no independence requirement),unknown,9,8,recomputed from v1.1
+sensitivity rule,A2 cross-organization agreement (no independence requirement),two_plus_organizations,22,24,recomputed from v1.1
+sensitivity rule,A2 cross-organization agreement (no independence requirement),independent_corroboration,8,9,recomputed from v1.1
+sensitivity rule,A3 cross-organization incl. repeated reporting,supported,129,130,recomputed from v1.1
+sensitivity rule,A3 cross-organization incl. repeated reporting,unknown,9,8,recomputed from v1.1
+sensitivity rule,A3 cross-organization incl. repeated reporting,two_plus_organizations,27,33,recomputed from v1.1
+sensitivity rule,A3 cross-organization incl. repeated reporting,independent_corroboration,8,9,recomputed from v1.1
+sensitivity rule,A4 single-source documentary support,supported,129,130,recomputed from v1.1
+sensitivity rule,A4 single-source documentary support,unknown,9,8,recomputed from v1.1
+sensitivity rule,A4 single-source documentary support,two_plus_organizations,22,24,recomputed from v1.1
+sensitivity rule,A4 single-source documentary support,independent_corroboration,8,9,recomputed from v1.1
+sensitivity rule,A5 exclude post-hoc model statements,supported,126,127,recomputed from v1.1
+sensitivity rule,A5 exclude post-hoc model statements,unknown,12,11,recomputed from v1.1
+sensitivity rule,A5 exclude post-hoc model statements,two_plus_organizations,22,24,recomputed from v1.1
+sensitivity rule,A5 exclude post-hoc model statements,independent_corroboration,8,9,recomputed from v1.1
+sensitivity rule,A6 contemporaneous evidence only for attributed beliefs,supported,121,122,recomputed from v1.1
+sensitivity rule,A6 contemporaneous evidence only for attributed beliefs,unknown,17,16,recomputed from v1.1
+sensitivity rule,A6 contemporaneous evidence only for attributed beliefs,two_plus_organizations,21,23,recomputed from v1.1
+sensitivity rule,A6 contemporaneous evidence only for attributed beliefs,independent_corroboration,7,8,recomputed from v1.1
+sensitivity rule,A7 exclude sources with unverified attribution (R06 timestamp joins; R04 relays),supported,128,129,recomputed from v1.1
+sensitivity rule,A7 exclude sources with unverified attribution (R06 timestamp joins; R04 relays),unknown,10,9,recomputed from v1.1
+sensitivity rule,A7 exclude sources with unverified attribution (R06 timestamp joins; R04 relays),two_plus_organizations,19,21,recomputed from v1.1
+sensitivity rule,A7 exclude sources with unverified attribution (R06 timestamp joins; R04 relays),independent_corroboration,5,6,recomputed from v1.1
+sensitivity rule,A8 exclude low-confidence decompositions,two_plus_organizations,22,24,recomputed from v1.1
+sensitivity rule,A8 exclude low-confidence decompositions,independent_corroboration,8,9,recomputed from v1.1
+sensitivity rule,A9 core propositions only (restating frozen claims),propositions_counted,71,79,recomputed from v1.1
+sensitivity rule,A9 core propositions only (restating frozen claims),supported,65,74,recomputed from v1.1
+sensitivity rule,A9 core propositions only (restating frozen claims),unknown,6,5,recomputed from v1.1
+sensitivity rule,A9 core propositions only (restating frozen claims),two_plus_organizations,9,12,recomputed from v1.1
+sensitivity rule,A9 core propositions only (restating frozen claims),independent_corroboration,3,4,recomputed from v1.1
+sensitivity rule,A10 stricter independence (same act; independence not uncertain; no likely derivation),supported,128,129,recomputed from v1.1
+sensitivity rule,A10 stricter independence (same act; independence not uncertain; no likely derivation),unknown,10,9,recomputed from v1.1
+sensitivity rule,A10 stricter independence (same act; independence not uncertain; no likely derivation),two_plus_organizations,19,21,recomputed from v1.1
+sensitivity rule,A10 stricter independence (same act; independence not uncertain; no likely derivation),independent_corroboration,2,3,recomputed from v1.1
+sensitivity rule,"W1 attached references, stored partial-support data",supported,40,41,recomputed from v1.1
+sensitivity rule,"W1 attached references, stored partial-support data",unknown,5,4,recomputed from v1.1
+sensitivity rule,"W1 attached references, stored partial-support data",two_plus_organizations,1,0,recomputed from v1.1
+sensitivity rule,W2 attached references with the first version's in-text partial-support judgments,supported,40,41,recomputed from v1.1
+sensitivity rule,W2 attached references with the first version's in-text partial-support judgments,unknown,5,4,recomputed from v1.1
+sensitivity rule,"W3 whole-cell, full accessible corpus (not only attached references)",supported,40,41,recomputed from v1.1
+sensitivity rule,"W3 whole-cell, full accessible corpus (not only attached references)",unknown,5,4,recomputed from v1.1
+sensitivity rule,"W3 whole-cell, full accessible corpus (not only attached references)",two_plus_organizations,3,2,recomputed from v1.1
+sensitivity rule,"W4 whole-cell, full corpus, relays counted",supported,40,41,recomputed from v1.1
+sensitivity rule,"W4 whole-cell, full corpus, relays counted",unknown,5,4,recomputed from v1.1
+sensitivity rule,"W4 whole-cell, full corpus, relays counted",two_plus_organizations,5,6,recomputed from v1.1
+proposition,ART-D5-3,core_or_added,added,core,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D2-1,orgs_whole_support,METR,METR;OpenAI,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D2-1,cross_org_agreement,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D2-1,shared_upstream_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D2-3,contradicted_by,R04,R04;R74,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D3-3,orgs_whole_support,Hugging Face,Hugging Face;OpenAI,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D3-3,cross_org_agreement,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D3-3,independent_corroboration,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D3-3,independent_corroboration_a10,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D3-3,different_parts_only,True,False,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D5-3,core_or_added,added,core,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D5-6,core_or_added,added,core,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,HF-D5-7,core_or_added,added,core,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,OP46-D5-3,core_or_added,added,core,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,OP47-D1-1,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,OP47-D3-1,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,OP47-D3-2,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,OP47-D5-1,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,OP47-D5-3,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,AMY5-D2-0,evidence_status,partially_supported,supported,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,AMY5-D2-0,orgs_whole_support,,Anthropic,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,AMY5-D5-3,core_or_added,added,core,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,AISIMY5-D3-1,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,AISIMY5-D4-1,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,AISIMY5-D4-2,repeated_reporting_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,AISIMY5-D4-3,repeated_reporting_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,AISIMY5-D4-5,core_or_added,added,core,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,AISIMY5-D5-3,core_or_added,added,core,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,SOL-D1-1,repeated_reporting_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,SOL-D3-1,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,SOL-D3-2,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,SOL-D4-1,different_parts_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,SOL-D5-1,repeated_reporting_only,False,True,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+proposition,SOL-D5-2,contradicted_by,R24,R24;R71,"see proposition_support.csv rows added_in=v1.1, and erratum core additions"
+D5 branch (Table III),INC-OAI-ART P,in_frozen_branches,False,True,erratum / new-source rows
+D5 branch (Table III),INC-OAI-HF P,in_frozen_branches,False,True,erratum / new-source rows
+D5 branch (Table III),INC-ANT-OP46 P,in_frozen_branches,False,True,erratum / new-source rows
+D5 branch (Table III),INC-ANT-MY5 N,in_frozen_branches,False,True,erratum / new-source rows
+D5 branch (Table III),INC-AISI-MY5 C,in_frozen_branches,False,True,erratum / new-source rows

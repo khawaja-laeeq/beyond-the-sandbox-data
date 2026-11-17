@@ -1,0 +1,176 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3"
+ ],
+ "valid": [
+  "R3"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [
+  "Only 0 distinct works are cited; a workshop paper needs at least 10 (related work is thin).",
+  "The paper does not compile to PDF in the venue template: compile failed: ! LaTeX Error: Something's wrong--perhaps a missing \\item.; !  ==> Fatal error occurred, no output PDF file produced!; ! LaTeX Error: Something's wrong--perhaps a missing \\item."
+ ],
+ "verdict": "UNAVAILABLE",
+ "reasons": [
+  "Only 1 of 3 reviewers returned a usable review (need 2)."
+ ],
+ "round": 2,
+ "timestamp": "2026-11-01T21:03:45Z",
+ "models": {
+  "R1": "agy",
+  "R2": "claude",
+  "R3": "codex"
+ },
+ "statuses": {
+  "R1": "limit_hit_earlier",
+  "R2": "error",
+  "R3": "ok"
+ },
+ "reviews": {
+  "R1": null,
+  "R2": null,
+  "R3": {
+   "scores": {
+    "soundness": 1.0,
+    "novelty": 2.0,
+    "significance": 5.0,
+    "clarity": 1.0,
+    "reproducibility": 3.0,
+    "overall": 1.0
+   },
+   "confidence": 5,
+   "decision": "reject",
+   "weaknesses": [
+    "The entire submission is the placeholder '# (draft not started)'; no manuscript presents methods, findings, or supported conclusions.",
+    "coding_summary.json reports second-coder n=45, kappa=0.789, and agreement=0.978 without supporting coder assignments or an agreement calculation; the supplied coding rows repeatedly state 'no second coder', directly contradicting these results.",
+    "The PDF build failed with a LaTeX error, leaving no reviewable paper in the required six-page IEEE format.",
+    "INC-AISI-MY5 D4 asserts that the evaluation was 'stopped and isolated within hour', but its qualification gives a 10:56 alert and quarantine at either 12:23 or 13:17; neither quarantine time supports isolation within one hour.",
+    "The supplied materials do not include the D1\u2013D5 codebook's decision rules or an explicit case-selection procedure, preventing assessment of coding consistency and selection bias.",
+    "The novelty check identifies existing cross-organisation comparisons, but no manuscript establishes the proposed analytical increment relative to those precedents.",
+    "The supplied coding and source-ledger excerpts are truncated, preventing verification of the complete 45-decision coding trace and 35-source inventory."
+   ],
+   "strengths": [
+    "The research questions address authorization interpretation, external effects, and containment issues relevant to an agent-security workshop.",
+    "The visible coding rows distinguish unknown evidence from counter-evidence and record source sections, qualifications, and recoding reasons.",
+    "Several annotations appropriately distinguish retrospective detection from live intervention and published replays from observed incidents."
+   ]
+  }
+ },
+ "protocol": {
+  "timestamp": "2026-11-01T21:03:22Z",
+  "study_type": "documentary",
+  "pass": true,
+  "failures": [],
+  "warnings": [
+   "Sources without a link: R18 (reviewers can't check them).",
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403)."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 35,
+   "by_status": {
+    "documented": 43,
+    "unknown": 2
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 9
+    },
+    "D2": {
+     "unknown": 2,
+     "documented": 7
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 14,
+     "unknown": 1
+    },
+    "Anthropic": {
+     "documented": 20
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": {
+    "n": 45,
+    "kappa": 0.789,
+    "agreement": 0.978
+   }
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 evaluation breakout incidents across OpenAI, Anthropic and Google and derives an assurance framework."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Already systematizes agent loss of control across 22 incident reports and 102 evaluations, addressing inconsistent descriptions that impede comparison."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Already performs cross-incident analysis of documented autonomous-agent cybersecurity incidents and controlled evaluation cases using a fixed governance architecture."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Already develops a practical AI security incident taxonomy and addresses incident reporting and collection standards."
+   },
+   {
+    "key": "guyatt2008grade",
+    "overlap": "Already separates evidence quality from recommendation strength and supplies explicit criteria for assessing evidential limitations."
+   }
+  ],
+  "reasons": [
+   "Cross-organisation comparison of agent boundary violations is already represented in the listed literature; the contribution's novelty-risk discussion must acknowledge these direct precedents.",
+   "The proposed fixed D1\u2013D5 instrument, 45 source-anchored decisions and explicit separation of perceived authorization from reachability provide a clear, checkable analytical increment.",
+   "No supplied literature description establishes the specific evidence-class \u00d7 claim-type support matrix or its application to disclosure gaps across the selected clusters.",
+   "The supplied summaries do not establish whether prior comparisons include the same UK AISI cases or equivalent coding dimensions, so complete duplication cannot be concluded.",
+   "The reporting checklist extends existing incident-taxonomy work; its value depends on concrete omissions demonstrated by the coded evidence.",
+   "O/A/I/X identify source types, not an established universal quality ranking. Claim support must account for directness, independence and missing evidence rather than assuming replays outrank incident disclosures."
+  ],
+  "reposition": "Lead with the auditable claim-support matrix and authorization-versus-reachability analysis, treating cross-case comparison as the application setting. Explicitly map the instrument and checklist against Raftari, Bouke, Amundsen and Bieringer to demonstrate the additional distinctions and disclosure requirements.",
+  "round": 2,
+  "timestamp": "2026-11-01T21:03:03Z",
+  "literature_added": [
+   "qasim2026policyfaultbench",
+   "odersky2026securing",
+   "chen2026data",
+   "elmasry2026effective",
+   "le2026cross"
+  ]
+ },
+ "latex": {
+  "timestamp": "2026-11-01T21:03:29Z",
+  "engine": "latexmk",
+  "compiled": false,
+  "limit": 6,
+  "why": "compile failed: ! LaTeX Error: Something's wrong--perhaps a missing \\item.; !  ==> Fatal error occurred, no output PDF file produced!; ! LaTeX Error: Something's wrong--perhaps a missing \\item."
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "N1": {
+  "url": "https://incidentdatabase.ai/cite/1604",
+  "fetched": "2026-11-01T19:44:21.544062Z",
+  "ok": true,
+  "chars": 9888
+ },
+ "N2": {
+  "url": "https://incidentdatabase.ai/cite/1627",
+  "fetched": "2026-11-01T19:44:22.156358Z",
+  "ok": true,
+  "chars": 11161
+ },
+ "N3": {
+  "url": "https://incidentdatabase.ai/cite/1628",
+  "fetched": "2026-11-01T19:44:22.693575Z",
+  "ok": true,
+  "chars": 11250
+ },
+ "N4": {
+  "url": "https://incidentdatabase.ai/cite/1633",
+  "fetched": "2026-11-01T19:44:23.026428Z",
+  "ok": true,
+  "chars": 5764
+ },
+ "N5": {
+  "url": "https://incidentdatabase.ai/cite/1649",
+  "fetched": "2026-11-01T19:44:23.352757Z",
+  "ok": true,
+  "chars": 4942
+ },
+ "N6": {
+  "url": "https://arxiv.org/abs/2605.11086",
+  "fetched": "2026-11-01T19:44:23.788825Z",
+  "ok": true,
+  "chars": 5525
+ },
+ "N7": {
+  "url": "https://irregular.com/research/cyscenariobench",
+  "fetched": "2026-11-01T19:44:23.931456Z",
+  "ok": true,
+  "chars": 17366
+ },
+ "N8": {
+  "url": "https://www.cve.org/CVERecord?id=CVE-2026-42018",
+  "fetched": "2026-11-01T19:44:24.313837Z",
+  "ok": true,
+  "chars": 156
+ },
+ "N9": {
+  "url": "https://www.cve.org/CVERecord?id=CVE-2026-42016",
+  "fetched": "2026-11-01T19:44:24.450056Z",
+  "ok": true,
+  "chars": 156
+ },
+ "N8b": {
+  "url": "https://cveawg.mitre.org/api/cve/CVE-2026-42018",
+  "fetched": "2026-11-01T19:44:24.552367Z",
+  "ok": true,
+  "chars": 3310
+ },
+ "N9b": {
+  "url": "https://cveawg.mitre.org/api/cve/CVE-2026-42016",
+  "fetched": "2026-11-01T19:44:25.078007Z",
+  "ok": true,
+  "chars": 3131
+ },
+ "R01": {
+  "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+  "fetched": "2026-11-01T19:44:25.482387Z",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "R02": {
+  "url": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf",
+  "fetched": "2026-11-01T19:44:25.520239Z",
+  "ok": true,
+  "pdf": true,
+  "bytes": 521159
+ },
+ "R03": {
+  "url": "https://raw.githubusercontent.com/huggingface/blog/main/security-incident-july-2026.md",
+  "fetched": "2026-11-01T19:44:25.544979Z",
+  "ok": true,
+  "chars": 5592
+ },
+ "R04": {
+  "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+  "fetched": "2026-11-01T19:44:25.793832Z",
+  "ok": true,
+  "chars": 202917
+ },
+ "R05": {
+  "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+  "fetched": "2026-11-01T19:44:26.048083Z",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "R06": {
+  "url": "https://www.sentinelone.com/labs/agents-at-large-tracing-illicit-openai-agent-activity-on-hugging-face/",
+  "fetched": "2026-11-01T19:44:26.084024Z",
+  "ok": true,
+  "chars": 27792
+ },
+ "R07": {
+  "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+  "fetched": "2026-11-01T19:44:26.182085Z",
+  "ok": true,
+  "chars": 208999
+ },
+ "R08": {
+  "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+  "fetched": "2026-11-01T19:44:26.703084Z",
+  "ok": true,
+  "chars": 103756
+ },
+ "R09": {
+  "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+  "fetched": "2026-11-01T19:44:27.005682Z",
+  "ok": true,
+  "chars": 19899
+ },
+ "R10": {
+  "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+  "fetched": "2026-11-01T19:44:27.213444Z",
+  "ok": true,
+  "chars": 18447
+ },
+ "R24": {
+  "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+  "fetched": "2026-11-05T20:54:06.742263Z",
+  "ok": true,
+  "pdf": true,
+  "bytes": 1048375
+ }
+}

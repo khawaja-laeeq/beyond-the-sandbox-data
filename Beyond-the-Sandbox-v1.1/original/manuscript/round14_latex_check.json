@@ -1,0 +1,15 @@
+{
+ "timestamp": "2026-11-09T01:41:39Z",
+ "engine": "latexmk",
+ "compiled": true,
+ "limit": 6,
+ "pages_total": 14,
+ "pages_main": 6,
+ "undefined_citations": [],
+ "internal_terms": [],
+ "pass": true,
+ "package": {
+  "path": "build/reproducibility_package.zip",
+  "files": 111
+ }
+}

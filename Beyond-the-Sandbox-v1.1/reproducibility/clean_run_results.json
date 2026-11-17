@@ -1,0 +1,482 @@
+{
+ "run_utc": "2026-11-13T17:58:30Z",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "python": "3.12.10",
+ "interpreter": "C:\\Users\\khawa\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+ "matplotlib": "3.11.2",
+ "workdir": "C:\\Users\\khawa\\AppData\\Local\\Temp\\bts_clean_m02quj84",
+ "steps": [
+  {
+   "step": "reproduce_all (original package) via UTF-8 wrapper (Windows)",
+   "command": "-X utf8 -I C:\\Users\\khawa\\AppData\\Local\\Temp\\bts_clean_m02quj84\\reproducibility\\run_original_utf8.py",
+   "exit_code": 0,
+   "seconds": 108.34,
+   "stdout_tail": [
+    "sha256 5ba20529a557041d31070e343552fa241ff1c390e015cb27ddb4124a09d3f067  results/evidence_audit.json",
+    "sha256 e57e8eaee2ef491f05b05f7ce37e964c81c8d0b2562cb4052fa5844c0d5229ad  results/evidence_class_matrix.csv",
+    "sha256 977fed30843275ca3072d60cfc01a208d0778bd1765e9327217f0cd325ac126c  results/evidence_class_matrix.tex",
+    "sha256 bcfdf7fb442bbd57540863c9d56706d40393707afbaf267877f822e6d79e9c99  results/evidence_class_rows.csv",
+    "sha256 ac9da860527638fb720fb7e9b9d51b17bcc45034d63bc79870d0bd7ea10dc407  results/external_concordance.csv",
+    "sha256 a5f4378ec83c0aea955cc5e8d498dd4826525dcb5450c1a086a6b4ea1128b8a4  results/loso.csv",
+    "sha256 86d24f690eb37a089d9dee2ae2aa577423bf23c4bd2f003c9aafc8999a533533  results/n_refs_counts.json",
+    "sha256 4f4b83de9121b172b94bfb5814bfb9146f48d893b450d2e4d08fc40bb026ba89  results/org_structure.csv",
+    "sha256 b3039e276e6b9e859128589dfedbd42a144a123c98121cf28d9c89abe77e99cf  results/provenance_net.json",
+    "sha256 7606023e807bb655ec09576f51e7f2e3b9e330128fe9de607a6b7a06fe645e78  results/quote_check_summary.json",
+    "sha256 5f4bab02791208ad05e8c87fc82b7f5e81ab41dae2e8e2a759b9ebfb6b25a047  results/raftari_concordance_count.json",
+    "sha256 952535ddb84d8637bab1787a73e38a6996164824313baeecdbbfa81415c8296b  results/rule_variants.csv",
+    "sha256 c1e221ea2a91d10936ccb3655b8cce894d12d6b260833ce50028dc9658c70acd  results/rule_variants.json",
+    "sha256 84d5d5cd6a45fcc6d2d40d7105d3399d644efc381a5285021bbd43023bc527ce  results/selection_frame.csv",
+    "sha256 f12bfe403448193417f47f724f6e2b61871ba765725de8d2f7f8c2d56ffc2e58  results/sensitivity.csv",
+    "sha256 acd048af8133fc7918b03b86f3a95e8f73a29b3fbeec1c4106eeead8cc75d6e9  results/sensitivity_exhaustive.csv",
+    "sha256 71d95b80e810a9cca15dc390230f96b59276f4159bf22908eb19f4152e730259  results/single_flip_check.csv",
+    "sha256 d5b2b9ebe084b6c40331231b0c991c0c46ea2f7aac59972ea062c8767b72d26a  results/source_share.csv",
+    "sha256 8c69c3c07f9085b029319307785f87562478b40d9813368ef92117f4b196efdb  results/stop_agent.csv",
+    "sha256 6ae4a5c4c1a377fb049d34d13092e363e7323abb2a748471d4b263dec5c02c10  results/stop_d2_counts.json",
+    "sha256 76e7af74addb3b808314ccd451b9784c829847caa510fc4ce3300ff72e25de18  results/t5_variant_check.csv",
+    "sha256 f436f656ecd2abf8d8621135c5f4bf54eed292418c84cd16f0cc4ab05cb54ceb  results/table3_extra.csv",
+    "sha256 472e3013ed0c1d2b280d10e13e7031baacf2afee7d1a4e6b9e3c4d4de7c0c0f8  results/tag_counts.csv",
+    "",
+    "failed scripts: none"
+   ],
+   "stderr_tail": []
+  },
+  {
+   "step": "build_matrix_v1_1 (v1.0 + erratum)",
+   "command": "-I analysis/src/build_matrix_v1_1.py",
+   "exit_code": 0,
+   "seconds": 0.4,
+   "stdout_tail": [
+    " \"built\": \"from v1.0 plus analysis/erratum_v1.1.csv by analysis/src/build_matrix_v1_1.py\",",
+    " \"status\": \"provisional: every fix is AI-assisted and pending human approval unless marked approved\",",
+    " \"v1.0_sha256\": \"972dcdd57208ca1eed19be2cff16445881323622ee41180200ecf22718e9b024\",",
+    " \"v1.1_sha256\": \"f5e684ce62ffe50762a960531cfbc913e06a131907145ad77f10219fdc568e99\",",
+    " \"fixes_applied\": [",
+    "  \"E01\",",
+    "  \"E02\",",
+    "  \"E03\",",
+    "  \"E04\",",
+    "  \"E05\",",
+    "  \"E07\",",
+    "  \"E08\",",
+    "  \"E10\",",
+    "  \"E11\",",
+    "  \"E12\",",
+    "  \"E13\",",
+    "  \"E14\"",
+    " ],",
+    " \"fixes_rejected\": [",
+    "  \"E09\"",
+    " ],",
+    " \"fixes_no_change\": [",
+    "  \"E06\"",
+    " ]",
+    "}"
+   ],
+   "stderr_tail": []
+  },
+  {
+   "step": "build_analysis (propositions, v1.0 and v1.1)",
+   "command": "-I analysis/src/build_analysis.py",
+   "exit_code": 0,
+   "seconds": 3.96,
+   "stdout_tail": [
+    "   A5 exclude post-hoc model statements                           n=138  sup=126  2org=22  indep=8  ",
+    "   A6 contemporaneous evidence only for attributed beliefs        n=138  sup=121  2org=21  indep=7  ",
+    "   A7 exclude sources with unverified attribution (R06 timestamp  n=138  sup=128  2org=19  indep=5  ",
+    "   A8 exclude low-confidence decompositions                       n=135  sup=127  2org=22  indep=8  ",
+    "   A9 core propositions only (restating frozen claims)            n=71   sup=65   2org=9   indep=3  ",
+    "   A10 stricter independence (same act; independence not uncertai n=138  sup=128  2org=19  indep=2  ",
+    "   W1 attached references, stored partial-support data            n=45   sup=40   2org=1   indep=0  ",
+    "   W2 attached references with the first version's in-text partia n=45   sup=40   2org=0   indep=0  ",
+    "   W3 whole-cell, full accessible corpus (not only attached refer n=45   sup=40   2org=3   indep=0  ",
+    "   W4 whole-cell, full corpus, relays counted                     n=45   sup=40   2org=5   indep=0  ",
+    "== v1.1 propositions=138 supported=130 two-org=24 independent=6 (A10 3)",
+    "   A1 strict independent corroboration                            n=138  sup=129  2org=21  indep=6  ",
+    "   A2 cross-organization agreement (no independence requirement)  n=138  sup=130  2org=24  indep=9  ",
+    "   A3 cross-organization incl. repeated reporting                 n=138  sup=130  2org=33  indep=9  ",
+    "   A4 single-source documentary support                           n=138  sup=130  2org=24  indep=9  ",
+    "   A5 exclude post-hoc model statements                           n=138  sup=127  2org=24  indep=9  ",
+    "   A6 contemporaneous evidence only for attributed beliefs        n=138  sup=122  2org=23  indep=8  ",
+    "   A7 exclude sources with unverified attribution (R06 timestamp  n=138  sup=129  2org=21  indep=6  ",
+    "   A8 exclude low-confidence decompositions                       n=135  sup=127  2org=24  indep=9  ",
+    "   A9 core propositions only (restating frozen claims)            n=79   sup=74   2org=12  indep=4  ",
+    "   A10 stricter independence (same act; independence not uncertai n=138  sup=129  2org=21  indep=3  ",
+    "   W1 attached references, stored partial-support data            n=45   sup=41   2org=0   indep=0  ",
+    "   W2 attached references with the first version's in-text partia n=45   sup=41   2org=0   indep=0  ",
+    "   W3 whole-cell, full accessible corpus (not only attached refer n=45   sup=41   2org=2   indep=0  ",
+    "   W4 whole-cell, full corpus, relays counted                     n=45   sup=41   2org=6   indep=0"
+   ],
+   "stderr_tail": []
+  },
+  {
+   "step": "cell_recount (S0-S9, LOO, mechanisms)",
+   "command": "-I analysis/src/cell_recount.py",
+   "exit_code": 0,
+   "seconds": 0.16,
+   "stdout_tail": [
+    "S0                                 v1.0=[40, 5]                                  v1.1=[41, 4]",
+    "S0_documented_by_dim               v1.0={\"D1\": 8, \"D2\": 5, \"D3\": 9, \"D4\": 9, \"D5 v1.1={\"D1\": 8, \"D2\": 6, \"D3\": 9, \"D4\": 9, \"D5\": 9}",
+    "S0_unknown_by_dim                  v1.0={\"D1\": 1, \"D2\": 4, \"D3\": 0, \"D4\": 0, \"D5 v1.1={\"D1\": 1, \"D2\": 3, \"D3\": 0, \"D4\": 0, \"D5\": 0}",
+    "unknown_cells                      v1.0=[\"INC-AISI-SOL/D2\", \"INC-ANT-MY5/D2\", \"I v1.1=[\"INC-AISI-SOL/D2\", \"INC-OAI-ART/D1\", \"INC-OAI-ART/D2\", \"INC-OAI-MAY/D2\"]",
+    "S1                                 v1.0=[36, 9]                                  v1.1=[37, 8]",
+    "S2_stored                          v1.0=[1, 44]                                  v1.1=[0, 45]",
+    "S2_cells_stored                    v1.0=[\"INC-OAI-HF/D4\"]                        v1.1=[]",
+    "S3_in_text                         v1.0=[39, 6]                                  v1.1=[40, 5]",
+    "S4                                 v1.0=[39, 6]                                  v1.1=[40, 5]",
+    "S5                                 v1.0=[39, 6]                                  v1.1=[40, 5]",
+    "S7                                 v1.0=[38, 7]                                  v1.1=[39, 6]",
+    "S8                                 v1.0=[37, 8]                                  v1.1=[38, 7]",
+    "S9                                 v1.0=[3, 42]                                  v1.1=[5, 40]",
+    "documented_single_reference        v1.0=37                                       v1.1=36",
+    "concentration                      v1.0={\"R08\": [19, 17], \"R02\": [10, 9], \"R10\": v1.1={\"R08\": [20, 17], \"R02\": [10, 9], \"R10\": [7, 6]}",
+    "LOO_in_text                        v1.0={\"R08\": 21, \"R02\": 30, \"R10\": 33}        v1.1={\"R08\": 22, \"R02\": 31, \"R10\": 35}",
+    "LOO_stored                         v1.0={\"R08\": 23, \"R02\": 31, \"R10\": 33}        v1.1={\"R08\": 22, \"R02\": 31, \"R10\": 35}",
+    "D2_evidence_types                  v1.0={\"verbatim model statement\": 1, \"reporte v1.1={\"verbatim model statement\": 1, \"reported model answer\": 4, \"verbatim model stat",
+    "D2_verbatim_contemporaneous_cells  v1.0=[\"INC-OAI-HF/D2\"]                        v1.1=[\"INC-ANT-MY5/D2\", \"INC-OAI-HF/D2\"]",
+    "D4_mechanisms                      v1.0={\"Signal only\": 1, \"Operator halt\": 3, \" v1.1={\"Signal only\": 1, \"Operator halt\": 2, \"Affected party\": 1, \"External technical\"",
+    "D4_mechanism_qualified             v1.0=[]                                       v1.1=[\"INC-AISI-SOL\"]",
+    "D5_branch_units                    v1.0={\"C\": 7, \"N\": 3, \"P\": 4}                 v1.1={\"C\": 8, \"N\": 4, \"P\": 7}",
+    "D5_effect_levels                   v1.0={\"L3\": 8, \"L2\": 1}                       v1.1={\"L3\": 9}"
+   ],
+   "stderr_tail": []
+  },
+  {
+   "step": "make_comparison (v1.0 vs v1.1)",
+   "command": "-I analysis/src/make_comparison.py",
+   "exit_code": 0,
+   "seconds": 0.22,
+   "stdout_tail": [
+    "181 differences: {'matrix cell field': 18, 'cell-level measure': 31, 'proposition-level measure': 43, 'sensitivity rule': 50, 'proposition': 34, 'D5 branch (Table III)': 5}"
+   ],
+   "stderr_tail": []
+  },
+  {
+   "step": "check_numbers (manuscript locked to data)",
+   "command": "-I analysis/src/check_numbers.py",
+   "exit_code": 0,
+   "seconds": 0.27,
+   "stdout_tail": [
+    "numbers checked: 384 {'ok': 384} -> C:\\Users\\khawa\\AppData\\Local\\Temp\\bts_clean_m02quj84\\analysis\\number_check_report.csv"
+   ],
+   "stderr_tail": []
+  },
+  {
+   "step": "prior_work table",
+   "command": "-I analysis/src/prior_work.py",
+   "exit_code": 0,
+   "seconds": 0.15,
+   "stdout_tail": [
+    "wrote prior_work_comparison.csv (10 rows), sources_missing_from_ledger.csv (3 rows)"
+   ],
+   "stderr_tail": []
+  },
+  {
+   "step": "independent_verify",
+   "command": "-I reproducibility/independent_verify.py --json reproducibility/independent_verify_results.json",
+   "exit_code": 0,
+   "seconds": 0.18,
+   "stdout_tail": [
+    " \"D4_mechanisms\": {",
+    "  \"signal only\": 1,",
+    "  \"operator halt\": 3,",
+    "  \"affected-party response\": 1,",
+    "  \"external technical\": 2,",
+    "  \"third-party removal\": 1,",
+    "  \"self-stop\": 1",
+    " },",
+    " \"D5_branch_units\": {",
+    "  \"C\": 7,",
+    "  \"P\": 4,",
+    "  \"N\": 3",
+    " },",
+    " \"revised\": {",
+    "  \"propositions\": 138,",
+    "  \"supported_any\": 130,",
+    "  \"unknown_no_support_row\": 6,",
+    "  \"with_counterevidence\": 3,",
+    "  \"two_org_agreement\": 24,",
+    "  \"independent\": 6,",
+    "  \"relay_only_second_org\": 9",
+    " },",
+    " \"revised_disagreements\": 14,",
+    " \"revised_quote_rows\": 232",
+    "}"
+   ],
+   "stderr_tail": []
+  },
+  {
+   "step": "evidence_audit + source_verification",
+   "command": "-I reproducibility/evidence_audit.py",
+   "exit_code": 0,
+   "seconds": 0.58,
+   "stdout_tail": [
+    "audited cells: 22 | passages found: 22",
+    "status agreement: 21 of 22",
+    "sources: 70 | cache text: 57 | garbled: 5 | none: 8",
+    "random cells: ['INC-ANT-INT/D3', 'INC-OAI-MAY/D3', 'INC-ANT-OP46/D4']"
+   ],
+   "stderr_tail": []
+  }
+ ],
+ "all_steps_exit_zero": true,
+ "original_tree_matches_snapshot_before_run": true,
+ "original_files_changed_by_run": [
+  "experiments\\figures\\source_concentration.png",
+  "experiments\\results\\run_log.md"
+ ],
+ "coded_data_or_protocol_changed": [],
+ "generated_analysis_identical_to_committed": true,
+ "analysis_hash_mismatches": [],
+ "published_value_checks": [
+  {
+   "item": "S0",
+   "published": [
+    40,
+    5
+   ],
+   "recomputed": [
+    40,
+    5
+   ],
+   "match": true
+  },
+  {
+   "item": "S1",
+   "published": [
+    36,
+    9
+   ],
+   "recomputed": [
+    36,
+    9
+   ],
+   "match": true
+  },
+  {
+   "item": "S2_manuscript_partial",
+   "published": [
+    0,
+    45
+   ],
+   "recomputed": [
+    0,
+    45
+   ],
+   "match": true
+  },
+  {
+   "item": "S3_manuscript_partial",
+   "published": [
+    39,
+    6
+   ],
+   "recomputed": [
+    39,
+    6
+   ],
+   "match": true
+  },
+  {
+   "item": "S4",
+   "published": [
+    39,
+    6
+   ],
+   "recomputed": [
+    39,
+    6
+   ],
+   "match": true
+  },
+  {
+   "item": "S5",
+   "published": [
+    39,
+    6
+   ],
+   "recomputed": [
+    39,
+    6
+   ],
+   "match": true
+  },
+  {
+   "item": "S6",
+   "published": [
+    37,
+    8
+   ],
+   "recomputed": [
+    37,
+    8
+   ],
+   "match": true
+  },
+  {
+   "item": "S7",
+   "published": [
+    38,
+    7
+   ],
+   "recomputed": [
+    38,
+    7
+   ],
+   "match": true
+  },
+  {
+   "item": "S8",
+   "published": [
+    37,
+    8
+   ],
+   "recomputed": [
+    37,
+    8
+   ],
+   "match": true
+  },
+  {
+   "item": "S9",
+   "published": [
+    3,
+    42
+   ],
+   "recomputed": [
+    3,
+    42
+   ],
+   "match": true
+  },
+  {
+   "item": "documented_single_reference",
+   "published": 37,
+   "recomputed": 37,
+   "match": true
+  },
+  {
+   "item": "LOSO_manuscript_rule:R08",
+   "published": 21,
+   "recomputed": 21,
+   "match": true
+  },
+  {
+   "item": "LOSO_manuscript_rule:R02",
+   "published": 30,
+   "recomputed": 30,
+   "match": true
+  },
+  {
+   "item": "LOSO_manuscript_rule:R10",
+   "published": 33,
+   "recomputed": 33,
+   "match": true
+  },
+  {
+   "item": "concentration:R08",
+   "published": [
+    19,
+    17
+   ],
+   "recomputed": [
+    19,
+    17
+   ],
+   "match": true
+  },
+  {
+   "item": "concentration:R02",
+   "published": [
+    10,
+    9
+   ],
+   "recomputed": [
+    10,
+    9
+   ],
+   "match": true
+  },
+  {
+   "item": "concentration:R10",
+   "published": [
+    7,
+    7
+   ],
+   "recomputed": [
+    7,
+    7
+   ],
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:operator halt",
+   "published": 3,
+   "recomputed": 3,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:external technical",
+   "published": 2,
+   "recomputed": 2,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:third-party removal",
+   "published": 1,
+   "recomputed": 1,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:affected-party response",
+   "published": 1,
+   "recomputed": 1,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:self-stop",
+   "published": 1,
+   "recomputed": 1,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:signal only",
+   "published": 1,
+   "recomputed": 1,
+   "match": true
+  },
+  {
+   "item": "D5_branch_units:C",
+   "published": 7,
+   "recomputed": 7,
+   "match": true
+  },
+  {
+   "item": "D5_branch_units:P",
+   "published": 4,
+   "recomputed": 4,
+   "match": true
+  },
+  {
+   "item": "D5_branch_units:N",
+   "published": 2,
+   "recomputed": 3,
+   "match": false
+  }
+ ],
+ "published_values_all_match": false,
+ "revised_headline": {
+  "total_propositions": 138,
+  "supported": 128,
+  "contested": 2,
+  "unknown": 6,
+  "partially_supported": 1,
+  "contradicted": 1,
+  "cross_org_agreement": 24,
+  "independent_corroboration": 6,
+  "shared_upstream_only": 18,
+  "repeated_reporting_only": 9,
+  "with_explicit_counterevidence": 3,
+  "disagreements_total": 14
+ },
+ "note": "A computational recount. It is not an independent scientific replication and does not validate documentary judgments."
+}

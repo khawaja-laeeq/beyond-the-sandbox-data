@@ -1,0 +1,196 @@
+{
+ "version": "v1.0",
+ "matrix_sha256": "972dcdd57208ca1eed19be2cff16445881323622ee41180200ecf22718e9b024",
+ "total_propositions": 138,
+ "core_propositions": 71,
+ "added_propositions": 67,
+ "supported": 127,
+ "partially_supported": 2,
+ "unknown": 6,
+ "contested": 2,
+ "contradicted": 1,
+ "with_any_documentary_support": 129,
+ "core_with_documentary_support": 65,
+ "added_with_documentary_support": 64,
+ "added_status_supported": 63,
+ "core_status_supported": 64,
+ "core_unknown": 4,
+ "propositions_without_any_passage": 6,
+ "propositions_without_any_passage_ids": [
+  "MAY-D2-1",
+  "MAY-D4-2",
+  "MAY-D5-3",
+  "ART-D1-2",
+  "ART-D2-1",
+  "SOL-D2-1"
+ ],
+ "core_without_any_passage": 4,
+ "added_without_any_passage": 2,
+ "decomposition_confidence": {
+  "high": 119,
+  "medium": 16,
+  "low": 3
+ },
+ "support_passages": 194,
+ "support_passages_from_new_sources": 0,
+ "new_source_rows_rejected": [],
+ "disagreement_passages": 26,
+ "supported_by_exactly_one_org": 107,
+ "core_supported_by_exactly_one_org": 56,
+ "cross_org_agreement": 22,
+ "cross_org_agreement_core": 9,
+ "cross_org_agreement_unhedged": 19,
+ "independent_corroboration": 5,
+ "independent_corroboration_a10": 2,
+ "independent_corroboration_core": 1,
+ "independent_corroboration_core_a10": 1,
+ "shared_upstream_only": 17,
+ "different_parts_only": 10,
+ "repeated_reporting_only": 5,
+ "restated_by_secondary_analysis": 0,
+ "with_explicit_counterevidence": 3,
+ "supported_and_single_underlying_record": 121,
+ "core_supported_and_single_underlying_record": 62,
+ "units_with_cross_org_agreement": [
+  "INC-AISI-MY5",
+  "INC-OAI-ART",
+  "INC-OAI-HF",
+  "INC-OAI-MAY"
+ ],
+ "units_with_independent_corroboration": [
+  "INC-OAI-HF"
+ ],
+ "units_with_independent_corroboration_a10": [
+  "INC-OAI-HF"
+ ],
+ "independent_propositions": [
+  "HF-D1-4",
+  "HF-D3-2",
+  "HF-D3-4",
+  "HF-D5-1",
+  "HF-D5-3"
+ ],
+ "independent_propositions_a10": [
+  "HF-D3-2",
+  "HF-D5-3"
+ ],
+ "cross_org_propositions": [
+  "MAY-D3-3",
+  "MAY-D5-2",
+  "ART-D3-1",
+  "ART-D4-3",
+  "ART-D5-1",
+  "ART-D5-2",
+  "HF-D1-4",
+  "HF-D2-4",
+  "HF-D3-2",
+  "HF-D3-4",
+  "HF-D3-6",
+  "HF-D5-1",
+  "HF-D5-3",
+  "AISIMY5-D1-1",
+  "AISIMY5-D1-2",
+  "AISIMY5-D3-3",
+  "AISIMY5-D3-4",
+  "AISIMY5-D3-5",
+  "AISIMY5-D3-6",
+  "AISIMY5-D4-5",
+  "AISIMY5-D5-1",
+  "AISIMY5-D5-2"
+ ],
+ "cross_org_by_unit": {
+  "INC-OAI-MAY": 2,
+  "INC-OAI-ART": 4,
+  "INC-OAI-HF": 7,
+  "INC-ANT-OP46": 0,
+  "INC-ANT-OP47": 0,
+  "INC-ANT-MY5": 0,
+  "INC-ANT-INT": 0,
+  "INC-AISI-MY5": 9,
+  "INC-AISI-SOL": 0
+ },
+ "by_dimension_all": {
+  "D1": [
+   16,
+   17
+  ],
+  "D2": [
+   21,
+   25
+  ],
+  "D3": [
+   31,
+   31
+  ],
+  "D4": [
+   30,
+   32
+  ],
+  "D5": [
+   31,
+   33
+  ]
+ },
+ "by_dimension_core": {
+  "D1": [
+   9,
+   10
+  ],
+  "D2": [
+   7,
+   11
+  ],
+  "D3": [
+   14,
+   14
+  ],
+  "D4": [
+   17,
+   18
+  ],
+  "D5": [
+   18,
+   18
+  ]
+ },
+ "d2_permission_unknown": 3,
+ "d2_props_two_orgs": [
+  "HF-D2-4"
+ ],
+ "disagreements_total": 13,
+ "disagreements_cross_org": 5,
+ "disagreements_by_kind": {
+  "interpretive disagreement": 2,
+  "different reporting scope": 6,
+  "later correction or update": 3,
+  "within-organization inconsistency": 2
+ },
+ "disagreements_both_true": {
+  "partly": 4,
+  "yes": 6,
+  "no": 3
+ },
+ "whole_cell_full_corpus_two_orgs": [
+  "INC-OAI-ART/D5",
+  "INC-AISI-MY5/D1",
+  "INC-AISI-MY5/D5"
+ ],
+ "whole_cell_full_corpus_two_orgs_incl_relays": [
+  "INC-OAI-MAY/D1",
+  "INC-OAI-ART/D5",
+  "INC-OAI-HF/D1",
+  "INC-AISI-MY5/D1",
+  "INC-AISI-MY5/D5"
+ ],
+ "whole_cell_full_corpus_independent": [],
+ "candidate_propositions_from_new_sources": 0,
+ "branch_reading_flags": [
+  "ART-D5-3",
+  "HF-D5-6",
+  "HF-D5-7",
+  "OP46-D5-3",
+  "AMY5-D5-3",
+  "AISIMY5-D5-3"
+ ],
+ "coder": "AI-assisted (Claude, 2026-11-12); not reviewed by a human"
+}

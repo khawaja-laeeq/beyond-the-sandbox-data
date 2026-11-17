@@ -1,0 +1,260 @@
+{
+ "v1.0": {
+  "S0": [
+   40,
+   5
+  ],
+  "S0_documented_by_dim": {
+   "D1": 8,
+   "D2": 5,
+   "D3": 9,
+   "D4": 9,
+   "D5": 9
+  },
+  "S0_unknown_by_dim": {
+   "D1": 1,
+   "D2": 4,
+   "D3": 0,
+   "D4": 0,
+   "D5": 0
+  },
+  "unknown_cells": [
+   "INC-AISI-SOL/D2",
+   "INC-ANT-MY5/D2",
+   "INC-OAI-ART/D1",
+   "INC-OAI-ART/D2",
+   "INC-OAI-MAY/D2"
+  ],
+  "S1": [
+   36,
+   9
+  ],
+  "S2_stored": [
+   1,
+   44
+  ],
+  "S2_in_text": [
+   0,
+   45
+  ],
+  "S2_cells_stored": [
+   "INC-OAI-HF/D4"
+  ],
+  "S3_stored": [
+   40,
+   5
+  ],
+  "S3_in_text": [
+   39,
+   6
+  ],
+  "S4": [
+   39,
+   6
+  ],
+  "S5": [
+   39,
+   6
+  ],
+  "S6": [
+   37,
+   8
+  ],
+  "S7": [
+   38,
+   7
+  ],
+  "S8": [
+   37,
+   8
+  ],
+  "S9": [
+   3,
+   42
+  ],
+  "documented_single_reference": 37,
+  "concentration": {
+   "R08": [
+    19,
+    17
+   ],
+   "R02": [
+    10,
+    9
+   ],
+   "R10": [
+    7,
+    7
+   ]
+  },
+  "LOO_in_text": {
+   "R08": 21,
+   "R02": 30,
+   "R10": 33
+  },
+  "LOO_stored": {
+   "R08": 23,
+   "R02": 31,
+   "R10": 33
+  },
+  "D2_evidence_types": {
+   "verbatim model statement": 1,
+   "reported model answer": 4
+  },
+  "D2_verbatim_contemporaneous_cells": [
+   "INC-OAI-HF/D2"
+  ],
+  "D4_mechanisms": {
+   "Signal only": 1,
+   "Operator halt": 3,
+   "Affected party": 1,
+   "External technical": 2,
+   "Third party": 1,
+   "Self-stop": 1
+  },
+  "D4_mechanism_qualified": [],
+  "D5_branch_units": {
+   "C": 7,
+   "N": 3,
+   "P": 4
+  },
+  "D5_effect_levels": {
+   "L3": 8,
+   "L2": 1
+  },
+  "evidence_class_counts": {
+   "O": 39,
+   "I": 4,
+   "A": 2
+  }
+ },
+ "v1.1": {
+  "S0": [
+   41,
+   4
+  ],
+  "S0_documented_by_dim": {
+   "D1": 8,
+   "D2": 6,
+   "D3": 9,
+   "D4": 9,
+   "D5": 9
+  },
+  "S0_unknown_by_dim": {
+   "D1": 1,
+   "D2": 3,
+   "D3": 0,
+   "D4": 0,
+   "D5": 0
+  },
+  "unknown_cells": [
+   "INC-AISI-SOL/D2",
+   "INC-OAI-ART/D1",
+   "INC-OAI-ART/D2",
+   "INC-OAI-MAY/D2"
+  ],
+  "S1": [
+   37,
+   8
+  ],
+  "S2_stored": [
+   0,
+   45
+  ],
+  "S2_in_text": [
+   0,
+   45
+  ],
+  "S2_cells_stored": [],
+  "S3_stored": [
+   40,
+   5
+  ],
+  "S3_in_text": [
+   40,
+   5
+  ],
+  "S4": [
+   40,
+   5
+  ],
+  "S5": [
+   40,
+   5
+  ],
+  "S6": [
+   37,
+   8
+  ],
+  "S7": [
+   39,
+   6
+  ],
+  "S8": [
+   38,
+   7
+  ],
+  "S9": [
+   5,
+   40
+  ],
+  "documented_single_reference": 36,
+  "concentration": {
+   "R08": [
+    20,
+    17
+   ],
+   "R02": [
+    10,
+    9
+   ],
+   "R10": [
+    7,
+    6
+   ]
+  },
+  "LOO_in_text": {
+   "R08": 22,
+   "R02": 31,
+   "R10": 35
+  },
+  "LOO_stored": {
+   "R08": 22,
+   "R02": 31,
+   "R10": 35
+  },
+  "D2_evidence_types": {
+   "verbatim model statement": 1,
+   "reported model answer": 4,
+   "verbatim model statement (quoted by developer)": 1
+  },
+  "D2_verbatim_contemporaneous_cells": [
+   "INC-ANT-MY5/D2",
+   "INC-OAI-HF/D2"
+  ],
+  "D4_mechanisms": {
+   "Signal only": 1,
+   "Operator halt": 2,
+   "Affected party": 1,
+   "External technical": 3,
+   "Third party": 1,
+   "Self-stop": 1
+  },
+  "D4_mechanism_qualified": [
+   "INC-AISI-SOL"
+  ],
+  "D5_branch_units": {
+   "C": 8,
+   "N": 4,
+   "P": 7
+  },
+  "D5_effect_levels": {
+   "L3": 9
+  },
+  "evidence_class_counts": {
+   "O": 39,
+   "I": 4,
+   "A": 2
+  }
+ }
+}

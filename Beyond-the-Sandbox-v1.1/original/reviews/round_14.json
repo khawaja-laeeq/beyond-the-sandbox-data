@@ -1,0 +1,266 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3",
+  "R4"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 4.5,
+  "novelty": 4.5,
+  "significance": 5.5,
+  "clarity": 4.5,
+  "reproducibility": 5.5,
+  "overall": 4.0
+ },
+ "reasons": [
+  "Mean overall score 4.0 is below the acceptance bar of 7.0.",
+  "Soundness below 6 from R1 (5), R2 (4).",
+  "(R1) Single-coder study with no independent human second coding. Only 38 of the 45 statuses are the human's initial coding, and eight of the 45 current statuses were changed afterwards, seven of them by AI agents. All nine effect levels were assigned by AI agents. The same-document AI re-check (44/45 match) is explicitly not validation. The core matrix therefore has no external validity check.",
+  "(R2) The headline count of one whole-proposition, two-organization cell in the Abstract, Sections I and IV.A, Table III and Conclusion contradicts the supplied evidence. Hugging Face D4's coded qualification and change log explicitly state that neither reference supports the whole retained proposition and that S2 is 0/45; analyst_r14_s2.json likewise reports no surviving cell after R14-1b. The reported 1/44 result is therefore unsupported by the current coding.",
+  "(R1) Main findings are fragile under the paper's own recounts. 'D2 has the most unknowns' holds under S0, S1 and S6 but not under S2. The 'one cross-organization cell' result depends on a later, lead-initiated addition of R02 to Hugging Face D4, and it drops to zero under S6. The only multi-organization cell also carries a first-detection dependence qualification. The headline empirical results are artifacts of coding and reference-assignment choices, not findings.",
+  "(R2) Section III.D reports seven AI-initiated net status changes and AI assignment of all nine effect levels, but no independent human assessment of these decisions. The same-document AI check and structural matching checks provide no assessment of coding validity or human intercoder agreement.",
+  "(R1) Several coding decisions were reversed in response to review or answers rather than by fixed rules. Hugging Face D1 went documented, then unknown, then documented, with the trigger recorded as default-recorded answers rather than typed replies. Hugging Face D2 was changed toward the AI re-check. Hugging Face D5's deciding branch was changed from N to C, and AISI Mythos 5 D5 was moved from L2 to L3 and back to L2. The codebook rules appear to be fitted to the cells they decide, which is a form of tuning on the very data being summarized.",
+  "(R2) The reproducible artifact is the principal claimed contribution, but the supplied submission provides filenames without an artifact access location, executable recount procedures or an execution environment. Several central results, including provenance-sensitive recounts, cannot be reconstructed from the supplied excerpts alone.",
+  "(R1) The L1/L2/L3 effect tree is ad hoc and unvalidated. Eight of nine units land at L3 under the baseline, so it discriminates poorly. The C/N/P definitions and the threshold change the split (0/1/8, 0/2/7, 0/3/6, 0/4/5). The Hugging Face N branch is 'qualified' because the source never says the five datasets were non-public. The tree is nonetheless reported as a main-text result and in Table III.",
+  "(R2) Section III.A asserts a completed 25-row selection frame, but the submission does not show its ten inclusion decisions and fifteen exclusion decisions. The complete selection trace underlying the nine units is consequently unavailable for assessment.",
+  "(R1) The D2 operationalization mixes different evidence kinds as 'documented': the verbatim chain-of-thought in Hugging Face, post-hoc elicited answers, and developer paraphrases. The one verbatim D2 cell points in the opposite direction (not authorized) from the other four (authorized). The 'documented' label therefore says little about the agent's authorization interpretation (RQ2), which the paper itself concedes. Mythos 5 D2 and Sol D2 stay unknown on borderline readings that other plausible rules would flip.",
+  "(R2) Sections II and Appendix D establish substantial overlap with existing incident comparisons, authorization distinctions, reporting fields and sensitivity methods. The remaining contribution is a corpus-specific audit artifact, with limited demonstrated insight beyond its support inventory."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 5.0,
+   "novelty": 4.0,
+   "significance": 5.0,
+   "clarity": 4.0,
+   "reproducibility": 6.0,
+   "overall": 4.0
+  },
+  "R2": {
+   "soundness": 4.0,
+   "novelty": 5.0,
+   "significance": 6.0,
+   "clarity": 5.0,
+   "reproducibility": 5.0,
+   "overall": 4.0
+  }
+ },
+ "decisions": {
+  "R1": "weak reject",
+  "R2": "weak reject"
+ },
+ "round": 14,
+ "timestamp": "2026-11-09T01:57:39Z",
+ "models": {
+  "R1": "claude",
+  "R2": "codex",
+  "R3": "api",
+  "R4": "agy"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok",
+  "R3": "unavailable",
+  "R4": "limit_hit_earlier"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 5.0,
+    "novelty": 4.0,
+    "significance": 5.0,
+    "clarity": 4.0,
+    "reproducibility": 6.0,
+    "overall": 4.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "Single-coder study with no independent human second coding. Only 38 of the 45 statuses are the human's initial coding, and eight of the 45 current statuses were changed afterwards, seven of them by AI agents. All nine effect levels were assigned by AI agents. The same-document AI re-check (44/45 match) is explicitly not validation. The core matrix therefore has no external validity check.",
+    "Main findings are fragile under the paper's own recounts. 'D2 has the most unknowns' holds under S0, S1 and S6 but not under S2. The 'one cross-organization cell' result depends on a later, lead-initiated addition of R02 to Hugging Face D4, and it drops to zero under S6. The only multi-organization cell also carries a first-detection dependence qualification. The headline empirical results are artifacts of coding and reference-assignment choices, not findings.",
+    "Several coding decisions were reversed in response to review or answers rather than by fixed rules. Hugging Face D1 went documented, then unknown, then documented, with the trigger recorded as default-recorded answers rather than typed replies. Hugging Face D2 was changed toward the AI re-check. Hugging Face D5's deciding branch was changed from N to C, and AISI Mythos 5 D5 was moved from L2 to L3 and back to L2. The codebook rules appear to be fitted to the cells they decide, which is a form of tuning on the very data being summarized.",
+    "The L1/L2/L3 effect tree is ad hoc and unvalidated. Eight of nine units land at L3 under the baseline, so it discriminates poorly. The C/N/P definitions and the threshold change the split (0/1/8, 0/2/7, 0/3/6, 0/4/5). The Hugging Face N branch is 'qualified' because the source never says the five datasets were non-public. The tree is nonetheless reported as a main-text result and in Table III.",
+    "The D2 operationalization mixes different evidence kinds as 'documented': the verbatim chain-of-thought in Hugging Face, post-hoc elicited answers, and developer paraphrases. The one verbatim D2 cell points in the opposite direction (not authorized) from the other four (authorized). The 'documented' label therefore says little about the agent's authorization interpretation (RQ2), which the paper itself concedes. Mythos 5 D2 and Sol D2 stay unknown on borderline readings that other plausible rules would flip.",
+    "Evidentiary base is thin and highly concentrated. 37 of 40 documented cells cite a single reference, and R08 solely supports 17 and R02 solely supports nine. Six of nine units cannot meet the two-organization rule by construction (Table VIII). The S2 result of 1 documented/44 unknown is therefore uninformative by design, so using it as a 'finding about disclosure structure' is mostly a tautology.",
+    "Many sources are not reauthenticated. R01 and R05 returned HTTP 403, R11\u2013R23 were not reauthenticated, and R18 is a DOI-derived link that was never opened. R36\u2013R70 were listed by a scout but not opened. The protocol PASS and the quotation-presence check (60/60) explicitly do not test entailment. No partial-support grading was performed, so whether the cited passages entail the retained propositions was never checked.",
+    "The citation and reference apparatus is inconsistent. The paper cites bib keys such as raftari2026from and bouke2026competing, and ledger IDs R02\u2013R26, in the same references.bib. The same works appear twice (for example Bouke as bouke2026competing and R39, Raftari as raftari2026from and R58). The bib holds about 70 further entries that the text never cites. Several are Zenodo, SSRN and Research Square items of unclear quality. The Greenblatt R07 author entry is wrong or inconsistent with the cited work.",
+    "The novelty claim is weak and the paper says so itself. Incident comparison, claim grading, reachability-versus-authorization, source-dependence analysis and sensitivity recounts are all attributed to prior work (Raftari, Bouke, Amundsen, Bieringer, Li, Steegen). The remaining increment is a cell-level artifact with provenance. The automated novelty check rates this INCREMENTAL. Amundsen already covers the same OpenAI\u2013HF and AISI cases.",
+    "The Bouke external concordance is unusable: 4 of 11 labelled match, 2 not comparable and 5 unaligned, with no verified passage alignment. Raftari's concordance rests on the same first-party sources and gives no independent validation. Appendix F therefore contributes nothing as evidence.",
+    "The paper is dense and over-qualified. Main-text claims are buried under caveats, with variant names (S0, S1, S2, S3, S3b, S3c, S4, S5, S6) introduced without being defined at first use. The six-page main text carries most of its substance in Appendices D, E and F. The sensitivity machinery (flip search with 220 minimal sets, leave-one-source-out, a six-cell weak-support scenario) is out of proportion to a 45-cell matrix of near-uniform 'documented' cells. The weak-support scenario is arbitrary and not an empirical finding.",
+    "Counts that do not reconcile across sections. The prose says 'Seven net status changes by AI plus one at author's request' and '38 documented/7 unknown' initially. Elsewhere the S6 recount gives 37/8, and D4/D5 retain seven each under S6. The `appendix_b_check.csv` shown is truncated, so the 45/45 match cannot be checked here. Table II reports 40 D / 5 U, but the S6 status counts rely on files not shown."
+   ],
+   "strengths": [
+    "It is unusually candid about its limits: single coder, AI-assisted revisions, no validation claim, no prevalence or defense-efficacy claim, and no invented statistics (no kappa or CI).",
+    "Every cell retains its proposition, a deciding passage, a locator, references and qualifications. A change log and a provenance-sensitive recount (S6) make the audit trail inspectable, and the CSVs are released.",
+    "It carefully separates reachability from permission, attempt from effect, detection from containment, and organizational reporting from whole-proposition support. It also notes that the Hugging Face D4 accounts share a response chain and so do not independently establish first detection.",
+    "Related work is handled honestly: overlaps with Raftari, Bouke, Amundsen and Bieringer are stated, and no new-method claim is made.",
+    "It stays within documentary scope, adds no operational detail on exploits, and the build meets the 6-page limit with no undefined citations."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 5.0,
+    "significance": 6.0,
+    "clarity": 5.0,
+    "reproducibility": 5.0,
+    "overall": 4.0
+   },
+   "confidence": 5,
+   "decision": "weak reject",
+   "weaknesses": [
+    "The headline count of one whole-proposition, two-organization cell in the Abstract, Sections I and IV.A, Table III and Conclusion contradicts the supplied evidence. Hugging Face D4's coded qualification and change log explicitly state that neither reference supports the whole retained proposition and that S2 is 0/45; analyst_r14_s2.json likewise reports no surviving cell after R14-1b. The reported 1/44 result is therefore unsupported by the current coding.",
+    "Section III.D reports seven AI-initiated net status changes and AI assignment of all nine effect levels, but no independent human assessment of these decisions. The same-document AI check and structural matching checks provide no assessment of coding validity or human intercoder agreement.",
+    "The reproducible artifact is the principal claimed contribution, but the supplied submission provides filenames without an artifact access location, executable recount procedures or an execution environment. Several central results, including provenance-sensitive recounts, cannot be reconstructed from the supplied excerpts alone.",
+    "Section III.A asserts a completed 25-row selection frame, but the submission does not show its ten inclusion decisions and fifteen exclusion decisions. The complete selection trace underlying the nine units is consequently unavailable for assessment.",
+    "Sections II and Appendix D establish substantial overlap with existing incident comparisons, authorization distinctions, reporting fields and sensitivity methods. The remaining contribution is a corpus-specific audit artifact, with limited demonstrated insight beyond its support inventory.",
+    "The Abstract and main findings repeatedly foreground coding totals and variant identifiers, while concrete comparisons answering the four research questions receive relatively little explanation. Repetition across Sections I, IV, VI and VII obscures the substantive cross-case findings."
+   ],
+   "strengths": [
+    "The complete baseline 45-cell table and supplied coded data expose propositions, passages, locators, qualifications and revision histories at a useful level of detail.",
+    "The manuscript consistently distinguishes reachability from permission, attributed statements from stable belief, stopping from containment, and established effects from downstream harm.",
+    "Dependent documentary units, purposive selection, source concentration and the absence of independent affected-system verification are explicitly acknowledged.",
+    "The rule variants make important dependencies visible, particularly the reduction of documented authorization interpretations under the verbatim-only rule.",
+    "The topic is relevant to an agent-security workshop, and the reported PDF build satisfies the six-page main-text limit."
+   ]
+  },
+  "R3": null,
+  "R4": null
+ },
+ "protocol": {
+  "timestamp": "2026-11-09T01:41:42Z",
+  "study_type": "documentary",
+  "pass": true,
+  "failures": [],
+  "warnings": [
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, R70.",
+   "Sources with no usable text from this machine (wall, error page or almost no text): R01, R12, R14, R15, R16, R18, R43, R51, R53, R55, R57, R67. Do not quote them; read the same document elsewhere or use the next best source.",
+   "Single coder by design (brief.md: Second coder: none): state it openly; no agreement statistic.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429), R12 (URLError), R14 (URLError), R15 (URLError), R16 (URLError), R43 (403), R51 (403), R53 (403), R55 (403), R57 (404), R67 (404)."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 70,
+   "by_status": {
+    "documented": 40,
+    "unknown": 5
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 8,
+     "unknown": 1
+    },
+    "D2": {
+     "unknown": 4,
+     "documented": 5
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 12,
+     "unknown": 3
+    },
+    "Anthropic": {
+     "documented": 19,
+     "unknown": 1
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": null,
+   "changed_from_baseline": [
+    "INC-OAI-MAY/D4 unknown->documented",
+    "INC-OAI-MAY/D5 unknown->documented",
+    "INC-OAI-ART/D1 documented->unknown",
+    "INC-OAI-ART/D2 documented->unknown",
+    "INC-ANT-OP47/D4 unknown->documented",
+    "INC-ANT-MY5/D2 documented->unknown",
+    "INC-AISI-MY5/D2 unknown->documented",
+    "INC-AISI-SOL/D5 unknown->documented"
+   ]
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 agent evaluation breakout incidents and their containment and assurance implications."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Already systematizes incident reports and evaluations to compare loss-of-control outcomes and environmental conditions."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Covers overlapping OpenAI\u2013Hugging Face and UK AISI cases, separates reachability from authorization, and provides a cross-case claim matrix."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Provides structured incident-reporting fields covering access, intent evidence, security measures, fail-safe measures, and resulting harm."
+   },
+   {
+    "key": "steegen2016increasing",
+    "overlap": "Establishes analysis across alternative reasonable data-processing and coding choices."
+   },
+   {
+    "key": "li2016survey",
+    "overlap": "Identifies source dependency and single-source dominance as obstacles to interpreting multi-source evidence."
+   }
+  ],
+  "reasons": [
+   "The broad incident comparison, authorization distinction, reporting dimensions, and sensitivity methods strongly overlap with listed work and do not establish methodological novelty.",
+   "The concrete increment is a reproducible 45-cell evidence artifact linking support decisions to deciding passages, locators, source organisations, coding-change provenance, and rule-variant recounts. No listed description establishes this particular artifact or audit.",
+   "Separating organisation-level reporting from whole-proposition support adds a checkable corpus-specific analysis, provided organisation counts are not presented as independent corroboration or evidence quality.",
+   "The corrected claims acknowledge substantive sensitivity: only D2 having the most unknown cells survives all three stated coding variants; the two-organisation finding depends on the lead's reread. This supports a bounded audit contribution rather than a general security finding.",
+   "The contribution text is truncated, so this verdict applies to the explicit current claim supplied and does not certify the underlying artifacts or numerical accuracy."
+  ],
+  "reposition": "Present the paper as a reproducible evidence-audit extension of existing incident comparisons, centered on passage-linked coding and provenance-separated recounts. Lead with the surviving D2 evidence gap, and report the organisational-support and D5 results explicitly as coding-dependent descriptions of this disclosure corpus.",
+  "round": 13,
+  "timestamp": "2026-11-09T00:57:50Z",
+  "literature_added": []
+ },
+ "latex": {
+  "timestamp": "2026-11-09T01:41:39Z",
+  "engine": "latexmk",
+  "compiled": true,
+  "limit": 6,
+  "pages_total": 14,
+  "pages_main": 6,
+  "undefined_citations": [],
+  "internal_terms": [],
+  "pass": true,
+  "package": {
+   "path": "build/reproducibility_package.zip",
+   "files": 111
+  }
+ }
+}

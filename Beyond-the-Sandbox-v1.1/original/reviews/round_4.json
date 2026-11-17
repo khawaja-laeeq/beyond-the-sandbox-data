@@ -1,0 +1,272 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3",
+  "R4"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [
+  "The draft still contains placeholders: [RESULT PENDING: editor/experimenter verification of the rendered coding figure, updated manuscript-number audit and IEEE page layout.], [RESULT PENDING: supply the untruncated R27 record and R28\u2013R44 from experiments/data/sources.csv to complete the source ledger without inventing metadata or verification statuses.].",
+  "Experimental protocol check failed: Agreement with the second coder is low (Cohen's kappa 0.54 on 45 codes). The draft states 36 decisions, but the data has 45."
+ ],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 3.5,
+  "novelty": 5.0,
+  "significance": 6.0,
+  "clarity": 4.5,
+  "reproducibility": 4.0,
+  "overall": 3.5
+ },
+ "reasons": [
+  "The draft still contains placeholders: [RESULT PENDING: editor/experimenter verification of the rendered coding figure, updated manuscript-number audit and IEEE page layout.], [RESULT PENDING: supply the untruncated R27 record and R28\u2013R44 from experiments/data/sources.csv to complete the source ledger without inventing metadata or verification statuses.].",
+  "Experimental protocol check failed: Agreement with the second coder is low (Cohen's kappa 0.54 on 45 codes). The draft states 36 decisions, but the data has 45.",
+  "Mean overall score 3.5 is below the acceptance bar of 7.0.",
+  "Soundness below 6 from R1 (3), R2 (4).",
+  "(R1) The manuscript still contains unresolved placeholders: three [CITATION NEEDED] markers (Introduction, Related Work A, end of Section IV), a [CITATION NEEDED] after the references, and two [RESULT PENDING] markers (source ledger R28\u2013R44; figure, number audit and page layout). Under the venue rules this caps soundness at 4.",
+  "(R2) Sections I, II and IV, References, and Appendix C retain explicit CITATION NEEDED and RESULT PENDING placeholders for primary-source mappings, ledger completion and artifact verification.",
+  "(R1) The automated protocol check fails. Full-set Cohen's \u03ba is 0.542 against the threshold, and the check also reports a mismatch between the draft's 36 decisions and the data's 45. The sensitivity analysis (\u03ba = 0.645, n = 43) is post hoc and the paper admits it does not fix the failure.",
+  "(R2) The automated agreement protocol fails: Section III-D reports kappa 0.542 on 45 decisions, with two cells lacking source text for the AI coder. Excluding those cells does not satisfy the original full-set protocol.",
+  "(R1) The coding is not validated. A single human coded 45 decisions, and the only second coder is an AI (codex) that is not independent. It had no source text for R01 and R24. Unknown cells are rare (2 primary, 5 second), so \u03ba is unstable. The 43 'documented' tags therefore rest on the primary coder's judgment.",
+  "(R2) The primary incident sources cited throughout Section IV as R01\u2013R26 remain unmapped to the formal References list; Appendix C supplies locators but the manuscript explicitly leaves their bibliography reconciliation unresolved.",
+  "(R1) Of the three disagreements, the primary coder kept the tag unchanged in two (Opus 4.6 D2, Artifactory D4). The change log says only 're-read source, primary kept'. No decision rule or adjudication evidence is given, so the reconciliation looks one-sided.",
+  "(R2) Section IV-A states that only two documented cells have single-source support, whereas evidence_class_rows.csv lists many additional documented cells with n_refs = 1, including OpenAI Artifactory D1\u2013D5 and most Anthropic decisions."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 3.0,
+   "novelty": 4.0,
+   "significance": 5.0,
+   "clarity": 4.0,
+   "reproducibility": 4.0,
+   "overall": 3.0
+  },
+  "R2": {
+   "soundness": 4.0,
+   "novelty": 6.0,
+   "significance": 7.0,
+   "clarity": 5.0,
+   "reproducibility": 4.0,
+   "overall": 4.0
+  }
+ },
+ "decisions": {
+  "R1": "reject",
+  "R2": "reject"
+ },
+ "round": 4,
+ "timestamp": "2026-11-02T22:10:40Z",
+ "models": {
+  "R1": "claude",
+  "R2": "codex",
+  "R3": "api",
+  "R4": "agy"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok",
+  "R3": "unavailable",
+  "R4": "limit_hit_earlier"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 3.0,
+    "novelty": 4.0,
+    "significance": 5.0,
+    "clarity": 4.0,
+    "reproducibility": 4.0,
+    "overall": 3.0
+   },
+   "confidence": 4,
+   "decision": "reject",
+   "weaknesses": [
+    "The manuscript still contains unresolved placeholders: three [CITATION NEEDED] markers (Introduction, Related Work A, end of Section IV), a [CITATION NEEDED] after the references, and two [RESULT PENDING] markers (source ledger R28\u2013R44; figure, number audit and page layout). Under the venue rules this caps soundness at 4.",
+    "The automated protocol check fails. Full-set Cohen's \u03ba is 0.542 against the threshold, and the check also reports a mismatch between the draft's 36 decisions and the data's 45. The sensitivity analysis (\u03ba = 0.645, n = 43) is post hoc and the paper admits it does not fix the failure.",
+    "The coding is not validated. A single human coded 45 decisions, and the only second coder is an AI (codex) that is not independent. It had no source text for R01 and R24. Unknown cells are rare (2 primary, 5 second), so \u03ba is unstable. The 43 'documented' tags therefore rest on the primary coder's judgment.",
+    "Of the three disagreements, the primary coder kept the tag unchanged in two (Opus 4.6 D2, Artifactory D4). The change log says only 're-read source, primary kept'. No decision rule or adjudication evidence is given, so the reconciliation looks one-sided.",
+    "Incident-source citations are not in the bibliography. The incident sources R01\u2013R10 and R24\u2013R26 are cited only by ledger ID, and the paper itself says 'verified incident bibliography mappings are unavailable'. The reference list holds only the related-work literature. This is an automatic citation problem.",
+    "The source ledger is incomplete. R27 is truncated and R28\u2013R44 are missing, yet the summary reports '44 source records'. The paper also says the numerical audit found 30 anchors in cached sources among 37 ledger rows. Several key sources (R01, R05, R06) were not reauthenticated (HTTP 403/429). R01 is the sole support for Hugging Face D1, and the anchor for that cell is empty.",
+    "Some quantities are not shown to be backed by the ledger. The 5.5% resampling figure is said to await confirmation of its number-ledger insertion. The replay values were read from figure alt text. The paper also reports 122 runs, 10 runs, 19 actions, 141,006 runs and 15 installations. The brief requires each of these to be traced to a ledger anchor, and the text does not show that for all of them.",
+    "The R24 quarantine-time discrepancy (12:23 vs 13:17 BST) is left unresolved. D4 for AISI Mythos 5 is nonetheless coded 'documented', and the evidence cell says 'isolated within hour', which the inconsistent times do not clearly support.",
+    "The novelty check rates the contribution INCREMENTAL. Cross-incident comparison and coding already exist in the cited work (Raftari, Bouke, Amundsen, Bieringer). The claim-support matrix is a modest methodological addition. The checklist is derived from the same 45 decisions and is untested.",
+    "Table I mixes coded cells with empty or generic cells. The X column contributes no coded decisions (0 X assignments), so RQ4 is answered from narrative rather than coded evidence. The matrix figure was not checked against the current coding.",
+    "The evidence-class assignments are questionable. METR is classed as an 'external investigation'. The Anthropic assessment of the AISI incident is classed 'I', while the paper concedes this does not establish independence. 36 of 45 decisions are operator-only. Hugging Face D4 and D5 are classed 'A' even though R04 is a Hugging Face security researchers' timeline.",
+    "The paper is not in submission form. It is a Markdown revision with internal file paths (experiments/data/...csv). It refers to the 'supplied V11 manuscript' and to 'this revision'. It describes unverified artifacts, and a large share of the limitations section is process disclosure. This is not suitable for double-blind review."
+   ],
+   "strengths": [
+    "The paper is candid about its limits: it reports single-coder coding, AI-assisted second coding, the failed protocol check and unchecked cells, and it makes no prevalence claims.",
+    "It separates reachability from authorization, detection from intervention, and replay from live response. These are useful distinctions for evaluators.",
+    "It logs the five recodes with reasons and anchors, and it supplies a codebook and a full 45-decision table.",
+    "It reports denominators carefully (runs vs actions vs installations, datasets vs customers) and flags the source inconsistency in R24.",
+    "The minimum disclosure checklist is concrete and follows from the comparison."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 6.0,
+    "significance": 7.0,
+    "clarity": 5.0,
+    "reproducibility": 4.0,
+    "overall": 4.0
+   },
+   "confidence": 5,
+   "decision": "reject",
+   "weaknesses": [
+    "Sections I, II and IV, References, and Appendix C retain explicit CITATION NEEDED and RESULT PENDING placeholders for primary-source mappings, ledger completion and artifact verification.",
+    "The automated agreement protocol fails: Section III-D reports kappa 0.542 on 45 decisions, with two cells lacking source text for the AI coder. Excluding those cells does not satisfy the original full-set protocol.",
+    "The primary incident sources cited throughout Section IV as R01\u2013R26 remain unmapped to the formal References list; Appendix C supplies locators but the manuscript explicitly leaves their bibliography reconciliation unresolved.",
+    "Section IV-A states that only two documented cells have single-source support, whereas evidence_class_rows.csv lists many additional documented cells with n_refs = 1, including OpenAI Artifactory D1\u2013D5 and most Anthropic decisions.",
+    "The claimed assessment of source directness and independence is not operationalized adequately: evidence_class_rows.csv labels every decision direct, including unknown cells and investigator interpretations, while independence is reduced to operator only versus beyond operator despite acknowledged shared transcripts.",
+    "Appendix A provides no explicit proposition-level rule distinguishing scorer-manipulation objectives from perceived authorization, yet OpenAI Artifactory and Hugging Face D2 are coded documented from scorer-oriented behavior.",
+    "Section III-A gives broad purposive-selection reasons but no enumerated candidate corpus or exclusion decisions, leaving the selection of these three clusters and nine unequal units unauditable.",
+    "Appendix C omits R28\u2013R44 despite Section III-B reporting 44 source records, and the supplied coding-review description omits the AI model version, prompt and review settings needed to reproduce its judgments.",
+    "Section VI says the manuscript has not been compiled or checked against the page limit, whereas the supplied build reports six compiled main-text pages; the manuscript and build status are inconsistent."
+   ],
+   "strengths": [
+    "The distinction between technical reachability, recognition of a real target and perceived authorization is relevant to agent-security evaluation.",
+    "The claim-support matrix offers a modest methodological contribution beyond the established cross-organization incident comparisons identified in related work.",
+    "Appendix B presents all 45 coding decisions with source identifiers and qualifications, and the change log records the five recodings.",
+    "The analysis carefully separates offline replay performance from live detection, intervention and production-defense efficacy.",
+    "The manuscript openly acknowledges dependent units, single-human coding, missing source access and conflicting quarantine timestamps, and avoids prevalence or causal estimates."
+   ]
+  },
+  "R3": null,
+  "R4": null
+ },
+ "protocol": {
+  "timestamp": "2026-11-02T21:51:00Z",
+  "study_type": "documentary",
+  "pass": false,
+  "failures": [
+   "Agreement with the second coder is low (Cohen's kappa 0.54 on 45 codes).",
+   "The draft states 36 decisions, but the data has 45."
+  ],
+  "warnings": [
+   "Sources without a link: R18 (reviewers can't check them).",
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429), R43 (403).",
+   "The second coder is an AI model (codex): report this agreement as AI-assisted second coding, never as an independent human coder."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 44,
+   "by_status": {
+    "documented": 43,
+    "unknown": 2
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 9
+    },
+    "D2": {
+     "unknown": 2,
+     "documented": 7
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 14,
+     "unknown": 1
+    },
+    "Anthropic": {
+     "documented": 20
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": {
+    "n": 45,
+    "kappa": 0.542,
+    "agreement": 0.933,
+    "coder": "codex",
+    "coder_kind": "AI model (codex)",
+    "units_with_source_text": 9,
+    "sources_without_text": [
+     "R01",
+     "R24"
+    ]
+   },
+   "changed_from_baseline": [
+    "INC-OAI-MAY/D4 unknown->documented",
+    "INC-OAI-MAY/D5 unknown->documented",
+    "INC-ANT-OP47/D4 unknown->documented",
+    "INC-AISI-MY5/D2 unknown->documented",
+    "INC-AISI-SOL/D5 unknown->documented"
+   ]
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 agent evaluation breakout incidents across organizations and derives security assurance lessons."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Already systematizes loss of control across incident reports and evaluations, providing a framework for comparing execution outcomes."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Already applies a fixed governance architecture across documented autonomous-agent cybersecurity incidents and controlled evaluations."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Already develops an AI security incident taxonomy addressing reporting standards and consistent incident categorization."
+   },
+   {
+    "key": "guyatt2008grade",
+    "overlap": "Already separates evidence quality from recommendation strength and assesses indirectness and other limitations."
+   }
+  ],
+  "reasons": [
+   "Cross-organization incident comparison and systematic coding are established by listed work; they cannot carry the novelty claim alone.",
+   "The supplied summaries do not establish that prior work provides this specific claim-level support matrix separating access, authorization belief, action, response latency, and verified effect.",
+   "An anchored matrix recording source directness, independence, and missing disclosures offers a clear, checkable methodological increment suitable for the stated workshop scope.",
+   "The disclosure-gap checklist is a useful application of that matrix, but generic incident reporting guidance and evidence grading already have listed precedents.",
+   "Nine non-independent units and 45 coding decisions describe the artifact's scope, not independent evidence of novelty. The supplied contribution is truncated, so unseen repositioning details cannot strengthen this assessment."
+  ],
+  "reposition": "Lead with the auditable claim-support matrix and demonstrate which conclusions become unsupported or narrower when source directness, dependence, and missing disclosures are considered. Position the three-cluster comparison as its application, and explicitly distinguish the resulting disclosure checklist from existing incident taxonomies and cross-incident frameworks.",
+  "round": 4,
+  "timestamp": "2026-11-02T21:43:53Z",
+  "literature_added": []
+ },
+ "latex": {
+  "timestamp": "2026-11-02T21:55:00Z",
+  "engine": "latexmk",
+  "compiled": true,
+  "limit": 6,
+  "pages_total": 7,
+  "pages_main": 6,
+  "undefined_citations": [],
+  "pass": true
+ }
+}

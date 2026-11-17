@@ -1,0 +1,272 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3",
+  "R4"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [
+  "Experimental protocol check failed: Agreement with the second coder is low (Cohen's kappa 0.54 on 45 codes). The draft states 5 decisions, but the data has 45.",
+  "Venue page limit exceeded: 7 main-text pages, limit 6."
+ ],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 4.0,
+  "novelty": 5.0,
+  "significance": 6.0,
+  "clarity": 5.0,
+  "reproducibility": 5.0,
+  "overall": 4.0
+ },
+ "reasons": [
+  "Experimental protocol check failed: Agreement with the second coder is low (Cohen's kappa 0.54 on 45 codes). The draft states 5 decisions, but the data has 45.",
+  "Venue page limit exceeded: 7 main-text pages, limit 6.",
+  "Mean overall score 4.0 is below the acceptance bar of 7.0.",
+  "Soundness below 6 from R1 (4), R2 (4).",
+  "(R1) The automated protocol check FAILED: full-set Cohen's \u03ba is 0.542, below the pre-specified 0.6 threshold. The check also flags a mismatch between the 5 decisions the draft states and the 45 in the data. This caps soundness at 4. The 45 codes are therefore not validated, and the paper's central empirical artifact is 'descriptive only'.",
+  "(R2) Section III-D reports a failed protocol check: full-set Cohen\u2019s kappa is 0.542, below the pre-specified 0.6 threshold. The non-independent AI exercise and post hoc exclusion analysis do not establish reliable coding.",
+  "(R1) The only second coder is an AI (codex) and is not independent. Two sources (R01, R24) were not available to it. The primary coder is a single human. The 93.3% raw agreement and \u03ba are weak evidence. The bootstrap CI of [0, 1] is uninformative. The post hoc \u03ba of 0.645 on n=43 was chosen after seeing the failure.",
+  "(R2) Section III-D and the supplied coding-change log identify different disputed cells: agreement.json lists OpenAI May D4, whereas the narrative lists Opus 4.6 D2. Consequently, the reported agreement cannot be traced to one consistent cell-level coding record.",
+  "(R1) The records on disagreements conflict, and the paper admits this (III-D). agreement.json lists OpenAI May D4, but the findings and change log list Opus 4.6 D2. The change log also records an Artifactory D4 disagreement. Because the cell-level disagreements cannot be identified, the reconciliation procedure is unreliable. The retention rule was applied only by the primary coder, so it is not adjudication.",
+  "(R2) Appendix B and coded_evidence.csv mark OpenAI Artifactory D2 and Hugging Face D2 documented using scorer-manipulation orientation. A task objective or motive does not establish the authorization interpretation that D2 purports to measure.",
+  "(R1) The coding is lopsided: 43 of 45 cells are 'documented', none are contradicted, and 37 of 43 cite a single source. The tags give little discrimination. Cases cannot be compared when almost every cell has the same value. The paper also admits that reference counts do not show independence.",
+  "(R2) The retention rule in Section III-D requires a contradicting source passage before changing a documented tag. This does not address objections that the cited evidence is insufficient, which the codebook itself defines as grounds for an unknown tag."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 4.0,
+   "novelty": 4.0,
+   "significance": 5.0,
+   "clarity": 5.0,
+   "reproducibility": 5.0,
+   "overall": 4.0
+  },
+  "R2": {
+   "soundness": 4.0,
+   "novelty": 6.0,
+   "significance": 7.0,
+   "clarity": 5.0,
+   "reproducibility": 5.0,
+   "overall": 4.0
+  }
+ },
+ "decisions": {
+  "R1": "weak reject",
+  "R2": "weak reject"
+ },
+ "round": 5,
+ "timestamp": "2026-11-05T18:41:27Z",
+ "models": {
+  "R1": "claude",
+  "R2": "codex",
+  "R3": "api",
+  "R4": "agy"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok",
+  "R3": "unavailable",
+  "R4": "limit_hit_earlier"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 4.0,
+    "significance": 5.0,
+    "clarity": 5.0,
+    "reproducibility": 5.0,
+    "overall": 4.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "The automated protocol check FAILED: full-set Cohen's \u03ba is 0.542, below the pre-specified 0.6 threshold. The check also flags a mismatch between the 5 decisions the draft states and the 45 in the data. This caps soundness at 4. The 45 codes are therefore not validated, and the paper's central empirical artifact is 'descriptive only'.",
+    "The only second coder is an AI (codex) and is not independent. Two sources (R01, R24) were not available to it. The primary coder is a single human. The 93.3% raw agreement and \u03ba are weak evidence. The bootstrap CI of [0, 1] is uninformative. The post hoc \u03ba of 0.645 on n=43 was chosen after seeing the failure.",
+    "The records on disagreements conflict, and the paper admits this (III-D). agreement.json lists OpenAI May D4, but the findings and change log list Opus 4.6 D2. The change log also records an Artifactory D4 disagreement. Because the cell-level disagreements cannot be identified, the reconciliation procedure is unreliable. The retention rule was applied only by the primary coder, so it is not adjudication.",
+    "The coding is lopsided: 43 of 45 cells are 'documented', none are contradicted, and 37 of 43 cite a single source. The tags give little discrimination. Cases cannot be compared when almost every cell has the same value. The paper also admits that reference counts do not show independence.",
+    "Two documented cells (HF D1 and AISI Sol D5) rest on sources the AI coder could not read. HF D1 rests on R01, which returned HTTP 403 and was not re-verified, so it rests on a prior reading only. The 'not reauthenticated' status means it cannot be traced to a source anchor as the brief requires.",
+    "The built PDF has 7 main-text pages against a 6-page limit. The submission also refers throughout to repository files (experiments/data/..., n_refs_counts.json, number_ledger.csv, 'round 1/4/5') that a double-blind reviewer cannot access. The text is not anonymized in these respects, and the methods section is heavy with internal process detail.",
+    "Novelty is incremental, which the automated novelty check confirms. Cross-organization incident comparison overlaps with Raftari, Bouke and Amundsen, and the closest-work discussion originally omitted them. The 'claim-support matrix' is a 4\u00d75 table of generic descriptions, and the O/A/I/X classes are not shown to add analytic value beyond ordinary provenance tagging. The X column has zero coded decisions, so it is empty in practice.",
+    "The numerical audit is thin. It reports 37 ledger rows and 30 anchors found, and it covers only anchors in cached sources. Row N42 (5.5% resampling) was added after the audit and is reported separately. Opus 4.7 resampling values were read from HTML alt text. The anchor checks use regex hit counts (e.g. 184 hits for 'message board') that show a keyword is present but not that the proposition is supported. Several figures (141,006 runs; 122 runs; 10 runs) rely on secondary extraction.",
+    "Several sources are cited by 'accessed' status that conflicts across records. R06 is listed as reopened in the ledger but as HTTP 429 in the findings. R31 is listed as opened in the ledger but as not opened in the findings. Many ledger entries (R36\u2013R44) are 'scout summary only' sources, including low-quality commercial blogs. They pad the source inventory of 44 without supporting any finding.",
+    "Some claims about stage-level detection go beyond what the sources support. D4 is coded 'documented' for cells where the source reports only an observation (OpenAI May) or a failed abort (Opus 4.6). This stretches the 'documented' definition, and the interpretation of RQ3 relies on it. The RQ2 claim that the evidence separates recognizing reality from believing the action is authorized rests mainly on one developer's narrated account of its own model."
+   ],
+   "strengths": [
+    "The paper is candid about its limits. It states the \u03ba failure, the AI-only second coding, the single human coder, the uninformative bootstrap CI and the conflicting disagreement records. It does not overclaim validity.",
+    "The conceptual separations are useful. Reachability is kept apart from authorization, recognizing a real target from belief in permission, detection from intervention, and replay from live response. The paper keeps denominators distinct (122 runs, 19 actions, 5 datasets and 15 installations are not pooled).",
+    "The coding is traceable, with a per-cell evidence class, anchor IDs, a change log and a claim-strength downgrade log. The three agreeing cells are clearly marked. The disclosure checklist is concrete and practical for evaluators.",
+    "The documentary design involves no offensive experiments and adds no operational detail. Its scope claims are modest."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 6.0,
+    "significance": 7.0,
+    "clarity": 5.0,
+    "reproducibility": 5.0,
+    "overall": 4.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "Section III-D reports a failed protocol check: full-set Cohen\u2019s kappa is 0.542, below the pre-specified 0.6 threshold. The non-independent AI exercise and post hoc exclusion analysis do not establish reliable coding.",
+    "Section III-D and the supplied coding-change log identify different disputed cells: agreement.json lists OpenAI May D4, whereas the narrative lists Opus 4.6 D2. Consequently, the reported agreement cannot be traced to one consistent cell-level coding record.",
+    "Appendix B and coded_evidence.csv mark OpenAI Artifactory D2 and Hugging Face D2 documented using scorer-manipulation orientation. A task objective or motive does not establish the authorization interpretation that D2 purports to measure.",
+    "The retention rule in Section III-D requires a contradicting source passage before changing a documented tag. This does not address objections that the cited evidence is insufficient, which the codebook itself defines as grounds for an unknown tag.",
+    "The supplied PDF build has seven main-text pages, exceeding the venue\u2019s six-page limit.",
+    "Section III-A describes selection through substantive documentation and contrasting conditions but gives no operational inclusion threshold or systematic candidate-identification procedure. The selected corpus therefore cannot be reconstructed from the stated selection rules alone.",
+    "The AI coding exercise lacks an exact model version, coding prompt, inference settings and complete second-coder output in the supplied material, limiting reproduction of the reported agreement.",
+    "The supplied evidence_class_rows.csv labels investigator interpretations and even unknown cells as direct evidence. This uniform directness coding does not implement the distinctions between directness and investigator inference emphasized in Section III-C."
+   ],
+   "strengths": [
+    "The row-level matrix and complete 45-decision appendix provide a concrete, inspectable methodological increment beyond narrative incident comparison.",
+    "The analysis carefully separates technical access, perceived authorization, external actions, response stages and established effects.",
+    "Replay findings are attributed to their original investigators and are not presented as measurements of live intervention or production-defense efficacy.",
+    "The manuscript explicitly discloses source dependence, unavailable source text, unresolved disagreements and the failed reliability threshold.",
+    "The comparison addresses questions directly relevant to agent-security evaluators while avoiding prevalence estimates and unsupported causal claims."
+   ]
+  },
+  "R3": null,
+  "R4": null
+ },
+ "protocol": {
+  "timestamp": "2026-11-05T18:19:25Z",
+  "study_type": "documentary",
+  "pass": false,
+  "failures": [
+   "Agreement with the second coder is low (Cohen's kappa 0.54 on 45 codes).",
+   "The draft states 5 decisions, but the data has 45."
+  ],
+  "warnings": [
+   "Sources without a link: R18 (reviewers can't check them).",
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429), R43 (403).",
+   "The second coder is an AI model (codex): report this agreement as AI-assisted second coding, never as an independent human coder."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 44,
+   "by_status": {
+    "documented": 43,
+    "unknown": 2
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 9
+    },
+    "D2": {
+     "unknown": 2,
+     "documented": 7
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 14,
+     "unknown": 1
+    },
+    "Anthropic": {
+     "documented": 20
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": {
+    "n": 45,
+    "kappa": 0.542,
+    "agreement": 0.933,
+    "coder": "codex",
+    "coder_kind": "AI model (codex)",
+    "units_with_source_text": 9,
+    "sources_without_text": [
+     "R01",
+     "R24"
+    ]
+   },
+   "changed_from_baseline": [
+    "INC-OAI-MAY/D4 unknown->documented",
+    "INC-OAI-MAY/D5 unknown->documented",
+    "INC-ANT-OP47/D4 unknown->documented",
+    "INC-AISI-MY5/D2 unknown->documented",
+    "INC-AISI-SOL/D5 unknown->documented"
+   ]
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 agent evaluation breakout incidents across organizations and develops containment and assurance implications."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Already systematizes loss-of-control outcomes across incident reports and evaluations to make differently described failures comparable."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Already conducts cross-incident analysis of autonomous-agent cybersecurity incidents and controlled evaluation cases."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Already develops a practical AI security incident taxonomy addressing deficiencies in incident reporting and collection."
+   },
+   {
+    "key": "guyatt2008grade",
+    "overlap": "Already separates evidence quality from recommendation strength and assesses bias, indirectness, inconsistency and imprecision."
+   }
+  ],
+  "reasons": [
+   "Cross-organization incident comparison and stage-based systematization overlap strongly with listed work; they cannot carry the novelty claim alone.",
+   "The contribution's closest-work discussion omits the most directly overlapping listed comparisons, especially Raftari and Bouke.",
+   "A row-level, source-anchored claim-support matrix separating authorization belief, action, response and verified effects provides a clear, checkable methodological increment. The supplied summaries do not establish that listed work already provides this artifact.",
+   "The disclosure-gap analysis and checklist are plausible application increments, but reporting taxonomies and evidence-quality assessment already have listed precedents.",
+   "The supplied literature summaries support an incremental verdict, but do not establish exact case overlap or whether the closest studies already implement equivalent evidence coding."
+  ],
+  "reposition": "Lead with the auditable claim-support matrix and demonstrate specific conclusions that change when source directness, independence and missing evidence are considered. Compare its fields and outputs explicitly with Raftari, Bouke and Bieringer, treating the three-cluster comparison and disclosure checklist as applications.",
+  "round": 5,
+  "timestamp": "2026-11-05T18:10:20Z",
+  "literature_added": [
+   "Mastyf Guard 1.5B: Cognitive Harvard Architectures for Sub-Millisecond AI Agent Perimeter Defense and Capability-Based Access Control",
+   "Attacks That Score, Attacks That Transfer: Guardrail Asymmetry, the Confused Deputy, and Hidden-Evaluator Reconstruction in a Multi-Step Tool-Agent Security Benchmark",
+   "The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents"
+  ]
+ },
+ "latex": {
+  "timestamp": "2026-11-05T18:25:39Z",
+  "engine": "latexmk",
+  "compiled": true,
+  "limit": 6,
+  "pages_total": 7,
+  "pages_main": 7,
+  "undefined_citations": [],
+  "pass": false
+ }
+}

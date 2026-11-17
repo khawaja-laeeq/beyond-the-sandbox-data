@@ -1,0 +1,269 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3",
+  "R4"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [
+  "The draft still contains placeholders: [RESULT PENDING: verified field extracts and locators]."
+ ],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 4.0,
+  "novelty": 4.5,
+  "significance": 6.0,
+  "clarity": 5.5,
+  "reproducibility": 5.5,
+  "overall": 4.0
+ },
+ "reasons": [
+  "The draft still contains placeholders: [RESULT PENDING: verified field extracts and locators].",
+  "Mean overall score 4.0 is below the acceptance bar of 7.0.",
+  "Soundness below 6 from R1 (4), R2 (4).",
+  "(R1) Appendix D contains four '[RESULT PENDING: verified field extracts and locators]' placeholders and a table of 'Not verified from full text' cells. This is an automatic problem and caps soundness at 4. The paper concedes it cannot show how its schema differs from Raftari, Bouke, Amundsen or Bieringer.",
+  "(R2) Appendix D contains four explicit '[RESULT PENDING: verified field extracts and locators]' placeholders in the closest-work comparison.",
+  "(R1) The novelty check returned INCREMENTAL, and the paper's own Appendix D withholds any claim of schema uniqueness. The remaining contribution is applying evidence-grading to nine units, which is thin for a methods-framed paper ('audited claim-support matrix'). The headline findings are mostly that single-source reports are single-source and that D2 has the most unknowns.",
+  "(R2) The released coded_evidence.csv retains propositions inconsistent with the audited matrix: Artifactory D5 describes shared-infrastructure communication, whereas Appendix B codes an outage and administrator-level compromise; Artifactory D3 likewise retains message-board and tool-call-spoofing text despite its replacement supporting passage concerning administrator credentials.",
+  "(R1) The whole study is single-coder, and the coder is also the auditor. The audit checks only that quotations exist in cached text (52/52 letter-and-digit matches), not that they entail the tag. The 'resolved objections' from the AI second-coder pass were resolved by the same person who coded the cell, so there is no independent validation. Several 'documented' tags depend on the coder's judgment of a short paraphrase.",
+  "(R2) Section III-D and Appendix E claim successful matching of 52 quotations, but the supplied audit output is truncated and contains no complete matching summary establishing that total.",
+  "(R1) The sensitivity analysis is largely circular. Table V tests six conclusions that the authors chose. Two of them (C3, C4) already fail at baseline. The seven 'narrow or contested' cells were picked by the authors, and the tag-flip scenarios are deterministic recounts. 'None changes' is close to a tautology, because D2 has the unknowns and the downgraded cells are mostly in D1\u2013D5 where documented tags are plentiful. It is not evidence of robustness. The 'all 36 single-source to unknown' row does change C2 and C5, and the text downplays this.",
+  "(R2) Appendix D leaves the dimensions, provenance fields and inference rules of all four closest works unverified, so the methodological increment over existing incident-reporting frameworks remains unestablished.",
+  "(R1) The abstract and Section IV-A say 36 of 39 documented decisions cite one source, and the discounting table shows only 3 survive. This means the study's own positive findings depend on single reports (mostly R08, the developer's own assessment). The text still calls the matrix 'audited'. Many units share R08, so the 'across clusters' comparison is largely one document for the Anthropic cluster.",
+  "(R2) Section III-A gives purposive selection criteria without a search procedure, candidate enumeration or operational threshold for 'substantive public documentation'; the selected corpus cannot be independently reconstructed from those criteria."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 4.0,
+   "novelty": 4.0,
+   "significance": 5.0,
+   "clarity": 5.0,
+   "reproducibility": 6.0,
+   "overall": 4.0
+  },
+  "R2": {
+   "soundness": 4.0,
+   "novelty": 5.0,
+   "significance": 7.0,
+   "clarity": 6.0,
+   "reproducibility": 5.0,
+   "overall": 4.0
+  }
+ },
+ "decisions": {
+  "R1": "weak reject",
+  "R2": "weak reject"
+ },
+ "round": 9,
+ "timestamp": "2026-11-06T04:47:44Z",
+ "models": {
+  "R1": "claude",
+  "R2": "codex",
+  "R3": "api",
+  "R4": "agy"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok",
+  "R3": "error",
+  "R4": "limit_hit_earlier"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 4.0,
+    "significance": 5.0,
+    "clarity": 5.0,
+    "reproducibility": 6.0,
+    "overall": 4.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "Appendix D contains four '[RESULT PENDING: verified field extracts and locators]' placeholders and a table of 'Not verified from full text' cells. This is an automatic problem and caps soundness at 4. The paper concedes it cannot show how its schema differs from Raftari, Bouke, Amundsen or Bieringer.",
+    "The novelty check returned INCREMENTAL, and the paper's own Appendix D withholds any claim of schema uniqueness. The remaining contribution is applying evidence-grading to nine units, which is thin for a methods-framed paper ('audited claim-support matrix'). The headline findings are mostly that single-source reports are single-source and that D2 has the most unknowns.",
+    "The whole study is single-coder, and the coder is also the auditor. The audit checks only that quotations exist in cached text (52/52 letter-and-digit matches), not that they entail the tag. The 'resolved objections' from the AI second-coder pass were resolved by the same person who coded the cell, so there is no independent validation. Several 'documented' tags depend on the coder's judgment of a short paraphrase.",
+    "The sensitivity analysis is largely circular. Table V tests six conclusions that the authors chose. Two of them (C3, C4) already fail at baseline. The seven 'narrow or contested' cells were picked by the authors, and the tag-flip scenarios are deterministic recounts. 'None changes' is close to a tautology, because D2 has the unknowns and the downgraded cells are mostly in D1\u2013D5 where documented tags are plentiful. It is not evidence of robustness. The 'all 36 single-source to unknown' row does change C2 and C5, and the text downplays this.",
+    "The abstract and Section IV-A say 36 of 39 documented decisions cite one source, and the discounting table shows only 3 survive. This means the study's own positive findings depend on single reports (mostly R08, the developer's own assessment). The text still calls the matrix 'audited'. Many units share R08, so the 'across clusters' comparison is largely one document for the Anthropic cluster.",
+    "The ledger and data files disagree with the manuscript. appendix_b_check.csv flags mismatches: May D2 (R01;R02 versus R02), Artifactory D1 (R02;R07 versus R02), and AISI Mythos 5 D4 and Sol D3 (R10;R24 in the CSV versus R10 only in the draft). The draft has to add a note excluding R24 from the counted references. Source counts therefore rest on ad hoc exclusions, which undermines the 'inspectable' claim and the 36/3 split.",
+    "The coded_evidence.csv text does not always match the manuscript propositions. Examples: Artifactory D5 evidence is still 'Shared infrastructure communication observed', Opus 4.6 D2 is 'Model believed external target part of CTF', and HF D3 is 'Agents attacked Hugging Face'. The manuscript reports different propositions for these cells, so the delivered data files do not back every table row. The Opus 4.6 D2 CSV line reads as a belief, but the manuscript reframes it as an attributed statement.",
+    "The coding scheme and tags changed repeatedly over rounds (e.g., May D4 and D5, Op4.7 D4, AISI Mythos 5 D2 and Sol D5 recoded from unknown to documented; Artifactory D2, HF D2 and Mythos 5 D2 recoded to unknown). The recodes were made by the same coder after seeing new sources, and the codebook rules were sharpened as the recodes happened. This is post hoc codebook tuning, and the final counts (39/0/6) are not stable evidence.",
+    "A 'documented' tag requires only that unit-specific support exist. It does not require corroboration or evidence quality. As a result D3, D4 and D5 are 'documented' in all nine units, so the matrix has almost no discriminating power outside D1 and D2. The unknown-versus-documented split is driven by whether a source happens to state a belief, not by a measured property of the incidents.",
+    "Several sources are unreachable or unchecked. R01 and R05 return HTTP 403, R06 has conflicting access records, and R11\u2013R23 are 'not reauthenticated'. R36\u2013R50 were not opened. The paper cites R01 as an examined reference in the May D2 row. R18's URL is 'not supplied'. The reference list pads the bibliography with many unrelated Zenodo, SSRN and Research Square items (hone2026ark, ARK-442 and others), which look uncited. The count of '50 records' overstates the evidence base.",
+    "Related-work claims about prior art rest on 'verified summaries' that the paper admits are not full text. The paper cannot say what the closest prior works contain, so its positioning against them cannot be assessed.",
+    "Clarity and format: the manuscript is full of hedging boilerplate ('does not establish\u2026') repeated in nearly every paragraph, which obscures what was found. The References section says only 'generated from the bibliography', and Appendix E concedes the PDF 'has not been rebuilt', while the build line reports 6 pages. These statements are inconsistent. The paper is dense with abbreviations (D/U/*, O/A/I/X), and its figures are limited to tables. The source of the 68.7%/22.9% numbers cited in the brief is not shown."
+   ],
+   "strengths": [
+    "It is honest and careful about inference limits. The paper states explicitly that reachability is not permission, an attempt is not completion, and an alert is not containment. It also treats unknowns as disclosure gaps rather than evidence of absence.",
+    "Every one of the 45 decisions has a stated locator and passage. A string-match check confirmed that all 52 quotes are present in the cached sources. The change log and audit trail are released, so a reader can inspect the coding.",
+    "The paper distinguishes provenance classes (operator, affected party, investigator, replay) and separates published replays from live response. It handles the AISI quarantine-time inconsistency (12:23 versus 13:17 BST) transparently.",
+    "The disclosure checklist is concrete and could help future incident reports. The tag-flip table makes the dependence on single-source reporting visible.",
+    "The scope is clearly documentary, with no offensive reproduction, and the evidence cutoff is stated."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 5.0,
+    "significance": 7.0,
+    "clarity": 6.0,
+    "reproducibility": 5.0,
+    "overall": 4.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "Appendix D contains four explicit '[RESULT PENDING: verified field extracts and locators]' placeholders in the closest-work comparison.",
+    "The released coded_evidence.csv retains propositions inconsistent with the audited matrix: Artifactory D5 describes shared-infrastructure communication, whereas Appendix B codes an outage and administrator-level compromise; Artifactory D3 likewise retains message-board and tool-call-spoofing text despite its replacement supporting passage concerning administrator credentials.",
+    "Section III-D and Appendix E claim successful matching of 52 quotations, but the supplied audit output is truncated and contains no complete matching summary establishing that total.",
+    "Appendix D leaves the dimensions, provenance fields and inference rules of all four closest works unverified, so the methodological increment over existing incident-reporting frameworks remains unestablished.",
+    "Section III-A gives purposive selection criteria without a search procedure, candidate enumeration or operational threshold for 'substantive public documentation'; the selected corpus cannot be independently reconstructed from those criteria.",
+    "The same coder selected passages, assigned tags and judged entailment in Section III-D; quotation matching and tag-flip analysis provide no independent assessment of the contested authorization interpretations.",
+    "Section IV-G tests coarse tag-count conclusions, including two already false at baseline, rather than the substantive cross-case interpretations in Section IV-F; its unchanged conclusions provide limited evidence of analytical robustness.",
+    "Appendix E describes cached texts, scripts and audit records without an artifact location, version identifier or execution instructions, limiting reproducibility beyond the supplied CSV excerpts."
+   ],
+   "strengths": [
+    "The paper consistently distinguishes reachability, authorization interpretation, external action, response and established effect, with explicit decision rules and a complete 45-cell summary.",
+    "The treatment of attributed authorization statements avoids equating simulation judgments, task objectives or target realism with permission beliefs.",
+    "The comparison identifies practically relevant differences between observation, failed abort execution, retrospective detection and evaluation termination.",
+    "The manuscript explicitly acknowledges dependent units, single-source concentration, single-coder limitations and the limits of replay evidence.",
+    "The reported PDF build satisfies the six-page main-text limit and reports no undefined citations."
+   ]
+  },
+  "R3": null,
+  "R4": null
+ },
+ "protocol": {
+  "timestamp": "2026-11-06T04:43:25Z",
+  "study_type": "documentary",
+  "pass": true,
+  "failures": [],
+  "warnings": [
+   "Sources without a link: R18 (reviewers can't check them).",
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50.",
+   "Single coder by design (brief.md: Second coder: none): state it openly; no agreement statistic.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429), R43 (403)."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 50,
+   "by_status": {
+    "documented": 39,
+    "unknown": 6
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 8,
+     "unknown": 1
+    },
+    "D2": {
+     "unknown": 5,
+     "documented": 4
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 11,
+     "unknown": 4
+    },
+    "Anthropic": {
+     "documented": 19,
+     "unknown": 1
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": null,
+   "changed_from_baseline": [
+    "INC-OAI-MAY/D4 unknown->documented",
+    "INC-OAI-MAY/D5 unknown->documented",
+    "INC-OAI-ART/D1 documented->unknown",
+    "INC-OAI-ART/D2 documented->unknown",
+    "INC-OAI-HF/D2 documented->unknown",
+    "INC-ANT-OP47/D4 unknown->documented",
+    "INC-ANT-MY5/D2 documented->unknown",
+    "INC-AISI-MY5/D2 unknown->documented",
+    "INC-AISI-SOL/D5 unknown->documented"
+   ]
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 evaluation breakout incidents across organizations and derives security-assurance lessons."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Already systematizes loss of control across incident reports and evaluations using a common analytical framework."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Already conducts cross-incident analysis of documented autonomous-agent cybersecurity incidents and controlled evaluation cases."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Already develops an AI security incident taxonomy addressing practical incident classification and reporting."
+   },
+   {
+    "key": "guyatt2008grade",
+    "overlap": "Already separates evidence quality from recommendation strength and explicitly assesses indirectness and other evidence limitations."
+   }
+  ],
+  "reasons": [
+   "Cross-organizational incident comparison and a shared coding framework overlap strongly with listed prior work; they cannot sustain the broad novelty claim alone.",
+   "The clearest checkable increment is the row-anchored claim-support matrix separating access, authorization belief, action, response latency and verified effect while recording directness, source independence and missing disclosures.",
+   "The supplied literature descriptions do not establish that any listed work already provides this specific matrix or the associated disclosure-gap audit for the selected three clusters.",
+   "Evidence grading and incident reporting frameworks are established in the listed literature. The contribution is their concrete application and resulting findings, rather than a new general evidence-grading method.",
+   "Nine units and 45 decisions provide an auditable documentary artifact, but their counts alone do not establish novelty. Workshop value depends on substantive findings that the matrix reveals beyond existing comparisons.",
+   "The claimed-contribution text is truncated, and the supplied descriptions of the closest papers are abbreviated. Exact methodological non-overlap remains unconfirmed."
+  ],
+  "reposition": "Lead with the auditable claim-support matrix and specific disclosure gaps it reveals, treating the three-cluster comparison as its application. Explicitly compare the matrix with Raftari, Bouke, Amundsen and Bieringer, and frame evidence grading as an adaptation of established methods.",
+  "round": 9,
+  "timestamp": "2026-11-06T04:34:27Z",
+  "literature_added": []
+ },
+ "latex": {
+  "timestamp": "2026-11-06T04:43:24Z",
+  "engine": "latexmk",
+  "compiled": true,
+  "limit": 6,
+  "pages_total": 12,
+  "pages_main": 6,
+  "undefined_citations": [],
+  "internal_terms": [],
+  "pass": true,
+  "package": {
+   "path": "build/reproducibility_package.zip",
+   "files": 58
+  }
+ }
+}

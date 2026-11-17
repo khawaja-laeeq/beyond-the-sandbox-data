@@ -1,0 +1,261 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3",
+  "R4"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 5.0,
+  "novelty": 5.0,
+  "significance": 6.0,
+  "clarity": 6.0,
+  "reproducibility": 6.0,
+  "overall": 5.0
+ },
+ "reasons": [
+  "Mean overall score 5.0 is below the acceptance bar of 7.0.",
+  "Soundness below 6 from R1 (5), R2 (5).",
+  "(R1) Single coder made all 45 coding and entailment judgments, with no second human coder and no agreement statistic. The only external check is a Bouke/Raftari concordance on a few aligned cells, and those works share primary sources with this study. The central claims about D2 and the other dimensions therefore have no independent validation (Sections III-D, IV-H, VI).",
+  "(R2) Section III-A leaves 16 candidate incidents unassessed, so the selection procedure does not establish why these nine units constitute the comparison corpus; the dimensional disclosure findings remain conditional on an incompletely screened selection.",
+  "(R1) The evidence base is extremely concentrated. 36 of 39 documented decisions cite one source, and R08 is the sole source for 17 of the 19 Anthropic cells. The paper's own Tables IV and V show that its headline findings (D2 has the most unknowns; D2 is least documented) flip with four tag flips, or when single-source support is removed. The 'cross-cluster findings' are largely contrasts between three first-party documents.",
+  "(R2) Section III-C and the internal-model D2 coded row classify the source's statement that the model 'inferred' neighboring hosts were in scope as direct support, although the stated rule classifies source interpretations without a model statement as inferred. Calling this borderline does not resolve the inconsistent application.",
+  "(R1) Case selection is not a completed procedure. 16 candidate incidents were never assessed and are not verified exclusions. The inclusion rule is described as including the nine retained units, which reads as post hoc. The 'at least three of D1-D5 documented' criterion was applied to the retained units and not to the backlog, so the corpus cannot support comparative claims across clusters.",
+  "(R2) Section III-D assigns all entailment judgments to one coder, with no independent human extraction or agreement assessment. Appendix F checks only a few aligned propositions against publications sharing the primary records and therefore leaves most coding judgments unvalidated.",
+  "(R1) Several codings changed during the revision (unknown to documented for May D4/D5, Opus 4.7 D4, AISI Mythos 5 D2, Sol D5; documented to unknown for Artifactory D2, HF D2, Mythos 5 D2). Some of these came from the same coder's re-reading after an AI cross-read objection. The 'audit' that confirmed them was done by that same coder, so confirmation is circular. The paper describes a 'passage-level audit' without making clear that it is not independent.",
+  "(R2) Section IV-G treats retained references as retained support without showing that each remaining source independently supports the entire compound proposition. For example, Hugging Face D4 compares affected-party and operator detection times using different passages from R03 and R02; retaining either reference alone does not establish that ordering.",
+  "(R1) The quotation-matching check (52 of 52 found) validates only text presence, as the paper concedes, and then features prominently as evidence of rigor in the abstract and Appendix E. The direct/inferred labels rest on the coder's judgment. The paper itself calls internal-model D2 'borderline' yet counts it as direct, which affects the Table IV totals of 37 direct versus 2 inferred.",
+  "(R2) The D5 propositions in Appendix B vary substantially in specificity: the internal-model row establishes only that third-party systems were attacked, whereas other rows establish accessed data, credentials or account registrations. Their common documented status is consequently a weak basis for comparing completeness of established-effect disclosure."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 5.0,
+   "novelty": 4.0,
+   "significance": 5.0,
+   "clarity": 5.0,
+   "reproducibility": 6.0,
+   "overall": 5.0
+  },
+  "R2": {
+   "soundness": 5.0,
+   "novelty": 6.0,
+   "significance": 7.0,
+   "clarity": 7.0,
+   "reproducibility": 6.0,
+   "overall": 5.0
+  }
+ },
+ "decisions": {
+  "R1": "borderline",
+  "R2": "weak reject"
+ },
+ "round": 10,
+ "timestamp": "2026-11-06T11:16:06Z",
+ "models": {
+  "R1": "claude",
+  "R2": "codex",
+  "R3": "api",
+  "R4": "agy"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok",
+  "R3": "unavailable",
+  "R4": "limit_hit_earlier"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 5.0,
+    "novelty": 4.0,
+    "significance": 5.0,
+    "clarity": 5.0,
+    "reproducibility": 6.0,
+    "overall": 5.0
+   },
+   "confidence": 4,
+   "decision": "borderline",
+   "weaknesses": [
+    "Single coder made all 45 coding and entailment judgments, with no second human coder and no agreement statistic. The only external check is a Bouke/Raftari concordance on a few aligned cells, and those works share primary sources with this study. The central claims about D2 and the other dimensions therefore have no independent validation (Sections III-D, IV-H, VI).",
+    "The evidence base is extremely concentrated. 36 of 39 documented decisions cite one source, and R08 is the sole source for 17 of the 19 Anthropic cells. The paper's own Tables IV and V show that its headline findings (D2 has the most unknowns; D2 is least documented) flip with four tag flips, or when single-source support is removed. The 'cross-cluster findings' are largely contrasts between three first-party documents.",
+    "Case selection is not a completed procedure. 16 candidate incidents were never assessed and are not verified exclusions. The inclusion rule is described as including the nine retained units, which reads as post hoc. The 'at least three of D1-D5 documented' criterion was applied to the retained units and not to the backlog, so the corpus cannot support comparative claims across clusters.",
+    "Several codings changed during the revision (unknown to documented for May D4/D5, Opus 4.7 D4, AISI Mythos 5 D2, Sol D5; documented to unknown for Artifactory D2, HF D2, Mythos 5 D2). Some of these came from the same coder's re-reading after an AI cross-read objection. The 'audit' that confirmed them was done by that same coder, so confirmation is circular. The paper describes a 'passage-level audit' without making clear that it is not independent.",
+    "The quotation-matching check (52 of 52 found) validates only text presence, as the paper concedes, and then features prominently as evidence of rigor in the abstract and Appendix E. The direct/inferred labels rest on the coder's judgment. The paper itself calls internal-model D2 'borderline' yet counts it as direct, which affects the Table IV totals of 37 direct versus 2 inferred.",
+    "Contribution is thin relative to the prior work the paper itself cites. Raftari already grades claims by evidence level and compares stages. Bouke already does passage-checked extraction. Amundsen already separates reachability from authorization and codes authorization assumptions. The paper concedes no first-of-its-kind claim, leaving only a nine-unit table. The novelty check returned INCREMENTAL.",
+    "Dependence on sources that were not verified. R01 and R05 return HTTP 403. R11-R23 are 'not reauthenticated'. Related-work statements about AI Control and Defeating Prompt Injections rely on 'supplied verified summaries' rather than full texts. The bibliography contains many uncited entries (e.g., Zenodo and SSRN items), and R18 has 'url = not supplied'. This undermines the related-work and reference quality.",
+    "The minimum-flip and leave-one-source-out analyses are of limited analytic value. C1 cannot change by construction, and C3 and C4 are already false at baseline. Only six coarse hand-chosen conclusions are tested, and the 'eight narrow or contested cells' set was designated by the author. This sensitivity analysis is mostly bookkeeping on 45 cells rather than evidence about the incidents.",
+    "The paper's key terms and conventions are inconsistent. 'Unknown' is used both for 'source silent' and 'insufficient'. D4 and D5 'documented' can mean only observation or a mix of established and unsuccessful effects. Almost every D3-D5 cell is documented, so the dimensions barely discriminate between units; only D2 and one D1 cell vary. This weakens the claim that the matrix reveals disclosure gaps beyond D2.",
+    "Presentation is dense and hedge-heavy, with many repeated negative qualifications ('does not establish...'). Appendix material (full 45-row table, codebook, source ledger, concordance) carries much of the paper's substance, and the main text relies on it. The paper was said to be at the six-page limit, but the explanatory load sits in appendices that count for nothing toward the page limit. The References section is only a placeholder sentence in the source."
+   ],
+   "strengths": [
+    "Openly states its limits: single coder, no kappa, incomplete selection frame, and unit dependence. It does not overclaim prevalence, causation or defense efficacy.",
+    "Keeps 'unknown' separate from 'contradicted' and records a deciding quotation, locator and rationale for each of the 45 decisions, so the coding can be checked row by row.",
+    "Careful inference boundaries per dimension (reachability vs. permission, alert vs. containment, attempt vs. completion) and the observation that D4 stages differ across incidents (Artifactory advice to continue, failed abort in Opus 4.6, retrospective detection in Opus 4.7, AISI quarantine-time conflict).",
+    "Transparent source-dependence reporting (single-source counts, leave-one-source-out, minimum-flip) that exposes the fragility of its own findings, and it is honest about where Bouke and Raftari already overlap.",
+    "A reproducibility package with CSVs, cached sources and deterministic scripts. Numbers in the text trace to ledger anchors, and the protocol check passed."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 5.0,
+    "novelty": 6.0,
+    "significance": 7.0,
+    "clarity": 7.0,
+    "reproducibility": 6.0,
+    "overall": 5.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "Section III-A leaves 16 candidate incidents unassessed, so the selection procedure does not establish why these nine units constitute the comparison corpus; the dimensional disclosure findings remain conditional on an incompletely screened selection.",
+    "Section III-C and the internal-model D2 coded row classify the source's statement that the model 'inferred' neighboring hosts were in scope as direct support, although the stated rule classifies source interpretations without a model statement as inferred. Calling this borderline does not resolve the inconsistent application.",
+    "Section III-D assigns all entailment judgments to one coder, with no independent human extraction or agreement assessment. Appendix F checks only a few aligned propositions against publications sharing the primary records and therefore leaves most coding judgments unvalidated.",
+    "Section IV-G treats retained references as retained support without showing that each remaining source independently supports the entire compound proposition. For example, Hugging Face D4 compares affected-party and operator detection times using different passages from R03 and R02; retaining either reference alone does not establish that ordering.",
+    "The D5 propositions in Appendix B vary substantially in specificity: the internal-model row establishes only that third-party systems were attacked, whereas other rows establish accessed data, credentials or account registrations. Their common documented status is consequently a weak basis for comparing completeness of established-effect disclosure.",
+    "Appendix E describes analysis scripts and cached texts but supplies no executable entry points, dependency versions or artifact location in the provided submission, limiting independent reproduction of the sensitivity and quotation-matching results."
+   ],
+   "strengths": [
+    "The complete 45-row matrix, source locators, quoted evidence and coding-change records make many documentary judgments directly inspectable.",
+    "The manuscript carefully separates reachability, attributed authorization, attempted action, intervention and established effects, and consistently limits causal and prevalence claims.",
+    "Source-concentration counts and sensitivity analyses expose substantial dependence on first-party disclosures instead of presenting the units as independent observations.",
+    "The related-work comparison explicitly acknowledges established methods and confines novelty to a concrete corpus-specific application suitable for workshop consideration.",
+    "The response-chain distinctions and disclosure checklist address practical concerns for agent-security evaluators."
+   ]
+  },
+  "R3": null,
+  "R4": null
+ },
+ "protocol": {
+  "timestamp": "2026-11-06T11:00:16Z",
+  "study_type": "documentary",
+  "pass": true,
+  "failures": [],
+  "warnings": [
+   "Sources without a link: R18 (reviewers can't check them).",
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56.",
+   "Single coder by design (brief.md: Second coder: none): state it openly; no agreement statistic.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429), R43 (403), R51 (403), R53 (403), R55 (403)."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 56,
+   "by_status": {
+    "documented": 39,
+    "unknown": 6
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 8,
+     "unknown": 1
+    },
+    "D2": {
+     "unknown": 5,
+     "documented": 4
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 11,
+     "unknown": 4
+    },
+    "Anthropic": {
+     "documented": 19,
+     "unknown": 1
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": null,
+   "changed_from_baseline": [
+    "INC-OAI-MAY/D4 unknown->documented",
+    "INC-OAI-MAY/D5 unknown->documented",
+    "INC-OAI-ART/D1 documented->unknown",
+    "INC-OAI-ART/D2 documented->unknown",
+    "INC-OAI-HF/D2 documented->unknown",
+    "INC-ANT-OP47/D4 unknown->documented",
+    "INC-ANT-MY5/D2 documented->unknown",
+    "INC-AISI-MY5/D2 unknown->documented",
+    "INC-AISI-SOL/D5 unknown->documented"
+   ]
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 agent evaluation breakout incidents across organizations and derives security assurance implications."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Already systematizes heterogeneous incident reports and evaluations to compare agent failures and loss of control."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Already conducts cross-incident analysis of documented autonomous-agent cybersecurity incidents and controlled evaluation cases."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Already develops an AI security incident taxonomy and addresses practical incident reporting standards."
+   },
+   {
+    "key": "guyatt2008grade",
+    "overlap": "Already separates evidence quality from recommendation strength and explicitly assesses indirectness and other evidence limitations."
+   }
+  ],
+  "reasons": [
+   "Cross-organization incident comparison is already established by the listed literature; the contribution's positioning against only single-organization reports is incomplete.",
+   "The supplied summaries do not establish that prior work provides this specific row-level, source-anchored claim-support matrix separating access, authorization belief, action, response and verified effect.",
+   "Applying a fixed instrument to nine units, tracing 45 decisions and deriving disclosure gaps provides a clear, checkable documentary increment suitable for consideration at a workshop.",
+   "Evidence grading and reporting checklists are established approaches. Novelty rests on their concrete application and resulting findings, rather than on inventing evidence assessment.",
+   "The supplied contribution is truncated, so any stronger claims in the omitted material cannot be assessed. Pending or unverified cross-field references cannot establish novelty or methodological authority."
+  ],
+  "reposition": "Lead with the auditable claim-support matrix and the specific disclosure gaps it reveals, presenting the three-cluster comparison as its application. Explicitly compare the matrix and resulting findings with Raftari, Bouke and Amundsen, and describe evidence grading as an adaptation of established methods.",
+  "round": 10,
+  "timestamp": "2026-11-06T10:34:01Z",
+  "literature_added": []
+ },
+ "latex": {
+  "timestamp": "2026-11-06T11:00:16Z",
+  "engine": "latexmk",
+  "compiled": true,
+  "limit": 6,
+  "pages_total": 13,
+  "pages_main": 6,
+  "undefined_citations": [],
+  "internal_terms": [],
+  "pass": true,
+  "package": {
+   "path": "build/reproducibility_package.zip",
+   "files": 68
+  }
+ }
+}

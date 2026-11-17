@@ -1,0 +1,3 @@
+candidate,frame_source,our_unit,first_party_report_opened,decision,reason_code,reason
+OpenAI models. Irregular evaluation (domain coincided with a real site),R71 (Irregular section); R75,,"R71 (2026-08-04), opened 2026-11-13",exclude,OUTSIDE_CLUSTERS,"OpenAI model in an Irregular evaluation: a separate event, outside the pre-specified clusters (OpenAI-Hugging Face, Anthropic, UK AISI), as for the Gemini and Meta Irregular events in the v1.0 frame."
+OpenAI agents. RubyGems activity in May 2026 (third-party report),R05 (update of 2026-09-11),,R05 (opened 2026-11-13); the third-party report itself not opened,exclude,NO_UNIT_SPECIFIC_FIRST_PARTY_REPORT,OpenAI says it is investigating the claims; no unit-specific first-party account of the activity before the cutoff.

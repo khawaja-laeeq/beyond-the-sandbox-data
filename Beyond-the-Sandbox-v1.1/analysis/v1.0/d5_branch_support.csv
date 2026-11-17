@@ -1,0 +1,28 @@
+unit,branch,in_frozen_branches,propositions,supported,organizations,n_organizations,low_confidence_only
+INC-OAI-MAY,C,True,MAY-D5-1,True,OpenAI,1,False
+INC-OAI-MAY,N,False,,False,,0,False
+INC-OAI-MAY,P,True,MAY-D5-2,True,OpenAI;SentinelOne,2,False
+INC-OAI-ART,C,True,ART-D5-2,True,METR;OpenAI,2,False
+INC-OAI-ART,N,False,,False,,0,False
+INC-OAI-ART,P,False,ART-D5-3,True,OpenAI,1,False
+INC-OAI-HF,C,True,HF-D5-1;HF-D5-2,True,Hugging Face;OpenAI,2,False
+INC-OAI-HF,N,True,HF-D5-3;HF-D5-5,True,Hugging Face;OpenAI,2,False
+INC-OAI-HF,P,False,HF-D5-6;HF-D5-7,True,Hugging Face;OpenAI,2,False
+INC-ANT-OP46,C,True,OP46-D5-2,True,Anthropic,1,False
+INC-ANT-OP46,N,True,OP46-D5-1,True,Anthropic,1,False
+INC-ANT-OP46,P,False,OP46-D5-3,True,Anthropic,1,False
+INC-ANT-OP47,C,False,OP47-D5-3,True,Anthropic,1,False
+INC-ANT-OP47,N,True,OP47-D5-1,True,Anthropic,1,False
+INC-ANT-OP47,P,True,OP47-D5-2,True,Anthropic,1,False
+INC-ANT-MY5,C,True,AMY5-D5-1,True,Anthropic,1,False
+INC-ANT-MY5,N,False,AMY5-D5-3,True,Anthropic,1,False
+INC-ANT-MY5,P,True,AMY5-D5-2,True,Anthropic,1,False
+INC-ANT-INT,C,True,INT-D5-1,True,Anthropic,1,False
+INC-ANT-INT,N,False,INT-D5-3,True,Anthropic,1,False
+INC-ANT-INT,P,True,INT-D5-2,True,Anthropic,1,False
+INC-AISI-MY5,C,False,AISIMY5-D5-3,True,UK AISI,1,True
+INC-AISI-MY5,N,False,,False,,0,False
+INC-AISI-MY5,P,False,AISIMY5-D5-4,True,UK AISI,1,True
+INC-AISI-SOL,C,True,SOL-D5-1,True,UK AISI,1,False
+INC-AISI-SOL,N,False,,False,,0,False
+INC-AISI-SOL,P,False,,False,,0,False

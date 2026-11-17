@@ -1,0 +1,20 @@
+measure,original,revised
+Unit of analysis,cell (unit x dimension),atomic proposition
+Incident units,9,9
+Coded items,45,138
+Documented / supported,40 (S0),129
+Unknown,5 (S0),6
+Partially supported,1 cell on combined partial support (HF D4),2
+Contradicted,0,1
+Contested (supported but explicitly contradicted),not coded,2
+Supported by exactly one organization,not computed,107
+Whole support from two or more organizations,0 (manuscript S2); 1 from stored data,22
+Independent corroboration (distinct underlying records),not computed,5
+Independent corroboration under A10,not computed,2
+Cross-org agreement resting on shared upstream records only,not computed,17
+Organizations support different parts only,3 units described qualitatively,10
+Repeated reporting only (relays),not computed,5
+"Supported, resting on one underlying record",37 of 40 documented cells cite one reference,121
+Explicit counterevidence (propositions),0,3
+Recorded disagreements (pairs of passages),challenges noted in cells,13
+Whole-cell two-org support over full corpus (W3),0,3

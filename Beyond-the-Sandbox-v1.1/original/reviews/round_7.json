@@ -1,0 +1,265 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3",
+  "R4"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [
+  "The draft still contains placeholders: [RESULT PENDING: final audit coverage, corrected aggregate counts, regenerated figures and complete cell-flip sensitivity results.], [RESULT PENDING: insert the regenerated sensitivity results, including individual and joint downgrades of weakly supported cells and the conclusions preserved or changed.], [RESULT PENDING: reconcile these decisions with the canonical coding and regenerate all aggregate, discount and sensitivity outputs.], [RESULT PENDING: regenerated totals following the required source-sufficiency corrections.]."
+ ],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 3.0,
+  "novelty": 4.5,
+  "significance": 5.5,
+  "clarity": 4.5,
+  "reproducibility": 4.0,
+  "overall": 3.0
+ },
+ "reasons": [
+  "The draft still contains placeholders: [RESULT PENDING: final audit coverage, corrected aggregate counts, regenerated figures and complete cell-flip sensitivity results.], [RESULT PENDING: insert the regenerated sensitivity results, including individual and joint downgrades of weakly supported cells and the conclusions preserved or changed.], [RESULT PENDING: reconcile these decisions with the canonical coding and regenerate all aggregate, discount and sensitivity outputs.], [RESULT PENDING: regenerated totals following the required source-sufficiency corrections.].",
+  "Mean overall score 3.0 is below the acceptance bar of 7.0.",
+  "Soundness below 6 from R1 (3), R2 (3).",
+  "(R1) The manuscript contains unresolved [RESULT PENDING] placeholders in the Abstract, Section III-D, Section IV-G and Appendix E. This is an automatic defect and caps soundness at 4. The headline totals, sensitivity analysis and audit coverage are all declared unfinished.",
+  "(R2) The abstract, Sections III-D and IV-G, and Appendix E contain explicit [RESULT PENDING] placeholders for corrected coding, aggregate results and sensitivity analyses; Appendix D contains four [CITATION NEEDED] placeholders.",
+  "(R1) The manuscript contains four [CITATION NEEDED] placeholders in Appendix D, the closest-work comparison table. This is an automatic defect, and the novelty positioning against Raftari, Bouke, Amundsen and Bieringer is left unsupported.",
+  "(R2) The abstract, Figure 1 and Table III retain counts derived from decisions the manuscript itself identifies as unsupported: Hugging Face D1 and Anthropic Mythos 5 D2 remain documented in coded_evidence.csv, while Appendix B marks them U*. Internal-model D2 likewise remains documented despite failing the stated permission-belief rule. The reported aggregates therefore do not represent coding consistent with the paper's own decision rules.",
+  "(R1) The paper's own headline numbers (41 documented, 0 contradicted, 4 unknown; 36 direct and 5 inferred; 35 single-source) are said to be wrong. Section III-D and Appendix B say HF D1 and Anthropic Mythos 5 D2 are unsupported and the internal-model D2 needs review, yet all three are still counted as documented. The Abstract, Table III and Figure 1 are built on these counts, so the central quantitative results are not backed by the evidence the paper presents.",
+  "(R2) Section III-D acknowledges that complete proposition-level source-sufficiency review is not established. The supplied audit_trail.csv checks only five cells, leaving the substantive validity of most of the 45 decisions unverified by the demonstrated audit.",
+  "(R1) Several cells were coded 'documented' from a paraphrase of a source that could not be checked. HF D1 rests solely on R01, which returned HTTP 403. Sol D5 rests on a single source with no checked passage: the audit trail says R24 was not in the source cache and 'checked_by_analyst: no', and the paper says it is unresolved. Mythos 5 D2 is a simulation belief, not a permission belief. These cells remain in the 'documented' totals, so the evidence base is inconsistent with the paper's own decision rule in Appendix A.",
+  "(R2) The coding_change_log.csv states that a documented tag changes only when a second reader supplies a contradicting passage. This conflicts with Section III-B and Appendix A, where insufficient support alone warrants unknown.",
+  "(R1) The sensitivity analysis is absent. Section IV-G says the cell-flip output is not included, and a placeholder stands in for it. The paper therefore cannot show which conclusions survive weaker cells. Table IV is a qualitative assertion list with no computed support.",
+  "(R2) The account of the AI cross-read is inconsistent: Section III-D identifies three flagged cells, whereas coding_change_log.csv additionally records an unresolved disagreement over Opus 4.6 D2."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 3.0,
+   "novelty": 4.0,
+   "significance": 4.0,
+   "clarity": 4.0,
+   "reproducibility": 4.0,
+   "overall": 3.0
+  },
+  "R2": {
+   "soundness": 3.0,
+   "novelty": 5.0,
+   "significance": 7.0,
+   "clarity": 5.0,
+   "reproducibility": 4.0,
+   "overall": 3.0
+  }
+ },
+ "decisions": {
+  "R1": "reject",
+  "R2": "reject"
+ },
+ "round": 7,
+ "timestamp": "2026-11-05T20:18:59Z",
+ "models": {
+  "R1": "claude",
+  "R2": "codex",
+  "R3": "api",
+  "R4": "agy"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok",
+  "R3": "unavailable",
+  "R4": "limit_hit_earlier"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 3.0,
+    "novelty": 4.0,
+    "significance": 4.0,
+    "clarity": 4.0,
+    "reproducibility": 4.0,
+    "overall": 3.0
+   },
+   "confidence": 4,
+   "decision": "reject",
+   "weaknesses": [
+    "The manuscript contains unresolved [RESULT PENDING] placeholders in the Abstract, Section III-D, Section IV-G and Appendix E. This is an automatic defect and caps soundness at 4. The headline totals, sensitivity analysis and audit coverage are all declared unfinished.",
+    "The manuscript contains four [CITATION NEEDED] placeholders in Appendix D, the closest-work comparison table. This is an automatic defect, and the novelty positioning against Raftari, Bouke, Amundsen and Bieringer is left unsupported.",
+    "The paper's own headline numbers (41 documented, 0 contradicted, 4 unknown; 36 direct and 5 inferred; 35 single-source) are said to be wrong. Section III-D and Appendix B say HF D1 and Anthropic Mythos 5 D2 are unsupported and the internal-model D2 needs review, yet all three are still counted as documented. The Abstract, Table III and Figure 1 are built on these counts, so the central quantitative results are not backed by the evidence the paper presents.",
+    "Several cells were coded 'documented' from a paraphrase of a source that could not be checked. HF D1 rests solely on R01, which returned HTTP 403. Sol D5 rests on a single source with no checked passage: the audit trail says R24 was not in the source cache and 'checked_by_analyst: no', and the paper says it is unresolved. Mythos 5 D2 is a simulation belief, not a permission belief. These cells remain in the 'documented' totals, so the evidence base is inconsistent with the paper's own decision rule in Appendix A.",
+    "The sensitivity analysis is absent. Section IV-G says the cell-flip output is not included, and a placeholder stands in for it. The paper therefore cannot show which conclusions survive weaker cells. Table IV is a qualitative assertion list with no computed support.",
+    "Coding was done by a single coder with no agreement statistic. The only check was an AI cross-read of three cells, which the paper concedes is not independent adjudication. Only 2 of the 3 flagged cells were reviewed against passages, and no complete passage-level sufficiency review of the other 42 decisions exists. Disagreements recorded in the change log (Opus 4.6 D2, Artifactory D4) were resolved by the primary coder in their own favour. Source-sufficiency is verified for only a few cells.",
+    "The direct/inferred split is an ad hoc mapping chosen by the study lead (class I means inferred, everything else direct). It is not a codebook category. The 36/5 split and the 'removing inferred support' column of Table III depend on it, and the column is almost redundant with the class-I count, so the analysis adds little.",
+    "The reported cell counts are partly artifacts of the coding scheme. For example, D2 'unknown' cells were recoded in round 7 by an analyst decision with no independent check. Table III's 'retained after removing single-source support' counts are driven by how many references were listed per cell, not by evidence strength. The paper itself notes that multiple references do not establish independence. Figure 1 and Table III therefore measure citation counts, not evidential support.",
+    "Novelty is incremental by the automated check, and the paper does not claim more. The cross-incident comparison is covered by prior work, and the comparison with that work is left as pending placeholders. The 'claim-support matrix' is mostly a 5\u00d74 table of generic scope statements (Table II) and a codebook. It is not a demonstrated artifact with findings that go beyond the descriptive.",
+    "The ledger and bibliography are inconsistent. The R18 URL is 'not supplied', the bibliography itself notes that a locator correction is required, and R11\u2013R17 and R19\u2013R23 are 'not reauthenticated'. Many bibliography entries (e.g., Zenodo, SSRN and Research Square items on authorization and guardrails) are not cited in the text. The References section is only a stub sentence in the Markdown source.",
+    "The paper includes internal bookkeeping and process language, such as 'supplied aggregate records', 'supplied audit account' and 'the study lead'. This reads as a working-state report rather than a finished manuscript, which hurts clarity. Findings are hedged so heavily that RQ1\u2013RQ4 receive few firm answers. The substantive result is that the comparison cannot yet be asserted.",
+    "The Appendix B table encodes status with ad hoc notation (U*, 'Review', 'D, unresolved') that differs from the three-valued codebook, so the 45-decision table cannot be tallied against the stated totals. Two of the 'unknown' cells are flagged as documented in the aggregates."
+   ],
+   "strengths": [
+    "The paper states its inference boundaries openly: reachability is not permission, detection is not containment, and an attempt is not completion. These are useful distinctions for incident analysis and are applied consistently across the five dimensions.",
+    "The paper is candid about limitations. It declares single-coder coding, unresolved cells, dependent units and inaccessible sources, and it avoids prevalence or efficacy claims. The change log and audit trail make several recodings traceable.",
+    "Evidence classes (O/A/I/X) and the separation of replay results from live incident evidence are a sound way to handle heterogeneous documents. The point that separate authorship does not mean independent evidence is well taken.",
+    "The proposed minimum disclosure checklist is concrete and could be useful to evaluators, even though it has not been validated.",
+    "The paper has no experiments on real systems and adds no operational detail. The automated protocol check passed and the PDF is within the page limit."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 3.0,
+    "novelty": 5.0,
+    "significance": 7.0,
+    "clarity": 5.0,
+    "reproducibility": 4.0,
+    "overall": 3.0
+   },
+   "confidence": 5,
+   "decision": "reject",
+   "weaknesses": [
+    "The abstract, Sections III-D and IV-G, and Appendix E contain explicit [RESULT PENDING] placeholders for corrected coding, aggregate results and sensitivity analyses; Appendix D contains four [CITATION NEEDED] placeholders.",
+    "The abstract, Figure 1 and Table III retain counts derived from decisions the manuscript itself identifies as unsupported: Hugging Face D1 and Anthropic Mythos 5 D2 remain documented in coded_evidence.csv, while Appendix B marks them U*. Internal-model D2 likewise remains documented despite failing the stated permission-belief rule. The reported aggregates therefore do not represent coding consistent with the paper's own decision rules.",
+    "Section III-D acknowledges that complete proposition-level source-sufficiency review is not established. The supplied audit_trail.csv checks only five cells, leaving the substantive validity of most of the 45 decisions unverified by the demonstrated audit.",
+    "The coding_change_log.csv states that a documented tag changes only when a second reader supplies a contradicting passage. This conflicts with Section III-B and Appendix A, where insufficient support alone warrants unknown.",
+    "The account of the AI cross-read is inconsistent: Section III-D identifies three flagged cells, whereas coding_change_log.csv additionally records an unresolved disagreement over Opus 4.6 D2.",
+    "AISI Sol D5 remains documented despite the audit trail stating that R24 was unavailable for passage review; other supplied records assert that R24 was reread. The submission does not reconcile these conflicting verification records.",
+    "Appendix D leaves the closest-work field comparison unfinished, so the claimed distinction between the matrix and existing incident taxonomies is not demonstrated beyond differences in stated purpose.",
+    "The direct/inferred designation in Section III-C follows institutional source role rather than proposition-level entailment. Consequently, Table III's inferred-support discount cannot establish sensitivity to inferential reasoning across operator and investigator accounts.",
+    "Section III-A gives broad purposive-selection criteria but no operational inclusion threshold or documented candidate-screening process, limiting reproducibility of the selected corpus."
+   ],
+   "strengths": [
+    "The distinction between technical reachability, authorization interpretation, external action, response and effect addresses a consequential problem for an agent-security workshop audience.",
+    "The manuscript explicitly separates retrospective detection, stopping conditions and live containment, avoiding unsupported defense-efficacy claims.",
+    "Appendix B and the supplied coded data expose all 45 decisions with source identifiers, qualifications and change records, making several substantive inconsistencies directly inspectable.",
+    "The treatment of dependent units, single-coder limitations, shared underlying evidence and bounded harm findings is appropriately cautious.",
+    "The submission offers a plausible incremental contribution through claim-level provenance and disclosure-gap analysis, without claiming incident prevalence or new experimental results."
+   ]
+  },
+  "R3": null,
+  "R4": null
+ },
+ "protocol": {
+  "timestamp": "2026-11-05T20:02:55Z",
+  "study_type": "documentary",
+  "pass": true,
+  "failures": [],
+  "warnings": [
+   "Sources without a link: R18 (reviewers can't check them).",
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47.",
+   "Single coder by design (brief.md: Second coder: none): state it openly; no agreement statistic.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429), R43 (403)."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 47,
+   "by_status": {
+    "documented": 41,
+    "unknown": 4
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 9
+    },
+    "D2": {
+     "unknown": 4,
+     "documented": 5
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 12,
+     "unknown": 3
+    },
+    "Anthropic": {
+     "documented": 20
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": null,
+   "changed_from_baseline": [
+    "INC-OAI-MAY/D4 unknown->documented",
+    "INC-OAI-MAY/D5 unknown->documented",
+    "INC-OAI-ART/D2 documented->unknown",
+    "INC-OAI-HF/D2 documented->unknown",
+    "INC-ANT-OP47/D4 unknown->documented",
+    "INC-AISI-MY5/D2 unknown->documented",
+    "INC-AISI-SOL/D5 unknown->documented"
+   ]
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 agent evaluation breakout incidents across organizations and derives security-assurance implications."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Already systematizes heterogeneous agent incident reports and evaluations using a common framework to compare loss-of-control outcomes."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Already applies a fixed governance architecture across documented autonomous-agent cybersecurity incidents and controlled evaluation cases."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Already develops an AI security incident taxonomy addressing deficiencies in incident reporting and collection."
+   },
+   {
+    "key": "guyatt2008grade",
+    "overlap": "Already separates evidence quality from recommendation strength and assesses indirectness and other evidence limitations."
+   }
+  ],
+  "reasons": [
+   "Cross-organization incident comparison and a common coding framework are already represented in the listed literature; neither supports a broad first-comparison claim.",
+   "The claim-support matrix offers a clear, checkable increment: linking individual access, authorization, action, response and effect claims to source anchors, directness, independence and missing disclosures.",
+   "None of the supplied literature descriptions establishes this exact claim-level audit across the three selected clusters. However, general evidence grading and incident taxonomies are established components, so their application supports incremental novelty.",
+   "The disclosure-gap checklist can add practical value if each item follows transparently from audited missing evidence and is distinguished from existing reporting taxonomies.",
+   "The supplied contribution is truncated, and the matrix itself is not provided. Its distinctive content remains a proposed deliverable rather than a demonstrated finding; the stated 45 decisions alone do not establish novelty."
+  ],
+  "reposition": "Lead with the auditable claim-support matrix and the disclosure gaps it reveals, treating the three-cluster comparison as its application. Explicitly compare the resulting fields and findings with Raftari, Bouke, Amundsen and Bieringer, and avoid claiming novelty for cross-incident comparison or evidence grading alone.",
+  "round": 7,
+  "timestamp": "2026-11-05T19:51:35Z",
+  "literature_added": []
+ },
+ "latex": {
+  "timestamp": "2026-11-05T20:02:55Z",
+  "engine": "latexmk",
+  "compiled": true,
+  "limit": 6,
+  "pages_total": 11,
+  "pages_main": 5,
+  "undefined_citations": [],
+  "internal_terms": [],
+  "pass": true,
+  "package": {
+   "path": "build/reproducibility_package.zip",
+   "files": 54
+  }
+ }
+}

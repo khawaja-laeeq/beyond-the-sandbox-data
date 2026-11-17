@@ -1,0 +1,160 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3"
+ ],
+ "valid": [
+  "R3"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [
+  "Only 0 distinct works are cited; a workshop paper needs at least 10 (related work is thin).",
+  "The paper does not compile to PDF in the venue template: compile failed: ! LaTeX Error: Something's wrong--perhaps a missing \\item.; !  ==> Fatal error occurred, no output PDF file produced!; ! LaTeX Error: Something's wrong--perhaps a missing \\item."
+ ],
+ "verdict": "UNAVAILABLE",
+ "reasons": [
+  "Only 1 of 3 reviewers returned a usable review (need 2)."
+ ],
+ "round": 1,
+ "timestamp": "2026-11-01T20:02:01Z",
+ "models": {
+  "R1": "agy",
+  "R2": "claude",
+  "R3": "codex"
+ },
+ "statuses": {
+  "R1": "limit_hit_earlier",
+  "R2": "error",
+  "R3": "ok"
+ },
+ "reviews": {
+  "R1": null,
+  "R2": null,
+  "R3": {
+   "scores": {
+    "soundness": 1.0,
+    "novelty": 3.0,
+    "significance": 6.0,
+    "clarity": 1.0,
+    "reproducibility": 3.0,
+    "overall": 1.0
+   },
+   "confidence": 5,
+   "decision": "reject",
+   "weaknesses": [
+    "The entire submission is the placeholder '# (draft not started)'; no manuscript presents methods, findings, or supported conclusions.",
+    "coding_summary.json reports a second coder, kappa of 0.789, and agreement of 0.978, but no second-coder decisions or calculation evidence are supplied; the coded rows repeatedly state 'no second coder,' and the brief specifies single-coder coding.",
+    "The PDF build failed with a LaTeX error and produced no PDF, so the required six-page IEEE workshop submission is absent.",
+    "The supplied materials do not include the D1\u2013D5 codebook or status decision rules, preventing assessment of consistent coding across the 45 decisions.",
+    "INC-AISI-MY5 D4 states that evaluation was 'stopped and isolated within hour,' although its qualification places quarantine at either 12:23 or 13:17 after a 10:56 alert; neither isolation time supports that claim.",
+    "No related-work analysis establishes the contribution beyond amundsen2026cross; the novelty check explicitly leaves incident coverage and coding overlap unresolved.",
+    "No evidence-class \u00d7 claim-type matrix or cross-case findings are presented, leaving the proposed documentary contribution unsubstantiated."
+   ],
+   "strengths": [
+    "The research questions address security and authorization failures relevant to an AI-security workshop.",
+    "The supplied coding rows provide source identifiers, section anchors, qualifications, and explicit recoding logs.",
+    "Several evidence qualifications carefully distinguish investigator interpretation from observed behavior, retrospective detection from live monitoring, and missing disclosure from counter-evidence."
+   ]
+  }
+ },
+ "protocol": {
+  "timestamp": "2026-11-01T20:00:11Z",
+  "study_type": "documentary",
+  "pass": true,
+  "failures": [],
+  "warnings": [
+   "Sources without a link: R18 (reviewers can't check them).",
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403)."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 35,
+   "by_status": {
+    "documented": 43,
+    "unknown": 2
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 9
+    },
+    "D2": {
+     "unknown": 2,
+     "documented": 7
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 14,
+     "unknown": 1
+    },
+    "Anthropic": {
+     "documented": 20
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": {
+    "n": 45,
+    "kappa": 0.789,
+    "agreement": 0.978
+   }
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Already conducts cross-incident analysis of documented autonomous-agent cybersecurity incidents and controlled evaluation cases to assess a fixed governance architecture."
+   },
+   {
+    "key": "marchand2026quantifying",
+    "overlap": "Studies agent container-escape capabilities under controlled conditions, overlapping with access and containment questions."
+   },
+   {
+    "key": "farzulla2026axiom",
+    "overlap": "Explicitly distinguishes operative control, authorization, and observed outcomes, overlapping with the proposed conceptual separation."
+   }
+  ],
+  "reasons": [
+   "Cross-incident autonomous-agent security analysis is already represented by amundsen2026cross; cross-organisation comparison alone is insufficient to establish novelty.",
+   "The fixed D1\u2013D5 coding of three specified clusters, 45 source-anchored decisions, and explicit disclosure-gap analysis provide a clear, checkable documentary increment suitable for a workshop.",
+   "The supplied literature does not establish the proposed evidence-class \u00d7 claim-type matrix or this particular comparative dataset. However, the truncated description of amundsen2026cross leaves its exact incident coverage and coding overlap unresolved.",
+   "Source classes identify provenance, not an automatic ranking of evidence quality. The matrix contributes most clearly when it evaluates support for individual claims and distinguishes missing disclosure from demonstrated absence."
+  ],
+  "reposition": "Center the contribution on the auditable comparative dataset, claim-specific evidence-support matrix, and disclosure checklist. Explicitly distinguish these outputs from amundsen2026cross's governance-validation objective, and avoid claiming the first cross-incident comparison.",
+  "round": 1,
+  "timestamp": "2026-11-01T19:43:04Z",
+  "literature_added": []
+ },
+ "latex": {
+  "timestamp": "2026-11-01T20:01:43Z",
+  "engine": "latexmk",
+  "compiled": false,
+  "limit": 6,
+  "why": "compile failed: ! LaTeX Error: Something's wrong--perhaps a missing \\item.; !  ==> Fatal error occurred, no output PDF file produced!; ! LaTeX Error: Something's wrong--perhaps a missing \\item."
+ }
+}

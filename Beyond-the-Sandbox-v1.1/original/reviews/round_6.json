@@ -1,0 +1,257 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3",
+  "R4"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [
+  "Experimental protocol check failed: The draft reports an agreement statistic (kappa/\u03ba), but the brief makes this a single-coder study with no kappa: remove it and say the coding was done by one coder."
+ ],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 4.0,
+  "novelty": 4.5,
+  "significance": 6.0,
+  "clarity": 5.5,
+  "reproducibility": 4.0,
+  "overall": 4.0
+ },
+ "reasons": [
+  "Experimental protocol check failed: The draft reports an agreement statistic (kappa/\u03ba), but the brief makes this a single-coder study with no kappa: remove it and say the coding was done by one coder.",
+  "Mean overall score 4.0 is below the acceptance bar of 7.0.",
+  "Soundness below 6 from R1 (4), R2 (4).",
+  "(R1) The automated protocol check is FAIL because an agreement statistic (kappa) is reported in the draft's lineage. agreement.json is still in the results set with kappa 0.542, Gwet AC1 and bootstrap CIs. The text only says these were omitted. A failed protocol check caps soundness at 4.",
+  "(R2) Appendix B retains Anthropic Mythos 5 D2 as documented while explicitly stating that its evidence does not establish a permission belief. This conflicts with Appendix A's dimension-specific sufficiency rule and undermines the reported documented/unknown totals.",
+  "(R1) Coding is single-coder, and the AI cross-check disagrees on three cells (AISI Sol D5, OpenAI Artifactory D4, OpenAI May D5). All three were retained by the primary coder because the AI cited no contradicting passage. That rule is one-sided, so the disagreements stay unresolved. The paper says that a full passage-by-passage sufficiency review of retained tags was never completed, so the 41 'documented' tags are not shown to be supported.",
+  "(R2) Section III-D acknowledges that the complete passage-level sufficiency review remains unfinished. Quotation matching and regex hits do not validate the retained propositions, and three documented decisions retain unresolved support objections.",
+  "(R1) The 41/4/0 headline rests on an unrecomputed state. coding_summary.json, derived_counts.json and discount_table.csv still report 43 documented and 2 unknown. The source-concentration figure (37 of 43 cells citing one source) is for the superseded v12. Neither the v13 source-concentration figure nor the 36 direct / 5 inferred split is backed by a shown results file. Apart from the 36/5 split, which Round 6 reports, the v13 numbers are therefore not demonstrably tied to results.",
+  "(R2) The supplied automated protocol check reports FAIL for agreement statistics, and agreement.json contains kappa and bootstrap intervals prohibited by the brief. The manuscript explicitly excludes these statistics, so the check's assertion that the current draft reports them is not supported by the displayed text; nevertheless, the supplied protocol result remains failed.",
+  "(R1) The 'documented' tag is nearly uninformative. 41 of 45 cells are documented, none are contradicted, and 37 of 43 cells cite a single source. The paper concedes limited discrimination, so the matrix shows little analytical consequence. The conclusion that the matrix 'identifies permission-evidence gaps' rests on only four D2 unknowns.",
+  "(R2) The supplied coded_evidence.csv and coding_summary.json retain 43 documented decisions and two unknowns, whereas the manuscript identifies an unshown coded_evidence_v13.csv as authoritative. Appendix B makes the revised tags inspectable, but the supplied machine-readable artifacts do not reproduce the current analysis.",
+  "(R1) Some tags are weakly supported. Anthropic Mythos 5 D2 is kept 'documented' even though the paper says the summary cannot establish a permission belief, which contradicts the paper's own D2 rule. Hugging Face D1 rests on R01, which could not be accessed (HTTP 403). AISI Sol D5 rests on R24, which the AI cross-check never saw. Both are single-source.",
+  "(R2) Sections IV-A and VI retain Hugging Face D1 on an unavailable, single-source prior reading. The submission provides neither the supporting passage nor a freshly checked route account for this documented decision."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 4.0,
+   "novelty": 4.0,
+   "significance": 5.0,
+   "clarity": 5.0,
+   "reproducibility": 4.0,
+   "overall": 4.0
+  },
+  "R2": {
+   "soundness": 4.0,
+   "novelty": 5.0,
+   "significance": 7.0,
+   "clarity": 6.0,
+   "reproducibility": 4.0,
+   "overall": 4.0
+  }
+ },
+ "decisions": {
+  "R1": "weak reject",
+  "R2": "weak reject"
+ },
+ "round": 6,
+ "timestamp": "2026-11-05T19:20:50Z",
+ "models": {
+  "R1": "claude",
+  "R2": "codex",
+  "R3": "api",
+  "R4": "agy"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok",
+  "R3": "unavailable",
+  "R4": "limit_hit_earlier"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 4.0,
+    "significance": 5.0,
+    "clarity": 5.0,
+    "reproducibility": 4.0,
+    "overall": 4.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "The automated protocol check is FAIL because an agreement statistic (kappa) is reported in the draft's lineage. agreement.json is still in the results set with kappa 0.542, Gwet AC1 and bootstrap CIs. The text only says these were omitted. A failed protocol check caps soundness at 4.",
+    "Coding is single-coder, and the AI cross-check disagrees on three cells (AISI Sol D5, OpenAI Artifactory D4, OpenAI May D5). All three were retained by the primary coder because the AI cited no contradicting passage. That rule is one-sided, so the disagreements stay unresolved. The paper says that a full passage-by-passage sufficiency review of retained tags was never completed, so the 41 'documented' tags are not shown to be supported.",
+    "The 41/4/0 headline rests on an unrecomputed state. coding_summary.json, derived_counts.json and discount_table.csv still report 43 documented and 2 unknown. The source-concentration figure (37 of 43 cells citing one source) is for the superseded v12. Neither the v13 source-concentration figure nor the 36 direct / 5 inferred split is backed by a shown results file. Apart from the 36/5 split, which Round 6 reports, the v13 numbers are therefore not demonstrably tied to results.",
+    "The 'documented' tag is nearly uninformative. 41 of 45 cells are documented, none are contradicted, and 37 of 43 cells cite a single source. The paper concedes limited discrimination, so the matrix shows little analytical consequence. The conclusion that the matrix 'identifies permission-evidence gaps' rests on only four D2 unknowns.",
+    "Some tags are weakly supported. Anthropic Mythos 5 D2 is kept 'documented' even though the paper says the summary cannot establish a permission belief, which contradicts the paper's own D2 rule. Hugging Face D1 rests on R01, which could not be accessed (HTTP 403). AISI Sol D5 rests on R24, which the AI cross-check never saw. Both are single-source.",
+    "Quote verification is only string presence. 37 verbatim matches cover AI-supplied quotations, not the primary coder's paraphrases, and 3 cells have no cached source text. Regex anchors with hundreds of hits, such as 'scor(er|ing)' with 93 and 'message board|bulletin' with 184, cannot verify propositions.",
+    "Novelty is incremental. The novelty check says the closest-work discussion omits direct comparators. The paper itself disclaims first-of-its-kind status and cannot show that Raftari, Bouke, Bieringer and Amundsen lack equivalent fields, because it only has summaries of them. The disclosure checklist overlaps existing incident-taxonomy work and was never evaluated.",
+    "The main text reads as an audit log rather than a paper. It refers to internal file names, 'Round 6 findings', 'K3', 'v12/v13' and 'superseding protocol instruction'. These cannot be resolved by an external reader, which hurts clarity and the double-blind format. The 6-page limit is met only by moving the instrument details into the appendices.",
+    "Reproducibility is limited. The cited files (coded_evidence_v13.csv, disagreements.csv, quote_check.json) are not available to the reader. Many sources are secondary or unopened. R18 has no URL and the DOI metadata is inconsistent between the ledger and the bib. The bibliography also has many uncited entries, and several arXiv entries have DOIs that do not match.",
+    "The significance claim is thin. Everything rests on nine dependent units from three developer or evaluator disclosures, and the paper says no frequency or defense-efficacy inference follows. This weakens the case that the findings matter beyond the descriptive record."
+   ],
+   "strengths": [
+    "The paper is open about its limits: single coder, non-independent AI check, no validation claim, and unresolved objections preserved in the record.",
+    "The conceptual separations are useful: reachability vs permission, recognition of a real target vs assumed authorization, detection vs intervention, and replay vs live response.",
+    "Numeric quantities are handled carefully, with different denominators kept apart and the AISI quarantine-time inconsistency (12:23 vs 13:17 BST) retained rather than resolved. A change log and an access-qualified source ledger support traceability.",
+    "The paper keeps replay results attributed to their original investigators and adds no operational detail, consistent with the documentary-only constraint."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 5.0,
+    "significance": 7.0,
+    "clarity": 6.0,
+    "reproducibility": 4.0,
+    "overall": 4.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "Appendix B retains Anthropic Mythos 5 D2 as documented while explicitly stating that its evidence does not establish a permission belief. This conflicts with Appendix A's dimension-specific sufficiency rule and undermines the reported documented/unknown totals.",
+    "Section III-D acknowledges that the complete passage-level sufficiency review remains unfinished. Quotation matching and regex hits do not validate the retained propositions, and three documented decisions retain unresolved support objections.",
+    "The supplied automated protocol check reports FAIL for agreement statistics, and agreement.json contains kappa and bootstrap intervals prohibited by the brief. The manuscript explicitly excludes these statistics, so the check's assertion that the current draft reports them is not supported by the displayed text; nevertheless, the supplied protocol result remains failed.",
+    "The supplied coded_evidence.csv and coding_summary.json retain 43 documented decisions and two unknowns, whereas the manuscript identifies an unshown coded_evidence_v13.csv as authoritative. Appendix B makes the revised tags inspectable, but the supplied machine-readable artifacts do not reproduce the current analysis.",
+    "Sections IV-A and VI retain Hugging Face D1 on an unavailable, single-source prior reading. The submission provides neither the supporting passage nor a freshly checked route account for this documented decision.",
+    "Appendix D compares broad purposes and outputs from literature summaries rather than equivalent coding fields and decision rules. It therefore does not establish how the proposed matrix differs methodologically from the closest incident comparisons and taxonomies.",
+    "Section III-A gives purposive selection criteria but no operational threshold for substantive documentation or systematic account of candidate inclusion and exclusion. The resulting corpus cannot be reconstructed unambiguously from those criteria.",
+    "Sections III-B through III-D and Appendix E rely heavily on internal revision labels and Round 6 findings whose underlying records are not supplied, making the evidentiary argument difficult to assess independently."
+   ],
+   "strengths": [
+    "The distinction between target realism, task objective and permission belief has a concrete analytical consequence: two scorer-oriented D2 decisions become unknown.",
+    "The findings carefully separate live detection, failed intervention, external stopping conditions and offline replay outcomes.",
+    "Appendix B exposes all 45 decisions with propositions, provenance and source anchors, including unresolved objections and access qualifications.",
+    "The manuscript explicitly acknowledges single-coder interpretation, dependent units, selected disclosures and the absence of prevalence or production-defense efficacy estimates.",
+    "The evaluator disclosure checklist addresses practical information gaps relevant to an AI-security workshop audience.",
+    "The reported PDF build meets the six-page main-text limit and has no undefined citations."
+   ]
+  },
+  "R3": null,
+  "R4": null
+ },
+ "protocol": {
+  "timestamp": "2026-11-05T19:00:10Z",
+  "study_type": "documentary",
+  "pass": false,
+  "failures": [
+   "The draft reports an agreement statistic (kappa/\u03ba), but the brief makes this a single-coder study with no kappa: remove it and say the coding was done by one coder."
+  ],
+  "warnings": [
+   "Sources without a link: R18 (reviewers can't check them).",
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429), R43 (403).",
+   "Single coder by design (brief.md: Second coder: none): state it openly; no agreement statistic."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 47,
+   "by_status": {
+    "documented": 43,
+    "unknown": 2
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 9
+    },
+    "D2": {
+     "unknown": 2,
+     "documented": 7
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 14,
+     "unknown": 1
+    },
+    "Anthropic": {
+     "documented": 20
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": null,
+   "changed_from_baseline": [
+    "INC-OAI-MAY/D4 unknown->documented",
+    "INC-OAI-MAY/D5 unknown->documented",
+    "INC-ANT-OP47/D4 unknown->documented",
+    "INC-AISI-MY5/D2 unknown->documented",
+    "INC-AISI-SOL/D5 unknown->documented"
+   ]
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 agent evaluation breakout incidents across organizations and derives containment and assurance lessons."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Systematizes loss of control across 22 incident reports and 102 evaluations, addressing comparability between incident reports and controlled evaluations."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Conducts cross-incident analysis of documented autonomous-agent cybersecurity incidents and controlled evaluation cases."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Develops an AI security incident taxonomy and addresses reporting standards and incident coding."
+   },
+   {
+    "key": "guyatt2008grade",
+    "overlap": "Separates evidence quality from recommendation strength and supplies established criteria for assessing evidential limitations."
+   }
+  ],
+  "reasons": [
+   "Cross-organization incident comparison is already established by the listed literature; the contribution's closest-work discussion omits several direct comparators.",
+   "The listed descriptions do not establish the proposed row-level, source-anchored claim-support matrix separating access, authorization belief, action, response latency and verified effect. This is a clear, checkable methodological increment.",
+   "The 45 anchored decisions and explicit disclosure gaps could support a workshop contribution, but their number alone does not establish novelty.",
+   "A disclosure checklist and evidence classification overlap with existing incident-taxonomy and evidence-assessment work. Their contribution depends on concrete claim-specific rules and demonstrated analytical consequences.",
+   "The supplied summaries do not establish whether the closest comparators already contain equivalent matrices, so a strong claim of methodological novelty remains unsupported."
+  ],
+  "reposition": "Lead with the auditable claim-support matrix and demonstrate specific conclusions that change when source directness, independence and missing evidence are considered. Explicitly compare its fields and inference rules with Raftari, Bouke, Amundsen and Bieringer, presenting the three-cluster comparison and disclosure checklist as applications.",
+  "round": 6,
+  "timestamp": "2026-11-05T18:53:02Z",
+  "literature_added": []
+ },
+ "latex": {
+  "timestamp": "2026-11-05T19:05:06Z",
+  "engine": "latexmk",
+  "compiled": true,
+  "limit": 6,
+  "pages_total": 7,
+  "pages_main": 6,
+  "undefined_citations": [],
+  "pass": true
+ }
+}

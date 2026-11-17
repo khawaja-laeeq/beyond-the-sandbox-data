@@ -1,0 +1,27 @@
+{
+ "version": "1.1",
+ "built": "from v1.0 plus analysis/erratum_v1.1.csv by analysis/src/build_matrix_v1_1.py",
+ "status": "provisional: every fix is AI-assisted and pending human approval unless marked approved",
+ "v1.0_sha256": "972dcdd57208ca1eed19be2cff16445881323622ee41180200ecf22718e9b024",
+ "v1.1_sha256": "f5e684ce62ffe50762a960531cfbc913e06a131907145ad77f10219fdc568e99",
+ "fixes_applied": [
+  "E01",
+  "E02",
+  "E03",
+  "E04",
+  "E05",
+  "E07",
+  "E08",
+  "E10",
+  "E11",
+  "E12",
+  "E13",
+  "E14"
+ ],
+ "fixes_rejected": [
+  "E09"
+ ],
+ "fixes_no_change": [
+  "E06"
+ ]
+}

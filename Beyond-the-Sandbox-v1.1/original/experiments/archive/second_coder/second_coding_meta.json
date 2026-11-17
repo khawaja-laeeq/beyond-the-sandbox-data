@@ -1,0 +1,11 @@
+{
+ "round": 5,
+ "coder": "codex",
+ "units_with_source_text": 9,
+ "units": 9,
+ "sources_without_text": [
+  "R01",
+  "R24"
+ ],
+ "timestamp": "2026-11-05T18:19:03Z"
+}

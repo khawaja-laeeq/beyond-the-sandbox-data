@@ -1,4 +1,4 @@
-# Post-freeze batch v1.1 (AI-proposed, not final)
+# Primary-source extension batch (AI-proposed, not final)
 
 Candidate units drawn only from primary sources: AI developers' own reports and affected parties' own statements.
 Searched and read 2026-11-17. The frozen v1.0 data is not modified.
@@ -12,3 +12,9 @@ Searched and read 2026-11-17. The frozen v1.0 data is not modified.
 
 Known limits: D3 and D4 are documented for every unit partly by construction (a unit is included only if an out-of-scope action is reported).
 WorkOS involves an independent researcher, not an AI developer; eligibility is undecided.
+
+## Coder C (independent AI pass)
+`coder_C_ai_sheet.csv` is a second, separate AI coder given only the codebook and source URLs. Agreement with the proposed file:
+53 of 60 cells (88.3%), Cohen's kappa 0.50 (low because nearly every cell is "documented"). This is AI-versus-AI, not human agreement.
+Coder C worked from page summaries, so its quotes may not be verbatim. Human blind double coding is still pending.
+Note: this extension is separate from the v1.1 package in `Beyond-the-Sandbox-v1.1/` (a revision of the original 9 units).

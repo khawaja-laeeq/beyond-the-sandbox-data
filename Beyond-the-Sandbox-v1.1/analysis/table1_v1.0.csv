@@ -1,0 +1,10 @@
+unit,D1,D2,D3,D4,D5,d2_evidence,stopping_mechanism,d5_branches
+OpenAI May,D,U,D,D,D,—,Signal only,"C, P"
+OpenAI Artifactory,U,U,D,D,D,—,Operator halt,C
+OpenAI Hugging Face,D,D,D,D,D,verbatim model statement; not authorized (knew the action was out of scope),Affected party,"C, N"
+Anthropic Opus 4.6,D,D,D,D,D,reported model answer; authorized (in the context of the CTF),External technical,"N, C"
+Anthropic Opus 4.7,D,D,D,D,D,reported model answer; authorized / in scope (part of the CTF),External technical,"N, P"
+Anthropic Mythos 5,D,U,D,D,D,—,Third party,"C, P"
+Anthropic internal model,D,D,D,D,D,reported model answer; in scope (hosts of other CTF competitors),Self-stop,"C, P"
+AISI Mythos 5,D,D,D,D,D,reported model answer; in scope (repository set up by the CTF organizers),Operator halt,none
+AISI Sol,D,U,D,D,D,—,Operator halt,C

@@ -1,0 +1,384 @@
+{
+ "cells": 45,
+ "S0": [
+  40,
+  5
+ ],
+ "S0_documented_by_dim": "8/5/9/9/9",
+ "S0_unknown_by_dim": "1/4/0/0/0",
+ "contradicted": 0,
+ "S1": [
+  36,
+  9
+ ],
+ "S2_stored_partial": [
+  1,
+  44
+ ],
+ "S2_manuscript_partial": [
+  0,
+  45
+ ],
+ "S2_cells_stored": [
+  "INC-OAI-HF/D4"
+ ],
+ "S3_stored_partial": [
+  40,
+  5
+ ],
+ "S3_manuscript_partial": [
+  39,
+  6
+ ],
+ "S4": [
+  39,
+  6
+ ],
+ "S5": [
+  39,
+  6
+ ],
+ "S7": [
+  38,
+  7
+ ],
+ "S8": [
+  37,
+  8
+ ],
+ "S9": [
+  3,
+  42
+ ],
+ "S6": [
+  37,
+  8
+ ],
+ "V11_initial": [
+  38,
+  7
+ ],
+ "documented_single_reference": 37,
+ "concentration": {
+  "R02": [
+   10,
+   9
+  ],
+  "R03": [
+   1,
+   0
+  ],
+  "R04": [
+   1,
+   1
+  ],
+  "R07": [
+   1,
+   1
+  ],
+  "R08": [
+   19,
+   17
+  ],
+  "R10": [
+   7,
+   7
+  ],
+  "R24": [
+   1,
+   1
+  ],
+  "R25": [
+   2,
+   0
+  ],
+  "R26": [
+   1,
+   1
+  ]
+ },
+ "units_with_2plus_orgs_in_unit_refs": [
+  "INC-AISI-MY5",
+  "INC-OAI-ART",
+  "INC-OAI-HF"
+ ],
+ "LOSO_any_ref_survives": {
+  "R08": 23,
+  "R02": 31,
+  "R10": 33
+ },
+ "LOSO_manuscript_rule": {
+  "R08": 21,
+  "R02": 30,
+  "R10": 33,
+  "R03": 39,
+  "R04": 39,
+  "R07": 39,
+  "R24": 39,
+  "R26": 39
+ },
+ "D2_evidence_types": {
+  "verbatim model statement": 1,
+  "reported model answer": 4
+ },
+ "D4_mechanisms": {
+  "signal only": 1,
+  "operator halt": 3,
+  "affected-party response": 1,
+  "external technical": 2,
+  "third-party removal": 1,
+  "self-stop": 1
+ },
+ "D5_branch_units": {
+  "C": 7,
+  "P": 4,
+  "N": 3
+ },
+ "revised": {
+  "propositions": 138,
+  "supported_any": 130,
+  "unknown_no_support_row": 6,
+  "with_counterevidence": 3,
+  "two_org_agreement": 24,
+  "independent": 6,
+  "relay_only_second_org": 9
+ },
+ "revised_disagreements": 14,
+ "revised_quote_rows": 232,
+ "comparison": [
+  {
+   "item": "S0",
+   "published": [
+    40,
+    5
+   ],
+   "recomputed": [
+    40,
+    5
+   ],
+   "match": true
+  },
+  {
+   "item": "S1",
+   "published": [
+    36,
+    9
+   ],
+   "recomputed": [
+    36,
+    9
+   ],
+   "match": true
+  },
+  {
+   "item": "S2_manuscript_partial",
+   "published": [
+    0,
+    45
+   ],
+   "recomputed": [
+    0,
+    45
+   ],
+   "match": true
+  },
+  {
+   "item": "S3_manuscript_partial",
+   "published": [
+    39,
+    6
+   ],
+   "recomputed": [
+    39,
+    6
+   ],
+   "match": true
+  },
+  {
+   "item": "S4",
+   "published": [
+    39,
+    6
+   ],
+   "recomputed": [
+    39,
+    6
+   ],
+   "match": true
+  },
+  {
+   "item": "S5",
+   "published": [
+    39,
+    6
+   ],
+   "recomputed": [
+    39,
+    6
+   ],
+   "match": true
+  },
+  {
+   "item": "S6",
+   "published": [
+    37,
+    8
+   ],
+   "recomputed": [
+    37,
+    8
+   ],
+   "match": true
+  },
+  {
+   "item": "S7",
+   "published": [
+    38,
+    7
+   ],
+   "recomputed": [
+    38,
+    7
+   ],
+   "match": true
+  },
+  {
+   "item": "S8",
+   "published": [
+    37,
+    8
+   ],
+   "recomputed": [
+    37,
+    8
+   ],
+   "match": true
+  },
+  {
+   "item": "S9",
+   "published": [
+    3,
+    42
+   ],
+   "recomputed": [
+    3,
+    42
+   ],
+   "match": true
+  },
+  {
+   "item": "documented_single_reference",
+   "published": 37,
+   "recomputed": 37,
+   "match": true
+  },
+  {
+   "item": "LOSO_manuscript_rule:R08",
+   "published": 21,
+   "recomputed": 21,
+   "match": true
+  },
+  {
+   "item": "LOSO_manuscript_rule:R02",
+   "published": 30,
+   "recomputed": 30,
+   "match": true
+  },
+  {
+   "item": "LOSO_manuscript_rule:R10",
+   "published": 33,
+   "recomputed": 33,
+   "match": true
+  },
+  {
+   "item": "concentration:R08",
+   "published": [
+    19,
+    17
+   ],
+   "recomputed": [
+    19,
+    17
+   ],
+   "match": true
+  },
+  {
+   "item": "concentration:R02",
+   "published": [
+    10,
+    9
+   ],
+   "recomputed": [
+    10,
+    9
+   ],
+   "match": true
+  },
+  {
+   "item": "concentration:R10",
+   "published": [
+    7,
+    7
+   ],
+   "recomputed": [
+    7,
+    7
+   ],
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:operator halt",
+   "published": 3,
+   "recomputed": 3,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:external technical",
+   "published": 2,
+   "recomputed": 2,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:third-party removal",
+   "published": 1,
+   "recomputed": 1,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:affected-party response",
+   "published": 1,
+   "recomputed": 1,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:self-stop",
+   "published": 1,
+   "recomputed": 1,
+   "match": true
+  },
+  {
+   "item": "D4_mechanisms:signal only",
+   "published": 1,
+   "recomputed": 1,
+   "match": true
+  },
+  {
+   "item": "D5_branch_units:C",
+   "published": 7,
+   "recomputed": 7,
+   "match": true
+  },
+  {
+   "item": "D5_branch_units:P",
+   "published": 4,
+   "recomputed": 4,
+   "match": true
+  },
+  {
+   "item": "D5_branch_units:N",
+   "published": 2,
+   "recomputed": 3,
+   "match": false
+  }
+ ]
+}

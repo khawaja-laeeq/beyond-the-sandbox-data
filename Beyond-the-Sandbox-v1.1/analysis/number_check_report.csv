@@ -1,0 +1,247 @@
+line,number,tag,expression,expected,status,context
+18,three,x,clusters in the study design,structural: clusters in the study design,ok, own records.  **Method.** We audit the 2026 disclosures in 
+18,9,n,len(v11['cross_org_by_unit']),9,ok,"sters (OpenAI–Hugging Face, Anthropic and UK AISI). We code "
+18,five,x,coding dimensions D1–D5,structural: coding dimensions D1–D5,ok,e 9<!--n:len(v11['cross_org_by_unit'])--> incident units on 
+18,45,n,c11['S0'][0]+c11['S0'][1],45,ok,"f, external action, detection and response, and effect. The "
+18,138,n,v11['total_propositions'],138,ok,c11['S0'][0]+c11['S0'][1]--> resulting cells are split into 
+23,74,n,v11['core_with_documentary_support'],74,ok,es were attached to each cell. - **Support and agreement.** 
+23,79,n,v11['core_propositions'],79,ok,ement.** 74<!--n:v11['core_with_documentary_support']--> of 
+23,12,n,v11['cross_org_agreement_core'],12,ok,s have documentary support. Two or more organizations state 
+24,3,n,v11['independent_corroboration_a10'],3,ok,orroboration is rare and confined to the Hugging Face unit: 
+24,6,n,v11['independent_corroboration'],6,ok,g Face unit: 3<!--n:v11['independent_corroboration_a10']-->–
+29,36,x,sample size fixed by the authors' brief,structural: sample size fixed by the authors' brief,ok, been reviewed by a human. A blinded second human coding of 
+37,three,x,levels defined in the text,structural: levels defined in the text,ok,"rom these disclosures, and at what strength. We distinguish "
+45,Four,x,research questions,structural: research questions,ok," and evidence-base attribution, and reports what survives.  "
+56,79,n,v11['core_propositions'],79,ok,t record is.  - **Little is independently checked.** Of the 
+56,two,n,v11['independent_corroboration_core'],2,ok,".** Of the 79<!--n:v11['core_propositions']--> core claims, "
+57,62,n,v11['core_supported_by_exactly_one_org'],62,ok, independent records. - **Most rests on one organization.** 
+57,74,n,v11['core_with_documentary_support'],74,ok, 62<!--n:v11['core_supported_by_exactly_one_org']--> of the 
+64,Nine,n,v11['by_dimension_core']['D1'][0],9,ok,in brief.**  - **RQ1 (access):** access is well documented. 
+64,10,n,v11['by_dimension_core']['D1'][1],10,ok,cumented. Nine<!--n:v11['by_dimension_core']['D1'][0]--> of 
+80,22,q,FT:bouke2026competing,in FT:bouke2026competing,ok,ork.  **Loss of control and audit questions.** Bouke audits 
+92,four,x,listed items,structural: listed items,ok,"ment.** Relative to [4], [5], [7] and [27], this study adds "
+94,three,x,clusters,structural: clusters,ok,nts of cross-organization agreement and independence across 
+103,nine,n,len(v11['cross_org_by_unit']),9,ok,"bes or experiments. The selection frame, inclusion rule and "
+111,five,x,"count of new ledger entries R71–R75, see ledger file","structural: count of new ledger entries R71–R75, see ledger file",ok," fixed during the search, not before it. The protocol added "
+119,Eight,x,"count of CSA notes screened, listed in the protocol","structural: count of CSA notes screened, listed in the protocol",ok,ng update on third-party impact [32] was cached as context. 
+121,47,n,ns['n_rows'],47,ok,"New sources were attached only to existing propositions, as "
+121,138,n,v11['total_propositions'],138,ok,-n:ns['n_rows']--> support rows. What they state beyond the 
+121,13,n,ns['n_cand'],13,ok,--n:v11['total_propositions']--> propositions was listed as 
+125,45,n,c11['S0'][0]+c11['S0'][1],45,ok,d or counted.  ## B. Cell-level coding and the erratum  The 
+133,14,n,er['n_fixes'],14,ok,v1.1) is built by script from v1.0 plus a logged erratum of 
+135,12,n,er['applied'],12,ok,"quotation, location, reason and confidence. The results:  - "
+136,one,n,er['no_change'],1,ok,lts:  - 12<!--n:er['applied']--> fixes change the matrix; - 
+137,one,n,er['rejected'],1,ok,o_change']--> records a flag on which no change was made; - 
+138,three,x,the three in-text partial-support judgments E12–E14,structural: the three in-text partial-support judgments E12–E14,ok, was rejected and is not applied; - the erratum also stores 
+146,Four,n,v11['core_without_any_passage'],4,ok,"ement of the claim, *whether or not any passage states it*. "
+147,two,n,v11['added_without_any_passage'],2,ok,created only where a passage bore on them. The exception is 
+149,79,n,v11['core_propositions'],79,ok,nd a July link that no source reports).  In total there are 
+149,59,n,v11['added_propositions'],59,ok,otal there are 79<!--n:v11['core_propositions']--> core and 
+151,55,n,v11['added_status_supported'],55,ok,"d propositions were created mainly where a passage existed, "
+151,59,n,v11['added_propositions'],59,ok,"ge existed, 55<!--n:v11['added_status_supported']--> of the "
+151,56,n,v11['added_with_documentary_support'],56,ok,['added_propositions']--> added propositions are supported (
+151,138,n,v11['total_propositions'],138,ok,--> if a contested one is included). Support rates over all 
+157,119,n,v11['decomposition_confidence']['high'],119,ok, or developer interpretation; - a decomposition confidence: 
+157,16,n,v11['decomposition_confidence']['medium'],16,ok,": 119<!--n:v11['decomposition_confidence']['high']--> high, "
+157,3,n,v11['decomposition_confidence']['low'],3,ok,"6<!--n:v11['decomposition_confidence']['medium']--> medium, "
+167,241,n,v11['support_passages'],241,ok,ntradicts:** it states something incompatible with it.  All 
+167,28,n,v11['disagreement_passages'],28,ok,ll 241<!--n:v11['support_passages']--> support passages and 
+186,three,x,conditions listed,structural: conditions listed,ok,ndence (rule A10).** An independent pair counts only if all 
+208,Three,x,label families,structural: label families,ok, unresolved.  ## F. Sensitivity analysis and reading guide  
+228,36,x,sample size fixed by the brief,structural: sample size fixed by the brief,ok,human second coder for either layer. A stratified sample of 
+230,22,x,"audit size of the first version, fixed before judging","structural: audit size of the first version, fixed before judging",ok,en filled in.  The first version's entailment audit covered 
+236,41,n,c11['S0'][0],41,ok,"dings  ## A. Cell-level matrix  Under the baseline rule S0, "
+236,45,n,c11['S0'][0]+c11['S0'][1],45,ok,"rix  Under the baseline rule S0, 41<!--n:c11['S0'][0]--> of "
+236,4,n,c11['S0'][1],4,ok,"['S0'][1]--> cells are documented, none is contradicted and "
+236,36,n,c11['documented_single_reference'],36,ok,one is contradicted and 4<!--n:c11['S0'][1]--> are unknown. 
+236,41,n,c11['S0'][0],41,ok,known. 36<!--n:c11['documented_single_reference']--> of the 
+236,20,n,c11['concentration']['R08'][0],20,ok,le reference. Anthropic's September assessment [2] supports 
+236,17,n,c11['concentration']['R08'][1],17,ok,centration']['R08'][0]--> cells and is the sole support for 
+254,three,n,c11['D4_mechanisms']['External technical'],3,ok,topping mechanisms by unit are:  - external technical stop: 
+255,two,n,c11['D4_mechanisms']['Operator halt'],2,ok,chanisms']['External technical']--> units; - operator halt: 
+256,one,x,one unit each,structural: one unit each,ok,"; - signal only, affected party, third party and self-stop: "
+260,eight,n,c11['D5_branch_units']['C'],8,ok,es by unit are:  - C (credentials not issued to the agent): 
+261,four,n,c11['D5_branch_units']['N'],4,ok,11['D5_branch_units']['C']--> units; - N (non-public data): 
+262,seven,n,c11['D5_branch_units']['P'],7,ok,['D5_branch_units']['N']--> units; - P (persistent change): 
+270,3,n,v11['independent_corroboration_a10'],3,ok,"dent corroboration exists only in the Hugging Face unit, at "
+270,6,n,v11['independent_corroboration'],6,ok,"ace unit, at 3<!--n:v11['independent_corroboration_a10']-->–"
+278,45,x,cells,structural: cells,ok,"---|---|---| | W1 attached references, stored data | cell | "
+278,0,n,s11['W1']['two_plus_organizations'],0,ok,"ttached references, stored data | cell | 45<!--x:cells--> | "
+278,0,n,s11['W1']['independent_corroboration'],0,ok,:cells--> | 0<!--n:s11['W1']['two_plus_organizations']--> | 
+279,45,x,cells,structural: cells,ok,"oration']--> | | W3 all cached sources, whole cell | cell | "
+279,2,n,s11['W3']['two_plus_organizations'],2,ok," all cached sources, whole cell | cell | 45<!--x:cells--> | "
+279,0,n,s11['W3']['independent_corroboration'],0,ok,:cells--> | 2<!--n:s11['W3']['two_plus_organizations']--> | 
+280,45,x,cells,structural: cells,ok,"nt_corroboration']--> | | W4 as W3, relays counted | cell | "
+280,6,n,s11['W4']['two_plus_organizations'],6,ok,"-> | | W4 as W3, relays counted | cell | 45<!--x:cells--> | "
+280,0,n,s11['W4']['independent_corroboration'],0,ok,:cells--> | 6<!--n:s11['W4']['two_plus_organizations']--> | 
+281,79,n,s11['A9']['propositions_counted'],79,ok,boration']--> | | A9 core propositions only | proposition | 
+281,12,n,s11['A9']['two_plus_organizations'],12,ok,position | 79<!--n:s11['A9']['propositions_counted']--> | **
+281,2,n,v11['independent_corroboration_core'],2,ok,]--> | **12<!--n:s11['A9']['two_plus_organizations']-->** | 
+282,138,n,s11['A1']['propositions_counted'],138,ok,"ions, strict (no hedged or relayed support) | proposition | "
+282,21,n,s11['A1']['two_plus_organizations'],21,ok,oposition | 138<!--n:s11['A1']['propositions_counted']--> | 
+282,6,n,s11['A1']['independent_corroboration'],6,ok,d']--> | 21<!--n:s11['A1']['two_plus_organizations']--> | **
+283,138,n,s11['A10']['propositions_counted'],138,ok,"A10 all propositions, stricter independence | proposition | "
+283,21,n,s11['A10']['two_plus_organizations'],21,ok,position | 138<!--n:s11['A10']['propositions_counted']--> | 
+283,3,n,s11['A10']['independent_corroboration'],3,ok,']--> | 21<!--n:s11['A10']['two_plus_organizations']--> | **
+284,138,n,s11['A2']['propositions_counted'],138,ok,"A2 all propositions, hedged support allowed | proposition | "
+284,24,n,s11['A2']['two_plus_organizations'],24,ok,oposition | 138<!--n:s11['A2']['propositions_counted']--> | 
+284,9,n,s11['A2']['independent_corroboration'],9,ok,ted']--> | 24<!--n:s11['A2']['two_plus_organizations']--> | 
+288,Three,x,factors listed,structural: factors listed,ok,first version's in-text partial judgments are now stored.*  
+290,14,x,pipeline round number,structural: pipeline round number,ok,ial support. That judgment was made by an AI agent in round 
+290,one,n,s10['W1']['two_plus_organizations'],1,ok,"h the first version's data as shipped, the scripts returned "
+290,0,n,s11['W1']['two_plus_organizations'],0,ok,"--> cell. The erratum now stores the judgment, and W1 gives "
+292,two,n,len(v11['whole_cell_full_corpus_two_orgs']),2,ok,"t every document that states it. Across all cached sources, "
+297,three,n,len(v10['whole_cell_full_corpus_two_orgs']),3,ok,"d branches that only one organization states, the count was "
+299,three,x,max of W3 across versions,structural: max of W3 across versions,ok,ls raises the count of two-organization claims from at most 
+299,12,n,v11['cross_org_agreement_core'],12,ok,om at most three<!--x:max of W3 across versions--> cells to 
+299,24,n,v11['cross_org_agreement'],24,ok,"-n:v11['cross_org_agreement_core']--> core propositions, or "
+301,nine,n,v11['cross_org_by_unit']['INC-AISI-MY5'],9,ok,agreements break down by unit as follows:  - AISI Mythos 5: 
+302,nine,n,v11['cross_org_by_unit']['INC-OAI-HF'],9,ok,org_by_unit']['INC-AISI-MY5']-->; - Hugging Face intrusion: 
+303,four,n,v11['cross_org_by_unit']['INC-OAI-ART'],4,ok,n:v11['cross_org_by_unit']['INC-OAI-HF']-->; - Artifactory: 
+304,two,n,v11['cross_org_by_unit']['INC-OAI-MAY'],2,ok,v11['cross_org_by_unit']['INC-OAI-ART']-->; - May activity: 
+306,six,n,v11['independent_corroboration'],6,ok," Hugging Face intrusion. Under the plain independence rule, "
+315,three,n,v11['independent_corroboration_a10'],3,ok, workload as a base.  **The stricter rule (A10).** It keeps 
+315,six,n,v11['independent_corroboration'],6,ok,s three<!--n:v11['independent_corroboration_a10']--> of the 
+315,3,n,v11['independent_corroboration_a10'],3,ok,"pendent_corroboration']-->, so independent corroboration is "
+315,6,n,v11['independent_corroboration'],6,ok,oboration is 3<!--n:v11['independent_corroboration_a10']-->–
+321,three,n,v11['independent_corroboration_a10'],3,ok, neither the same act nor independence is established.  The 
+327,two,n,v11['independent_corroboration_core'],2,ok,"rnal datasets"" [19]) differently. Of the core propositions, "
+329,18,n,v11['shared_upstream_only'],18,ok," access and non-public data access.  Over all propositions, "
+329,24,n,v11['cross_org_agreement'],24,ok,"propositions, 18<!--n:v11['shared_upstream_only']--> of the "
+329,9,n,v11['repeated_reporting_only'],9,ok,"cords: METR on OpenAI's, and Anthropic on AISI's. A further "
+329,four,x,"relay-only propositions whose relaying organization is OpenAI on UK AISI's authority (AISIMY5-D4-2, AISIMY5-D4-3, SOL-D1-1, SOL-D5-1); see proposition_corroboration.csv","structural: relay-only propositions whose relaying organization is OpenAI on UK AISI's authority (AISIMY5-D4-2, AISIMY5-D4-3, SOL-D1-1, SOL-D5-1); see proposition_corroboration.csv",ok,"]--> propositions gain a second organization only by relay, "
+329,74,n,v11['core_with_documentary_support'],74,ok,em through OpenAI repeating UK AISI's findings [28]. Of the 
+329,62,n,v11['core_supported_by_exactly_one_org'],62,ok,"_with_documentary_support']--> supported core propositions, "
+329,70,n,v11['core_supported_and_single_underlying_record'],70,ok,ported_by_exactly_one_org']--> rest on one organization and 
+331,five,n,ns['by_source']['R75'],5,ok, partner Irregular's statement [31] adds partial support to 
+337,Nine,n,v11['by_dimension_core']['D1'][0],9,ok,and recognizing versus believing authorization  **Access.** 
+337,10,n,v11['by_dimension_core']['D1'][1],10,ok,ss.** Nine<!--n:v11['by_dimension_core']['D1'][0]--> of the 
+337,16,n,v11['by_dimension_all']['D1'][0],16,ok,access propositions are supported (all access propositions: 
+337,17,n,v11['by_dimension_all']['D1'][1],17,ok,ropositions: 16<!--n:v11['by_dimension_all']['D1'][0]--> of 
+339,Eight,n,v11['by_dimension_core']['D2'][0],8,ok,*Authorization belief.** D2 is still the weakest dimension. 
+339,11,n,v11['by_dimension_core']['D2'][1],11,ok,ion. Eight<!--n:v11['by_dimension_core']['D2'][0]--> of its 
+339,nine,n,v11['by_dimension_core']['D1'][0],9,ok,"core']['D2'][1]--> core propositions are supported, against "
+339,10,n,v11['by_dimension_core']['D1'][1],10,ok,", against nine<!--n:v11['by_dimension_core']['D1'][0]--> of "
+339,Three,n,v11['d2_permission_unknown'],3,ok,of 10<!--n:v11['by_dimension_core']['D1'][1]--> for access. 
+351,75%,q,R08,in R08,ok,"**Reported answers after the run:** Opus 4.6, Opus 4.7 (the "
+368,six,x,mechanism types,structural: mechanism types,ok, interrupted it is not stated. The first version's count of 
+370,11:42,q,R24,in R24,ok,the termination: all running evaluations were terminated at 
+370,10:56,q,R24,in R24,ok,"terminated at 11:42<!--q:R24--> BST, within one hour of the "
+370,12:23,q,R24,in R24,ok,n. The report gives quarantine of the affected sandboxes at 
+370,13:17,q,R24,in R24,ok,ed sandboxes at 12:23<!--q:R24--> BST in its summary and at 
+406,14,n,v11['disagreements_total'],14,ok, are still not harm.  ## F. RQ5: Disagreements  We recorded 
+406,6,n,v11['disagreements_cross_org'],6,ok,corded 14<!--n:v11['disagreements_total']--> disagreements; 
+408,six,n,v11['disagreements_by_kind']['different reporting scope'],6,ok,radiction between organizations. They divide as follows:  - 
+409,three,n,v11['disagreements_by_kind']['interpretive disagreement'],3,ok, reporting scope']--> are differences of reporting scope; - 
+410,three,n,v11['disagreements_by_kind']['later correction or update'],3,ok,greement']--> are interpretive (motive and scope belief); - 
+411,two,n,v11['disagreements_by_kind']['within-organization inconsistency'],2,ok,rrection or update']--> are later corrections or updates; - 
+413,Three,n,v11['disagreements_both_true']['no'],3,ok,--> are within-organization timing inconsistencies (AISI).  
+426,Three,x,case studies,structural: case studies,ok,ul): obtain test solutions | Interpretive | Partly |  ## G. 
+432,3,n,v11['independent_corroboration_a10'],3,ok, the independently corroborated propositions in the corpus: 
+432,6,n,v11['independent_corroboration'],6,ok, the corpus: 3<!--n:v11['independent_corroboration_a10']-->–
+442,16,n,b11['INC-ANT-OP47']['propositions'],16,ok,", or detection from cessation.  *At proposition level.* All "
+442,five,n,ns['by_source']['R75'],5,ok,"rregular, published a statement [31] that supports parts of "
+444,75%,q,R08,in R08,ok,"ut naming any model.  *Belief, detection and stopping.* The "
+446,four,q,R08,in R08,ok, evidence by timing. *What remains uncertain:* which of the 
+452,9,n,v11['cross_org_by_unit']['INC-AISI-MY5'],9,ok,sclosures only as related sources.  *At proposition level.* 
+452,25,n,b11['INC-AISI-MY5']['propositions'],25,ok,n:v11['cross_org_by_unit']['INC-AISI-MY5']--> of the unit's 
+464,138,n,v11['total_propositions'],138,ok,itivity  **Table V. Sensitivity.**  *(a) Proposition rules (
+468,129,n,s11['A1']['supported'],129,ok,| |---|---|---|---| | A1 strict independent corroboration | 
+468,21,n,s11['A1']['two_plus_organizations'],21,ok,endent corroboration | 129<!--n:s11['A1']['supported']--> | 
+468,6,n,s11['A1']['independent_corroboration'],6,ok,ted']--> | 21<!--n:s11['A1']['two_plus_organizations']--> | 
+469,130,n,s11['A2']['supported'],130,ok,boration']--> | | A2 cross-org agreement (hedged allowed) | 
+469,24,n,s11['A2']['two_plus_organizations'],24,ok,ent (hedged allowed) | 130<!--n:s11['A2']['supported']--> | 
+469,9,n,s11['A2']['independent_corroboration'],9,ok,ted']--> | 24<!--n:s11['A2']['two_plus_organizations']--> | 
+470,130,n,s11['A3']['supported'],130,ok,"ependent_corroboration']-->* | | A3 as A2, relays counted | "
+470,33,n,s11['A3']['two_plus_organizations'],33,ok,"s A2, relays counted | 130<!--n:s11['A3']['supported']--> | "
+470,9,n,s11['A3']['independent_corroboration'],9,ok,ted']--> | 33<!--n:s11['A3']['two_plus_organizations']--> | 
+471,127,n,s11['A5']['supported'],127,ok,roboration']-->* | | A5 exclude post-hoc model statements | 
+471,24,n,s11['A5']['two_plus_organizations'],24,ok,hoc model statements | 127<!--n:s11['A5']['supported']--> | 
+471,9,n,s11['A5']['independent_corroboration'],9,ok,ted']--> | 24<!--n:s11['A5']['two_plus_organizations']--> | 
+472,122,n,s11['A6']['supported'],122,ok,rroboration']-->* | | A6 contemporaneous only for beliefs | 
+472,23,n,s11['A6']['two_plus_organizations'],23,ok,ous only for beliefs | 122<!--n:s11['A6']['supported']--> | 
+472,8,n,s11['A6']['independent_corroboration'],8,ok,ted']--> | 23<!--n:s11['A6']['two_plus_organizations']--> | 
+473,129,n,s11['A7']['supported'],129,ok,boration']-->* | | A7 exclude SentinelOne timestamp joins | 
+473,21,n,s11['A7']['two_plus_organizations'],21,ok,lOne timestamp joins | 129<!--n:s11['A7']['supported']--> | 
+473,6,n,s11['A7']['independent_corroboration'],6,ok,ted']--> | 21<!--n:s11['A7']['two_plus_organizations']--> | 
+474,135,n,s11['A8']['propositions_counted'],135,ok,nt_corroboration']--> | | A8 exclude low-confidence splits (
+474,127,n,s11['A8']['supported'],127,ok,ce splits (135<!--n:s11['A8']['propositions_counted']-->) | 
+474,24,n,s11['A8']['two_plus_organizations'],24,ok,itions_counted']-->) | 127<!--n:s11['A8']['supported']--> | 
+474,9,n,s11['A8']['independent_corroboration'],9,ok,ted']--> | 24<!--n:s11['A8']['two_plus_organizations']--> | 
+475,79,n,s11['A9']['propositions_counted'],79,ok,ependent_corroboration']-->* | | A9 core propositions only (
+475,74,n,s11['A9']['supported'],74,ok,tions only (79<!--n:s11['A9']['propositions_counted']-->) | 
+475,12,n,s11['A9']['two_plus_organizations'],12,ok,sitions_counted']-->) | 74<!--n:s11['A9']['supported']--> | 
+475,4,n,s11['A9']['independent_corroboration'],4,ok,ted']--> | 12<!--n:s11['A9']['two_plus_organizations']--> | 
+476,129,n,s11['A10']['supported'],129,ok,pendent_corroboration']-->* | | A10 stricter independence | 
+476,21,n,s11['A10']['two_plus_organizations'],21,ok,ricter independence | 129<!--n:s11['A10']['supported']--> | 
+476,3,n,s11['A10']['independent_corroboration'],3,ok,']--> | 21<!--n:s11['A10']['two_plus_organizations']--> | **
+480,45,x,cells,structural: cells,ok,ion']-->** |  \* Hedged support admitted.  *(b) Cell rules (
+484,41,n,c11['S0'][0],41,ok,  | Rule | Documented / unknown | |---|---| | S0 baseline | 
+484,4,n,c11['S0'][1],4,ok,unknown | |---|---| | S0 baseline | 41<!--n:c11['S0'][0]-->/
+485,37,n,c11['S1'][0],37,ok,11['S0'][1]--> | | S1 D2 needs a verbatim model statement | 
+485,8,n,c11['S1'][1],8,ok, needs a verbatim model statement | 37<!--n:c11['S1'][0]-->/
+486,0,n,c11['S2_stored'][0],0,ok,"'S1'][1]--> | | S2 two organizations, attached references | "
+486,45,n,c11['S2_stored'][1],45,ok,"ations, attached references | 0<!--n:c11['S2_stored'][0]-->/"
+487,40,n,c11['S3_stored'][0],40,ok,--n:c11['S2_stored'][1]--> | | S3 a non-partial reference | 
+487,5,n,c11['S3_stored'][1],5,ok,S3 a non-partial reference | 40<!--n:c11['S3_stored'][0]-->/
+488,40,n,c11['S4'][0],40,ok,--n:c11['S3_stored'][1]--> | | S4 without Hugging Face D2 | 
+488,5,n,c11['S4'][1],5,ok,-> | | S4 without Hugging Face D2 | 40<!--n:c11['S4'][0]-->/
+489,40,n,c11['S5'][0],40,ok,-->/5<!--n:c11['S4'][1]--> | | S5 without Hugging Face D1 | 
+489,5,n,c11['S5'][1],5,ok,-> | | S5 without Hugging Face D1 | 40<!--n:c11['S5'][0]-->/
+490,37,n,c11['S6'][0],37,ok,<!--n:c11['S5'][1]--> | | S6 human-assigned statuses only | 
+490,8,n,c11['S6'][1],8,ok,| S6 human-assigned statuses only | 37<!--n:c11['S6'][0]-->/
+491,39,n,c11['S7'][0],39,ok,8<!--n:c11['S6'][1]--> | | S7 D2 contemporaneous or mixed | 
+491,6,n,c11['S7'][1],6,ok, | S7 D2 contemporaneous or mixed | 39<!--n:c11['S7'][0]-->/
+492,38,n,c11['S8'][0],38,ok,-->/6<!--n:c11['S7'][1]--> | | S8 D2 contemporaneous only | 
+492,7,n,c11['S8'][1],7,ok,-> | | S8 D2 contemporaneous only | 38<!--n:c11['S8'][0]-->/
+493,5,n,c11['S9'][0],5,ok,]-->/7<!--n:c11['S8'][1]--> | | S9 two or more references | 
+493,40,n,c11['S9'][1],40,ok,]--> | | S9 two or more references | 5<!--n:c11['S9'][0]-->/
+494,22,n,c11['LOO_stored']['R08'],22,ok,-->/40<!--n:c11['S9'][1]--> | | Leave out [2] / [1] / [3] | 
+494,31,n,c11['LOO_stored']['R02'],31,ok,e out [2] / [1] / [3] | 22<!--n:c11['LOO_stored']['R08']-->/
+494,35,n,c11['LOO_stored']['R10'],35,ok,'LOO_stored']['R08']-->/31<!--n:c11['LOO_stored']['R02']-->/
+502,40,n,c10['S0'][0],40,ok, 5 D2:** unknown → documented (Section IV-C). S0 moves from 
+502,5,n,c10['S0'][1],5,ok,ented (Section IV-C). S0 moves from 40<!--n:c10['S0'][0]-->/
+502,41,n,c11['S0'][0],41,ok,oves from 40<!--n:c10['S0'][0]-->/5<!--n:c10['S0'][1]--> to 
+502,4,n,c11['S0'][1],4,ok,0'][0]-->/5<!--n:c10['S0'][1]--> to 41<!--n:c11['S0'][0]-->/
+503,three,n,c10['D4_mechanisms']['Operator halt'],3,ok,or halt → external technical stop. Operator halts fall from 
+503,two,n,c11['D4_mechanisms']['Operator halt'],2,ok,from three<!--n:c10['D4_mechanisms']['Operator halt']--> to 
+505,three,n,c11['D5_branch_units']['P']-c10['D5_branch_units']['P'],3,ok,w recorded as not stated. - **D5 branches:** P is added for 
+505,four,n,c10['D5_branch_units']['P'],4,ok,nch_units']['P']-c10['D5_branch_units']['P']--> units (P in 
+505,seven,n,c11['D5_branch_units']['P'],7,ok,]--> units (P in four<!--n:c10['D5_branch_units']['P']--> → 
+508,three,x,listed items,structural: listed items,ok," At proposition level, the erratum and the new sources made "
+510,eight,n,v11['core_propositions']-v10['core_propositions'],8,ok,s made three<!--x:listed items--> changes:  - **Core set:** 
+511,2,n,v10['independent_corroboration_a10'],2,ok,"he dataset-processing entry point), so the range moved from "
+511,5,n,v10['independent_corroboration'],5,ok,e moved from 2<!--n:v10['independent_corroboration_a10']-->–
+511,3,n,v11['independent_corroboration_a10'],3,ok,dent_corroboration']--> under the first version's coding to 
+511,6,n,v11['independent_corroboration'],6,ok,'s coding to 3<!--n:v11['independent_corroboration_a10']-->–
+531,3,x,clusters,structural: clusters,ok,"ied"" [27]; claims graded by source type [4] | Counts across "
+531,12,n,v11['cross_org_agreement_core'],12,ok,ource type [4] | Counts across 3<!--x:clusters--> clusters: 
+531,79,n,v11['core_propositions'],79,ok,--> clusters: 12<!--n:v11['cross_org_agreement_core']--> of 
+531,3,n,v11['independent_corroboration_a10'],3,ok,ve two-organization agreement; independent corroboration is 
+531,6,n,v11['independent_corroboration'],6,ok,oboration is 3<!--n:v11['independent_corroboration_a10']-->–
+532,0,n,s10['W2']['two_plus_organizations'],0,ok,"chment and claim size, plus one unstored judgment, produced "
+532,45,x,cells,structural: cells,ok,"ent, produced 0<!--n:s10['W2']['two_plus_organizations']-->/"
+543,three,n,v11['independent_corroboration_a10'],3,ok," Where the affected party published (Hugging Face), between "
+543,six,n,v11['independent_corroboration'],6,ok,ween three<!--n:v11['independent_corroboration_a10']--> and 
+545,100,q,R05,in R05,ok,"re not few. By 26 September, OpenAI alone had notified over "
+550,four,x,Anthropic units,structural: Anthropic units,ok,stly post-hoc or paraphrased; - in the Hugging Face and all 
+555,two,x,checklist items added,structural: checklist items added,ok,the run.  ## C. Implications for disclosure  Table VII adds 
+562,two,n,len(c11['D2_verbatim_contemporaneous_cells']),2,ok,| D2 permission beliefs rest on one organization's records; 
+565,18,n,v11['shared_upstream_only'],18,ok,rds it rests on** | Most agreements rest on shared records (
+565,24,n,v11['cross_org_agreement'],24,ok,n shared records (18<!--n:v11['shared_upstream_only']--> of 
+591,16,n,v11['decomposition_confidence']['medium'],16,ok, them. Splitting cells into propositions involves judgment: 
+591,3,n,v11['decomposition_confidence']['low'],3,ok,_confidence']['medium']--> splits are medium-confidence and 
+591,36,x,sample size fixed by the brief,structural: sample size fixed by the brief,ok,eported. Blank coding sheets for a blinded second coding of 
+593,55,n,v11['added_status_supported'],55,ok,"ropositions were created mainly where a passage existed, so "
+593,59,n,v11['added_propositions'],59,ok,"age existed, so 55<!--n:v11['added_status_supported']--> of "
+593,31,n,b11['INC-OAI-HF']['propositions'],31,ok,zation published about each unit. The Hugging Face unit has 
+593,three,x,organizations publishing on the unit,structural: organizations publishing on the unit,ok,NC-OAI-HF']['propositions']--> propositions largely because 
+597,five,x,new ledger entries,structural: new ledger entries,ok,was fixed during the search rather than before it. It found 
+599,nine,n,len(v11['cross_org_by_unit']),9,ok,on the ledger.  **Selection and dependence.** The study has 
+609,nine,n,len(v11['cross_org_by_unit']),9,ok,nt behavior or defense efficacy.  # VII. Conclusion  Across 
+611,12,n,v11['cross_org_agreement_core'],12,ok,"ized and referenced.  Corrected, two organizations agree on "
+611,79,n,v11['core_propositions'],79,ok,ions agree on 12<!--n:v11['cross_org_agreement_core']--> of 
+611,3,n,v11['independent_corroboration_a10'],3,ok,on is confined to the Hugging Face intrusion and amounts to 
+611,6,n,v11['independent_corroboration'],6,ok,d amounts to 3<!--n:v11['independent_corroboration_a10']-->–
+662,three,n,ns['n_rejected'],3,ok,against the cached sources. It rejected one erratum fix and 
+662,ten,n,ns['n_rel_corrected'],10,ok,"ree<!--n:ns['n_rejected']--> new-source rows, and corrected "

@@ -1,0 +1,247 @@
+{
+ "reviewers": [
+  "R1",
+  "R2"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 6.5,
+  "novelty": 5.0,
+  "significance": 6.5,
+  "clarity": 6.5,
+  "reproducibility": 7.5,
+  "overall": 6.0
+ },
+ "reasons": [
+  "Mean overall score 6.0 is below the acceptance bar of 7.0.",
+  "(R1) Central coding judgments (D2 authorization interpretation, D5 effect branches) were substantially assigned or revised by AI agents rather than the human coder (Appendix A, Table V), and the paper's only check on this \u2014 a 44/45 agreement test against the AI-produced codes \u2014 is explicitly called 'partly circular... not evidence of reliability'; the paper does not reconcile this with its own RQ2 critique of trusting elicited/self-reported model statements as weak evidence, leaving the reliability of its own key annotations as unaddressed as the model self-reports it criticizes.",
+  "(R2) The whole-proposition support result depends on discretionary proposition boundaries. Methods III.B and Appendix B combine both organizations' responses into Hugging Face D4, making each organization's account partial by construction; no sensitivity analysis splits that composite proposition. The headline 0/45 therefore characterizes the retained cell definitions as well as disclosure structure.",
+  "(R1) The headline cross-case finding 'No cell has whole-proposition support from two organizations' (S2: 0/45) follows close to by construction from the proposition-size rule, which requires a single reference to state every element of a (often compound) proposition; with compound propositions and organizationally siloed reporting, near-total failure of 'whole support' is close to guaranteed regardless of underlying evidence quality, so the finding's apparent strength partly reflects the coding rule's strictness rather than an empirical discovery about disclosure practice (the paper partially acknowledges this but still foregrounds the 0/45 count in the abstract, intro, and conclusion as a central result).",
+  "(R2) The D5 persistent-state rule is underspecified and inconsistently bounded. Appendix B and the coded data exclude AISI Mythos 5's posted malicious pull request because it was refused, although posting itself changes platform state; meanwhile package installation establishes P for Anthropic Mythos 5 without an explicit persistence criterion.",
+  "(R1) The quantitative defense-benchmark claim 'CaMeL completes 77% of AgentDojo tasks with provable security versus 84% undefended' is attributed jointly to [@greenblatt2023ai; @debenedetti2025defeating], but greenblatt2023ai ('AI Control: Improving Safety Despite Intentional Subversion') does not report CaMeL or these AgentDojo figures \u2014 only debenedetti2025defeating does \u2014 so the specific number is attached to a reference pairing where one source does not support it.",
+  "(R2) RQ2 asks about the separation between reality recognition and authorization belief, but Methods III.B explicitly leaves reality recognition uncoded. Findings IV.C consequently compares these two concepts descriptively for selected units rather than providing a complete paired audit across the nine units.",
+  "(R1) The main text stacks multiple overlapping shorthand systems (D1-D5 dimensions, S0-S6/S4/S5 status-rule variants, L1-L3 ordinal effect summaries, C/N/P branches, six stopping-mechanism labels) with minimal narrative scaffolding before each is used, which for a 6-page workshop paper risks losing readers who are not continuously cross-referencing Tables II-X and the appendix.",
+  "(R2) The abstract and conclusion describe six stopping mechanisms, although one category is explicitly 'signal only' with no established stop. Findings IV.D also assigns Anthropic Mythos 5 to third-party removal despite the retained proposition separately reporting session timeout, without a decision rule establishing which event ended the activity.",
+  "(R1) Per the automated novelty check, the broad comparative approach, the authorization/reachability distinction, and the sensitivity/recount techniques substantially overlap already-published work (Raftari, Bouke, Amundsen, Li et al., Steegen et al.); the paper's own framing concedes 'we claim no new comparison, grading method, distinction or taxonomy,' so the audience value depends almost entirely on the specific released 45-cell artifact rather than a new empirical or methodological result.",
+  "(R2) The contribution remains primarily an annotated evidence artifact: the closest-work comparison establishes substantial overlap in incidents, dimensions, distinctions and sensitivity methods, while the disclosure checklist's practical value is untested."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 7.0,
+   "novelty": 5.0,
+   "significance": 6.0,
+   "clarity": 6.0,
+   "reproducibility": 8.0,
+   "overall": 6.0
+  },
+  "R2": {
+   "soundness": 6.0,
+   "novelty": 5.0,
+   "significance": 7.0,
+   "clarity": 7.0,
+   "reproducibility": 7.0,
+   "overall": 6.0
+  }
+ },
+ "decisions": {
+  "R1": "weak accept",
+  "R2": "weak accept"
+ },
+ "round": "manual r15 2026-11-09-no-second-coder",
+ "models": {
+  "R1": "claude",
+  "R2": "codex"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 7.0,
+    "novelty": 5.0,
+    "significance": 6.0,
+    "clarity": 6.0,
+    "reproducibility": 8.0,
+    "overall": 6.0
+   },
+   "confidence": 3,
+   "decision": "weak accept",
+   "weaknesses": [
+    "Central coding judgments (D2 authorization interpretation, D5 effect branches) were substantially assigned or revised by AI agents rather than the human coder (Appendix A, Table V), and the paper's only check on this \u2014 a 44/45 agreement test against the AI-produced codes \u2014 is explicitly called 'partly circular... not evidence of reliability'; the paper does not reconcile this with its own RQ2 critique of trusting elicited/self-reported model statements as weak evidence, leaving the reliability of its own key annotations as unaddressed as the model self-reports it criticizes.",
+    "The headline cross-case finding 'No cell has whole-proposition support from two organizations' (S2: 0/45) follows close to by construction from the proposition-size rule, which requires a single reference to state every element of a (often compound) proposition; with compound propositions and organizationally siloed reporting, near-total failure of 'whole support' is close to guaranteed regardless of underlying evidence quality, so the finding's apparent strength partly reflects the coding rule's strictness rather than an empirical discovery about disclosure practice (the paper partially acknowledges this but still foregrounds the 0/45 count in the abstract, intro, and conclusion as a central result).",
+    "The quantitative defense-benchmark claim 'CaMeL completes 77% of AgentDojo tasks with provable security versus 84% undefended' is attributed jointly to [@greenblatt2023ai; @debenedetti2025defeating], but greenblatt2023ai ('AI Control: Improving Safety Despite Intentional Subversion') does not report CaMeL or these AgentDojo figures \u2014 only debenedetti2025defeating does \u2014 so the specific number is attached to a reference pairing where one source does not support it.",
+    "The main text stacks multiple overlapping shorthand systems (D1-D5 dimensions, S0-S6/S4/S5 status-rule variants, L1-L3 ordinal effect summaries, C/N/P branches, six stopping-mechanism labels) with minimal narrative scaffolding before each is used, which for a 6-page workshop paper risks losing readers who are not continuously cross-referencing Tables II-X and the appendix.",
+    "Per the automated novelty check, the broad comparative approach, the authorization/reachability distinction, and the sensitivity/recount techniques substantially overlap already-published work (Raftari, Bouke, Amundsen, Li et al., Steegen et al.); the paper's own framing concedes 'we claim no new comparison, grading method, distinction or taxonomy,' so the audience value depends almost entirely on the specific released 45-cell artifact rather than a new empirical or methodological result."
+   ],
+   "strengths": [
+    "Quantitative claims in the manuscript (e.g., 40/5 baseline split, R08/R02/R10 sole-support counts of 17/9/7, the seven-unit C / four-unit P / two-unit N effect-branch tally, leave-one-source-out counts of 21/30/33) were checked against the underlying coded_evidence.csv and supplementary result files and matched exactly, indicating careful internal consistency between prose, tables, and data.",
+    "The study is unusually transparent about its own evidentiary limits (per-cell inference limits in Table I, explicit 'attempt is not completion,' 'cessation is not containment' framing, flagged unreachable sources R01/R05, and an honest discussion of the AI-recheck's circularity) rather than overstating what the disclosures support.",
+    "The reproducibility package (coded matrix, codebook, source ledger, change log, and a described single-script recount pipeline with stated compute/version requirements) is specified in enough detail to plausibly support independent recomputation of every reported count."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 6.0,
+    "novelty": 5.0,
+    "significance": 7.0,
+    "clarity": 7.0,
+    "reproducibility": 7.0,
+    "overall": 6.0
+   },
+   "confidence": 4,
+   "decision": "weak accept",
+   "weaknesses": [
+    "The whole-proposition support result depends on discretionary proposition boundaries. Methods III.B and Appendix B combine both organizations' responses into Hugging Face D4, making each organization's account partial by construction; no sensitivity analysis splits that composite proposition. The headline 0/45 therefore characterizes the retained cell definitions as well as disclosure structure.",
+    "The D5 persistent-state rule is underspecified and inconsistently bounded. Appendix B and the coded data exclude AISI Mythos 5's posted malicious pull request because it was refused, although posting itself changes platform state; meanwhile package installation establishes P for Anthropic Mythos 5 without an explicit persistence criterion.",
+    "RQ2 asks about the separation between reality recognition and authorization belief, but Methods III.B explicitly leaves reality recognition uncoded. Findings IV.C consequently compares these two concepts descriptively for selected units rather than providing a complete paired audit across the nine units.",
+    "The abstract and conclusion describe six stopping mechanisms, although one category is explicitly 'signal only' with no established stop. Findings IV.D also assigns Anthropic Mythos 5 to third-party removal despite the retained proposition separately reporting session timeout, without a decision rule establishing which event ended the activity.",
+    "The contribution remains primarily an annotated evidence artifact: the closest-work comparison establishes substantial overlap in incidents, dimensions, distinctions and sensitivity methods, while the disclosure checklist's practical value is untested."
+   ],
+   "strengths": [
+    "The complete 45-decision table, quoted evidence, locators, challenges and revision provenance make substantive coding decisions unusually inspectable.",
+    "The manuscript carefully distinguishes attributed permission beliefs from actual authorization, attempts from effects, and stopping from demonstrated containment.",
+    "Selection criteria, dependent units, inaccessible sources and the evidence cutoff are explicitly documented.",
+    "Rule variants and source-removal analyses expose dependence on evidence thresholds and dominant disclosures without presenting documentary counts as incident prevalence.",
+    "The bounded contribution and detailed comparison with overlapping prior work are appropriate for an AI-security workshop.",
+    "The supplied data and reported deterministic recount scripts provide a concrete basis for reproducing the descriptive results."
+   ]
+  }
+ },
+ "protocol": {
+  "timestamp": "2026-11-09T06:39:55Z",
+  "study_type": "documentary",
+  "pass": true,
+  "failures": [],
+  "warnings": [
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, R70.",
+   "Sources with no usable text from this machine (wall, error page or almost no text): R01, R12, R14, R15, R16, R18, R43, R51, R53, R55, R57, R67. Do not quote them; read the same document elsewhere or use the next best source.",
+   "Single coder by design (brief.md: Second coder: none): state it openly; no agreement statistic."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 70,
+   "by_status": {
+    "documented": 40,
+    "unknown": 5
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 8,
+     "unknown": 1
+    },
+    "D2": {
+     "unknown": 4,
+     "documented": 5
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 12,
+     "unknown": 3
+    },
+    "Anthropic": {
+     "documented": 19,
+     "unknown": 1
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": null,
+   "changed_from_baseline": [
+    "INC-OAI-MAY/D4 unknown->documented",
+    "INC-OAI-MAY/D5 unknown->documented",
+    "INC-OAI-ART/D1 documented->unknown",
+    "INC-OAI-ART/D2 documented->unknown",
+    "INC-ANT-OP47/D4 unknown->documented",
+    "INC-ANT-MY5/D2 documented->unknown",
+    "INC-AISI-MY5/D2 unknown->documented",
+    "INC-AISI-SOL/D5 unknown->documented"
+   ]
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 agent evaluation breakout incidents and their containment and assurance implications."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Already systematizes incident reports and evaluations to compare loss-of-control outcomes and environmental conditions."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Covers overlapping OpenAI\u2013Hugging Face and UK AISI cases, separates reachability from authorization, and provides a cross-case claim matrix."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Provides structured incident-reporting fields covering access, intent evidence, security measures, fail-safe measures, and resulting harm."
+   },
+   {
+    "key": "steegen2016increasing",
+    "overlap": "Establishes analysis across alternative reasonable data-processing and coding choices."
+   },
+   {
+    "key": "li2016survey",
+    "overlap": "Identifies source dependency and single-source dominance as obstacles to interpreting multi-source evidence."
+   }
+  ],
+  "reasons": [
+   "The broad incident comparison, authorization distinction, reporting dimensions, and sensitivity methods strongly overlap with listed work and do not establish methodological novelty.",
+   "The concrete increment is a reproducible 45-cell evidence artifact linking support decisions to deciding passages, locators, source organisations, coding-change provenance, and rule-variant recounts. No listed description establishes this particular artifact or audit.",
+   "Separating organisation-level reporting from whole-proposition support adds a checkable corpus-specific analysis, provided organisation counts are not presented as independent corroboration or evidence quality.",
+   "The corrected claims acknowledge substantive sensitivity: only D2 having the most unknown cells survives all three stated coding variants; the two-organisation finding depends on the lead's reread. This supports a bounded audit contribution rather than a general security finding.",
+   "The contribution text is truncated, so this verdict applies to the explicit current claim supplied and does not certify the underlying artifacts or numerical accuracy."
+  ],
+  "reposition": "Present the paper as a reproducible evidence-audit extension of existing incident comparisons, centered on passage-linked coding and provenance-separated recounts. Lead with the surviving D2 evidence gap, and report the organisational-support and D5 results explicitly as coding-dependent descriptions of this disclosure corpus.",
+  "round": 13,
+  "timestamp": "2026-11-09T00:57:50Z",
+  "literature_added": []
+ },
+ "latex": {
+  "timestamp": "2026-11-09T06:22:11Z",
+  "engine": "latexmk",
+  "compiled": true,
+  "limit": 6,
+  "pages_total": 13,
+  "pages_main": 5,
+  "undefined_citations": [],
+  "internal_terms": [],
+  "pass": true,
+  "package": {
+   "path": "build/reproducibility_package.zip",
+   "files": 114
+  }
+ },
+ "submission": "D:/khawa/Downloads/beyond_the_sandbox_r15.pdf + beyond-the-sandbox-r15-changes.zip"
+}

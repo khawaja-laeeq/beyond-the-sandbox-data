@@ -1,0 +1,260 @@
+{
+ "reviewers": [
+  "R1",
+  "R2",
+  "R3",
+  "R4"
+ ],
+ "valid": [
+  "R1",
+  "R2"
+ ],
+ "pass_score": 7.0,
+ "min_soundness": 6.0,
+ "gates": [],
+ "verdict": "FAIL",
+ "mean": {
+  "soundness": 4.0,
+  "novelty": 4.5,
+  "significance": 6.0,
+  "clarity": 6.0,
+  "reproducibility": 5.0,
+  "overall": 4.0
+ },
+ "reasons": [
+  "Mean overall score 4.0 is below the acceptance bar of 7.0.",
+  "Soundness below 6 from R1 (4), R2 (4).",
+  "(R1) The submission knowingly retains the Anthropic internal-model D2 'documented' tag even though its own evidence paraphrase (simulation assumption, later real-company recognition) is not a permission belief. The paper says so in Sections III-D and IV-C and in Appendix B. The headline counts (40 documented, 4 documented D2) therefore include a cell the authors call stronger than its evidence. Tables III and IV and the abstract's D2 figures inherit this. Mythos 5 D2 was recoded to unknown for exactly this reason, so the coding is internally inconsistent.",
+  "(R2) Section III-D and Appendix B explicitly retain Anthropic internal-model D2 as documented despite acknowledging that its evidence does not establish authorization interpretation. This violates Appendix A's decision rule and leaves the authorization totals and sensitivity tables incorporating a known unsupported classification.",
+  "(R1) The audit established passage review for only 3 of 45 cells (Section III-D, Limitations). The other 42 decisions are 'provenance-coded' on paraphrased evidence, and the paper says string matching does not establish entailment. The central deliverable, the 45-decision table, is mostly unvalidated, and no agreement statistic exists. Coding is single-coder with only AI objections. Four objections were raised and left unresolved by rule, because the primary coder kept the tags (e.g., Opus 4.6 D2). Soundness for a documentary study therefore rests on one coder's unchecked reading.",
+  "(R2) Appendix B cites R10 and R24 for AISI Mythos 5 D4, whereas coded_evidence.csv lists only R10 in that cell's reference field. Consequently, the manuscript's displayed decision table and the data underlying its seven multi-source cells and source-discount results use different reference assignments.",
+  "(R1) Several documented tags rest on investigator interpretations, not on events. For example, Artifactory D1, D3 and D5 rest only on R07 (METR) paraphrases such as 'Shared infrastructure communication observed'. Some propositions are vague: Hugging Face D3 is 'Agents attacked Hugging Face'. They do not state a unit-specific, checkable claim. The codebook demands 'unit-specific support', but these cells would be hard to falsify.",
+  "(R2) Sections III-D and VI establish detailed passage review for only three of 45 cells. The remaining provenance records and string matches do not demonstrate proposition-level entailment, leaving the central documented classifications incompletely validated.",
+  "(R1) The 'direct/inferred' split is an ad hoc mapping to evidence class I, not a codebook category (Section III-C). Table III's 'after removing inferred support' column therefore rests on a post-hoc designation. The study lead chose it, and it is not an independent measure. Only five cells are class I, so that column mostly shows the effect of an arbitrary label.",
+  "(R2) Section III-C assigns direct versus inferred support solely from institutional source role. Operator interpretations are designated direct while external-investigator interpretations are inferred, so the inferred-support discount does not consistently distinguish observation from interpretation.",
+  "(R1) The sensitivity analysis is thin. Only category-removal counts (7, 35, 6) are reported. The paper admits that individual and joint weak-cell flips are not available, so there is no test of how much the headline counts depend on the contested cells (internal-model D2, Opus 4.6 D2, Sol D5). Removing single-source support is also close to arithmetic on the citation counts, so it is uninformative about the quality of the evidence.",
+  "(R2) Appendix D compares the closest frameworks using titles and summaries that cannot establish their provenance fields or inference rules. The claimed analytical increment over those frameworks therefore remains only partially substantiated."
+ ],
+ "scores": {
+  "R1": {
+   "soundness": 4.0,
+   "novelty": 4.0,
+   "significance": 5.0,
+   "clarity": 6.0,
+   "reproducibility": 5.0,
+   "overall": 4.0
+  },
+  "R2": {
+   "soundness": 4.0,
+   "novelty": 5.0,
+   "significance": 7.0,
+   "clarity": 6.0,
+   "reproducibility": 5.0,
+   "overall": 4.0
+  }
+ },
+ "decisions": {
+  "R1": "weak reject",
+  "R2": "weak reject"
+ },
+ "round": 8,
+ "timestamp": "2026-11-05T21:18:41Z",
+ "models": {
+  "R1": "claude",
+  "R2": "codex",
+  "R3": "api",
+  "R4": "agy"
+ },
+ "statuses": {
+  "R1": "ok",
+  "R2": "ok",
+  "R3": "unavailable",
+  "R4": "limit_hit_earlier"
+ },
+ "reviews": {
+  "R1": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 4.0,
+    "significance": 5.0,
+    "clarity": 6.0,
+    "reproducibility": 5.0,
+    "overall": 4.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "The submission knowingly retains the Anthropic internal-model D2 'documented' tag even though its own evidence paraphrase (simulation assumption, later real-company recognition) is not a permission belief. The paper says so in Sections III-D and IV-C and in Appendix B. The headline counts (40 documented, 4 documented D2) therefore include a cell the authors call stronger than its evidence. Tables III and IV and the abstract's D2 figures inherit this. Mythos 5 D2 was recoded to unknown for exactly this reason, so the coding is internally inconsistent.",
+    "The audit established passage review for only 3 of 45 cells (Section III-D, Limitations). The other 42 decisions are 'provenance-coded' on paraphrased evidence, and the paper says string matching does not establish entailment. The central deliverable, the 45-decision table, is mostly unvalidated, and no agreement statistic exists. Coding is single-coder with only AI objections. Four objections were raised and left unresolved by rule, because the primary coder kept the tags (e.g., Opus 4.6 D2). Soundness for a documentary study therefore rests on one coder's unchecked reading.",
+    "Several documented tags rest on investigator interpretations, not on events. For example, Artifactory D1, D3 and D5 rest only on R07 (METR) paraphrases such as 'Shared infrastructure communication observed'. Some propositions are vague: Hugging Face D3 is 'Agents attacked Hugging Face'. They do not state a unit-specific, checkable claim. The codebook demands 'unit-specific support', but these cells would be hard to falsify.",
+    "The 'direct/inferred' split is an ad hoc mapping to evidence class I, not a codebook category (Section III-C). Table III's 'after removing inferred support' column therefore rests on a post-hoc designation. The study lead chose it, and it is not an independent measure. Only five cells are class I, so that column mostly shows the effect of an arbitrary label.",
+    "The sensitivity analysis is thin. Only category-removal counts (7, 35, 6) are reported. The paper admits that individual and joint weak-cell flips are not available, so there is no test of how much the headline counts depend on the contested cells (internal-model D2, Opus 4.6 D2, Sol D5). Removing single-source support is also close to arithmetic on the citation counts, so it is uninformative about the quality of the evidence.",
+    "Counting 'references per cell' as a measure of source concentration is weak. The paper concedes that multiple references need not be independent and that single-source cells may be authoritative primary accounts. The 33/40 'single-source' statistic is a coding-structure artifact (R08 covers most Anthropic cells) and does not measure support. Cluster-level conclusions are in effect conclusions about which document was cited.",
+    "Findings are largely restatements of source content with disclaimers. RQ1\u2013RQ4 are answered only descriptively, and Section IV.E on RQ4 is based mainly on one replay in R08. The claims about what 'incidents, replays and benchmarks can support' are asserted conceptually; no benchmark evidence is actually coded. The discussion's disclosure checklist is not derived from or tested against the coding.",
+    "Novelty is incremental, as the novelty check found. Cross-incident comparison, incident taxonomies and evidence grading all exist. The paper cannot compare against prior frameworks' provenance fields (Appendix D: 'Not established by verified summary' in every cell), so the difference from related work is asserted but not demonstrated. Related work was read from summaries and not from full texts.",
+    "The source access is incomplete. R01 is unreachable (HTTP 403). R05 and R06 were not usable. R36\u2013R47 were never opened. Many reference-list entries (R11\u2013R23) are 'not reauthenticated'. The bibliography contains many unrelated, uncited entries (e.g., healthcare zero-trust, Zenodo ARK-442/447, GRADE, PolicyFaultBench). Appendix C reports 47 inventory records although only a small subset is used. This inflates the apparent source base.",
+    "The coding changed substantially across rounds, with 8 changes from baseline, including recodes of several D2 cells to unknown and of others to documented. Some changes were made 'per lead instruction' (the audit trail says 'recode to unknown per lead instruction'). The paper does not give the V11 baseline counts, so readers cannot see how much the headline depends on revision choices. The AISI Mythos 5 D2 recode to documented depends on a developer-authored interpretation (R26), a party with a stake in the outcome.",
+    "Clarity and presentation problems. The paper is heavy with repeated hedges ('does not establish') that blur its actual findings. Figure 1 is a numeric table, not a figure, and no summary coding-matrix figure of the sort the brief specified is shown. Appendix D leaves schema-level comparison empty. The final reference section and the main body use inconsistent source keys (R-numbers mixed with author-year)."
+   ],
+   "strengths": [
+    "Careful and transparent about inference limits. The paper separates reachability from permission, detection from containment, and attempt from effect, and keeps unknowns visible instead of treating silence as absence.",
+    "Honest disclosure of limitations: single coder, no kappa, incomplete passage review, an admitted tag discrepancy, and the timestamp inconsistency in AISI's report (12:23 vs 13:17 BST).",
+    "The coded data, audit trail, change log and anchor checks are traceable. They make most counts reproducible from the CSVs. The counts in the text match the derived-count files (40/0/5, 35/5, 33/7).",
+    "Documentary-only design with no operational exploit detail. The paper handles a topical, safety-relevant set of 2026 disclosures responsibly.",
+    "The disclosure checklist is a practical deliverable for evaluators and incident reporters."
+   ]
+  },
+  "R2": {
+   "scores": {
+    "soundness": 4.0,
+    "novelty": 5.0,
+    "significance": 7.0,
+    "clarity": 6.0,
+    "reproducibility": 5.0,
+    "overall": 4.0
+   },
+   "confidence": 4,
+   "decision": "weak reject",
+   "weaknesses": [
+    "Section III-D and Appendix B explicitly retain Anthropic internal-model D2 as documented despite acknowledging that its evidence does not establish authorization interpretation. This violates Appendix A's decision rule and leaves the authorization totals and sensitivity tables incorporating a known unsupported classification.",
+    "Appendix B cites R10 and R24 for AISI Mythos 5 D4, whereas coded_evidence.csv lists only R10 in that cell's reference field. Consequently, the manuscript's displayed decision table and the data underlying its seven multi-source cells and source-discount results use different reference assignments.",
+    "Sections III-D and VI establish detailed passage review for only three of 45 cells. The remaining provenance records and string matches do not demonstrate proposition-level entailment, leaving the central documented classifications incompletely validated.",
+    "Section III-C assigns direct versus inferred support solely from institutional source role. Operator interpretations are designated direct while external-investigator interpretations are inferred, so the inferred-support discount does not consistently distinguish observation from interpretation.",
+    "Appendix D compares the closest frameworks using titles and summaries that cannot establish their provenance fields or inference rules. The claimed analytical increment over those frameworks therefore remains only partially substantiated.",
+    "Section III-D reports one primary coder and AI objections without independent human coding or agreement evidence. Interpretive consistency across the heterogeneous units is consequently unmeasured."
+   ],
+   "strengths": [
+    "The access, authorization, action, response and effect distinctions address consequential questions for an agent-security workshop audience.",
+    "The complete 45-row table, supplied coded data, source ledger and change history provide substantial visibility into individual judgments.",
+    "The manuscript carefully separates detection from containment, attempts from effects, and replay findings from production-defense efficacy.",
+    "The analysis explicitly acknowledges dependent units, source concentration, inaccessible records and uncertainty rather than presenting descriptive counts as incident rates.",
+    "The contribution is appropriately positioned as an incremental documentary application, with no unsupported claim of a new general evidence-grading methodology."
+   ]
+  },
+  "R3": null,
+  "R4": null
+ },
+ "protocol": {
+  "timestamp": "2026-11-05T21:02:57Z",
+  "study_type": "documentary",
+  "pass": true,
+  "failures": [],
+  "warnings": [
+   "Sources without a link: R18 (reviewers can't check them).",
+   "Sources not re-verified in this revision: R01, R05, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47.",
+   "Single coder by design (brief.md: Second coder: none): state it openly; no agreement statistic.",
+   "Links that did not load from this machine (may block bots, or be gone): R01 (403), R05 (403), R06 (429), R43 (403)."
+  ],
+  "files": [
+   "codebook.csv",
+   "units.csv",
+   "coded_evidence.csv",
+   "sources.csv"
+  ],
+  "tallies": {
+   "units": 9,
+   "dimensions": 5,
+   "decisions": 45,
+   "sources": 47,
+   "by_status": {
+    "documented": 40,
+    "unknown": 5
+   },
+   "by_dimension": {
+    "D1": {
+     "documented": 9
+    },
+    "D2": {
+     "unknown": 5,
+     "documented": 4
+    },
+    "D3": {
+     "documented": 9
+    },
+    "D4": {
+     "documented": 9
+    },
+    "D5": {
+     "documented": 9
+    }
+   },
+   "by_cluster": {
+    "OpenAI": {
+     "documented": 12,
+     "unknown": 3
+    },
+    "Anthropic": {
+     "documented": 19,
+     "unknown": 1
+    },
+    "AISI": {
+     "documented": 9,
+     "unknown": 1
+    }
+   },
+   "second_coder": null,
+   "changed_from_baseline": [
+    "INC-OAI-MAY/D4 unknown->documented",
+    "INC-OAI-MAY/D5 unknown->documented",
+    "INC-OAI-ART/D2 documented->unknown",
+    "INC-OAI-HF/D2 documented->unknown",
+    "INC-ANT-OP47/D4 unknown->documented",
+    "INC-ANT-MY5/D2 documented->unknown",
+    "INC-AISI-MY5/D2 unknown->documented",
+    "INC-AISI-SOL/D5 unknown->documented"
+   ]
+  },
+  "reproduced": null
+ },
+ "novelty": {
+  "verdict": "INCREMENTAL",
+  "closest": [
+   {
+    "key": "raftari2026from",
+    "overlap": "Already compares 2026 agent evaluation breakout incidents across organizations and derives security-assurance lessons."
+   },
+   {
+    "key": "bouke2026competing",
+    "overlap": "Already systematizes agent loss-of-control outcomes across incident reports and evaluations, addressing difficulties in comparing failures."
+   },
+   {
+    "key": "amundsen2026cross",
+    "overlap": "Already conducts cross-incident analysis of documented autonomous-agent cybersecurity incidents and controlled evaluation cases."
+   },
+   {
+    "key": "bieringer2024practice",
+    "overlap": "Already develops an AI security incident taxonomy motivated by shortcomings in incident reporting and collection standards."
+   },
+   {
+    "key": "guyatt2008grade",
+    "overlap": "Already separates evidence quality from recommendation strength and assesses indirectness and other limitations on evidential support."
+   }
+  ],
+  "reasons": [
+   "Cross-organization incident comparison and deriving evaluator lessons are already established in the listed literature; they cannot sustain the broad novelty claim.",
+   "The fixed 45-decision instrument, source anchors, and explicit separation of access, authorization interpretation, action, response, and effect provide a clear, checkable analytical increment.",
+   "The claim-type support matrix and disclosure-gap analysis offer a potentially useful workshop contribution: the supplied descriptions of prior work do not establish this particular row-level audit of what incident disclosures versus replays can support.",
+   "Evidence grading itself is established methodology. Its contribution here is the concrete application and resulting findings, rather than a new general method.",
+   "The supplied prior-work summaries do not demonstrate that another paper duplicates the complete instrument or support matrix, so NOT_NOVEL would exceed the available evidence. The contribution text is truncated, limiting assessment of its later repositioning."
+  ],
+  "reposition": "Lead with the auditable claim-support matrix and specific disclosure gaps, presenting the three-cluster comparison as its application. Explicitly compare the instrument and findings against Raftari, Bouke, Amundsen, and Bieringer, and demonstrate which conclusions change when source dependence, indirectness, and missing evidence are accounted for.",
+  "round": 8,
+  "timestamp": "2026-11-05T20:53:28Z",
+  "literature_added": []
+ },
+ "latex": {
+  "timestamp": "2026-11-05T21:02:57Z",
+  "engine": "latexmk",
+  "compiled": true,
+  "limit": 6,
+  "pages_total": 11,
+  "pages_main": 5,
+  "undefined_citations": [],
+  "internal_terms": [],
+  "pass": true,
+  "package": {
+   "path": "build/reproducibility_package.zip",
+   "files": 57
+  }
+ }
+}
