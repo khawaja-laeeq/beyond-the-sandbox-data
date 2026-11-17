@@ -1,0 +1,50 @@
+{
+ "original": {
+  "units": 9,
+  "cells": 45,
+  "support_rates": {
+   "D1": "8/9",
+   "D2": "5/9",
+   "D3": "9/9",
+   "D4": "9/9",
+   "D5": "9/9"
+  },
+  "developers_or_reporters": [
+   "Anthropic",
+   "OpenAI",
+   "UK AISI"
+  ]
+ },
+ "new_batch_proposed": {
+  "units": 12,
+  "cells": 60,
+  "support_rates": {
+   "D1": "12/12",
+   "D2": "9/12",
+   "D3": "12/12",
+   "D4": "12/12",
+   "D5": "7/12"
+  },
+  "reporters": [
+   "Meta",
+   "OpenAI",
+   "Wikimedia (affected party)",
+   "WorkOS (affected party)"
+  ]
+ },
+ "combined": {
+  "units": 21,
+  "cells": 105,
+  "support_rates": {
+   "D1": "20/21",
+   "D2": "14/21",
+   "D3": "21/21",
+   "D4": "21/21",
+   "D5": "16/21"
+  },
+  "independent_reporter_groups": 6,
+  "groups_if_wikimedia_counted_under_openai": 5,
+  "openai_grouping": "all OpenAI units (original 3 + new 9 = 12) form one reporter group"
+ },
+ "caveat": "New statuses are single-pass AI proposals; OpenAI reports are one developer so 9 of the 12 new units add units, not independent reporters."
+}
